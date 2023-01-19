@@ -1,0 +1,197 @@
+[
+    {
+        "name": "远古时代",
+        "researchAgreementCost": 150,
+        "startingSettlerCount": 1, 
+        "startingWorkerCount": 0,
+        "startingMilitaryUnitCount": 1,
+        "startingMilitaryUnit": "Warrior",
+        "settlerPopulation": 1,
+        "baseUnitBuyCost": 200,
+        "embarkDefense": 3,
+        "startPercent": 0,
+        "citySound": "cityAncient",
+        "iconRGB": [255, 87, 35]
+    },
+    {
+        "name": "古典时代",
+        "researchAgreementCost": 150,
+        "startingSettlerCount": 1,
+        "startingWorkerCount": 1,
+        "startingMilitaryUnitCount": 2,
+        "startingMilitaryUnit": "Spearman",
+        "startingGold": 10,
+        "startingCulture": 100,
+        "settlerPopulation": 1,
+        "baseUnitBuyCost": 200,
+        "embarkDefense": 4,
+        "startPercent": 10,
+        "citySound": "cityClassical",
+        "iconRGB": [233, 31, 99]
+    },
+    {
+        "name": "中古时代",
+        "researchAgreementCost": 250,
+        "startingSettlerCount": 2,
+        "startingWorkerCount": 1,
+        "startingMilitaryUnitCount": 3,
+        "startingMilitaryUnit": "Spearman",
+        "startingGold": 25,
+        "startingCulture": 200,
+        "settlerPopulation": 1,
+        "settlerBuildings": ["篝火","石碑","土窑","坟墓"],
+        "startingObsoleteWonders": ["阿尔忒弥斯神庙", "巨石阵", "大图书馆", "摩索拉斯王陵墓", "大金字塔", "宙斯神像"],
+        "baseUnitBuyCost": 200,
+        "embarkDefense": 6,
+        "startPercent": 25,
+        "citySound": "cityMedieval",
+        "iconRGB": [157, 39, 176]
+    },
+    {
+        "name": "启蒙时代",
+        "researchAgreementCost": 250,
+        "startingSettlerCount": 2,
+        "startingWorkerCount": 1,
+        "startingMilitaryUnitCount": 3,
+        "startingMilitaryUnit": "长枪兵",
+        "startingGold": 50,
+        "startingCulture": 300,
+        "settlerPopulation": 2,
+        "settlerBuildings": ["篝火","祭坛","石碑","粮仓","坟墓","土窑"],
+        "startingObsoleteWonders": ["阿尔忒弥斯神庙", "巨石阵", "大图书馆", "摩索拉斯王陵墓", "大金字塔", "宙斯神像",
+            "大灯塔", "空中花园", "兵马俑", "神谕所", "太阳神巨像"],
+        "baseUnitBuyCost": 300,
+        "embarkDefense": 8,
+        "startPercent": 37,
+        "citySound": "cityRenaissance",
+        "uniques": ["Every major Civilization gains a spy once a civilization enters this era"],
+        "iconRGB": [104, 58, 183]
+    },
+    {
+        "name": "Industrial era",
+        "researchAgreementCost": 300,
+        "startingSettlerCount": 3,
+        "startingWorkerCount": 2,
+        "startingMilitaryUnitCount": 3,
+        "startingMilitaryUnit": "Musketman",
+        "startingGold": 100,
+        "startingCulture": 400,
+        "settlerPopulation": 3,
+        "settlerBuildings": ["篝火","集市","石碑","粮仓","日晷","坟墓","土窑","图书馆","祭坛"],
+        "startingObsoleteWonders": ["阿尔忒弥斯神庙", "巨石阵", "大图书馆", "摩索拉斯王陵墓", "大金字塔", "宙斯神像",
+            "大灯塔", "空中花园", "兵马俑", "神谕所", "长城", "太阳神巨像"
+            "圣索菲亚大教堂", "奇琴伊察", "马丘比丘", "吴哥窟", "阿尔罕布拉宫", "巴黎圣母院"],
+        "baseUnitBuyCost": 400,
+        "embarkDefense": 10,
+        "startPercent": 50,
+        "citySound": "cityIndustrial",
+        "iconRGB": [63, 81, 182],
+        "uniques": ["Every major Civilization gains a spy once a civilization enters this era"
+        ]
+    },
+    {
+        "name": "电气时代",
+        "researchAgreementCost": 350,
+        "startingSettlerCount": 3,
+        "startingWorkerCount": 2,
+        "startingMilitaryUnitCount": 5,
+        "startingMilitaryUnit": "来复枪兵",
+        "startingGold": 200,
+        "startingCulture": 500,
+        "settlerPopulation": 3,
+        "settlerBuildings": ["篝火","集市","石碑","粮仓","日晷","坟墓","土窑","图书馆","祭坛","哲学院"],
+        "startingObsoleteWonders": ["阿尔忒弥斯神庙", "巨石阵", "大图书馆", "摩索拉斯王陵墓", "大金字塔", "宙斯神像",
+            "大灯塔", "空中花园", "兵马俑", "神谕所", "长城", "太阳神巨像"
+            "圣索菲亚大教堂", "奇琴伊察", "马丘比丘", "吴哥窟", "阿尔罕布拉宫", "巴黎圣母院"
+           "西斯廷教堂", "紫禁城", "比萨斜塔", "姬路城", "泰姬陵", "大报恩寺", "克里姆林宫"
+           ],
+        "baseUnitBuyCost": 600,
+        "embarkDefense": 13,
+        "startPercent": 65,
+        "citySound": "cityModern",
+        "iconRGB": [33, 150, 243],
+        "uniques": ["Every major Civilization gains a spy once a civilization enters this era"]
+    },
+    {
+        "name": "原子时代",
+        "researchAgreementCost": 400,
+        "startingSettlerCount": 3,
+        "startingWorkerCount": 2,
+        "startingMilitaryUnitCount": 5,
+        "startingMilitaryUnit": "现代步兵",
+        "startingGold": 200,
+        "startingCulture": 500,
+        "settlerPopulation": 4,
+        "settlerBuildings": ["篝火","集市","石碑","粮仓","日晷","坟墓","土窑","图书馆","祭坛","哲学院"],
+        "startingObsoleteWonders": ["阿尔忒弥斯神庙", "巨石阵", "大图书馆", "摩索拉斯王陵墓", "大金字塔", "宙斯神像",
+            "大灯塔", "空中花园", "兵马俑", "神谕所", "长城", "太阳神巨像"
+            "圣索菲亚大教堂", "奇琴伊察", "马丘比丘", "吴哥窟", "阿尔罕布拉宫", "巴黎圣母院"
+           "西斯廷教堂", "紫禁城", "比萨斜塔", "姬路城", "泰姬陵", "大报恩寺", "克里姆林宫"
+            "卢浮宫", "大本钟", "勃兰登堡门"],
+        "baseUnitBuyCost": 800,
+        "embarkDefense": 16,
+        "startPercent": 65,
+        "citySound": "cityAtomic",
+        "iconRGB": [0, 150, 136],
+        "uniques": [
+            "Every major Civilization gains a spy once a civilization enters this era"
+        ]
+    },
+    {
+        "name": "信息时代",
+        "researchAgreementCost": 400,
+        "startingSettlerCount": 3,
+        "startingWorkerCount": 3,
+        "startingMilitaryUnitCount": 5,
+        "startingMilitaryUnit": "机械化步兵",
+        "startingGold": 400,
+        "startingCulture": 600,
+        "settlerPopulation": 5,
+        "settlerBuildings": ["篝火","集市","石碑","粮仓","日晷","坟墓","土窑","图书馆","祭坛","哲学院"],
+        "startingObsoleteWonders": ["石碑","粮仓","日晷","坟墓","土窑","图书馆","祭坛","哲学院"],
+        "startingObsoleteWonders": ["阿尔忒弥斯神庙", "巨石阵", "大图书馆", "摩索拉斯王陵墓", "大金字塔", "宙斯神像",
+            "大灯塔", "空中花园", "兵马俑", "神谕所", "长城", "太阳神巨像"
+            "圣索菲亚大教堂", "奇琴伊察", "马丘比丘", "吴哥窟", "阿尔罕布拉宫", "巴黎圣母院"
+           "西斯廷教堂", "紫禁城", "比萨斜塔", "姬路城", "泰姬陵", "大报恩寺", "克里姆林宫"
+            "卢浮宫", "大本钟", "勃兰登堡门"
+            "埃菲尔铁塔", "自由女神像", "新天鹅堡", "救世基督像"
+            ],
+        "baseUnitBuyCost": 1000,
+        "embarkDefense": 20,
+        "startPercent": 80,
+
+        "citySound": "cityInformation",
+        "iconRGB": [76, 176, 81],
+        "uniques": [
+            "Every major Civilization gains a spy once a civilization enters this era"
+        ]
+    },
+    {
+        "name": "未来时代",
+        "researchAgreementCost": 400,
+        "startingSettlerCount": 3,
+        "startingWorkerCount": 3,
+        "startingMilitaryUnitCount": 5,
+        "startingMilitaryUnit": "机械化步兵",
+        "startingGold": 400,
+        "startingCulture": 600,
+        "settlerPopulation": 5,
+        "settlerBuildings": ["篝火","集市","石碑","粮仓","日晷","坟墓","土窑","图书馆","祭坛","哲学院"],
+        "startingObsoleteWonders": ["石碑","粮仓","日晷","坟墓","土窑","图书馆","祭坛","哲学院"],
+        "startingObsoleteWonders": ["阿尔忒弥斯神庙", "巨石阵", "大图书馆", "摩索拉斯王陵墓", "大金字塔", "宙斯神像",
+            "大灯塔", "空中花园", "兵马俑", "神谕所", "长城", "太阳神巨像"
+            "圣索菲亚大教堂", "奇琴伊察", "马丘比丘", "吴哥窟", "阿尔罕布拉宫", "巴黎圣母院"
+           "西斯廷教堂", "紫禁城", "比萨斜塔", "姬路城", "泰姬陵", "大报恩寺", "克里姆林宫"
+            "卢浮宫", "大本钟", "勃兰登堡门"
+            "埃菲尔铁塔", "自由女神像", "新天鹅堡", "救世基督像"
+            ],
+        "baseUnitBuyCost": 1000,
+        "embarkDefense": 25,
+        "startPercent": 80,
+        "citySound": "cityFuture",
+        "iconRGB": [76, 176, 81],
+        "uniques": [
+            "Every major Civilization gains a spy once a civilization enters this era"
+        ]
+    }
+]

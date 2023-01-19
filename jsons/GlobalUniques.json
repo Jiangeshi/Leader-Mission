@@ -1,0 +1,40 @@
+{
+    "name": "Global uniques", 
+    "uniques": [
+    //快乐
+        "[+10]% Strength <for [All] units> <when between [20] and [1000] Happiness>",
+        "[+10]% [Production] [in all cities] <when between [20] and [1000] Happiness>",
+        "[+30]% growth [in all cities] <when between [20] and [1000] Happiness>",
+        "[+10]% growth [in all cities] <when between [10] and [20] Happiness>",
+        "[-25]% growth [in all cities] <when between [-10] and [0] Happiness>",
+        "[-75]% growth [in all cities] <when between [-15] and [-10] Happiness>",
+        "Nullifies Growth [in all cities] <when below [-15] Happiness>",
+        "[-50]% [Production] [in all cities] <when below [-10] Happiness>",
+        "[-33]% Strength <for [All] units> <when below [-10] Happiness>",
+        "Cannot build [移民] units <when below [-10] Happiness>",
+        "Rebel units may spawn <when below [-10] Happiness>",
+    //战争
+        "[+10]% Production when constructing [Military] units [in all cities] <when at war>",
+        "[-50]% growth [in all cities] <when at war>",
+        "[-10]% [Gold] <when at war>",
+    //我们爱戴领袖日
+    //时代特性
+        "[+2 Happiness, +1 Science, +1 Culture] <during the [远古时代]>"
+        "[+15]% [Culture] <during the [古典时代]>"
+        "[-15]% Great Person generation [in all cities] <during the [中古时代]>"
+        "[+10]% Strength <for [Military] units> <during the [中古时代]>"
+        "[-3 Happiness] <during the [中古时代]>"
+        "[+10]% Production when constructing [Military] units [in all cities] <during the [中古时代]>"
+        "[+10]% [Culture] <during the [启蒙时代]>"
+        "[+10]% [Science] <during the [启蒙时代]>"
+        "[+5]% [Production] <during the [Industrial era]>"
+        "[+10]% [Gold] <during the [Industrial era]>"
+        "[-6 Happiness] <during the [Industrial era]>"
+        "[+10]% [Gold] <during the [电气时代]>"
+        "[+10]% [Science] <during the [原子时代]>"
+        "[+10]% [Gold] <during the [信息时代]>"
+        "[+10]% [Culture] <during the [信息时代]>"
+    //外交
+    "Gain [50]-[100] [Gold] <upon declaring friendship>"
+    ]
+}

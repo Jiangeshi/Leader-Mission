@@ -1,0 +1,131 @@
+[
+    {
+        "name": "公民",
+        "movementType": "Land"
+    },
+    {
+        "name": "水上公民",
+        "movementType": "Water"
+    },
+    {
+        "name": "侦查单位",
+        "movementType": "Land"
+    },
+    {
+        "name": "步兵",
+        "movementType": "Land"
+    },
+    {
+        "name": "弓兵",
+        "movementType": "Land"
+    },
+    {
+        "name": "远程火器",
+        "movementType": "Land"
+    },
+    {
+        "name": "骑兵",
+        "movementType": "Land"
+    },
+    {
+        "name": "装甲部队",
+        "movementType": "Land"
+    },
+    {
+        "name": "抗骑兵单位",
+        "movementType": "Land"
+    },
+    {
+        "name": "反装甲单位",
+        "movementType": "Land"
+    },
+    {
+        "name": "防空单位",
+        "movementType": "Land"
+    },
+    {
+        "name": "直升机",
+        "movementType": "Land",    
+    },
+    {
+        "name": "攻城单位",
+        "movementType": "Land"
+    },
+    {
+        "name": "炮兵",
+        "movementType": "Land"
+    },
+    {
+        "name": "近程海军",
+        "movementType": "Water"
+    },
+    {
+        "name": "远程海军",
+        "movementType": "Water"
+    },
+    {
+        "name": "潜艇",
+        "movementType": "Water",
+    },
+    {
+        "name": "海军运输单位",
+        "movementType": "Water"
+    },
+    {
+        "name": "战斗机",
+        "movementType": "Air"
+        "uniques": ["Aircraft"]
+    },
+    {
+        "name": "轰炸机",
+        "movementType": "Air"   
+        "uniques": ["Aircraft"]         
+    },
+    {
+        "name": "炸弹",
+        "movementType": "Air",
+        "uniques": ["Flybomb"]
+    },
+    {
+        "name": "导弹",
+        "movementType": "Air",
+        "uniques": ["Flybomb"]
+    //判断类型
+    },
+    {
+        "name": "Melee",
+        "movementType": "Land"
+    },
+    {
+        "name": "Ranged",
+        "movementType": "Land"
+    },
+    {
+        "name": "Armor",
+        "movementType": "Land"
+    },
+    {
+        "name": "WaterCivilian",
+        "movementType": "Water"
+    },
+    {
+        "name": "WaterMelee",
+        "movementType": "Water"
+    },
+    {
+        "name": "WaterRanged",
+        "movementType": "Water"
+    },
+    {
+        "name": "WaterSubmarine",
+        "movementType": "Water"
+    },
+    {
+        "name": "WaterAircraftCarrier",
+        "movementType": "Water"
+    },
+    {
+        "name": "AtomicBomber",
+        "movementType": "Air"
+    }
+]
