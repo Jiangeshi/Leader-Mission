@@ -1571,7 +1571,7 @@
 		"uniqueTo": "Greece",
 		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [文明领袖—伯里克利]>",
 		"Damage is ignored when determining unit Strength <for [Melee] units>",
-		"[+35]% XP gained from combat <for [Melee] units>"
+		"[+50]% XP gained from combat <for [Melee] units>"
 		"[-10]% Production when constructing [Melee] units [in all cities]",
 	]
     },
@@ -1612,7 +1612,7 @@
 		"cost":1,
 		"uniqueTo": "Rome",
 		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [文明领袖—恺撒]>",
-		"[+15]% Production when constructing [All] buildings [in capital]",
+		"[+10]% Production when constructing [All] buildings [in capital]",
 		"[+10]% Production when constructing [Military] units [in all cities]"]
 	},
 	{
