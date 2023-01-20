@@ -110,7 +110,7 @@
 		"startBias": ["Coast"],
 		"preferredVictoryType": "征服",
         
-        "startIntroPart1": "欢迎来到这个新世界，伟大的迦太基领袖！伟大的迦太基领袖啊！您的子民在等待着你带领他们再次创造辉煌的文明，您能让迦太基再次璀璨吗？您能建立一个经得起时间考验的文明吗？",
+        "startIntroPart1": "欢迎来到这个新世界，伟大的迦太基领袖！这是一个由腓尼基人创建的地中海国度，垄断了西地中海的贸易，是名副其实的地中海霸主。作为罗马的劲敌，迦太基可以说是罗马前期扩张最大的阻碍。虽然在三次布匿战争后迦太基永远消失在了世间，但腓尼基人留下的传奇故事仍存留在人们的记忆中。伟大的迦太基领袖啊！您的子民在等待着你带领他们再次创造辉煌的文明，您能让迦太基再次璀璨吗？您能建立一个经得起时间考验的文明吗？",
         
 	    "declaringWar": "Your behavior has angered me. I declare a just war against you",
 		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
@@ -386,10 +386,11 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "西伯利亚的财富",
 		"uniques": [
-		"[+1 Faith, +1 Culture, +1 Gold] [in all cities] <with [1] to [3] neighboring [Tundra] tiles>",
-		"[+2 Faith, +2 Culture, +2 Gold] [in all cities] <with [4] to [6] neighboring [Tundra] tiles>",
+		"[+1 Faith, +1 Culture, +1 Gold] [in all cities] <with [1] to [2] neighboring [Tundra] tiles>",
+		"[+2 Faith, +2 Culture, +2 Gold] [in all cities] <with [3] to [4] neighboring [Tundra] tiles>",
+		"[+3 Faith, +3 Culture, +3 Gold] [in all cities] <with [5] to [6] neighboring [Tundra] tiles>",
 	    "[+1 Production] from every [Strategic resource]",
-		"Quantity of strategic resources produced by the empire +[30]%"
+		"Quantity of strategic resources produced by the empire +[25]%"
 		],
 		"cities": ["Moscow","St. Petersburg","Novgorod","Rostov","Yaroslavl","Yekaterinburg","Yakutsk","Vladivostok","Smolensk","Orenburg",
 			"Krasnoyarsk","Khabarovsk","Bryansk","Tver","Novosibirsk","Magadan","Murmansk","Irkutsk","Chita","Samara",
@@ -622,7 +623,6 @@
 		"All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel.",
 		"[+2 Culture] from [Forest] tiles [in all cities]",
 		"[+2 Culture] from [Jungle] tiles [in all cities]"
-		"[+1 Food, +2 Culture] from [Marsh] tiles [in all cities]"
 		]
 		"cities": ["河内","胡志明市","海防","岘港","芹苴","下龙","越池","南定","顺化",
 			   "头顿","大叻","芽庄","河仙","永安","北宁","海阳","兴安","府里","太平","宁平",

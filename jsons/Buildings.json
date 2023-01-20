@@ -1943,7 +1943,7 @@
 		"uniqueTo": "Macedonia",
 		"uniques": ["Can only be built [in capital]",
 		"[+50]% XP gained from combat <for [Military] units>",
-		"[+1 Happiness, +1 Culture, +1 Gold] [in all non-occupied cities] <when at war>"]
+		"[+1 Happiness, +1 Culture] [in all non-occupied cities] <when at war>"]
 	},
 	{
 		"name": "Military Royal School",
@@ -2001,7 +2001,7 @@
 		"requiredTech": "帆船"
 		"uniques":["Cannot be purchased","Unsellable","Must be next to [Coast]","Connects trade routes over water",
 		"[Water] Units adjacent to this city heal [+30] HP per turn when healing",
-		"[+15]% Production when constructing [{Military} {Water}] units [in capital]",
+		"[+15]% Production when constructing [{Military} {Water}] units [in this city]",
 		]
 	}
 ]
