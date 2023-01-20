@@ -217,8 +217,8 @@
 		"columnNumber": 6,
 		"era": "Classical era",
 		"techCost": 200,
-		"buildingCost": 130,
-		"wonderCost": 280,
+		"buildingCost": 150,
+		"wonderCost": 300,
 		"techs": [
 			{
 			    "name": "立法",
@@ -246,8 +246,8 @@
 		"columnNumber": 7,
 		"era": "Medieval era",
 		"techCost": 350,
-		"buildingCost": 170,
-		"wonderCost": 400,
+		"buildingCost": 200,
+		"wonderCost": 450,
 		"techs": [
 			{
 				"name": "神学",
@@ -279,8 +279,8 @@
 		"columnNumber": 8,
 		"era": "Medieval era",
 		"techCost": 550,
-		"buildingCost": 230,
-		"wonderCost": 500,
+		"buildingCost": 250,
+		"wonderCost": 600,
 		"techs": [
 		    {
 		        "name": "国防",
@@ -322,8 +322,8 @@
 		"columnNumber": 9,
 		"era": "Renaissance era",
 		"techCost": 900,
-		"buildingCost": 280,
-		"wonderCost": 600,
+		"buildingCost": 300,
+		"wonderCost": 700,
 		"techs": [
 			{
 				"name": "声学",
@@ -361,8 +361,8 @@
 		"columnNumber": 10,
 		"era": "Renaissance era",
 		"techCost": 1200,
-		"buildingCost": 320,
-		"wonderCost": 800,
+		"buildingCost": 350,
+		"wonderCost": 850,
 		"techs": [
 			{
 			    "name": "外交",
@@ -414,8 +414,8 @@
 		"columnNumber": 11,
 		"era": "Industrial era",
 		"techCost": 1800,
-		"buildingCost": 450,
-		"wonderCost": 950,
+		"buildingCost": 500,
+		"wonderCost": 1000,
 		"techs": [
 			{
 				"name": "考古学",
@@ -460,8 +460,8 @@
 		"columnNumber": 12,
 		"era": "Industrial era",
 		"techCost": 2500,
-		"buildingCost": 570,
-		"wonderCost": 1250, 
+		"buildingCost": 600,
+		"wonderCost": 1300, 
 		"techs": [
 			{
 		        "name": "税务管理",
@@ -501,7 +501,7 @@
 		"columnNumber": 13,
 		"era": "Modern era",
 		"techCost": 3300,
-		"buildingCost": 650,
+		"buildingCost": 700,
 		"wonderCost": 1450,
 		"techs": [
 			{
@@ -540,8 +540,8 @@
 		"columnNumber": 14,
 		"era": "Modern era",
 		"techCost": 4500,
-		"buildingCost": 800,
-		"wonderCost": 1700,
+		"buildingCost": 850,
+		"wonderCost": 1800,
 		"techs": [
 			{
 				"name": "联合国",

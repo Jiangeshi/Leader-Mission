@@ -1588,6 +1588,7 @@
 	{
 		"name": "区域—卫城",
 		"faith": 3,
+		"cost":110,
 		"culture": 1,
 		"science": 1,
 	    "maintenance": 1,
@@ -1649,6 +1650,7 @@
 		"name": "区域—拉夫拉修道院",
 		"faith": 4,
 		"production": 1,
+		"cost":120,
 	    "maintenance": 3,
 	    "uniqueTo": "Russia",
 		"replaces": "District—Religious Cente",
@@ -1679,6 +1681,8 @@
 	},
 	{
 		"name": "区域—莫斯科红场",
+		"cost":235,
+		"production": 1,
 	    "maintenance": 3,
 	    "cityStrength": 2,
 		"cityHealth": 30,
@@ -1750,6 +1754,7 @@
 	},
 	{
 		"name": "区域—跑马场",
+		"cost":240,
 	    "maintenance": 5,
 	    "happiness": 3,
 	    "culture": 1,
@@ -1919,7 +1924,7 @@
 		"replaces": "坟墓",
 		"uniqueTo": "Egypt",
 		"maintenance": 0,
-		"cost": 80,
+		"cost": 90,
 		"uniques": ["Destroyed when the city is captured","[+10]% [Faith] [in this city]"],
 		"faith": 2,
 		"culture": 2,
@@ -1986,6 +1991,7 @@
 		//"greatPersonPoints": {"海军统帅": 1},
 		"production": 1,
 		"food": 1,
+		"cost":110,
 	    "maintenance": 3,
 		"requiredTech": "帆船"
 		"uniques":["Cannot be purchased","Unsellable","Must be next to [Coast]","Connects trade routes over water",

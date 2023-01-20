@@ -384,8 +384,9 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "西伯利亚的财富",
 		"uniques": [
-		"[+1 Faith, +1 Culture, +1 Gold] [in all cities] <with [1] to [3] neighboring [Tundra] tiles>",
-		"[+2 Faith, +2 Culture, +2 Gold] [in all cities] <with [4] to [6] neighboring [Tundra] tiles>",
+		"[+1 Faith, +1 Culture, +1 Gold] [in all cities] <with [1] to [2] neighboring [Tundra] tiles>",
+		"[+2 Faith, +2 Culture, +2 Gold] [in all cities] <with [3] to [4] neighboring [Tundra] tiles>",
+		"[+3 Faith, +3 Culture, +3 Gold] [in all cities] <with [5] to [6] neighboring [Tundra] tiles>",
 	    "[+1 Production] from every [Strategic resource]",
 	"Double quantity of [Horses] produced","Double quantity of [Oil] produced","Double quantity of [Gas] produced"
 		],
