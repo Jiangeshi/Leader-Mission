@@ -10,6 +10,13 @@ BuildingIcons/宫殿
   orig: 100, 100
   offset: 0, 0
   index: -1
+BuildingIcons/王庭
+  rotate: false
+  xy: 1516, 1574
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 BuildingIcons/祭坛
   rotate: false
   xy: 1084, 932
