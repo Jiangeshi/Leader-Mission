@@ -1692,8 +1692,6 @@
 		"cost":235,
 		"production": 1,
 	    "maintenance": 3,
-	    "cityStrength": 2,
-		"cityHealth": 30,
 	    "uniqueTo": "苏联",
 		"replaces": "District—Military Center",
 		"requiredTech": "军事学"

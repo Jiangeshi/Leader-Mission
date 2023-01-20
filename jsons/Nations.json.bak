@@ -201,6 +201,7 @@
 		"uniqueText": "
 	可以向同盟超过5回合的城邦提供经济援助使其加入联盟；
 	铁、石油、煤、铀的产量翻倍；
+	所有城市获得一个免费的法院；
 	军事单位维护费-50%，所有城市-15%金钱
 			" 
 		"uniques": ["Can spend Gold to annex or puppet a City-State that has been your ally for [5] turns.",
