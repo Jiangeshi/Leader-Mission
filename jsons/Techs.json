@@ -1,7 +1,7 @@
 [
 	{
 		"columnNumber": 0,
-		"era": "远古时代",
+		"era": "Ancient era",
 		"techCost": 20,
 		"buildingCost": 35,
 		"techs": [
@@ -15,7 +15,7 @@
     },
 	{
 		"columnNumber": 1,
-		"era": "远古时代",
+		"era": "Ancient era",
 		"techCost": 30,
 		"buildingCost": 50,
 		"wonderCost": 190,
@@ -54,7 +54,7 @@
 	},
 	{
 		"columnNumber": 2,
-		"era": "远古时代",
+		"era": "Ancient era",
 		"techCost": 55,
 		"buildingCost": 65,
 		"wonderCost": 190,
@@ -87,7 +87,7 @@
 	},
 	{
 		"columnNumber": 3,
-		"era": "远古时代",
+		"era": "Ancient era",
 		"techCost": 70,
 		"buildingCost": 75,
 		"wonderCost": 190,
@@ -138,7 +138,7 @@
 	},
 	{
 		"columnNumber": 4,
-		"era": "古典时代",
+		"era": "Classical era",
 		"techCost": 125,
 		"buildingCost": 95,
 		"wonderCost": 250,
@@ -181,7 +181,7 @@
 	},
 	{
 		"columnNumber": 5,
-		"era": "古典时代",
+		"era": "Classical era",
 		"techCost": 180,
 		"buildingCost": 100,
 		"wonderCost": 250,
@@ -215,7 +215,7 @@
 	},
 	{
 		"columnNumber": 6,
-		"era": "古典时代",
+		"era": "Classical era",
 		"techCost": 200,
 		"buildingCost": 150,
 		"wonderCost": 300,
@@ -244,7 +244,7 @@
 	},
 	{
 		"columnNumber": 7,
-		"era": "中古时代",
+		"era": "Medieval era",
 		"techCost": 350,
 		"buildingCost": 200,
 		"wonderCost": 450,
@@ -277,7 +277,7 @@
     },
 	{
 		"columnNumber": 8,
-		"era": "中古时代",
+		"era": "Medieval era",
 		"techCost": 550,
 		"buildingCost": 250,
 		"wonderCost": 600,
@@ -320,7 +320,7 @@
     },
 	{
 		"columnNumber": 9,
-		"era": "启蒙时代",
+		"era": "Renaissance era",
 		"techCost": 900,
 		"buildingCost": 300,
 		"wonderCost": 700,
@@ -359,7 +359,7 @@
 	},
 	{
 		"columnNumber": 10,
-		"era": "启蒙时代",
+		"era": "Renaissance era",
 		"techCost": 1200,
 		"buildingCost": 350,
 		"wonderCost": 850,
@@ -499,7 +499,7 @@
 	},
 	{
 		"columnNumber": 13,
-		"era": "电气时代",
+		"era": "Modern era",
 		"techCost": 3300,
 		"buildingCost": 700,
 		"wonderCost": 1450,
@@ -538,7 +538,7 @@
 	},
 	{
 		"columnNumber": 14,
-		"era": "电气时代",
+		"era": "Modern era",
 		"techCost": 4500,
 		"buildingCost": 850,
 		"wonderCost": 1800,
@@ -578,7 +578,7 @@
 	},
 	{
 		"columnNumber": 15,
-		"era": "原子时代",
+		"era": "Atomic era",
 		"techCost": 5300,
 		"buildingCost": 1000,
 		"wonderCost": 2000,
@@ -611,7 +611,7 @@
 	},
 	{
 		"columnNumber": 16,
-		"era": "原子时代",
+		"era": "Atomic era",
 		"techCost": 6600,
 		"buildingCost": 1200,
 		"wonderCost": 2000,
@@ -651,7 +651,7 @@
 	},
 	{
 		"columnNumber": 17,
-		"era": "信息时代",
+		"era": "Information era",
 		"techCost": 8000,
 		"buildingCost": 1300,
 		"wonderCost": 2000,
@@ -698,7 +698,7 @@
 
 	{
 		"columnNumber": 18,
-		"era": "信息时代",
+		"era": "Information era",
 		"techCost": 9000,
 		"buildingCost": 1500,
 		"wonderCost": 2000,
@@ -744,7 +744,7 @@
 	},
 	{
 		"columnNumber": 19,
-		"era": "未来时代",
+		"era": "Future era",
 		"techCost": 10000,
 		"buildingCost": 2000,
 		"wonderCost": 2000,

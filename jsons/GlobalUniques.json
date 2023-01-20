@@ -19,21 +19,21 @@
         "[-10]% [Gold] <when at war>",
     //我们爱戴领袖日
     //时代特性
-        "[+2 Happiness, +1 Science, +1 Culture] <during the [远古时代]>"
-        "[+15]% [Culture] <during the [古典时代]>"
-        "[-15]% Great Person generation [in all cities] <during the [中古时代]>"
-        "[+10]% Strength <for [Military] units> <during the [中古时代]>"
-        "[-3 Happiness] <during the [中古时代]>"
-        "[+10]% Production when constructing [Military] units [in all cities] <during the [中古时代]>"
-        "[+10]% [Culture] <during the [启蒙时代]>"
-        "[+10]% [Science] <during the [启蒙时代]>"
+        "[+2 Happiness, +1 Science, +1 Culture] <during the [Ancient era]>"
+        "[+15]% [Culture] <during the [Classical era]>"
+        "[-15]% Great Person generation [in all cities] <during the [Medieval era]>"
+        "[+10]% Strength <for [Military] units> <during the [Medieval era]>"
+        "[-3 Happiness] <during the [Medieval era]>"
+        "[+10]% Production when constructing [Military] units [in all cities] <during the [Medieval era]>"
+        "[+10]% [Culture] <during the [Renaissance era]>"
+        "[+10]% [Science] <during the [Renaissance era]>"
         "[+5]% [Production] <during the [Industrial era]>"
         "[+10]% [Gold] <during the [Industrial era]>"
         "[-6 Happiness] <during the [Industrial era]>"
-        "[+10]% [Gold] <during the [电气时代]>"
-        "[+10]% [Science] <during the [原子时代]>"
-        "[+10]% [Gold] <during the [信息时代]>"
-        "[+10]% [Culture] <during the [信息时代]>"
+        "[+10]% [Gold] <during the [Modern era]>"
+        "[+10]% [Science] <during the [Atomic era]>"
+        "[+10]% [Gold] <during the [Information era]>"
+        "[+10]% [Culture] <during the [Information era]>"
     //外交
     "Gain [50]-[100] [Gold] <upon declaring friendship>"
     ]

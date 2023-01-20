@@ -730,20 +730,6 @@ BuildingIcons/乌托邦
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Settler
-  rotate: false
-  xy: 868, 710
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Worker
-  rotate: false
-  xy: 760, 170
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
 UnitIcons/三列桨战船
   rotate: false
   xy: 1624, 1249
@@ -1080,48 +1066,7 @@ UnitIcons/核导弹
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Great Artist
-  rotate: false
-  xy: 868, 1574
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Great Engineer
-  rotate: false
-  xy: 976, 1682
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Great General
-  rotate: false
-  xy: 1084, 1796
-  size: 100, 94
-  orig: 100, 94
-  offset: 0, 0
-  index: -1
-UnitIcons/Great Merchant
-  rotate: false
-  xy: 1192, 1898
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Great Prophet
-  rotate: false
-  xy: 112, 710
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Great Scientist
-  rotate: false
-  xy: 220, 818
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1  
+
   
   
 game.png
@@ -1132,370 +1077,6 @@ repeat: none
 OtherIcons/ConvertCulture
   rotate: false
   xy: 111, 164
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Ancient ruins
-  rotate: false
-  xy: 4, 270
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Barbarian encampment
-  rotate: false
-  xy: 799, 920
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/猎场
-  rotate: false
-  xy: 4, 54
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/City center
-  rotate: false
-  xy: 1447, 920
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/City ruins
-  rotate: false
-  xy: 1555, 920
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/农场
-  rotate: false
-  xy: 1339, 812
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/渔船
-  rotate: false
-  xy: 1663, 812
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/锯木厂
-  rotate: false
-  xy: 1810, 704
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/矿井
-  rotate: false
-  xy: 1270, 596
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/海上钻探平台
-  rotate: false
-  xy: 1918, 704
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/油井
-  rotate: false
-  xy: 220, 488
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/牧场
-  rotate: false
-  xy: 220, 272
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/种植园
-  rotate: false
-  xy: 436, 488
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/采石场
-  rotate: false
-  xy: 328, 56
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Railroad
-  rotate: false
-  xy: 760, 488
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Road
-  rotate: false
-  xy: 652, 164
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/贸易站
-  rotate: false
-  xy: 1408, 488
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/铝
-  rotate: false
-  xy: 583, 920
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/香蕉
-  rotate: false
-  xy: 691, 920
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/牛
-  rotate: false
-  xy: 907, 920
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/柑橘
-  rotate: false
-  xy: 1339, 920
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/煤
-  rotate: false
-  xy: 1879, 920
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/赤铜
-  rotate: false
-  xy: 190, 672
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/棉花
-  rotate: false
-  xy: 112, 486
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/螃蟹
-  rotate: false
-  xy: 112, 378
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/野鹿
-  rotate: false
-  xy: 583, 812
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/染料
-  rotate: false
-  xy: 1015, 812
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/鱼群
-  rotate: false
-  xy: 1555, 812
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/毛皮
-  rotate: false
-  xy: 298, 734
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/宝石
-  rotate: false
-  xy: 298, 626
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/黄金
-  rotate: false
-  xy: 514, 704
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/马
-  rotate: false
-  xy: 838, 704
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/熏香
-  rotate: false
-  xy: 946, 704
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/铁
-  rotate: false
-  xy: 1054, 704
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/象牙
-  rotate: false
-  xy: 1162, 704
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/珠宝
-  rotate: false
-  xy: 1270, 704
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/大理石
-  rotate: false
-  xy: 730, 596
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/石油
-  rotate: false
-  xy: 1918, 596
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/珍珠
-  rotate: false
-  xy: 220, 164
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/瓷器
-  rotate: false
-  xy: 328, 164
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/盐
-  rotate: false
-  xy: 760, 272
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/绵羊
-  rotate: false
-  xy: 868, 272
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/丝绸
-  rotate: false
-  xy: 1084, 488
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/白银
-  rotate: false
-  xy: 760, 56
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/香料
-  rotate: false
-  xy: 1192, 488
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/花岗石
-  rotate: false
-  xy: 1192, 380
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/蔗糖
-  rotate: false
-  xy: 976, 56
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/松露
-  rotate: false
-  xy: 1084, 62
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/铀
-  rotate: false
-  xy: 1408, 380
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/鲸鱼
-  rotate: false
-  xy: 1300, 164
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/小麦
-  rotate: false
-  xy: 1408, 272
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/红酒
-  rotate: false
-  xy: 1516, 380
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -1541,594 +1122,6 @@ size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-TileSets/HexaRealm/Tiles/Ancient ruins
-  rotate: false
-  xy: 579, 769
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/City center
-  rotate: false
-  xy: 210, 365
-  size: 64, 73
-  orig: 64, 73
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/City center-远古时代
-  rotate: false
-  xy: 210, 293
-  size: 64, 64
-  orig: 64, 64
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/City center-古典时代
-  rotate: false
-  xy: 210, 140
-  size: 64, 64
-  orig: 64, 64
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/City center-中古时代
-  rotate: false
-  xy: 354, 329
-  size: 64, 66
-  orig: 64, 66
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/City center-启蒙时代
-  rotate: false
-  xy: 354, 177
-  size: 64, 66
-  orig: 64, 66
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/City center-工业时代
-  rotate: false
-  xy: 282, 240
-  size: 64, 70
-  orig: 64, 70
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/City center-电气时代
-  rotate: false
-  xy: 354, 251
-  size: 64, 70
-  orig: 64, 70
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/City center-原子时代
-  rotate: false
-  xy: 210, 212
-  size: 64, 73
-  orig: 64, 73
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/City center-信息时代
-  rotate: false
-  xy: 282, 159
-  size: 64, 73
-  orig: 64, 73
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/City center-未来时代
-  rotate: false
-  xy: 282, 318
-  size: 64, 77
-  orig: 64, 77
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/City ruins
-  rotate: false
-  xy: 426, 336
-  size: 64, 64
-  orig: 64, 64
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Barbarian encampment
-  rotate: false
-  xy: 651, 892
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Barbarian encampmentT
-  rotate: false
-  xy: 651, 828
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Railroad
-  rotate: false
-  xy: 210, 100
-  size: 60, 32
-  orig: 60, 32
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Road
-  rotate: false
-  xy: 498, 8
-  size: 60, 32
-  orig: 60, 32
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/矿井
-  rotate: false
-  xy: 795, 695
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/铁
-  rotate: false
-  xy: 1794, 974
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/铝
-  rotate: false
-  xy: 579, 833
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/煤
-  rotate: false
-  xy: 426, 272
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/铀
-  rotate: false
-  xy: 930, 55
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/宝石
-  rotate: false
-  xy: 1506, 1225
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/黄金
-  rotate: false
-  xy: 1794, 1166
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/赤铜
-  rotate: false
-  xy: 498, 368
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/白银
-  rotate: false
-  xy: 1083, 389
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/盐
-  rotate: false
-  xy: 939, 375
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/油井
-  rotate: false
-  xy: 795, 502
-  size: 64, 57
-  orig: 64, 57
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/海上钻探平台
-  rotate: false
-  xy: 939, 695
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/石油
-  rotate: false
-  xy: 1011, 759
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/石油+油井
-  rotate: false
-  xy: 795, 502
-  size: 64, 57
-  orig: 64, 57
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/石油+海上油井
-  rotate: false
-  xy: 939, 695
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/采石场
-  rotate: false
-  xy: 939, 503
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/大理石
-  rotate: false
-  xy: 939, 959
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/大理石+采石场
-  rotate: false
-  xy: 795, 759
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/花岗石
-  rotate: false
-  xy: 1299, 956
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/花岗石+采石场
-  rotate: false
-  xy: 1299, 892
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/牧场
-  rotate: false
-  xy: 1227, 903
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/绵羊
-  rotate: false
-  xy: 1011, 439
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/绵羊+牧场
-  rotate: false
-  xy: 1083, 453
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/牛
-  rotate: false
-  xy: 723, 828
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/牛+牧场
-  rotate: false
-  xy: 723, 764
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/马
-  rotate: false
-  xy: 1578, 1133
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/马+牧场
-  rotate: false
-  xy: 1650, 1074
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/猎场
-  rotate: false
-  xy: 651, 508
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/野鹿
-  rotate: false
-  xy: 714, 220
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/野鹿+猎场
-  rotate: false
-  xy: 498, 176
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/毛皮
-  rotate: false
-  xy: 1722, 1230
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/毛皮+猎场
-  rotate: false
-  xy: 1794, 1230
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/象牙
-  rotate: false
-  xy: 930, 1095
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/象牙+猎场
-  rotate: false
-  xy: 1002, 1095
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/松露
-  rotate: false
-  xy: 1371, 240
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/松露+猎场
-  rotate: false
-  xy: 867, 311
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/小麦
-  rotate: false
-  xy: 1155, 261
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/农场
-  rotate: false
-  xy: 1578, 1481
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/种植园
-  rotate: false
-  xy: 1011, 631
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/红酒
-  rotate: false
-  xy: 1074, 197
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/红酒+种植园
-  rotate: false
-  xy: 1074, 133
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/香蕉
-  rotate: false
-  xy: 651, 1020
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/香蕉+种植园
-  rotate: false
-  xy: 651, 956
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/柑橘
-  rotate: false
-  xy: 318, 403
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/柑橘+种植园
-  rotate: false
-  xy: 390, 408
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/棉花
-  rotate: false
-  xy: 498, 304
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/棉花+种植园
-  rotate: false
-  xy: 498, 240
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/染料
-  rotate: false
-  xy: 498, 48
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/染料+种植园
-  rotate: false
-  xy: 570, 57
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/熏香
-  rotate: false
-  xy: 1650, 1010
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/熏香+种植园
-  rotate: false
-  xy: 1722, 1010
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/丝绸
-  rotate: false
-  xy: 1155, 517
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/丝绸+种植园
-  rotate: false
-  xy: 1011, 375
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/香料
-  rotate: false
-  xy: 1227, 327
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/香料+种植园
-  rotate: false
-  xy: 1227, 263
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/蔗糖
-  rotate: false
-  xy: 1299, 252
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/蔗糖+种植园
-  rotate: false
-  xy: 1371, 1008
-  size: 64, 64
-  orig: 64, 64
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/渔船
-  rotate: false
-  xy: 1938, 1358
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/鱼群
-  rotate: false
-  xy: 1866, 1358
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/螃蟹
-  rotate: false
-  xy: 570, 321
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/珍珠
-  rotate: false
-  xy: 939, 631
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/鲸鱼
-  rotate: false
-  xy: 1002, 119
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/鲸鱼+渔船
-  rotate: false
-  xy: 1002, 55
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/锯木厂
-  rotate: false
-  xy: 1866, 910
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/贸易站
-  rotate: false
-  xy: 1371, 880
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/Settler
-  rotate: false
-  xy: 392, 1628
-  size: 95, 81
-  orig: 95, 81
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/Worker
-  rotate: false
-  xy: 804, 1607
-  size: 95, 81
-  orig: 95, 81
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/Worker-工业时代
-  rotate: false
-  xy: 1113, 1607
-  size: 95, 81
-  orig: 95, 81
-  offset: 0, 0
-  index: -1
 TileSets/AbsoluteUnits/Units/三列桨战船
   rotate: false
   xy: 1371, 432
@@ -3356,6 +2349,15 @@ BuildingIcons/国家运河
   offset: 0, 0
   index: -1  
   
+世界博览会.png
+BuildingIcons/世界博览会
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1    
+  
 化肥厂.png
 BuildingIcons/化肥厂
   rotate: false
@@ -4230,8 +3232,8 @@ ResourceIcons/CO2
   offset: 0, 0
   index: -1
 
-钢铁.png
-ResourceIcons/钢铁
+Steel.png
+ResourceIcons/Steel
   rotate: false
   xy: 0, 0
   size: 200, 200
@@ -4239,8 +3241,8 @@ ResourceIcons/钢铁
   offset: 0, 0
   index: -1
 
-硝石.png
-ResourceIcons/硝石
+Saltpeter.png
+ResourceIcons/Saltpeter
   rotate: false
   xy: 0, 0
   size: 200, 200
@@ -4248,8 +3250,8 @@ ResourceIcons/硝石
   offset: 0, 0
   index: -1
 
-天然气图标.png
-ResourceIcons/天然气
+Gas图标.png
+ResourceIcons/Gas
   rotate: false
   xy: 0, 0
   size: 100, 100
@@ -4257,8 +3259,8 @@ ResourceIcons/天然气
   offset: 0, 0
   index: -1
 
-电力.png
-ResourceIcons/电力
+Electricity.png
+ResourceIcons/Electricity
   rotate: false
   xy: 0, 0
   size: 50, 60
@@ -4266,8 +3268,8 @@ ResourceIcons/电力
   offset: 0, 0
   index: -1
 
-混合燃料.png
-ResourceIcons/混合燃料
+Mixedfuel.png
+ResourceIcons/Mixed fuel
   rotate: false
   xy: 0, 0
   size: 50, 60
@@ -4275,8 +3277,8 @@ ResourceIcons/混合燃料
   offset: 0, 0
   index: -1
 
-温泉浴场图标.png
-ImprovementIcons/温泉浴场
+Spa图标.png
+ImprovementIcons/Spa
   rotate: false
   xy: 0, 0
   size: 16, 16
@@ -4284,8 +3286,8 @@ ImprovementIcons/温泉浴场
   offset: 0, 0
   index: -1
 
-地热发电厂图标.png
-ImprovementIcons/地热发电厂
+Geothermalpowerplant图标.png
+ImprovementIcons/Geothermal power plant
   rotate: false
   xy: 0, 0
   size: 16, 16
@@ -4293,8 +3295,8 @@ ImprovementIcons/地热发电厂
   offset: 0, 0
   index: -1
 
-太阳能农场图标.png
-ImprovementIcons/太阳能农场
+Solarfarm图标.png
+ImprovementIcons/Solar farm
   rotate: false
   xy: 0, 0
   size: 50, 50
@@ -4311,8 +3313,8 @@ ImprovementIcons/Vietnamese City
   offset: 0, 0
   index: -1
 
-天然气田图标.png
-ImprovementIcons/天然气田
+Gasfield图标.png
+ImprovementIcons/Gas field
   rotate: false
   xy: 0, 0
   size: 50, 50
@@ -4464,7 +3466,7 @@ TechIcons/乌托邦
   offset: 0, 0
   index: -1  
 
-世界博览会.png
+世博会.png
 TechIcons/世界博览会
   rotate: false
   xy: 0, 0
@@ -4500,8 +3502,8 @@ TileSets/AbsoluteUnits/Units/Persian Immortal(Ranged)
   offset: 0, 0
   index: -1
 
-硝石矿.png
-TileSets/HexaRealm/Tiles/硝石
+Saltpeterore.png
+TileSets/HexaRealm/Tiles/Saltpeter
   rotate: false
   xy: 0, 0
   size: 64, 56
@@ -4554,8 +3556,8 @@ TileSets/HexaRealm/Tiles/火山土
   offset: 0, 0
   index: -1
 
-温泉浴场.png
-TileSets/HexaRealm/Tiles/温泉浴场
+Spa.png
+TileSets/HexaRealm/Tiles/Spa
   rotate: false
   xy: 0, 0
   size: 60, 60
@@ -4572,8 +3574,8 @@ TileSets/HexaRealm/Tiles/Vietnamese City
   offset: 0, 0
   index: -1
   
-地热发电厂.png
-TileSets/HexaRealm/Tiles/地热发电厂
+Geothermalpowerplant.png
+TileSets/HexaRealm/Tiles/Geothermal power plant
   rotate: false
   xy: 0, 0
   size: 280, 280
@@ -4581,8 +3583,8 @@ TileSets/HexaRealm/Tiles/地热发电厂
   offset: 0, 0
   index: -1  
   
-太阳能农场.png
-TileSets/HexaRealm/Tiles/太阳能农场
+Solarfarm.png
+TileSets/HexaRealm/Tiles/Solar farm
   rotate: false
   xy: 0, 0
   size: 250, 250
@@ -4590,8 +3592,8 @@ TileSets/HexaRealm/Tiles/太阳能农场
   offset: 0, 0
   index: -1    
 
-天然气.png
-TileSets/HexaRealm/Tiles/天然气
+Gas.png
+TileSets/HexaRealm/Tiles/Gas
   rotate: false
   xy: 0, 0
   size: 150, 150
@@ -4599,8 +3601,8 @@ TileSets/HexaRealm/Tiles/天然气
   offset: 0, 0
   index: -1
 
-天然气田.png
-TileSets/HexaRealm/Tiles/天然气田
+Gasfield.png
+TileSets/HexaRealm/Tiles/Gas field
   rotate: false
   xy: 0, 0
   size: 75, 75

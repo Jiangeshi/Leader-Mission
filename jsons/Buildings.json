@@ -10,7 +10,7 @@
 		"cityStrength": 2,
 		"cityHealth": 25,
 		"cost": 1,
-		"uniques": ["Indicates the capital city","Provides [7] [硝石] <after discovering [化学]>","Provides [7] [铝] <after discovering [电学]>"]
+		"uniques": ["Indicates the capital city","Provides [7] [Saltpeter] <after discovering [化学]>","Provides [7] [Aluminum] <after discovering [电学]>"]
 	},
 	{
 		"name": "篝火",
@@ -43,15 +43,15 @@
 		"food": 2,
 		"maintenance": 1,
 		"uniques": [
-			"[+1 Food] from [香蕉] tiles [in this city]",
-			"[+1 Food] from [小麦] tiles [in this city]"],
+			"[+1 Food] from [Bananas] tiles [in this city]",
+			"[+1 Food] from [Wheat] tiles [in this city]"],
 		"requiredTech": "制陶"
     },
 	{
 		"name": "水磨机",
 		"maintenance": 0,
 		"food": 1,
-		"uniques": ["Must be on [River]",	"[+1 Production] from [小麦] tiles [in this city]"],
+		"uniques": ["Must be on [River]",	"[+1 Production] from [Wheat] tiles [in this city]"],
 		"requiredTech": "农业"
     },
 	{
@@ -81,7 +81,7 @@
 	},
 	{
 		"name": "马戏团",
-  "requiredNearbyImprovedResources": ["象牙","马"],
+  "requiredNearbyImprovedResources": ["Ivory","Horses"],
 		"happiness": 1,
 		"gold": 2,
 		"requiredTech": "畜牧业"
@@ -96,21 +96,22 @@
 	{
 		"name": "石工坊",
 		"happiness": 1,
-		"requiredNearbyImprovedResources": ["大理石", "花岗石"],
+		"requiredNearbyImprovedResources": ["Marble", "Stone"],
 		"maintenance": 1,
 		"uniques": [
-			"[+1 Production] from [花岗石] tiles [in this city]",
-			"[+1 Production] from [大理石] tiles [in this city]"],
+			"[+1 Production] from [Stone] tiles [in this city]",
+			"[+1 Production] from [Marble] tiles [in this city]"],
 		"requiredTech": "石工术"
 	},
 	{
 		"name": "马厩",
 		"maintenance": 1,
-		"requiredNearbyImprovedResources": ["马","绵羊","牛"],
+		"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle","Deer"],
 		"uniques": ["[+15]% Production when constructing [骑兵] units [in this city]",
-			"[+1 Production] from [牛] tiles [in this city]",
-			"[+1 Production] from [马] tiles [in this city]",
-			"[+1 Production] from [绵羊] tiles [in this city]"],
+			"[+1 Production] from [Cattle] tiles [in this city]",
+			"[+1 Production] from [Deer] tiles [in this city]",
+			"[+1 Production] from [Horses] tiles [in this city]",
+			"[+1 Production] from [Sheep] tiles [in this city]"],
 		"requiredTech": "骑术"
 	},
 	{
@@ -131,8 +132,8 @@
 		"maintenance": 1,
 		"production": 1,
 		"requiredTech": "铁器"
-	"requiredNearbyImprovedResources": ["铁"],
-		"uniques": ["[+1 Production] from [铁] tiles [in this city]"]
+	"requiredNearbyImprovedResources": ["Iron"],
+		"uniques": ["[+1 Production] from [Iron] tiles [in this city]"]
 	},
 	{
 	//奇观
@@ -178,7 +179,7 @@
 		"greatPersonPoints": {"Great Merchant": 1},
 		"isWonder": true,
 		"uniques": ["Provides a sum of gold each time you spend a Great Person",
-			"[+2 Gold] from [大理石] tiles [in this city]", "[+2 Gold] from [花岗石] tiles [in this city]"],
+			"[+2 Gold] from [Marble] tiles [in all cities]", "[+2 Gold] from [Stone] tiles [in all cities]"],
 		"requiredTech": "墓葬",
 		"quote": "英雄人物是以整个大地作为自己的陵墓的，他们的英名不仅在凿刻在有形的石碑上，也在千万世人的心中留下了无形的印记——伯里克利"
 	},
@@ -291,10 +292,6 @@
 		{"text":"国防部", "link":"Wonder/国防部"},
 		{"text":"外交部", "link":"Wonder/外交部"},
 		{"text":"国税局", "link":"Wonder/国税局"}
-		{"text":"曼哈顿计划", "link":"Wonder/曼哈顿计划"},
-		{"text":"阿波罗计划", "link":"Wonder/阿波罗计划"},
-		{"text":"联合国", "link":"Wonder/联合国"},
-		{"text":"天气控制器", "link":"Wonder/天气控制器"}
 		    ],
    	},
 	{
@@ -355,12 +352,12 @@
 	    "requiredTech": "政治学",
 		"requiredResource": "总督点数",
 		"uniques":["Cannot be purchased","Unsellable","Destroyed when the city is captured","Only available <in cities without a [总督—瑞纳 I]>","Only available <in cities without a [总督—平伽拉 I]>",
-		    "[+1 Gold] from [矿井] tiles [in this city]",
-			"[+1 Gold] from [锯木厂] tiles [in this city]",
-			"[+1 Gold] from [采石场] tiles [in this city]",
-			"[+1 Food] from [种植园] tiles [in this city]",
-		    "[+1 Food] from [猎场] tiles [in this city]",
-			"[+1 Food] from [牧场] tiles [in this city]"]
+		    "[+1 Gold] from [Mine] tiles [in this city]",
+			"[+1 Gold] from [Lumber mill] tiles [in this city]",
+			"[+1 Gold] from [Quarry] tiles [in this city]",
+			"[+1 Food] from [Plantation] tiles [in this city]",
+		    "[+1 Food] from [Camp] tiles [in this city]",
+			"[+1 Food] from [Pasture] tiles [in this city]"]
     },
 	{
 	    "name": "总督—马格努斯 IIA",
@@ -514,8 +511,16 @@
 		"cost": 3000,
 		"requiredTech": "天气控制",
 		"uniques": ["Triggers a global alert upon completion","Cannot be hurried","[+3] population [in all cities]",
-		"Consumes [15] [电力]","Consumes [3] [铝]","Consumes [5] [混合燃料]","Consumes [500] [CO2]"
+		"Consumes [15] [Electricity]","Consumes [3] [Aluminum]","Consumes [5] [Mixed fuel]","Consumes [500] [CO2]"
 		],
+	},
+	{
+		"name": "世界博览会",
+		"cost": 3000,
+		"percentStatBonus": {"culture": 50},
+		"isNationalWonder": true,
+		"requiredTech": "世界博览会"
+		"uniques": ["Triggers a global alert upon build start","Cannot be hurried",	"Provides [1] [总督升级]","[1] Free Social Policies",]	
     },
 	{
 	//区域建筑：宗教
@@ -563,8 +568,8 @@
 		"culture": 2,
 		"faith": 1,
 		"requiredBuilding": "District—Religious Cente",
-		"uniques": ["[+1 Culture, +1 Faith] from [红酒] tiles [in this city]",
-			"[+1 Culture, +1 Faith] from [熏香] tiles [in this city]","Unbuildable"]
+		"uniques": ["[+1 Culture, +1 Faith] from [Wine] tiles [in this city]",
+			"[+1 Culture, +1 Faith] from [Incense] tiles [in this city]","Unbuildable"]
 	},
 	{
 		"name": "清真寺",
@@ -660,7 +665,7 @@
 		"name": "灯塔",
 		"maintenance": 2,
 		"uniques": ["Must be next to [Coast]", "[+1 Food] from [Ocean] tiles [in this city]",
-			"[+1 Food] from [Coast] tiles [in this city]", "[+1 Food] from [鱼群] tiles [in this city]"],
+			"[+1 Food] from [Coast] tiles [in this city]", "[+1 Food] from [Fish] tiles [in this city]"],
 		"requiredTech": "光学"	
 		"requiredBuilding": "District—Shipping Center", 
 	},
@@ -677,7 +682,7 @@
 		"name": "海运港口",
 		"maintenance": 3,
 		"production": 2,
-		"requiredResource": "钢铁"
+		"requiredResource": "Steel"
 		"requiredBuilding": "District—Shipping Center",
 		"uniques": ["[+1 Production, +1 Gold] from [Water resource] tiles [in this city]","Provides [2] [CO2]"],
 		"requiredTech": "航海术" 
@@ -687,7 +692,7 @@
 		//"greatPersonPoints": {"海军统帅": 1},	
 		"maintenance": 4,
 		"requiredBuilding": "District—Shipping Center",
-		"uniques": ["Consumes [2] [钢铁]",
+		"uniques": ["Consumes [2] [Steel]",
 			"Must be next to [Coast]", "[+10]% Production when constructing [{Military} {Water}] units [in this city]",
 			"New [{Military} {Water}] units start with [15] Experience [in this city]", "Destroyed when the city is captured","Provides [3] [CO2]"],
 		"requiredTech": "蒸汽机"       
@@ -734,8 +739,8 @@
 	},
 	{
 		"name": "铸币厂",
-		"maintenance": 0,"requiredNearbyImprovedResources": ["黄金", "白银"],
-		"uniques": ["[+2 Gold] from [黄金] tiles [in this city]", "[+2 Gold] from [白银] tiles [in this city]","Provides [2] [CO2]"],
+		"maintenance": 0,"requiredNearbyImprovedResources": ["Gold Ore", "Silver"],
+		"uniques": ["[+2 Gold] from [Gold Ore] tiles [in this city]", "[+2 Gold] from [Silver] tiles [in this city]","Provides [2] [CO2]"],
 		"requiredTech": "经济学",
 		"requiredBuilding": "District—Commercial Centre",
 	},
@@ -861,7 +866,7 @@
 		"cost": 350,
 		"requiredBuilding": "District—Military Center",
 		"requiredTech": "合金",
-		"uniques": ["Destroyed when the city is captured","Consumes [1] [钢铁]","Consumes [1] [煤]","Provides [5] [CO2]"]
+		"uniques": ["Destroyed when the city is captured","Consumes [1] [Steel]","Consumes [1] [Coal]","Provides [5] [CO2]"]
 	},
 	{
 		"name": "军事学院",
@@ -876,7 +881,7 @@
 		"cityHealth": 25,
 		"requiredBuilding": "District—Military Center",
 		"requiredTech": "精密零件",
-		"uniques": ["Destroyed when the city is captured","Consumes [3] [电力]","Consumes [1] [钢铁]","Provides [3] [CO2]"]	
+		"uniques": ["Destroyed when the city is captured","Consumes [3] [Electricity]","Consumes [1] [Steel]","Provides [3] [CO2]"]	
 	},
 	{
 		"name": "英雄史诗",
@@ -1034,7 +1039,7 @@
 		"happiness": 4,
 		"requiredBuilding": "District—Cultural Center",
 		"maintenance": 3,
-		"uniques":["Consumes [2] [电力]","Consumes [1] [钢铁]"]
+		"uniques":["Consumes [2] [Electricity]","Consumes [1] [Steel]"]
 		"requiredTech": "制冷"
 	},
 	{
@@ -1184,14 +1189,14 @@
 		"culture": 3,
 		"percentStatBonus": {"culture": 33},
 		"requiredBuilding": "District—Infrastructure Center",
-		"uniques":["Consumes [1] [电力]","Consumes [1] [钢铁]"]
+		"uniques":["Consumes [1] [Electricity]","Consumes [1] [Steel]"]
 		"maintenance": 3,
 		"requiredTech": "无线电",
 	},
 	{
 		"name": "医院",
 		"uniques":["[-10]% Unhappiness from [Population] [in this city]","[Wounded] Units adjacent to this city heal [+15] HP per turn when healing",
-		"Consumes [2] [电力]"]
+		"Consumes [2] [Electricity]"]
 		"requiredBuilding": "District—Infrastructure Center",
 		"maintenance": 3,
 		"requiredTech": "生物学"
@@ -1210,7 +1215,7 @@
 		"maintenance": 3,
 		"requiredTech": "生态学",
 		"requiredBuilding": "District—Infrastructure Center",
-		"uniques": ["Provides [3] [铝]","Consumes [2] [电力]"]	
+		"uniques": ["Provides [3] [Aluminum]","Consumes [2] [Electricity]"]	
 	},
 	{
 		"name": "空中花园",
@@ -1245,9 +1250,9 @@
 	},
 	{
 		"name": "国家运河",
-		"cost": 450,
+		"cost": 400,
 		"isNationalWonder": true,
-		"uniques": ["Cost increases by [50] per owned city","Requires a [运河] in all cities","[+3 Gold, +2 Production] [in all cities]"],
+		"uniques": ["Cost increases by [50] per owned city","Requires a [运河] in all cities","[+4 Gold, +4 Production] [in all cities]"],
 		"requiredTech": "水运"
 		"requiredBuilding": "District—Infrastructure Center",
 	},
@@ -1319,12 +1324,12 @@
 	{
 		"name": "锻造场",
 		"maintenance": 2,
-	"requiredNearbyImprovedResources": ["铁"],
+	"requiredNearbyImprovedResources": ["Iron"],
 		"requiredTech": "工业伊始",
 		"requiredBuilding": "District—Industrial Centre",
 		"uniques": [
 			"[+15]% Production when constructing [Land] units [in this city]",
-			"[+1 Production] from [铁] tiles [in this city]","Provides [3] [CO2]"]
+			"[+1 Production] from [Iron] tiles [in this city]","Provides [3] [CO2]"]
 	},
 	{
 		"name": "钢铁厂",
@@ -1332,7 +1337,7 @@
 		"maintenance": 3,
 		"requiredBuilding": "District—Industrial Centre",
 		"requiredTech": "炼钢",
-	    "uniques":["Consumes [3] [铁]","Consumes [2] [煤]","Provides [10] [钢铁]","Provides [5] [CO2]"]
+	    "uniques":["Consumes [3] [Iron]","Consumes [2] [Coal]","Provides [10] [Steel]","Provides [5] [CO2]"]
 	},
 	{
 		"name": "化肥厂",
@@ -1341,9 +1346,9 @@
 		"requiredBuilding": "District—Industrial Centre",
 		"requiredTech": "化肥",
 	    "uniques": [
-			"[+1 Food] from [农场] tiles [in this city]",
-			"[+1 Food] from [种植园] tiles [in this city]",
-			"Consumes [2] [钢铁]","Consumes [1] [煤]","Provides [3] [CO2]"],
+			"[+1 Food] from [Farm] tiles [in this city]",
+			"[+1 Food] from [Plantation] tiles [in this city]",
+			"Consumes [2] [Steel]","Consumes [1] [Coal]","Provides [3] [CO2]"],
 	},
 	{
 		"name": "工厂",
@@ -1351,7 +1356,7 @@
 		"production": 4,
 		"percentStatBonus": {"production": 10},
 		"specialistSlots": {"Engineer": 2},
-		"uniques":["Consumes [2] [钢铁]","Consumes [1] [煤]","Provides [5] [CO2]"]
+		"uniques":["Consumes [2] [Steel]","Consumes [1] [Coal]","Provides [5] [CO2]"]
 		"requiredBuilding": "District—Industrial Centre",
 		"maintenance": 3,
 		"requiredTech": "工业化"
@@ -1359,8 +1364,8 @@
 	{
 		"name": "水电站",
 		"maintenance": 3,
-		"uniques": ["Consumes [1] [铝]",
-		"Must be on [River]","[+1 Production] from [River] tiles [in this city]","Provides [4] [电力]"],
+		"uniques": ["Consumes [1] [Aluminum]",
+		"Must be on [River]","[+1 Production] from [River] tiles [in this city]","Provides [4] [Electricity]"],
 		"requiredBuilding": "District—Industrial Centre",
 		"requiredTech": "电学"
 	},
@@ -1370,7 +1375,7 @@
 		"maintenance": 3,
 		"requiredBuilding": "District—Industrial Centre",
 		"requiredTech": "电学",
-	    "uniques":["Consumes [2] [煤]","Consumes [1] [钢铁]","Provides [8] [电力]","Provides [7] [CO2]"]
+	    "uniques":["Consumes [2] [Coal]","Consumes [1] [Steel]","Provides [8] [Electricity]","Provides [7] [CO2]"]
 	},
 	{
 		"name": "燃油发电厂",
@@ -1378,7 +1383,7 @@
 		"maintenance": 3,
 		"requiredBuilding": "District—Industrial Centre",
 		"requiredTech": "制冷",
-	    "uniques":["Consumes [2] [石油]","Consumes [1] [钢铁]","Provides [12] [电力]","Provides [7] [CO2]"] 
+	    "uniques":["Consumes [2] [Oil]","Consumes [1] [Steel]","Provides [12] [Electricity]","Provides [7] [CO2]"] 
 	},
 	{
 		"name": "燃气发电厂",
@@ -1386,7 +1391,7 @@
 		"maintenance": 3,
 		"requiredBuilding": "District—Industrial Centre",
 		"requiredTech": "制冷",
-	    "uniques":["Consumes [3] [天然气]","Consumes [1] [钢铁]","Provides [10] [电力]","Provides [3] [CO2]"]           
+	    "uniques":["Consumes [3] [Gas]","Consumes [1] [Steel]","Provides [10] [Electricity]","Provides [3] [CO2]"]           
 	},
 	{
 		"name": "核电站",
@@ -1395,7 +1400,7 @@
 		"requiredBuilding": "District—Industrial Centre",
 		"maintenance": 7,
 		"requiredTech": "核裂变",
-		"uniques": ["Consumes [1] [铀]","Consumes [1] [铝]","Provides [12] [电力]"]
+		"uniques": ["Consumes [1] [Uranium]","Consumes [1] [Aluminum]","Provides [12] [Electricity]"]
 	},
 	{
 		"name": "化工厂",
@@ -1403,23 +1408,23 @@
 		"maintenance": 3,
 		"requiredBuilding": "District—Industrial Centre",
 		"requiredTech": "塑料",
-	    "uniques":["Consumes [2] [天然气]","Consumes [1] [钢铁]","Consumes [6] [电力]","[+15]% [Gold] [in this city]","Provides [5] [CO2]"]	
+	    "uniques":["Consumes [2] [Gas]","Consumes [1] [Steel]","Consumes [6] [Electricity]","[+15]% [Gold] [in this city]","Provides [5] [CO2]"]	
 	},
 	{
 		"name": "燃料加工厂",
 		"production": 2,
 		"maintenance": 3,
-		"requiredResource": "铝",
+		"requiredResource": "Aluminum",
 		"requiredBuilding": "District—Industrial Centre",
 		"requiredTech": "火箭",
-	    "uniques":["Consumes [8] [电力]","Consumes [2] [钢铁]","Consumes [4] [硝石]","Consumes [4] [天然气]","Consumes [2] [石油]","Consumes [2] [煤]","Provides [4] [混合燃料]","Provides [3] [CO2]"]
+	    "uniques":["Consumes [8] [Electricity]","Consumes [2] [Steel]","Consumes [4] [Saltpeter]","Consumes [4] [Gas]","Consumes [2] [Oil]","Consumes [2] [Coal]","Provides [4] [Mixed fuel]","Provides [3] [CO2]"]
 	},
 	{
 		"name": "太空飞船工厂",
 		"production": 3,
-		"requiredResource": "铝",
+		"requiredResource": "Aluminum",
 		"requiredBuilding": "District—Industrial Centre",
-		"uniques": ["[+50]% Production when constructing [Spaceship part] units [in this city]","Consumes [8] [电力]"],
+		"uniques": ["[+50]% Production when constructing [Spaceship part] units [in this city]","Consumes [8] [Electricity]"],
 		"requiredTech": "机器人学"
 	},
 	{
@@ -1476,7 +1481,7 @@
 		"specialistSlots": {"Scientist": 1},
 		"requiredBuilding": "District—Scientific Research Center",
 		"maintenance": 3,
-		"uniques":["Consumes [3] [电力]"]
+		"uniques":["Consumes [3] [Electricity]"]
 		"requiredTech": "塑料"
     },
 	{
@@ -1485,7 +1490,7 @@
 		"science": 5,
 		"maintenance": 5,
 		"requiredTech": "制药学",
-		"uniques": ["[25]% Food is carried over after population increases [in this city]","Consumes [3] [电力]"]		
+		"uniques": ["[25]% Food is carried over after population increases [in this city]","Consumes [3] [Electricity]"]		
 	},
 	{
 		"name": "大报恩寺",
@@ -1725,12 +1730,12 @@
 	},
 	{
 		"name": "巴拿马运河",
-		"cost": 450,
-		"gold": 7,
+		"cost": 400,
+		"gold": 5,
 		"uniqueTo": "巴拿马",
 		"replaces": "国家运河",
 		"isNationalWonder": true,
-		"uniques": ["Cost increases by [50] per owned city","Requires a [运河] in all cities","[+3 Gold, +2 Production] [in all cities]"]
+		"uniques": ["Cost increases by [50] per owned city","Requires a [运河] in all cities","[+4 Gold, +4 Production] [in all cities]"]
 		"requiredTech": "水运"
 		"requiredBuilding": "District—Infrastructure Center",
 		//拜占庭
@@ -1762,7 +1767,7 @@
 		"replaces": "District—Cultural Center",
 		"requiredTech": "戏剧与诗歌",
 		"uniques":["Cannot be purchased","Unsellable",
-		"Provides [1] [马]",
+		"Provides [1] [Horses]",
 		"[1] free [骑手] units appear <after discovering [骑术]> <before discovering [骑士制度]>",
 		"[1] free [甲胄骑兵] units appear <after discovering [骑士制度]> <before discovering [合金]>"
 		"[1] free [枪骑兵] units appear <after discovering [合金]> <before discovering [军事科学]>"
@@ -1824,7 +1829,7 @@
 	    "happiness": -1,
 	    "uniqueTo": "大哥伦比亚",
 		"requiredTech": "农业",
-		"uniques":["[+1 Production] from [种植园] tiles [in this city]","Provides [1] [CO2]"], 
+		"uniques":["[+1 Production] from [Plantation] tiles [in this city]","Provides [1] [CO2]"], 
    	//阿富汗
 	},
 	{	
@@ -1854,7 +1859,7 @@
 		"cost":1,
 		"uniqueTo": "The Huns",
 		"uniques": ["Can only be built [in capital]",
-	    "[+1 Production] from [牧场] tiles [in all cities]",
+	    "[+1 Production] from [Pasture] tiles [in all cities]",
 	    "[+15]% Strength <for [Military] units> <when fighting in [Foreign Land] tiles>"
 	    "Receive triple Gold from Barbarian encampments and pillaging Cities"
         ]
@@ -1893,8 +1898,8 @@
 		"requiredBuilding": "District—Commercial Centre",
 		"requiredTech": "经济学"
 		"uniques": [
-			"[+1 Happiness, +1 Gold] from [黄金] tiles [in this city]",
-			"[+1 Happiness, +1 Gold] from [白银] tiles [in this city]"],		
+			"[+1 Happiness, +1 Gold] from [Gold Ore] tiles [in this city]",
+			"[+1 Happiness, +1 Gold] from [Silver] tiles [in this city]"],		
 	//
 	},
 	{	
@@ -1944,7 +1949,7 @@
 		"name": "Military Royal School",
 		"maintenance": 1,
 		"uniques": ["New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured",
-		"Provides [1] [马]",	"Provides [1] [铁]",
+		"Provides [1] [Horses]",	"Provides [1] [Iron]",
 		"Provides [3] [CO2]"],
 		"requiredTech": "军事学",
 		"requiredBuilding": "District—Military Center",

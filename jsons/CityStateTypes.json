@@ -2,13 +2,13 @@
     {
         "name": "Cultured",
         "friendBonusUniques": [
-            "[+3 Culture] <before the [中古时代]>",
-            "[+6 Culture] <starting from the [中古时代]> <before the [Industrial era]>",
+            "[+3 Culture] <before the [Medieval era]>",
+            "[+6 Culture] <starting from the [Medieval era]> <before the [Industrial era]>",
             "[+13 Culture] <starting from the [Industrial era]>"
         ],
         "allyBonusUniques": [
-            "[+6 Culture] <before the [中古时代]>",
-            "[+12 Culture] <starting from the [中古时代]> <before the [Industrial era]>",
+            "[+6 Culture] <before the [Medieval era]>",
+            "[+12 Culture] <starting from the [Medieval era]> <before the [Industrial era]>",
             "[+26 Culture] <starting from the [Industrial era]>"
         ],
         "color": [139, 96, 255]
@@ -22,12 +22,12 @@
     {
         "name": "Mercantile",
         "friendBonusUniques": [
-            "[+2 Happiness] <before the [中古时代]>",
-            "[+3 Happiness] <starting from the [中古时代]>"
+            "[+2 Happiness] <before the [Medieval era]>",
+            "[+3 Happiness] <starting from the [Medieval era]>"
         ],
         "allyBonusUniques": [
-            "[+2 Happiness] <before the [中古时代]>",
-            "[+3 Happiness] <starting from the [中古时代]>",
+            "[+2 Happiness] <before the [Medieval era]>",
+            "[+3 Happiness] <starting from the [Medieval era]>",
             "Provides a unique luxury"
         ],
         "color": [255, 216, 0]
@@ -41,13 +41,13 @@
     {
         "name": "Religious",
         "friendBonusUniques":  [
-            "[+3 Faith] <before the [中古时代]>",
-            "[+6 Faith] <starting from the [中古时代]> <before the [Industrial era]>",
+            "[+3 Faith] <before the [Medieval era]>",
+            "[+6 Faith] <starting from the [Medieval era]> <before the [Industrial era]>",
             "[+13 Faith] <starting from the [Industrial era]>"
         ],
         "allyBonusUniques":  [
-            "[+6 Faith] <before the [中古时代]>",
-            "[+12 Faith] <starting from the [中古时代]> <before the [Industrial era]>",
+            "[+6 Faith] <before the [Medieval era]>",
+            "[+12 Faith] <starting from the [Medieval era]> <before the [Industrial era]>",
             "[+26 Faith] <starting from the [Industrial era]>"
         ],
         "color": [255, 255, 255]

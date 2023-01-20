@@ -41,7 +41,7 @@
 		//"uniqueTo": "中华",
 	    //"movement": 3,
 		//"uniques": ["Can build [Land] improvements on tiles",
-		//"Can speed up the construction of a wonder <before the [电气时代]>",
+		//"Can speed up the construction of a wonder <before the [Modern era]>",
 		//"Unbuildable","Uncapturable"]
 	//侦查单位
 	},
@@ -76,7 +76,7 @@
 		"requiredTech": "铁器",
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "兵器储备",
-		"requiredResource": "铁",
+		"requiredResource": "Iron",
 		"uniques":["[+10]% Strength <vs [Military] units> <when defending>"]
 		"attackSound": "metalhit"
 	},
@@ -86,12 +86,12 @@
 		"uniqueTo": "Rome",
 		"replaces": "Swordsman",
 		"movement": 2,
-		"strength": 15,
+		"strength": 16,
 		"cost": 85,
 		"requiredTech": "铁器",
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "兵器储备",
-		"requiredResource": "铁",
+		"requiredResource": "Iron",
 		"promotions": ["[Legion] ability"],
 		"uniques": ["Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles","[+10]% Strength <vs [Military] units> <when defending>"],
 		"attackSound": "metalhit"
@@ -107,7 +107,7 @@
 		"requiredTech": "铁器",
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "兵器储备",
-		"requiredResource": "铁",
+		"requiredResource": "Iron",
 		"promotions": ["[Hypaspist] ability"],
 		"uniques": ["[+15]% Strength <vs [Military] units> <when defending>"],
 		"attackSound": "metalhit"	
@@ -121,7 +121,7 @@
 		"requiredTech": "兵器储备",
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "火药",
-		"requiredResource": "铁",
+		"requiredResource": "Iron",
 		"uniques":["[+10]% Strength <vs [Military] units> <when defending>"]
 		"attackSound": "metalhit"
 	},
@@ -131,7 +131,7 @@
 		"movement": 2,
 		"strength": 24,
 		"cost": 250,
-	    "requiredResource": "硝石",
+	    "requiredResource": "Saltpeter",
 		"requiredTech": "火药",
 		"upgradesTo": "来复枪兵",
 		"obsoleteTech": "膛线",
@@ -145,7 +145,7 @@
 		"strength": 34,
 		"cost": 340,
 		"requiredTech": "膛线",
-		"requiredResource": "硝石",
+		"requiredResource": "Saltpeter",
 		"obsoleteTech": "精密零件",
 		"upgradesTo": "一战步兵",
 		"uniques":["[+10]% Strength <vs [Military] units> <when defending>"]
@@ -157,7 +157,7 @@
 		"movement": 2,
 		"strength": 50,
 		"cost": 540,
-		"requiredResource": "硝石",
+		"requiredResource": "Saltpeter",
 		"requiredTech": "精密零件",
 		"upgradesTo": "现代步兵",
 		"obsoleteTech": "塑料",
@@ -191,7 +191,7 @@
 		"movement": 3,
 		"strength": 90,
 		"cost": 750,
-		"requiredResource": "铝",
+		"requiredResource": "Aluminum",
 		"requiredTech": "机动战术",
 		"uniques":["[+10]% Strength <vs [Military] units> <when defending>"]
 		"attackSound": "tankshot"
@@ -231,7 +231,7 @@
 		"rangedStrength": 10,
 		"cost": 75,
 		"requiredTech": "The Wheel",
-		"requiredResource": "马",
+		"requiredResource": "Horses",
 		"upgradesTo": "骑士",
 		"obsoleteTech": "骑士制度",
 		"uniques": ["No defensive terrain bonus", "Rough terrain penalty","[+10]% Strength <vs [抗骑兵单位] units> <when attacking>"],
@@ -248,7 +248,7 @@
 		"rangedStrength": 12,
 		"cost": 75,
 		"requiredTech": "The Wheel",
-		"requiredResource": "马",
+		"requiredResource": "Horses",
 		"upgradesTo": "骑士",
 		"obsoleteTech": "骑士制度",
 		"uniques": ["No defensive terrain bonus","Rough terrain penalty","[+10]% Strength <vs [Military] units> <when defending>"],
@@ -281,7 +281,7 @@
 		"requiredTech": "骑术",
 		"upgradesTo": "骑士",
 		"obsoleteTech": "骑士制度",
-		"requiredResource": "马",
+		"requiredResource": "Horses",
 		"uniques": ["No defensive terrain bonus","[+10]% Strength <vs [抗骑兵单位] units> <when attacking>"],
 		"attackSound": "arrow"	
 	},
@@ -307,7 +307,7 @@
 		"rangedStrength": 30,
 		"cost": 340,
 		"requiredTech": "军事科学",
-	    "requiredResource": "硝石",
+	    "requiredResource": "Saltpeter",
 		"upgradesTo": "Machine Gun",
 		"obsoleteTech": "弹道学",
 		"attackSound": "machinegun"
@@ -399,7 +399,7 @@
 		"strength": 25,
 		"cost": 295,
 		"requiredTech": "合金",
-		"requiredResource": "马",
+		"requiredResource": "Horses",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[+50]% Strength <vs [骑兵] units>"],
 		"promotions": ["列阵 I"],
 		"upgradesTo": "反坦克炮",
@@ -413,7 +413,7 @@
 		"strength": 50,
 		"cost": 600,
 		"requiredTech": "协同作战",
-	   	"requiredResource": "钢铁",
+	   	"requiredResource": "Steel",
 		"upgradesTo": "武装直升机",
 		"uniques":["[+100]% Strength <vs [装甲部队] units> <when attacking>"]
 		"attackSound": "machinegun"
@@ -425,7 +425,7 @@
 		"strength": 60,
 		"cost": 830,
 		"requiredTech": "电子计算机",
-		"requiredResource": "铝",
+		"requiredResource": "Aluminum",
 		"uniques": ["No defensive terrain bonus", "Can move after attacking",
 			"All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities","[+100]% Strength <vs [装甲部队] units> <when attacking>",
 			"Can pass through impassable tiles"],
@@ -454,7 +454,7 @@
 		"requiredTech": "火箭",
 		"uniques": ["[80]% chance to intercept air attacks", "[+150]% Strength <vs [Air] units>",
 			"[+150]% Strength <vs [直升机] units>",
-			"Consumes [1] [铝]","Can carry [1] [Flybomb] units"],
+			"Consumes [1] [Aluminum]","Can carry [1] [Flybomb] units"],
 		"attackSound": "missile"
     //骑兵
 	},
@@ -465,7 +465,7 @@
 		"strength": 13,
 		"cost": 80,
 		"requiredTech": "骑术",
-		"requiredResource": "马",
+		"requiredResource": "Horses",
 		"upgradesTo": "骑士",
 		"obsoleteTech": "骑士制度",
 		"uniques": ["Can move after attacking","No defensive terrain bonus",
@@ -483,7 +483,7 @@
 		"strength": 14,
 		"cost": 85,
 	    "requiredTech": "骑术",
-		"requiredResource": "马",
+		"requiredResource": "Horses",
 		"upgradesTo": "骑士",
 		"obsoleteTech": "骑士制度",
 		"promotions": ["[Companion Cavalry] ability"],
@@ -518,7 +518,7 @@
 		"requiredTech": "骑士制度",
 		"obsoleteTech": "军事科学",
 		"upgradesTo": "近代骑兵",
-		"requiredResource": "马",
+		"requiredResource": "Horses",
 		"uniques": ["Can move after attacking","No defensive terrain bonus",
 		        "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", 
         "[+10]% Strength <vs [Ranged] units> <when defending>", 
@@ -535,7 +535,7 @@
 		"rangedStrength": 19,
 		"cost": 200,
 		"requiredTech": "骑士制度",
-		"requiredResource": "马",
+		"requiredResource": "Horses",
 		"upgradesTo": "近代骑兵",
 		"obsoleteTech": "军事科学",
 		"promotions": ["[Camel Archer] ability"],
@@ -551,7 +551,7 @@
 		"strength": 24,
 		"cost": 200,
 		"requiredTech": "骑士制度",
-		"requiredResource": "马",
+		"requiredResource": "Horses",
 		"upgradesTo": "近代骑兵",
 		"obsoleteTech": "军事科学",
 		"uniques": ["Can move after attacking","No defensive terrain bonus",
@@ -571,7 +571,7 @@
 		"cost": 195,
 		"requiredTech": "骑士制度",
 		"obsoleteTech": "军事科学",
-		"requiredResource": "马",
+		"requiredResource": "Horses",
 		"upgradesTo": "近代骑兵",
 		"uniques": ["Can move after attacking","No defensive terrain bonus",
 		        "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", 
@@ -591,7 +591,7 @@
 		"requiredTech": "骑士制度",
 		"upgradesTo": "近代骑兵",
 		"obsoleteTech": "军事科学",
-		"requiredResource": "马",
+		"requiredResource": "Horses",
 		"uniques": ["Can move after attacking","No defensive terrain bonus",
 		        "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", 
         "[+10]% Strength <vs [Ranged] units> <when defending>"],
@@ -604,11 +604,11 @@
 		"movement": 4,
 		"strength": 35,
 		"cost": 355,
-		"requiredResource": "马",
+		"requiredResource": "Horses",
 		"requiredTech": "军事科学",
 		"obsoleteTech": "内燃机",
 		"upgradesTo": "履带战车",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","Consumes [1] [硝石]",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","Consumes [1] [Saltpeter]",
 		        "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", 
         "[+10]% Strength <vs [Ranged] units> <when defending>", 
         "[-33]% Strength <vs cities> <when attacking>"],
@@ -622,11 +622,11 @@
 		"movement": 5,
 		"strength": 35,
 		"cost": 340,
-		"requiredResource": "马",
+		"requiredResource": "Horses",
 		"requiredTech": "军事科学",
 		"obsoleteTech": "内燃机",
 		"upgradesTo": "履带战车",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","Consumes [1] [硝石]",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","Consumes [1] [Saltpeter]",
 		        "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", 
         "[+10]% Strength <vs [Ranged] units> <when defending>", 
         "[-33]% Strength <vs cities> <when attacking>"],
@@ -639,7 +639,7 @@
 		"strength": 65,
 		"cost": 680,
 		"requiredTech": "内燃机",
-		"requiredResource": "石油",
+		"requiredResource": "Oil",
 		"upgradesTo": "坦克",
 		"obsoleteTech": "协同作战",
 		"uniques": ["Can move after attacking","No defensive terrain bonus",
@@ -654,9 +654,9 @@
 		"strength": 75,
 		"cost": 750,
 		"requiredTech": "协同作战",
-		"requiredResource": "石油",
+		"requiredResource": "Oil",
 		"upgradesTo": "现代坦克",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","Consumes [1] [钢铁]",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","Consumes [1] [Steel]",
 		"[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>",
         "[+10]% Strength <vs [Range] units> <when defending>"],
 		"attackSound": "tankshot"
@@ -670,9 +670,9 @@
 		"strength": 80,
 		"cost": 675,
 		"requiredTech": "协同作战",
-		"requiredResource": "石油",
+		"requiredResource": "Oil",
 		"upgradesTo": "现代坦克",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","Consumes [1] [钢铁]",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","Consumes [1] [Steel]",
 		"[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>",
         "[+10]% Strength <vs [Range] units> <when defending>"],
 		"attackSound": "tankshot"
@@ -684,8 +684,8 @@
 		"strength": 100,
 		"cost": 800,
 		"requiredTech": "激光",
-		"requiredResource": "石油",
-		"uniques": ["Can move after attacking", "No defensive terrain bonus","Consumes [1] [钢铁]","Consumes [1] [铝]",
+		"requiredResource": "Oil",
+		"uniques": ["Can move after attacking", "No defensive terrain bonus","Consumes [1] [Steel]","Consumes [1] [Aluminum]",
 		"[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>",
         "[+10]% Strength <vs [Range] units> <when defending>"],
 		"attackSound": "tankshot"
@@ -697,7 +697,7 @@
 		"strength": 150,
 		"cost": 1200,
 		"requiredTech": "核聚变",
-		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit","Consumes [2] [铀]"],
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit","Consumes [2] [Uranium]"],
 		"attackSound": "gdrAttack"
     //攻城单位
 	},
@@ -737,7 +737,7 @@
 		"strength": 15,
 		"rangedStrength": 20,
 		"cost": 260,
-		"requiredResource": "硝石",
+		"requiredResource": "Saltpeter",
 		"requiredTech": "火药",
 		"upgradesTo": "火炮",
 		"obsoleteTech": "炸药",
@@ -754,7 +754,7 @@
 		"range": 3,
 		"cost": 430,
 		"requiredTech": "炸药",
-		"requiredResource": "硝石",
+		"requiredResource": "Saltpeter",
 	    "obsoleteTech": "火箭",
 		"upgradesTo": "火箭炮",
 		"uniques": ["No defensive terrain bonus","Must set up to ranged attack","[-1] Sight","[+200]% Strength <vs cities> <when attacking>"],
@@ -770,7 +770,7 @@
 		"range": 3,
 		"cost": 830,
 		"requiredTech": "火箭",
-		"requiredResource": "铝",
+		"requiredResource": "Aluminum",
 		"uniques": ["No defensive terrain bonus","[-1] Sight","[+200]% Strength <vs cities> <when attacking>","Can carry [1] [Flybomb] units"],
 		"promotions": ["间瞄射击"],
 		"attackSound": "artillery"
@@ -848,10 +848,10 @@
 		"strength": 45,
 		"cost": 370,
 		"requiredTech": "蒸汽机",
-		"requiredResource": "煤",
+		"requiredResource": "Coal",
 		"upgradesTo": "驱逐舰",
 		"obsoleteTech": "内燃机",
-		"uniques": ["[+33]% Strength <vs cities>","Double movement in [Coast]","Consumes [1] [钢铁]"],
+		"uniques": ["[+33]% Strength <vs cities>","Double movement in [Coast]","Consumes [1] [Steel]"],
 		"attackSound": "shipguns"
 	},
 	{
@@ -861,7 +861,7 @@
 		"strength": 60,
 		"interceptRange": 2,
 		"cost": 750,
-		"requiredResource": "钢铁",
+		"requiredResource": "Steel",
 		"requiredTech": "内燃机",
 		"uniques": ["Can see invisible [潜艇] units", "[50]% chance to intercept air attacks",
 			"May withdraw before melee ([80]%)", "[+100]% Strength <vs [潜艇] units>","[+1] Sight",],
@@ -888,7 +888,7 @@
 		"strength": 25,
 		"rangedStrength": 28,
 		"cost": 275,
-		"requiredResource": "硝石",
+		"requiredResource": "Saltpeter",
 		"requiredTech": "航海术",
 		"obsoleteTech": "电子学",
 		"upgradesTo": "战列舰",
@@ -902,9 +902,9 @@
 		"rangedStrength": 60,
 		"range": 4,
 		"cost": 775,
-		"requiredResource": "石油",
+		"requiredResource": "Oil",
 		"requiredTech": "电子学",
-		"uniques": ["Consumes [1] [钢铁]"],
+		"uniques": ["Consumes [1] [Steel]"],
 		"promotions": ["间瞄射击"],
 		"attackSound": "shipguns"
 	},
@@ -921,7 +921,7 @@
 		"uniques": ["[70]% chance to intercept air attacks", "Can see invisible [潜艇] units",
 			"Can carry [4] [Flybomb] units", 
 			"[+100]% Strength <vs [潜艇] units>",
-			"Consumes [1] [石油]","Consumes [1] [钢铁]","Consumes [1] [铝]",
+			"Consumes [1] [Oil]","Consumes [1] [Steel]","Consumes [1] [Aluminum]",
 		],
 		"promotions": ["间瞄射击"],
 		"attackSound": "shipguns"
@@ -935,7 +935,7 @@
 		"cost": 830,
 		"requiredTech": "电子学",
 		"uniques": ["Cannot attack", "Can carry [6] [Aircraft] units",
-		"Consumes [1] [石油]","Consumes [2] [钢铁]"]
+		"Consumes [1] [Oil]","Consumes [2] [Steel]"]
 	//潜艇
 	},
 	{
@@ -947,7 +947,7 @@
 		"cost": 675,
 		"requiredTech": "无线电",
 		"upgradesTo": "核潜艇",
-		"uniques": ["[+75]% Strength <when attacking>", "Can only attack [Water] tiles","Consumes [1] [铝]","Can carry [1] [Flybomb] units",
+		"uniques": ["[+75]% Strength <when attacking>", "Can only attack [Water] tiles","Consumes [1] [Aluminum]","Can carry [1] [Flybomb] units",
 		"Can enter ice tiles", "Invisible to non-adjacent units", "Can see invisible [潜艇] units"],
 		"attackSound": "torpedo"
     },
@@ -960,7 +960,7 @@
 		"rangedStrength": 85,
 		"cost": 875,
 		"requiredTech": "远程通信",
-		"uniques": ["[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "[+1] Sight", "Can carry [1] [Flybomb] units","Consumes [1] [铀]","Consumes [1] [铝]",
+		"uniques": ["[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "[+1] Sight", "Can carry [1] [Flybomb] units","Consumes [1] [Uranium]","Consumes [1] [Aluminum]",
 		"Can enter ice tiles", "Invisible to non-adjacent units", "Can see invisible [潜艇] units"],
 		"attackSound": "torpedo"
 	//战斗机
@@ -975,7 +975,7 @@
 		"interceptRange": 5,
 		"cost": 650,
 		"requiredTech": "航空",
-		"requiredResource": "石油",
+		"requiredResource": "Oil",
 		"upgradesTo": "战斗机",
 		"obsoleteTech": "雷达",
 		"uniques": ["[50]% chance to intercept air attacks", "[+150]% Strength <vs [轰炸机] units>", "[+100]% Strength <vs [直升机] units>",
@@ -992,7 +992,7 @@
 		"interceptRange": 7,
 		"cost": 750,
 		"requiredTech": "雷达",
-		"requiredResource": "石油",
+		"requiredResource": "Oil",
 		"upgradesTo": "喷气式战斗机",
 		"uniques": ["[80]% chance to intercept air attacks", "[+150]% Strength <vs [轰炸机] units>", "[+100]% Strength <vs [直升机] units>",
 		"[+4] Sight", "Can see over obstacles", "Can perform Air Sweep"],
@@ -1008,8 +1008,8 @@
 		"interceptRange": 9,
 		"cost": 850,
 		"requiredTech": "激光",
-		"requiredResource": "铝",
-		"uniques": ["[90]% chance to intercept air attacks", "[+150]% Strength <vs [轰炸机] units>", "[+100]% Strength <vs [直升机] units>","Consumes [1] [石油]",
+		"requiredResource": "Aluminum",
+		"uniques": ["[90]% chance to intercept air attacks", "[+150]% Strength <vs [轰炸机] units>", "[+100]% Strength <vs [直升机] units>","Consumes [1] [Oil]",
 			"[+4] Sight", "Can see over obstacles", "Can perform Air Sweep"],
 		"attackSound": "jetgun"
 	//轰炸机
@@ -1023,7 +1023,7 @@
 		"range": 5,
 		"cost": 650,
 		"requiredTech": "航空",
-		"requiredResource": "石油",
+		"requiredResource": "Oil",
 		"upgradesTo": "轰炸机",
 		"obsoleteTech": "雷达",
 		"attackSound": "bombing"
@@ -1037,7 +1037,7 @@
 		"range": 7,
 		"cost": 750,
 		"requiredTech": "雷达",
-		"requiredResource": "石油",
+		"requiredResource": "Oil",
 		"upgradesTo": "隐形轰炸机",
 		"attackSound": "bombing"
 	},
@@ -1050,8 +1050,8 @@
 		"range": 20,
 		"cost": 900,
 		"requiredTech": "隐形技术",
-		"requiredResource": "铝",
-		"uniques": ["Damage taken from interception reduced by [50]%", "Cannot be carried by [海军运输单位] units", "[+4] Sight", "Can see over obstacles","Consumes [1] [石油]"],
+		"requiredResource": "Aluminum",
+		"uniques": ["Damage taken from interception reduced by [50]%", "Cannot be carried by [海军运输单位] units", "[+4] Sight", "Can see over obstacles","Consumes [1] [Oil]"],
 		"attackSound": "bombing"
 	//核武器、导弹
 	},
@@ -1064,7 +1064,7 @@
 		"range": 6,
 		"cost": 1300,
 		"requiredTech": "核裂变",
-		"requiredResource": "铀",
+		"requiredResource": "Uranium",
 		"uniques": ["Nuclear weapon of Strength [1]", 
 		"Only available <if [曼哈顿计划] is constructed>", 
 		"Self-destructs when attacking",
@@ -1082,7 +1082,7 @@
 		"requiredTech": "高等弹道学"
 		"uniques": [
 		"Blast radius [0]",
-		"Consumes [2] [混合燃料]",
+		"Consumes [2] [Mixed fuel]",
 		"Nuclear weapon of Strength [1]", 
 		"Self-destructs when attacking","Cannot be intercepted"
 		],
@@ -1098,7 +1098,7 @@
 		"cost": 2200,
 		"requiredTech": "高等弹道学",
 		"uniques": ["Nuclear weapon of Strength [2]", "Only available <if [曼哈顿计划] is constructed>",
-			"Blast radius [2]", "Consumes [2] [铀]","Consumes [1] [混合燃料]",
+			"Blast radius [2]", "Consumes [2] [Uranium]","Consumes [1] [Mixed fuel]",
 			"Self-destructs when attacking","Cannot be intercepted"
 			],
 		"attackSound": "nuke"
@@ -1110,8 +1110,8 @@
 		"movement": 2,
 		"cost": 1500,
 		"requiredTech": "高等弹道学",
-		"requiredResource": "铝",
-		"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [阿波罗计划] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [3] per Civilization","Consumes [3] [混合燃料]"]
+		"requiredResource": "Aluminum",
+		"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [阿波罗计划] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [3] per Civilization","Consumes [3] [Mixed fuel]"]
 	},
 	{
 		"name": "SS Cockpit",
@@ -1119,7 +1119,7 @@
 		"movement": 2,
 		"cost": 1500,
 		"requiredTech": "人造卫星",
-		"requiredResource": "铝",
+		"requiredResource": "Aluminum",
 		"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [阿波罗计划] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"]
 	},
 	{
@@ -1128,7 +1128,7 @@
 		"movement": 2,
 		"cost": 1500,
 		"requiredTech": "粒子物理",
-		"requiredResource": "铝",
+		"requiredResource": "Aluminum",
 		"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [阿波罗计划] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"]
 	},
 	{
@@ -1137,7 +1137,7 @@
 		"movement": 2,
 		"cost": 1500,
 		"requiredTech": "纳米技术",
-		"requiredResource": "铝",
+		"requiredResource": "Aluminum",
 		"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [阿波罗计划] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"]
 	//伟人
 	},

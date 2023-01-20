@@ -1,6 +1,6 @@
 [
 	{
-		"name": "农场",
+		"name": "Farm",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains"],
 		"food": 1,
 		"turnsToBuild": 7,
@@ -8,20 +8,20 @@
 		"uniques": ["Pillaging this improvement yields approximately [+20 Gold]","[+1 Food] <after discovering [化肥]>"]
     },
 	{
-		"name": "牧场",
+		"name": "Pasture",
 		"turnsToBuild": 8,
 		"techRequired": "畜牧业",
 		"uniques": ["Can only be built to improve a resource", "Pillaging this improvement yields approximately [+20 Gold]","[+1 Food] <after discovering [生物学]>"],
 	},
 	{
-		"name": "种植园",
+		"name": "Plantation",
 		"turnsToBuild": 6,
 		"gold": 1,
 		"techRequired": "农业",
 		"uniques": ["Can only be built to improve a resource", "Pillaging this improvement yields approximately [+20 Gold]","[+1 Food] <after discovering [化肥]>"],
 	},
 	{
-		"name": "矿井",
+		"name": "Mine",
 		"terrainsCanBeBuiltOn": ["Hill"],
 		"production": 1,
 		"turnsToBuild": 7,
@@ -29,28 +29,28 @@
 		"uniques": ["Pillaging this improvement yields approximately [+30 Gold]","[+1 Production] <after discovering [化学]>","Provides [1] [CO2]"]
 	},
 	{
-		"name": "锯木厂",
+		"name": "Lumber mill",
 		"terrainsCanBeBuiltOn": ["Forest","Jungle"],
 		"production": 1,
 		"turnsToBuild": 7,
 		"techRequired": "伐木业",
-		"uniques": ["Pillaging this improvement yields approximately [+30 Gold]","Provides [1] [煤] <after discovering [化学]>","[+1 Production] <after discovering [科学理论]>","Provides [1] [CO2]"],
+		"uniques": ["Pillaging this improvement yields approximately [+30 Gold]","Provides [1] [Coal] <after discovering [化学]>","[+1 Production] <after discovering [科学理论]>","Provides [1] [CO2]"],
 	},
 	{
-		"name": "猎场",
+		"name": "Camp",
 		"turnsToBuild": 7,
 		"techRequired": "畜牧业",
 		"uniques": ["Does not need removal of [Forest]","Does not need removal of [Jungle]","Can only be built to improve a resource", "Pillaging this improvement yields approximately [+20 Gold]",
 		"[+1 Gold] <after discovering [金融业]>"],
 	},
 	{
-		"name": "采石场",
+		"name": "Quarry",
 		"turnsToBuild": 8,
 		"techRequired": "采矿",
 		"uniques": ["Can only be built to improve a resource", "Pillaging this improvement yields approximately [+30 Gold]","[+1 Production] <after discovering [化学]>","Provides [1] [CO2]"],
 	},
 	{
-		"name": "温泉浴场",
+		"name": "Spa",
 		"terrainsCanBeBuiltOn": ["地热裂缝"],
 		"culture": 2,
 		"gold": 1,
@@ -60,14 +60,14 @@
 		"uniques": ["Does not need removal of [地热裂缝]", "Pillaging this improvement yields approximately [+30 Gold]","[+1 Gold] <after discovering [建筑学]>","[+1 Gold] <after discovering [考古学]>"]
 	},
 	{
-		"name": "渔船",
+		"name": "Fishing Boats",
 		"terrainsCanBeBuiltOn": ["Coast"],
 		"food": 1,
 		"techRequired": "帆船",
 		"uniques": ["[+1 Gold] <after discovering [罗盘]>","Can only be built to improve a resource", "Pillaging this improvement yields approximately [+20 Gold]"],
 	},
 	{
-		"name": "贸易站",
+		"name": "Trading post",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains"],
 		"gold": 1,
 		"turnsToBuild": 7,
@@ -77,24 +77,24 @@
 		"Pillaging this improvement yields approximately [+30 Gold]"],
 	},
 	{
-		"name": "油井",
+		"name": "Oil well",
 		"turnsToBuild": 9,
 		"techRequired": "生物学",
 		"uniques": ["Can only be built to improve a resource", "Cannot be built on [Water] tiles", "Pillaging this improvement yields approximately [+30 Gold]"],
 	},
 	{
-		"name": "海上钻探平台",
+		"name": "Offshore Platform",
 		"techRequired": "制冷",
 		"uniques": ["Can only be built to improve a resource", "Can only be built on [Water] tiles", "Pillaging this improvement yields approximately [+30 Gold]"],
 	},
 	{
-		"name": "天然气田",
+		"name": "Gas field",
 		"turnsToBuild": 1,
 		"techRequired": "生物学",
 		"uniques": ["Can only be built to improve a resource", "Cannot be built on [Water] tiles", "Pillaging this improvement yields approximately [+30 Gold]"],		
 	},
 	{
-		"name": "地热发电厂",
+		"name": "Geothermal power plant",
 		"science":2,
 		"production":3,
 		"food": -2,
@@ -102,12 +102,12 @@
 		"techRequired": "电学",
 		"terrainsCanBeBuiltOn": ["地热裂缝","火山土"],
 		"uniques": ["Pillaging this improvement yields approximately [+30 Gold]",
-		"Provides [2] [电力]",
+		"Provides [2] [Electricity]",
 		"[+1 Production] <after discovering [生态学]>"
 		"[+1 Production] <in [火山土] tiles>"]
 	},
 	{
-		"name": "太阳能农场",
+		"name": "Solar farm",
 		"science":1,	
 		"turnsToBuild": 1,
 		"techRequired": "生态学",
@@ -115,10 +115,10 @@
 		"uniques": ["Pillaging this improvement yields approximately [+30 Gold]",
 		"Cannot be built on [Bonus resource] tiles",
 		"Cannot be built on [Strategic resource] tiles",	
-		"Provides [1] [电力]",
+		"Provides [1] [Electricity]",
 		"Cannot be built on [Hill] tiles",
 		"Cannot be built on [火山土] tiles",
-	    "[+1 Science, +1 Production] for each adjacent [太阳能农场]"
+	    "[+1 Science, +1 Production] for each adjacent [Solar farm]"
 		]	
 	//道路
 	},
@@ -200,12 +200,12 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"production": 4,
 		"uniques": ["Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+30 Gold]",
-		"Provides [2] [铁] <after discovering [铁器]>",
-		"Provides [2] [钢铁] <after discovering [炼钢]>",
-		"Provides [2] [煤] <after discovering [炼钢]>",
-		"Provides [2] [硝石] <after discovering [化学]>",
-		"Provides [1] [铝] <after discovering [电学]>",
-		"Provides [1] [铝] <after discovering [生态学]>",
+		"Provides [2] [Iron] <after discovering [铁器]>",
+		"Provides [2] [Steel] <after discovering [炼钢]>",
+		"Provides [2] [Coal] <after discovering [炼钢]>",
+		"Provides [2] [Saltpeter] <after discovering [化学]>",
+		"Provides [1] [Aluminum] <after discovering [电学]>",
+		"Provides [1] [Aluminum] <after discovering [生态学]>",
 		"Provides [3] [CO2]"
 		]
 	},

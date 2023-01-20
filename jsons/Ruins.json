@@ -26,7 +26,7 @@
     {
         "name": "discover a lost technology",
         "notification": "We have discovered the lost technology of [techName] in the ruins!",
-        "uniques": ["[1] free random researchable Tech(s) from the [远古时代]"],
+        "uniques": ["[1] free random researchable Tech(s) from the [Ancient era]"],
 		"color": "#7f7fff"
     },
     {

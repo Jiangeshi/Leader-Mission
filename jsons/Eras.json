@@ -1,6 +1,6 @@
 [
     {
-        "name": "远古时代",
+        "name": "Ancient era",
         "researchAgreementCost": 150,
         "startingSettlerCount": 1, 
         "startingWorkerCount": 0,
@@ -14,7 +14,7 @@
         "iconRGB": [255, 87, 35]
     },
     {
-        "name": "古典时代",
+        "name": "Classical era",
         "researchAgreementCost": 150,
         "startingSettlerCount": 1,
         "startingWorkerCount": 1,
@@ -30,7 +30,7 @@
         "iconRGB": [233, 31, 99]
     },
     {
-        "name": "中古时代",
+        "name": "Medieval era",
         "researchAgreementCost": 250,
         "startingSettlerCount": 2,
         "startingWorkerCount": 1,
@@ -48,7 +48,7 @@
         "iconRGB": [157, 39, 176]
     },
     {
-        "name": "启蒙时代",
+        "name": "Renaissance era",
         "researchAgreementCost": 250,
         "startingSettlerCount": 2,
         "startingWorkerCount": 1,
@@ -90,7 +90,7 @@
         ]
     },
     {
-        "name": "电气时代",
+        "name": "Modern era",
         "researchAgreementCost": 350,
         "startingSettlerCount": 3,
         "startingWorkerCount": 2,
@@ -113,7 +113,7 @@
         "uniques": ["Every major Civilization gains a spy once a civilization enters this era"]
     },
     {
-        "name": "原子时代",
+        "name": "Atomic era",
         "researchAgreementCost": 400,
         "startingSettlerCount": 3,
         "startingWorkerCount": 2,
@@ -138,7 +138,7 @@
         ]
     },
     {
-        "name": "信息时代",
+        "name": "Information era",
         "researchAgreementCost": 400,
         "startingSettlerCount": 3,
         "startingWorkerCount": 3,
@@ -167,7 +167,7 @@
         ]
     },
     {
-        "name": "未来时代",
+        "name": "Future era",
         "researchAgreementCost": 400,
         "startingSettlerCount": 3,
         "startingWorkerCount": 3,

@@ -1,7 +1,7 @@
 [
     {
         "name": "Tradition",
-        "era": "远古时代",
+        "era": "Ancient era",
         "priorities": {
             "Neutral": 0,
             "制度": 10,
@@ -70,7 +70,7 @@
     },
     {
         "name": "Liberty",
-        "era": "远古时代",
+        "era": "Ancient era",
         "priorities": {
             "Neutral": 0,
             "制度": 0,
@@ -136,7 +136,7 @@
     },
     {
         "name": "Honor",
-        "era": "远古时代",
+        "era": "Ancient era",
         "priorities": {
             "Neutral": 0,
             "制度": 0,
@@ -208,7 +208,7 @@
     },
     {
         "name": "Piety",
-        "era": "古典时代",
+        "era": "Classical era",
         "priorities": {
             "Neutral": 0,
             "制度": 10,
@@ -271,7 +271,7 @@
     },
     {
         "name": "Patronage",
-        "era": "中古时代",
+        "era": "Medieval era",
         "priorities": {
             "Neutral": 0,
             "制度": 10,
@@ -336,7 +336,7 @@
     },
     {
         "name": "Commerce",
-        "era": "中古时代",
+        "era": "Medieval era",
         "priorities": {
             "Neutral": 0,
             "制度": 10,
@@ -398,7 +398,7 @@
             {
                 "name": "Commerce Complete",
                 "uniques": [
-                    "[+1 Gold] from every [贸易站]",
+                    "[+1 Gold] from every [Trading post]",
                     "[+100]% Gold from Great Merchant trade missions",
                     "May buy [Great Merchant] units for [1500] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
                 ]
@@ -407,7 +407,7 @@
     },
     {
         "name": "Rationalism",
-        "era": "启蒙时代",
+        "era": "Renaissance era",
         "priorities": {
             "Neutral": 0,
             "制度": 10,
@@ -440,7 +440,7 @@
             {
                 "name": "Free Thought",
                 "uniques": [
-                    "[+1 Science] from every [贸易站]",
+                    "[+1 Science] from every [Trading post]",
                     "[+17]% [Science] from every [大学]"
                 ],
                 "requires": ["Secularism"],
@@ -659,8 +659,8 @@
                 "requires": ["Socialism"],
                 "uniques": [
                     "[+2 Production] [in all cities]",
-                    "[+1 Production] from every [矿井]",
-                    "[+1 Production] from every [采石场]"
+                    "[+1 Production] from every [Mine]",
+                    "[+1 Production] from every [Quarry]"
                 ],
                 "row": 3,
                 "column": 3

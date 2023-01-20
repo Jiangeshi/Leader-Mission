@@ -205,7 +205,7 @@
 	军事单位维护费-70%，所有城市-15%金钱
 			" 
 		"uniques": ["Can spend Gold to annex or puppet a City-State that has been your ally for [5] turns.",
-		"Double quantity of [石油] produced","Double quantity of [煤] produced","Double quantity of [铁] produced","Double quantity of [铀] produced",
+		"Double quantity of [Oil] produced","Double quantity of [Coal] produced","Double quantity of [Iron] produced","Double quantity of [Uranium] produced",
 	    "Gain a free [法院] [in all cities]",
 	    "[-15]% [Gold] [in all cities]",
 	    "[-70]% maintenance costs <for [Military] units>"
@@ -315,46 +315,46 @@
         从古典时代起，每当进入一个新时代（包括古典时代）时，都可以选择一个免费的伟人，持续到原子时代
 			" 
 		"uniques": [
-        "[+5]% Strength <for [Military] units> <during the [远古时代]>"
-        "[+5]% [Production] <starting from the [远古时代]>"
-        "[+6]% [Culture] <starting from the [远古时代]>"
-        "[+6]% [Science] <starting from the [远古时代]>",
+        "[+5]% Strength <for [Military] units> <during the [Ancient era]>"
+        "[+5]% [Production] <starting from the [Ancient era]>"
+        "[+6]% [Culture] <starting from the [Ancient era]>"
+        "[+6]% [Science] <starting from the [Ancient era]>",
 
-        "[+10]% Strength <for [Military] units> <during the [古典时代]>"
-        "[+5]% [Production] <starting from the [古典时代]>"
-        "[+6]% [Culture] <starting from the [古典时代]>"
-        "[+6]% [Science] <starting from the [古典时代]>",
+        "[+10]% Strength <for [Military] units> <during the [Classical era]>"
+        "[+5]% [Production] <starting from the [Classical era]>"
+        "[+6]% [Culture] <starting from the [Classical era]>"
+        "[+6]% [Science] <starting from the [Classical era]>",
 
-        "[+13]% Strength <for [Military] units> <during the [中古时代]>"
-        "[+1]% [Production] <starting from the [中古时代]>"
-        "[+3]% [Culture] <starting from the [中古时代]>"
-        "[+3]% [Science] <starting from the [中古时代]>",
+        "[+13]% Strength <for [Military] units> <during the [Medieval era]>"
+        "[+1]% [Production] <starting from the [Medieval era]>"
+        "[+3]% [Culture] <starting from the [Medieval era]>"
+        "[+3]% [Science] <starting from the [Medieval era]>",
 
-        "[+16]% Strength <for [Military] units> <during the [启蒙时代]>"
-        "[+4]% [Production] <starting from the [启蒙时代]>"
-        "[+6]% [Culture] <starting from the [启蒙时代]>"
-        "[+6]% [Science] <starting from the [启蒙时代]>",
+        "[+16]% Strength <for [Military] units> <during the [Renaissance era]>"
+        "[+4]% [Production] <starting from the [Renaissance era]>"
+        "[+6]% [Culture] <starting from the [Renaissance era]>"
+        "[+6]% [Science] <starting from the [Renaissance era]>",
 
         "[+17]% Strength <for [Military] units> <during the [Industrial era]>"
         "[+1]% [Production] <starting from the [Industrial era]>"
         "[+2]% [Culture] <starting from the [Industrial era]>"
         "[+2]% [Science] <starting from the [Industrial era]>",
 
-        "[+21]% Strength <for [Military] units> <during the [电气时代]>"
-        "[+5]% [Production] <starting from the [电气时代]>"
-        "[+6]% [Culture] <starting from the [电气时代]>"
-        "[+6]% [Science] <starting from the [电气时代]>",
+        "[+21]% Strength <for [Military] units> <during the [Modern era]>"
+        "[+5]% [Production] <starting from the [Modern era]>"
+        "[+6]% [Culture] <starting from the [Modern era]>"
+        "[+6]% [Science] <starting from the [Modern era]>",
 
-        "[+25]% Strength <for [Military] units> <starting from the [原子时代]>"
-        "[+4]% [Production] <starting from the [原子时代]>"
-        "[+6]% [Culture] <starting from the [原子时代]>"
-        "[+6]% [Science] <starting from the [原子时代]>",
-        "Free Great Person <upon entering the [古典时代]>",
-        "Free Great Person <upon entering the [中古时代]>"
-        "Free Great Person <upon entering the [启蒙时代]>"
+        "[+25]% Strength <for [Military] units> <starting from the [Atomic era]>"
+        "[+4]% [Production] <starting from the [Atomic era]>"
+        "[+6]% [Culture] <starting from the [Atomic era]>"
+        "[+6]% [Science] <starting from the [Atomic era]>",
+        "Free Great Person <upon entering the [Classical era]>",
+        "Free Great Person <upon entering the [Medieval era]>"
+        "Free Great Person <upon entering the [Renaissance era]>"
         "Free Great Person <upon entering the [Industrial era]>",
-        "Free Great Person <upon entering the [电气时代]>"
-        "Free Great Person <upon entering the [原子时代]>"
+        "Free Great Person <upon entering the [Modern era]>"
+        "Free Great Person <upon entering the [Atomic era]>"
         ],
 		"cities": ["Beijing","Shanghai","Guangzhou","Nanjing","Xian","Chengdu","Hangzhou","Tianjin","Macau","Shandong",
 			"Kaifeng","Ningbo","Baoding","Yangzhou","Harbin","Chongqing","Luoyang","Kunming","Taipei","Shenyang",
@@ -451,7 +451,7 @@
 		"innerColor": [146,221,9],
 		"favoredReligion": "Islam",
 		"uniqueName": "赞颂真主",
-		"uniques": ["Receive free [Great Prophet] when you discover [宗教]","Earn [75]% of killed [Military] unit's [Strength] as [Science]","Earn [75]% of killed [Military] unit's [Strength] as [Faith]","Gain [10]-[30] [Faith] <upon declaring war with a major Civilization>"],
+		"uniques": ["Receive free [Great Prophet] when you discover [宗教]","Earn [70]% of killed [Military] unit's [Strength] as [Science]","Earn [70]% of killed [Military] unit's [Strength] as [Faith]","Gain [10]-[20] [Faith] <upon declaring war with a major Civilization>"],
 		"cities": ["Mecca","Medina","Damascus","Baghdad","Najran","Kufah","Basra","Khurasan","Anjar","Fustat",
 			"Aden","Yamama","Muscat","Mansura","Bukhara","Fez","Shiraz","Merw","Balkh","Mosul",
 			"Aydab","Bayt","Suhar","Taif","Hama","Tabuk","Sana'a","Shihr","Tripoli","Tunis","Kairouan","Algiers","Oran"],
@@ -1035,7 +1035,7 @@
 		"name": "Barbarians",
 		"outerColor": [0,0,0],
         "innerColor": [185,12,12],
-		"uniques": ["Starts with [狩猎]","[Military] units gain the [俘虏] promotion","Enables embarkation for land units <starting from the [远古时代]>", "Enables [All] units to enter ocean tiles <starting from the [远古时代]>", "Normal vision when embarked <for [All] units>"
+		"uniques": ["Starts with [狩猎]","[Military] units gain the [俘虏] promotion","Enables embarkation for land units <starting from the [Ancient era]>", "Enables [All] units to enter ocean tiles <starting from the [Ancient era]>", "Normal vision when embarked <for [All] units>"
 		]
     }
 ]
