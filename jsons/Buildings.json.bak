@@ -49,9 +49,8 @@
     },
 	{
 		"name": "水磨机",
-		"maintenance": 1,
+		"maintenance": 0,
 		"food": 1,
-		"production": 1,
 		"uniques": ["Must be on [River]",	"[+1 Production] from [Wheat] tiles [in this city]"],
 		"requiredTech": "农业"
     },
