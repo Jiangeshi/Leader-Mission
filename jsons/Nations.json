@@ -163,12 +163,14 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "爱国军",
 		"uniques": [
-		"Receive free [Great General] when you discover [光学]",
+		"Receive free [Scout] when you discover [信仰崇拜]",	
+		"Receive free [Warrior] when you discover [文字]",
+		"Receive free [Warrior] when you discover [历法]",
 		"Receive free [Spearman] when you discover [哲学]",	
-		"Receive free [Spearman] when you discover [骑术]",	
-		"Receive free [Composite Bowman] when you discover [建筑设计学]",	
-		"Receive free [Composite Bowman] when you discover [铁器]",
-		"[+20]% Strength <for [All] units> <vs cities> <when attacking>"]
+		"Receive free [Composite Bowman] when you discover [宗教]",	
+		"Receive free [Composite Bowman] when you discover [墓葬]",
+		"Receive free [Great General] when you discover [国家]",
+		"[+20]% Strength <for [All] units> <vs cities>"]
 		"cities": ["波哥大","麦德林","巴兰基亚","卡塔赫纳","卡利","莱蒂西亚","阿劳卡","通哈","马尼萨莱斯","弗洛伦西亚","约帕尔",
 			"波帕扬","巴耶杜帕尔","基布多","蒙特里亚","伊尼里达港","圣何塞","内瓦","里奥阿查","圣玛尔塔","比亚维森西奥","帕斯托","库库塔","莫科阿","亚美尼亚城","佩雷拉","圣安德列斯",
 			"布卡拉曼加","辛塞莱霍","伊瓦格","米图","卡雷尼奥港"],

@@ -1850,7 +1850,7 @@
 		"uniqueTo": "The Huns",
 		"uniques": ["Can only be built [in capital]",
 	    "[+1 Production] from [Pasture] tiles [in all cities]",
-	    "[+15]% Strength <for [Military] units> <when fighting in [Foreign Land] tiles>"
+	    "[+20]% Strength <for [Military] units> <when fighting in [Foreign Land] tiles>"
 	    "Receive triple Gold from Barbarian encampments and pillaging Cities"
         ]
     },
@@ -1863,10 +1863,10 @@
 		"science": 3,
 		"gold": 3,
 		"culture": 2,
-		"cityStrength": 1,
-		"cityHealth": 1,
+		"cityStrength": 2,
+		"cityHealth": 25,
 		"cost": 1,
-		"uniques": ["Indicates the capital city","Provides [7] [Saltpeter] <after discovering [化学]>","Provides [7] [Aluminum] <after discovering [电学]>","Provides [6] [Horses]"]
+		"uniques": ["Indicates the capital city","Provides [7] [Saltpeter] <after discovering [化学]>","Provides [7] [Aluminum] <after discovering [电学]>","Provides [10] [Horses]"]
     //波斯
 	},
 	{	

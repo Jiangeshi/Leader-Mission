@@ -277,7 +277,7 @@
 		"movement": 4,
 		"strength": 7,
 		"rangedStrength": 10,
-		"cost": 70,
+		"cost": 67,
 		"requiredTech": "骑术",
 		"upgradesTo": "骑士",
 		"obsoleteTech": "骑士制度",
