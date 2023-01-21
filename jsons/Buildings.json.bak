@@ -1,7 +1,6 @@
 [
 	// 远古时代
 	{
-	
 		"name": "宫殿",
 		"isNationalWonder": true,
 		"production": 3,
