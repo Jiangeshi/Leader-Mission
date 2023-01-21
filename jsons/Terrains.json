@@ -209,6 +209,7 @@
 		"occursOn": ["Plains","Grassland"],
 		"uniques": [
 			"Rough terrain", "Vegetation",
+			"Provides a one-time Production bonus to the closest city when cut down",
 			"Blocks line-of-sight from tiles at same elevation",
 			"[25]% Chance to be destroyed by nukes",
 			"[-1] to Fertility for Map Generation",
