@@ -179,7 +179,7 @@
 		"culture": 1,
 		"production": 1,
 		"turnsToBuild": 10,
-		"techRequired": "防御工事",
+		"techRequired": "建筑设计学",
 		"uniques": ["Gives a defensive bonus of [25]%","Does not need removal of [Forest]","Does not need removal of [Jungle]","Does not need removal of [Marsh]","Pillaging this improvement yields approximately [+30 Gold]"],
 	},
 	{
