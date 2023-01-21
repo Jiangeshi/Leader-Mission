@@ -58,7 +58,7 @@
     {
         "name": "智慧之神",
         "type": "Pantheon",
-        "uniques": ["[+2 Science] from every [World Wonder]"]
+        "uniques": ["[+2 Science] from every [Wonder]"]
     },
     {
         "name": "神明使者",
