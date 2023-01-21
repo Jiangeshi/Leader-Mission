@@ -14,7 +14,7 @@
 		"name": "Worker",
 		"unitType": "公民",
 		"movement": 2,
-		"cost": 65,
+		"cost": 60,
 		"uniques": ["Can build [Land] improvements on tiles"]
 	},
 	{
@@ -23,7 +23,7 @@
 		"movement": 3,
 		"uniqueTo": "苏联",
 		"replaces": "Worker",
-		"cost": 60,
+		"cost": 55,
 		"uniques": ["Can build [Land] improvements on tiles","Can transform to [Warrior]"]	
 	},
 	{

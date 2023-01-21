@@ -35,7 +35,6 @@
 	{
 		"name": "土窑",
 		"production": 2,
-		"happiness":1,
 		"requiredTech": "制陶",
 	},
 	{
@@ -63,13 +62,13 @@
 	},
 	{
 		"name": "日晷",
-		"maintenance": 0,
+		"maintenance": 1,
 		"science": 2,
 		"requiredTech": "历法"
 	},
 	{
 		"name": "集市",
-		"uniques": ["[+1 Gold] per [3] population [in this city]"],
+		"uniques": ["[+1 Gold] per [2] population [in this city]"],
 		"requiredTech": "历法"	
 	},
 	{
@@ -83,14 +82,14 @@
 	{
 		"name": "马戏团",
   "requiredNearbyImprovedResources": ["Ivory","Horses"],
-		"happiness": 1,
-		"gold": 2,
+		"happiness": 2,
+		"gold": 1,
 		"requiredTech": "畜牧业"
 	},
 	{
 		"name": "城墙",
-		"cityStrength": 5,
-		"cityHealth": 35,
+		"cityStrength": 3,
+		"cityHealth": 50,
 		"requiredTech": "石工术",
 		"uniques": ["Destroyed when the city is captured"]
 	},
@@ -188,7 +187,7 @@
 		"name": "宙斯神像",
 		"culture": 1,
 		"isWonder": true,
-		"uniques": ["[+20]% Strength <for [All] units> <vs cities> <when attacking>"],
+		"uniques": ["[+20]% Strength <for [All] units> <vs cities>"],
 		"requiredTech": "青铜器",
 		"quote": "克罗诺斯之子言罢，弯颈点动浓黑的眉毛，涂着仙液的发绺从众神之王永生的头颅上顺势泼泻，摇撼着巍峨的奥林匹斯山脉—— 荷马：《伊利亚特》"
 	},
@@ -198,7 +197,7 @@
 		"isWonder": true,
 		"greatPersonPoints": {"Great Artist": 1},
 		"requiredTech": "建筑设计学",
-		"uniques":["[2] free [Spearman] units appear","[2] free [Archer] units appear","Cannot be hurried"]
+		"uniques":["[2] free [Spearman] units appear","[2] free [Composite Bowman] units appear","Cannot be hurried"]
 		"quote": "视卒如婴儿，故可以与之赴深溪；视卒如爱子，故可与之俱死—— 孙子"
 	},
 	{
@@ -216,7 +215,7 @@
 		"culture": 5,
 		"gold": 5,
 		"happiness": 5,
-		"cost":200,
+		"cost":180,
 	    "maintenance": 0,
 		"requiredTech": "国家"
 		"isNationalWonder": true,
@@ -1631,8 +1630,8 @@
 		"cost":1,
 		"uniqueTo": "Russia",
 		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [文明领袖—彼得大帝]>",
-		"[+15]% Strength <for [Land] units> <when fighting in [Tundra] tiles>",	
-		"[+15]% Strength <for [Land] units> <when fighting in [Plains] tiles>",
+		"[+20]% Strength <for [Land] units> <when fighting in [Tundra] tiles>",	
+		"[+20]% Strength <for [Land] units> <when fighting in [Plains] tiles>",
 		"[+1 Culture] from all [Faith] buildings"]
 	},
 	{	
@@ -1642,8 +1641,8 @@
 		"uniqueTo": "Russia",
 		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [文明领袖—叶卡捷琳娜大帝]>",
 		"[+2 Science] from each Trade Route",
-		"[+20]% [Science] from Trade Routes"
-		"[+20]% [Gold] from Trade Routes"]
+		"[+15]% [Science] from Trade Routes"
+		"[+15]% [Gold] from Trade Routes"]
 	},
 	{
 		"name": "区域—拉夫拉修道院",
