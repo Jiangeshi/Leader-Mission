@@ -10,13 +10,6 @@ BuildingIcons/宫殿
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/王庭
-  rotate: false
-  xy: 1516, 1574
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
 BuildingIcons/祭坛
   rotate: false
   xy: 1084, 932
@@ -2463,6 +2456,15 @@ BuildingIcons/甘多小学
   orig: 100, 100
   offset: 0, 0
   index: -1   
+
+ImperialCourt.png
+BuildingIcons/Imperial Court
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
 
 大庄园.png
 BuildingIcons/大庄园

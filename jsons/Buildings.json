@@ -1855,7 +1855,7 @@
         ]
     },
 	{	
-    	"name": "王庭",
+    	"name": "Imperial Court",
     	"uniqueTo": "The Huns",
     	"replaces": "宫殿",
 		"isNationalWonder": true,
