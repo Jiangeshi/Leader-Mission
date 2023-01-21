@@ -27,16 +27,16 @@
 				"quote": "人们将先人供奉，以求得到已死之人的庇佑对，人们崇拜万物，是以万物皆有灵"
 			},
 			{
-				"name": "农业",
+				"name": "制陶",
 				"row": 5,
 				"prerequisites": ["钻木取火"],
-				"quote": "农业的产生是人类得以人口几何式爆炸的关键，人类驯化了小麦，同时小麦也驯化了人类"			
+				"quote": "陶器使人们拥有了更多的工具去烹饪、存放食物，当然，陶器在除了吃的方面还有其他用途"
 			},
 			{
-				"name": "制陶",
+				"name": "农业",
 				"row": 6,
 				"prerequisites": ["钻木取火"],
-				"quote": "陶器使人们拥有了更多的工具去烹饪、存放食物，当然，陶器在除了吃的方面还有其他用途"
+				"quote": "农业的产生是人类得以人口几何式爆炸的关键，人类驯化了小麦，同时小麦也驯化了人类"		
 		    },
 			{
 				"name": "采矿",
@@ -64,23 +64,29 @@
 				"row": 2,
 				"prerequisites": ["信仰崇拜"],
 				"quote": "文字是人类历史上最伟大的发明，有了文字，才有了历史，知识得以传递，信仰得以传播，文明得以延续"	
+	        },
+			{
+				"name": "墓葬",
+				"row": 4,
+				"prerequisites": ["信仰崇拜"],
+				"quote": "人们为死去之人建造其或宏伟或渺小的坟墓，期待他们能庇佑自己，或有朝一日能再次醒来"
 			},
 			{
 				"name": "历法",
-				"row": 4,
-				"prerequisites": ["信仰崇拜"],
+				"row": 5,
+				"prerequisites": ["制陶"],
 				"quote": "每个文明都依靠不同的参照物建立了各自的历法，历法的诞生让农业的发展更为迅速，也有了时间的参照"
 			},
 			{
 				"name": "畜牧业",
-				"row": 5,
+				"row": 6,
 				"prerequisites": ["农业"],
 				"quote": "畜牧业的诞生，让人们能够不需外出进行危险的狩猎便可获得大量的肉制品，以畜牧业而非农业为主的游牧民族也由此诞生"
 			},
 			{
 				"name": "伐木业",
-				"row": 6,
-				"prerequisites": ["制陶"],
+				"row": 7,
+				"prerequisites": ["采矿"],
 				"quote": "发家致富先砍树，不过，过度的砍伐也并不是一件好事"
 		    }
 		]
@@ -94,44 +100,38 @@
 		"techs": [
 			{
 			    "name": "哲学",
-				"row": 1,
+				"row": 2,
 				"prerequisites": ["文字"],
 				"quote": "没有的正确的思想指导，是难以成事的"
 			},
 			{
 				"name": "宗教",
-				"row": 2,
-				"prerequisites": ["文字"],
-				"quote": "宗教的力量是无穷的，它可以让完全不相识的人因为信仰同一个宗教而共事"
-		    },
-			{
-				"name": "墓葬",
 				"row": 3,
-				"prerequisites": ["文字","历法"],
-				"quote": "人们为死去之人建造其或宏伟或渺小的坟墓，期待他们能庇佑自己，或有朝一日能再次醒来"
+				"prerequisites": ["文字","墓葬"],
+				"quote": "宗教的力量是无穷的，它可以让完全不相识的人因为信仰同一个宗教而共事"
 			},
 			{
 				"name": "帆船",
 				"row": 4,
-				"prerequisites": ["历法"],
+				"prerequisites": ["墓葬","历法"],
 				"quote": "'虽然在探索大海的路上，会牺牲不少人，但我们依然勇往直前"
 			},
 			{
 				"name": "The Wheel",
 				"row": 6,
-				"prerequisites": ["伐木业"],
+				"prerequisites": ["畜牧业","历法"],
 				"quote": "轮子大大节省了人们的能量消耗，让人们可以以极低的代价运送物资"
 			},
 			{
 				"name": "石工术",
 				"row": 7,
-				"prerequisites": ["采矿"],
+				"prerequisites": ["伐木业"],
 				"quote": "石头建筑并不意味着破旧低俗，相反，很多伟大的建筑都是石头建成的"
 			},
 			{
 				"name": "青铜器",
 				"row": 8,
-				"prerequisites": ["采矿","狩猎"],
+				"prerequisites": ["伐木业","狩猎"],
 				"quote": "对青铜的运用是人类历史上十分重要的一步，从此人们对金属的运用愈发熟练"
 			}
 		]
@@ -146,7 +146,7 @@
 			{
 				"name": "国家",
 				"row": 2,
-				"prerequisites": ["哲学","宗教","墓葬"],
+				"prerequisites": ["哲学","宗教","帆船"],
 				"uniques":[
 				"从野蛮部落步入文明国家，走向正途",
 				"Free Social Policy <if no other Civilization has researched this>"]
@@ -161,13 +161,13 @@
 			},
 			{
 				"name": "骑术",
-				"row": 5,
-				"prerequisites": ["畜牧业"],
+				"row": 6,
+				"prerequisites": ["The Wheel"],
 				"quote": "骑兵绝对是冷兵器时代的大杀器，当然面对枪兵除外"
 			},
 			{
 				"name": "建筑设计学",
-				"row": 6,
+				"row": 7,
 				"prerequisites": ["石工术","The Wheel"],
 				"quote": "更宏伟的建筑！这简直就是神迹"
 			},
@@ -199,17 +199,17 @@
 				"quote": "美妙的言语荡漾在耳旁，他们演绎世事，他们歌颂美好"	
 			},
 			{
-				"name": "工程学",
-				"row": 5,
-				"uniques": ["Improves movement speed on roads","Roads connect tiles across rivers"],
-				"prerequisites": ["光学","骑术","建筑设计学"],
-				"quote": "基础建设永远是一个国家想要富强的重要途径"
-			},
-			{
 				"name": "经济学",
 				"row": 6,
-				"prerequisites": ["建筑设计学","骑术","光学"],
+				"prerequisites": ["骑术","光学"],
 				"quote": "货币是一个国家的金融主权最好的体现"	
+			},
+			{
+				"name": "工程学",
+				"row": 7,
+				"uniques": ["Improves movement speed on roads","Roads connect tiles across rivers"],
+				"prerequisites": ["骑术","建筑设计学"],
+				"quote": "基础建设永远是一个国家想要富强的重要途径"	
 			}
 		]
 	},
@@ -229,7 +229,7 @@
 			},
 			{
 				"name": "行会",
-				"row": 7,
+				"row": 6,
 				"prerequisites": ["经济学"],
 				"uniques": ["Enables conversion of city production to [Gold]"],
 				"quote": "'商人组建了行会，贸易变得更加频繁"	
@@ -237,7 +237,7 @@
 			{
 				"name": "军事学",
 				"row": 8,
-				"prerequisites": ["铁器","经济学"],
+				"prerequisites": ["铁器","工程学"],
 				"quote": "正规军队的诞生标志着战争来到了更高的阶段"
 			}
 	    ]
@@ -258,7 +258,7 @@
 			{
 				"name": "工业伊始",
 				"row": 5,
-				"prerequisites": ["工程学"],
+				"prerequisites": ["行会"],
 				"quote": "生产力的发展是人类社会发展的基石，没有足够的生产力任何事物都是空谈"
 			},
 			{
