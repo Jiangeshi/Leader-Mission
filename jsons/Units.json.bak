@@ -251,7 +251,7 @@
 		"requiredResource": "Horses",
 		"upgradesTo": "骑士",
 		"obsoleteTech": "骑士制度",
-		"uniques": ["No defensive terrain bonus","[+10]% Strength <vs [Military] units> <when defending>"],
+		"uniques": ["No defensive terrain bonus","Rough terrain penalty","[+10]% Strength <vs [Military] units> <when defending>"],
 		"attackSound": "arrow"
 	},
 	{
