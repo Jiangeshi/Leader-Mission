@@ -1630,9 +1630,9 @@
 		"cost":1,
 		"uniqueTo": "Russia",
 		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [文明领袖—彼得大帝]>",
-		"[+20]% Strength <for [Land] units> <when fighting in [Tundra] tiles>",	
-		"[+20]% Strength <for [Land] units> <when fighting in [Plains] tiles>",
-		"[+1 Culture] from all [Faith] buildings"]
+		"[+15]% Strength <for [Land] units> <when fighting in [Tundra] tiles>",	
+		"[+15]% Strength <for [Land] units> <when fighting in [Plains] tiles>",
+	    "[+1 Production] from [Tundra] tiles without [Hill] [in all cities]"]
 	},
 	{	
         "name": "文明领袖—彼得大帝",
