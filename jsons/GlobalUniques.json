@@ -18,6 +18,9 @@
         "[-50]% growth [in all cities] <when at war>",
         "[-10]% [Gold] <when at war>",
     //我们爱戴领袖日
+        "[+5]% [Production] [in all cities] <during We Love The King Day>",
+        "[+5]% [Science] [in all cities] <during We Love The King Day>",
+        "[+5]% [Culture] [in all cities] <during We Love The King Day>",
     //时代特性
         "[+2 Happiness, +1 Science, +1 Culture] <during the [Ancient era]>"
         "[+15]% [Culture] <during the [Classical era]>"
