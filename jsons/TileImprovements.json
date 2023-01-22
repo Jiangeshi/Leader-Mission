@@ -12,13 +12,13 @@
     },
 	{
 		"name": "Pasture",
-		"turnsToBuild": 8,
+		"turnsToBuild": 7,
 		"techRequired": "畜牧业",
 		"uniques": ["Can only be built to improve a resource", "Pillaging this improvement yields approximately [+20 Gold]","[+1 Food] <after discovering [生物学]>"],
 	},
 	{
 		"name": "Plantation",
-		"turnsToBuild": 6,
+		"turnsToBuild": 7,
 		"gold": 1,
 		"techRequired": "农业",
 		"uniques": ["Can only be built to improve a resource", "Pillaging this improvement yields approximately [+20 Gold]","[+1 Food] <after discovering [化肥]>"],
@@ -48,7 +48,7 @@
 	},
 	{
 		"name": "Quarry",
-		"turnsToBuild": 8,
+		"turnsToBuild": 7,
 		"techRequired": "采矿",
 		"uniques": ["Can only be built to improve a resource", "Pillaging this improvement yields approximately [+30 Gold]","[+1 Production] <after discovering [化学]>","Provides [1] [CO2]"],
 	},
@@ -91,7 +91,7 @@
 	},
 	{
 		"name": "Gas field",
-		"turnsToBuild": 1,
+		"turnsToBuild": 9,
 		"techRequired": "生物学",
 		"uniques": ["Can only be built to improve a resource", "Cannot be built on [Water] tiles", "Pillaging this improvement yields approximately [+30 Gold]"],		
 	},
@@ -111,7 +111,7 @@
 	{
 		"name": "Solar farm",
 		"science":1,	
-		"turnsToBuild": 1,
+		"turnsToBuild": 9,
 		"techRequired": "生态学",
 		"terrainsCanBeBuiltOn": ["Desert"],
 		"uniques": ["Pillaging this improvement yields approximately [+30 Gold]",
@@ -180,7 +180,7 @@
 		"terrainsCanBeBuiltOn": ["Forest","Jungle","Marsh"],
 		"culture": 1,
 		"production": 1,
-		"turnsToBuild": 10,
+		"turnsToBuild": 8,
 		"techRequired": "建筑设计学",
 		"uniques": ["Gives a defensive bonus of [25]%","Does not need removal of [Forest]","Does not need removal of [Jungle]","Does not need removal of [Marsh]","Pillaging this improvement yields approximately [+30 Gold]"],
 	},
