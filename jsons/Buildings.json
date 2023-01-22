@@ -264,7 +264,7 @@
 	{
 		"name": "竞技场",
 		"maintenance": 1,
-		"happiness": 2,
+		"happiness": 3,
 		"requiredTech": "建筑设计学"
 	},
 	{
@@ -272,7 +272,7 @@
 		"maintenance": 1,
 		"culture": 1,
 		"requiredTech": "哲学"
-		"percentStatBonus": {"culture": 15},
+		"percentStatBonus": {"culture": 10},
 	},
 	{
 		"name": "铁匠铺",
