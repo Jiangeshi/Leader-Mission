@@ -28,11 +28,12 @@
 		"outerColor": [0,0,0],
 		"favoredReligion": "Islam",
 		"uniqueName": "帝国坟场",
-		"uniqueText": "所有位于我方军事单位相邻崎岖地块中的敌方军事单位-20%战斗力; 敌方的所有军事单位必须在你的土地上额外花费1点移动力，骑兵与装甲部队需额外花费1移动力
+		"uniqueText": "所有位于我方军事单位相邻崎岖地块中的敌方军事单位-15%战斗力; 敌方的所有军事单位必须在你的土地上额外花费1点移动力，骑兵与装甲部队需额外花费1移动力
 		" 
 		"uniques": ["Enemy [Military] units must spend [1] extra movement points when inside your territory",
 		"Enemy [骑兵] units must spend [1] extra movement points when inside your territory",
 		"Enemy [装甲部队] units must spend [1] extra movement points when inside your territory",
+		"[Military] units gain the [山地游击] promotion"
 		]
 		"cities": ["喀布尔","坎大哈","塔卢坎","昆都士","瑙堡","巴格兰","马扎里沙里夫","恰赫恰兰","马哈茂德埃拉基","萨尔普勒","巴米扬",
 			"卡得","迈马纳","加兹尼","赫拉特","霍斯特","拉什卡尔加","希比尔甘","法扎巴德","迈丹","米特拉姆","普勒阿拉姆","贾拉拉巴德","扎兰季","塔林科特","加德兹","沙兰",
