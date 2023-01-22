@@ -443,7 +443,7 @@
    	},
 	{
 		"name": "法院",
-		"maintenance": 0,
+		"maintenance": 2,
 		"cost": 100,
 		"uniques": ["Remove extra unhappiness from annexed cities",
 		"[-15]% Unhappiness from [Population] [in this city] <after discovering [立法]>",
