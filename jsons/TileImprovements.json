@@ -55,9 +55,8 @@
 	{
 		"name": "Spa",
 		"terrainsCanBeBuiltOn": ["地热裂缝"],
-		"culture": 2,
-		"gold": 1,
-		"science": -1,
+		"gold": 2,
+		"science": 1,
 		"turnsToBuild": 7,
 		"techRequired": "建筑设计学",
 		"uniques": ["Does not need removal of [地热裂缝]", "Pillaging this improvement yields approximately [+30 Gold]","[+1 Gold] <after discovering [建筑学]>","[+1 Gold] <after discovering [考古学]>"]
