@@ -1781,8 +1781,7 @@
 		"cost":1,
 		"uniqueTo": "苏联",
 		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [文明领袖—列宁]>",
-	    "[+10]% Production when constructing [Military] units [in all cities] <when at war>",
-	    "[+10]% Production when constructing [Production] buildings [in all cities]",
+	    "[+15]% Production when constructing [Production] buildings [in all cities]",
 	"[1] free [Settler] units appear"
 		]
 	},

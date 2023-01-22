@@ -18,7 +18,7 @@
                 "name": "Aristocracy",
                 "uniques": [
                     "[+15]% Production when constructing [All] wonders [in all cities]",
-                    "[+1 Happiness] per [10] population [in all cities]"
+                    "[+1 Happiness] per [7] population [in all cities]"
                 ],
                 "row": 1,
                 "column": 1
@@ -26,7 +26,7 @@
             {
                 "name": "Legalism",
                 "uniques": [
-                    "Provides the cheapest [Culture] building in your first [4] cities for free"
+                    "Provides the cheapest [Culture] building in your first [5] cities for free"
                 ],
                 "row": 1,
                 "column": 3
@@ -35,7 +35,7 @@
                 "name": "Oligarchy",
                 "uniques": [
                     "Units in cities cost no Maintenance",
-                    "[+35]% Strength for cities <with a garrison> <when attacking>"
+                    "[+50]% Strength for cities <with a garrison> <when attacking>"
                 ],
                 "row": 1,
                 "column": 5
@@ -43,7 +43,7 @@
             {
                 "name": "Landed Elite",
                 "uniques": [
-                    "[+10]% growth [in capital]",
+                    "[+25]% growth [in capital]",
                     "[+2 Food] [in capital]"
                 ],
                 "requires": ["Legalism"],
@@ -63,7 +63,7 @@
                 "name": "Tradition Complete",
                 "uniques": [
                     "[+15]% growth [in all cities]",
-                    "Provides a [引水渠] in your first [4] cities for free"
+                    "Provides a [District—Infrastructure Center] in your first [5] cities for free"
                 ]
             }
         ]
@@ -217,15 +217,14 @@
             "飞天": 0
         },
         "uniques": [
-            "[+100]% Production when constructing [祭坛] buildings [in all cities]",
-            "[+100]% Production when constructing [寺庙] buildings [in all cities]",
+            "[+33]% Production when constructing [Faith] buildings [in all cities]",
         ],
         "policies": [
             {
                 "name": "Organized Religion",
                 "uniques": [
                     "[+1 Faith] from every [祭坛]",
-                    "[+1 Faith] from every [寺庙]"
+                    "[+2 Faith] from every [寺庙]"
                 ],
                 "row": 1,
                 "column": 2
@@ -238,7 +237,7 @@
             },
             {
                 "name": "Theocracy",
-                "uniques": ["[+10]% [Gold] from every [District—Religious Cente]"],
+                "uniques": ["[+15]% [Gold] from every [District—Religious Cente]"],
                 "requires": ["Organized Religion"],
                 "row": 2,
                 "column": 1
@@ -264,7 +263,7 @@
                 "name": "Piety Complete",
                 "uniques": [
                     "[Faith] cost of purchasing items in cities [-20]%",
-                    "[+2 Gold, +2 Culture] from every [District—Religious Cente]"
+                    "[+3 Gold, +3 Culture] from every [District—Religious Cente]"
                 ]
             }
         ]
