@@ -369,7 +369,7 @@ Leader Mission 模组中的胜利方式有：
 	},
 	{
 		"name": "摩索拉斯王陵墓",
-		"Faith": 5,
+		"faith": 5,
 		"greatPersonPoints": {"Great Merchant": 1},
 		"isWonder": true,
 		"uniques": ["Provides a sum of gold each time you spend a Great Person",
