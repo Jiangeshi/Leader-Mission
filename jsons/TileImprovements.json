@@ -189,19 +189,19 @@
 		"name": "Academy",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"science": 6,
-		"uniques": ["Great Improvement","Removes removable features when built", "Pillaging this improvement yields approximately [+30 Gold]","[+2 Science] <after discovering [科学理论]>","[+2 Science] <after discovering [原子理论]>"]
+		"uniques": ["Great Improvement","Removes removable features when built", "Pillaging this improvement yields approximately [+50 Gold]","[+2 Science] <after discovering [科学理论]>","[+2 Science] <after discovering [原子理论]>"]
 	},
 	{
 		"name": "Landmark",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"culture": 6,
-		"uniques": ["Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+30 Gold]"]
+		"uniques": ["Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+50 Gold]"]
 	},
 	{
 		"name": "Manufactory",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"production": 4,
-		"uniques": ["Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+30 Gold]",
+		"uniques": ["Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+50 Gold]",
 		"Provides [2] [Iron] <after discovering [铁器]>",
 		"Provides [2] [Steel] <after discovering [炼钢]>",
 		"Provides [2] [Coal] <after discovering [炼钢]>",
@@ -215,14 +215,14 @@
 		"name": "Customs house",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"gold": 6,
-		"uniques": ["Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+30 Gold]",
+		"uniques": ["Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+50 Gold]",
 		"[+1 Gold] <after discovering [金融业]>"]
 	},
 	{
 		"name": "Holy site",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"faith": 3,
-		"uniques": ["Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+30 Gold]"]
+		"uniques": ["Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+50 Gold]"]
 	},
 	{
 		"name": "Citadel",
