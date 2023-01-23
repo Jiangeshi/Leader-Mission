@@ -1,7 +1,7 @@
 [
 	{
 		"name": "Farm",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains"],
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains","火山土"],
 		"food": 1,
 		"turnsToBuild": 7,
 		"techRequired": "农业",

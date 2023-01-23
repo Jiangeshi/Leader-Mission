@@ -310,52 +310,46 @@
 		"uniqueText": "
         中华文明在每个时代开始时都会获得战斗力、产能、文化、科研上的加成，并且加成效果可持续叠加，叠加持续至原子时代，最高（在原子/信息时代）可获得：
         +15%产能
-        +25%战斗力
-        +35%文化
-        +35%科研
+        +15%战斗力
+        +25%文化
+        +25%科研
         从古典时代起，每当进入一个新时代（包括古典时代）时，都可以选择一个免费的伟人，持续到原子时代
 			" 
 		"uniques": [
-        "[+5]% Strength <for [Military] units> <during the [Ancient era]>"
-        "[+2]% [Production] <starting from the [Ancient era]>"
-        "[+6]% [Culture] <starting from the [Ancient era]>"
-        "[+6]% [Science] <starting from the [Ancient era]>",
-
-        "[+10]% Strength <for [Military] units> <during the [Classical era]>"
-        "[+3]% [Production] <starting from the [Classical era]>"
-        "[+6]% [Culture] <starting from the [Classical era]>"
-        "[+6]% [Science] <starting from the [Classical era]>",
-
-        "[+13]% Strength <for [Military] units> <during the [Medieval era]>"
-        "[+1]% [Production] <starting from the [Medieval era]>"
-        "[+3]% [Culture] <starting from the [Medieval era]>"
+        "[+2]% Strength <for [Military] units> <during the [Ancient era]>",
+        "[+2]% [Production] <starting from the [Ancient era]>",
+        "[+3]% [Culture] <starting from the [Ancient era]>",
+        "[+3]% [Science] <starting from the [Ancient era]>",
+        "[+5]% Strength <for [Military] units> <during the [Classical era]>",
+        "[+3]% [Production] <starting from the [Classical era]>",
+        "[+4]% [Culture] <starting from the [Classical era]>",
+        "[+4]% [Science] <starting from the [Classical era]>",
+        "[+6]% Strength <for [Military] units> <during the [Medieval era]>",
+        "[+1]% [Production] <starting from the [Medieval era]>",
+        "[+3]% [Culture] <starting from the [Medieval era]>",
         "[+3]% [Science] <starting from the [Medieval era]>",
-
-        "[+16]% Strength <for [Military] units> <during the [Renaissance era]>"
-        "[+3]% [Production] <starting from the [Renaissance era]>"
-        "[+6]% [Culture] <starting from the [Renaissance era]>"
-        "[+6]% [Science] <starting from the [Renaissance era]>",
-
-        "[+17]% Strength <for [Military] units> <during the [Industrial era]>"
-        "[+1]% [Production] <starting from the [Industrial era]>"
-        "[+2]% [Culture] <starting from the [Industrial era]>"
-        "[+2]% [Science] <starting from the [Industrial era]>",
-
-        "[+21]% Strength <for [Military] units> <during the [Modern era]>"
-        "[+2]% [Production] <starting from the [Modern era]>"
-        "[+6]% [Culture] <starting from the [Modern era]>"
-        "[+6]% [Science] <starting from the [Modern era]>",
-
-        "[+25]% Strength <for [Military] units> <starting from the [Atomic era]>"
-        "[+3]% [Production] <starting from the [Atomic era]>"
-        "[+6]% [Culture] <starting from the [Atomic era]>"
-        "[+6]% [Science] <starting from the [Atomic era]>",
+        "[+9]% Strength <for [Military] units> <during the [Renaissance era]>",
+        "[+3]% [Production] <starting from the [Renaissance era]>",
+        "[+4]% [Culture] <starting from the [Renaissance era]>",
+        "[+4]% [Science] <starting from the [Renaissance era]>",
+        "[+10]% Strength <for [Military] units> <during the [Industrial era]>",
+        "[+1]% [Production] <starting from the [Industrial era]>",
+        "[+3]% [Culture] <starting from the [Industrial era]>",
+        "[+3]% [Science] <starting from the [Industrial era]>",
+        "[+12]% Strength <for [Military] units> <during the [Modern era]>",
+        "[+2]% [Production] <starting from the [Modern era]>",
+        "[+4]% [Culture] <starting from the [Modern era]>",
+        "[+4]% [Science] <starting from the [Modern era]>",
+        "[+15]% Strength <for [Military] units> <starting from the [Atomic era]>",
+        "[+3]% [Production] <starting from the [Atomic era]>",
+        "[+4]% [Culture] <starting from the [Atomic era]>",
+        "[+4]% [Science] <starting from the [Atomic era]>",
         "Free Great Person <upon entering the [Classical era]>",
-        "Free Great Person <upon entering the [Medieval era]>"
-        "Free Great Person <upon entering the [Renaissance era]>"
+        "Free Great Person <upon entering the [Medieval era]>",
+        "Free Great Person <upon entering the [Renaissance era]>",
         "Free Great Person <upon entering the [Industrial era]>",
-        "Free Great Person <upon entering the [Modern era]>"
-        "Free Great Person <upon entering the [Atomic era]>"
+        "Free Great Person <upon entering the [Modern era]>",
+        "Free Great Person <upon entering the [Atomic era]>",
         ],
 		"cities": ["Beijing","Shanghai","Guangzhou","Nanjing","Xian","Chengdu","Hangzhou","Tianjin","Macau","Shandong",
 			"Kaifeng","Ningbo","Baoding","Yangzhou","Harbin","Chongqing","Luoyang","Kunming","Taipei","Shenyang",

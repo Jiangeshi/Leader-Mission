@@ -1326,6 +1326,10 @@
 	{
 		"name": "俘虏", // 蛮族
 		"uniques": ["May capture killed [Military] units"]
+	},
+	{
+		"name": "蛮族归顺", // 秦始皇
+		"uniques": ["May capture killed [{Melee} {Barbarian}] units"]	
 	}
 ]
     

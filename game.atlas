@@ -3808,6 +3808,15 @@ UnitPromotionIcons/俘虏
   offset: 0, 0
   index: -1     
           
+俘虏.png
+UnitPromotionIcons/蛮族归顺
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1              
+          
 装备精良.png
 UnitPromotionIcons/装备精良
   rotate: false

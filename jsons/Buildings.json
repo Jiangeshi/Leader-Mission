@@ -1715,9 +1715,8 @@ Leader Mission 模组中的胜利方式有：
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "中华",
-		"uniques": ["Can only be built [in capital]","Only available <in cities without a [文明领袖—汉武帝]>","Only available <in cities without a [文明领袖—伟大领袖]>" ,
-		"[+1 Culture] from every [Wonder]", 
-		"[+20]% Production when constructing [All] wonders [in all cities]"]
+		"uniques": ["Can only be built [in capital]","Only available <in cities without a [文明领袖—汉武帝]>","Only available <in cities without a [文明领袖—伟大领袖]>",
+		"All newly-trained [步兵] units [in all cities] receive the [蛮族归顺] promotion <starting from the [Classical era]>",]
 		},
 		{
         "name": "文明领袖—伟大领袖",
@@ -1727,9 +1726,9 @@ Leader Mission 模组中的胜利方式有：
 		"uniques": ["Can only be built [in capital]","Only available <in cities without a [文明领袖—汉武帝]>","Only available <in cities without a [文明领袖—秦始皇]>",
 	    "[+1] Movement <for [步兵] units>",
 	    "[+1] Movement <for [公民] units>",
-	    "[+20]% Production when constructing [步兵] units [in all cities]",
-	    "[+20]% Production when constructing [公民] units [in all cities]",
-	    "[+2 Production, +1 Happiness] from every [District—Industrial Centre]",   
+	    "[+10]% Production when constructing [步兵] units [in all cities]",
+	    "[+10]% Production when constructing [公民] units [in all cities]",
+	    "[+1 Production, +1 Happiness] from every [District—Industrial Centre]",   
 	]
 	},
 	{
