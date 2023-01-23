@@ -127,12 +127,13 @@
 	{
 		"name": "Road",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"turnsToBuild": 4,
+		"turnsToBuild": 6,
 		"techRequired": "The Wheel",
 		"uniques": ["Can be built outside your borders", "Costs [1] [Gold] per turn when in your territory"]
 	},
 	{
 		"name": "Railroad",
+		"turnsToBuild": 6,
 		"terrainsCanBeBuiltOn": ["Land"],
 		"techRequired": "铁路",
 		"uniques": ["Can be built outside your borders", "Costs [2] [Gold] per turn when in your territory"],
@@ -188,13 +189,13 @@
 	//伟人建筑
 		"name": "Academy",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"science": 6,
+		"science": 5,
 		"uniques": ["Great Improvement","Removes removable features when built", "Pillaging this improvement yields approximately [+50 Gold]","[+2 Science] <after discovering [科学理论]>","[+2 Science] <after discovering [原子理论]>"]
 	},
 	{
 		"name": "Landmark",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"culture": 6,
+		"culture": 5,
 		"uniques": ["Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+50 Gold]"]
 	},
 	{

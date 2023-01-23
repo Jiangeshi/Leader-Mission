@@ -242,7 +242,7 @@
 		"innerColor": [255,255,255],
 		"favoredReligion": "Christianity",
 		"uniqueName": "哲学之光",
-		"uniques": ["[+35]% Great Person generation [in all cities]","[+120 Culture, +120 Science] whenever a Great Person is expended"],
+		"uniques": ["[+30]% Great Person generation [in all cities]","[+130 Culture, +130 Science] whenever a Great Person is expended"],
 		"cities": ["Athens","Sparta","Corinth","Argos","Knossos","Mycenae","Pharsalos","Ephesus","Halicarnassus","Rhodes",
 			"Eretria","Pergamon","Miletos","Megara","Phocaea","Sicyon","Tiryns","Samos","Mytilene","Chios",
 			"Paros","Elis","Syracuse","Herakleia","Gortyn","Chalkis","Pylos","Pella","Naxos","Sicyon",

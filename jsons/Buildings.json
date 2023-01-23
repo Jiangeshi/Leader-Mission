@@ -309,8 +309,8 @@ Leader Mission 模组中的胜利方式有：
 	},
 	{
 		"name": "竞技场",
-		"maintenance": 1,
-		"happiness": 3,
+		"happiness": 2,
+		"gold": 1,
 		"requiredTech": "建筑设计学"
 	},
 	{
@@ -1823,7 +1823,7 @@ Leader Mission 模组中的胜利方式有：
 		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [文明领袖—彼得大帝]>",
 		"[+15]% Strength <for [Land] units> <when fighting in [Tundra] tiles>",	
 		"[+15]% Strength <for [Land] units> <when fighting in [Plains] tiles>",
-		"[+1 Production] from all [Faith] buildings"]
+		"[+1 Production] from all [Faith] buildings <while the empire is happy>"]
 	},
 	{	
         "name": "文明领袖—彼得大帝",
