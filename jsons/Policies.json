@@ -44,7 +44,7 @@
             {
                 "name": "Landed Elite",
                 "uniques": [
-                    "[+50]% growth [in capital]",
+                    "[+33]% growth [in capital]",
                     "[+2 Food] [in capital]"
                 ],
                 "requires": ["Legalism"],
