@@ -1716,7 +1716,7 @@ Leader Mission 模组中的胜利方式有：
 		"cost":1,
 		"uniqueTo": "中华",
 		"uniques": ["Can only be built [in capital]","Only available <in cities without a [文明领袖—汉武帝]>","Only available <in cities without a [文明领袖—伟大领袖]>",
-		"All newly-trained [步兵] units [in all cities] receive the [蛮族归顺] promotion <starting from the [Classical era]>",]
+		"All newly-trained [Melee] units [in all cities] receive the [蛮族归顺] promotion <starting from the [Classical era]>","[+25]% Strength <vs [Barbarian] units> <for [Military] units>"]
 		},
 		{
         "name": "文明领袖—伟大领袖",
@@ -2101,7 +2101,7 @@ Leader Mission 模组中的胜利方式有：
 		"cost":1,
 		"uniqueTo": "Egypt",
 		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [文明领袖—纳赛尔]>",
-		"[+30]% Production when constructing [Faith] buildings [in all cities]",
+		"[+33]% Production when constructing [Faith] buildings [in all cities]",
 		"[+15]% Strength <for [Military] units> <when fighting in [Desert] tiles>",
 		"[+15]% Strength <for [Military] units> <when fighting in [Plains] tiles>"
 		]	
@@ -2113,7 +2113,7 @@ Leader Mission 模组中的胜利方式有：
 		"uniqueTo": "Egypt",
 		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [文明领袖—拉美西斯二世]>",
 	    "Militaristic City-States grant units [3] times as fast when you are at war with a common nation",
-	    "Resting point for Influence with City-States is increased by [50]"
+	    "Resting point for Influence with City-States is increased by [30]"
 	    "City-State Influence recovers at twice the normal rate"
 		]
 	},
