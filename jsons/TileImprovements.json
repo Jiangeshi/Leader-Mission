@@ -7,7 +7,7 @@
 		"techRequired": "农业",
 		"uniques": ["Can also be built on tiles adjacent to fresh water",
 	    "Pillaging this improvement yields approximately [+20 Gold]",
-	    "[+2 Food] from [火山土] tiles",
+		"[+2 Food] <in [火山土] tiles>",
 		"[+1 Food] <after discovering [化肥]>"]
     },
 	{
