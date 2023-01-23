@@ -1889,7 +1889,6 @@ Leader Mission 模组中的胜利方式有：
 		"uniques": ["Can only be built [in capital]",
 		"[+1 Food] [in all cities]",
 		"[+15]% [Food] [in all cities]",
-	    "[-1 Happiness, +1 Gold] from every specialist [in all cities]"
 	]	   
 	},
 	{

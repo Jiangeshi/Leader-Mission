@@ -39,5 +39,8 @@
         "[+10]% [Culture] <during the [Information era]>"
     //外交
     "Gain [50]-[100] [Gold] <upon declaring friendship>"
+    //爆铺惩罚
+    "Unhappiness from number of Cities doubled",
+    "[+2 Happiness] [in all cities]"
     ]
 }
