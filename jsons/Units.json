@@ -538,7 +538,6 @@
 		"requiredResource": "Horses",
 		"upgradesTo": "近代骑兵",
 		"obsoleteTech": "军事科学",
-		"promotions": ["[Camel Archer] ability"],
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[+10]% Strength <vs [抗骑兵单位] units> <when attacking>"],
 		"attackSound": "arrow"	
 	},
@@ -567,7 +566,7 @@
 		"replaces": "骑士",
 		"uniqueTo": "Russia",
 		"movement": 4,
-		"strength": 20,
+		"strength": 22,
 		"cost": 175,
 		"requiredTech": "骑士制度",
 		"obsoleteTech": "军事科学",

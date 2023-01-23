@@ -1275,10 +1275,6 @@
 		"uniques": ["[+10]% Strength <when defending>"]	
 	},
 	{
-		"name": "[Camel Archer] ability",
-		"uniques": ["[+33]% Strength <vs [骑兵] units>"]	
-	},
-	{
 		"name": "[Persian Immortal] ability",
 		"uniques": ["Unit will heal every turn, even if it performs an action"]	
 	},
