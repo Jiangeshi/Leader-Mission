@@ -5,17 +5,17 @@
     //宗教
         "name": "沙漠民俗",
         "type": "Pantheon",
-        "uniques": ["[+1 Faith, +1 Food] from every [Desert]","[-1 Food] from every [Oasis]","[-1 Food] from every [Flood plains]"]
+        "uniques": ["[+2 Faith] from every [Desert]"]
     },
     {
         "name": "极光之舞",
         "type": "Pantheon",
-        "uniques": ["[+1 Faith, +1 Food] from every [Tundra]"]
+        "uniques": ["[+2 Faith] from every [Tundra]"]
     },
     {
         "name": "圣道",
         "type": "Pantheon",
-        "uniques": ["[+1 Faith] from every [Jungle]","[+1 Faith] from every [Forest]"]
+        "uniques": ["[+2 Faith] from every [Jungle]","[+2 Faith] from every [Forest]"]
     //文化
     },
     {
