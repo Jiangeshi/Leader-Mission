@@ -11,14 +11,14 @@
         },
         "uniques": [
             "[+3 Culture] [in capital]",
-            "[-25]% Culture cost of natural border growth [in all cities]"
+            "[-66]% Culture cost of natural border growth [in capital]"
         ],
         "policies": [
             {
                 "name": "Aristocracy",
                 "uniques": [
                     "[+15]% Production when constructing [All] wonders [in all cities]",
-                    "[+1 Happiness] per [7] population [in all cities]"
+                    "[+1 Happiness] per [8] population [in all cities]"
                 ],
                 "row": 1,
                 "column": 1
@@ -26,7 +26,8 @@
             {
                 "name": "Legalism",
                 "uniques": [
-                    "Provides the cheapest [Culture] building in your first [5] cities for free"
+                    "Provides the cheapest [Culture] building in your first [2] cities for free",
+                    "Provides the cheapest [Production] building in your first [2] cities for free",
                 ],
                 "row": 1,
                 "column": 3
@@ -43,7 +44,7 @@
             {
                 "name": "Landed Elite",
                 "uniques": [
-                    "[+25]% growth [in capital]",
+                    "[+50]% growth [in capital]",
                     "[+2 Food] [in capital]"
                 ],
                 "requires": ["Legalism"],
