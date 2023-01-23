@@ -137,7 +137,7 @@
     {
         "name": "解放神学",
         "type": "Founder",
-        "uniques": ["[+3 Production] <in cities with at least [7] [Population]>"]
+        "uniques": ["[+3 Production] <in cities with at least [6] [Population]>"]
     },
     {
         "name": "民间宗教",

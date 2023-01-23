@@ -268,8 +268,7 @@ Leader Mission 模组中的胜利方式有：
 	{
 		"name": "坟墓",
 		"maintenance": 1,
-		"culture": 1,
-		"faith":1,
+		"culture": 2,
 		"requiredTech": "墓葬"
 		"uniques": ["Destroyed when the city is captured"]
 	},
@@ -1794,7 +1793,7 @@ Leader Mission 模组中的胜利方式有：
 		"cost":1,
 		"uniqueTo": "Rome",
 		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [文明领袖—屋大维]>",
-		"[+10]% Strength <for [Military] units> <when adjacent to a [Military] unit>",
+		"[+15]% Strength <for [Military] units> <when adjacent to a [Military] unit>",
 		"[Great General] is earned [50]% faster"]
 	},
 	{	
@@ -1838,13 +1837,13 @@ Leader Mission 模组中的胜利方式有：
 	},
 	{
 		"name": "区域—拉夫拉修道院",
-		"faith": 3,
-		"production": 2,
+		"faith": 4,
+		"production": 1,
 	    "maintenance": 3,
 	    "uniqueTo": "Russia",
 		"replaces": "District—Religious Cente",
 		"requiredTech": "宗教"
-		"uniques":["Cannot be purchased","Unsellable","Destroyed when the city is captured","[+10]% Natural religion spread [in this city]"]
+		"uniques":["Cannot be purchased","Unsellable","Destroyed when the city is captured","[+15]% Natural religion spread [in this city]"]
 	//苏联
 	},
 	{	

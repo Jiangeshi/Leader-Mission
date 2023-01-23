@@ -129,13 +129,13 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"turnsToBuild": 4,
 		"techRequired": "The Wheel",
-		"uniques": ["Can be built outside your borders", "Costs [1] gold per turn when in your territory"]
+		"uniques": ["Can be built outside your borders", "Costs [1] [Gold] per turn when in your territory"]
 	},
 	{
 		"name": "Railroad",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"techRequired": "铁路",
-		"uniques": ["Can be built outside your borders", "Costs [2] gold per turn when in your territory"],
+		"uniques": ["Can be built outside your borders", "Costs [2] [Gold] per turn when in your territory"],
     //移除
     },
 	{

@@ -591,7 +591,7 @@
 		"upgradesTo": "近代骑兵",
 		"obsoleteTech": "军事科学",
 		"requiredResource": "Horses",
-		"uniques": ["Can move after attacking","No defensive terrain bonus",
+		"uniques": ["Can move after attacking",
 		        "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", 
         "[+10]% Strength <vs [Ranged] units> <when defending>"],
         "promotions": ["[甲胄骑兵] ability"],

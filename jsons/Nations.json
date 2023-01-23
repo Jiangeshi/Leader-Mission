@@ -415,7 +415,7 @@
 		"innerColor": [238,201,9],
 		"favoredReligion": "Christianity",
 		"uniqueName": "条条大路通罗马",
-		"uniques": ["[+20]% Production towards any buildings that already exist in the Capital",
+		"uniques": ["[+17]% Production towards any buildings that already exist in the Capital",
 	    "[+1 Culture, +1 Gold] [in all cities connected to capital]"],
 		"cities": ["Rome","Antium","Cumae","Neapolis","Ravenna","Arretium","Mediolanum","Arpinum","Circei","Setia",
 			"Satricum","Ardea","Ostia","Velitrae","Viroconium","Tarentum","Brundisium","Caesaraugusta","Caesarea","Palmyra",
