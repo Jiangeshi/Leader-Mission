@@ -3,7 +3,7 @@
 		"columnNumber": 0,
 		"era": "Ancient era",
 		"techCost": 20,
-		"buildingCost": 35,
+		"buildingCost": 40,
 		"techs": [
 			{
 				"name": "钻木取火",
@@ -17,7 +17,7 @@
 		"columnNumber": 1,
 		"era": "Ancient era",
 		"techCost": 30,
-		"buildingCost": 50,
+		"buildingCost": 53,
 		"wonderCost": 190,
 		"techs": [
 			{
@@ -56,7 +56,7 @@
 		"columnNumber": 2,
 		"era": "Ancient era",
 		"techCost": 55,
-		"buildingCost": 60,
+		"buildingCost": 65,
 		"wonderCost": 190,
 		"techs": [
 			{
@@ -95,7 +95,7 @@
 		"columnNumber": 3,
 		"era": "Ancient era",
 		"techCost": 70,
-		"buildingCost": 70,
+		"buildingCost": 75,
 		"wonderCost": 190,
 		"techs": [
 			{
