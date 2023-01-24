@@ -1317,7 +1317,7 @@
 	},
 	{
 	    "name": "山地游击" //阿富汗
-	    "uniques":["[-15]% Strength for enemy [Military] units in adjacent [Rough terrain] tiles"]
+	    "uniques":["[-20]% Strength for enemy [Military] units in adjacent [Rough terrain] tiles"]
 	},
 	{
 		"name": "俘虏", // 蛮族
