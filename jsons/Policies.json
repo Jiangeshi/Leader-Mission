@@ -11,7 +11,7 @@
         },
         "uniques": [
             "[+3 Culture] [in capital]",
-            "[-66]% Culture cost of natural border growth [in capital]"
+            "[-50]% Culture cost of natural border growth [in capital]"
         ],
         "policies": [
             {
