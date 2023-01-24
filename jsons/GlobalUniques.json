@@ -39,7 +39,9 @@
     //外交
     "Gain [50]-[100] [Gold] <upon declaring friendship>"
     //爆铺惩罚
-    "Unhappiness from number of Cities doubled",
-    "[+2 Happiness] [in all cities]"
+    "[-1 Happiness] [in all cities]",
+    "[-15]% Unhappiness from [Population] [in all cities]"
+    //海军统帅相关
+    "Enables [Great Admiral] units to enter ocean tiles"
     ]
 }

@@ -146,6 +146,10 @@ Leader Mission 模组中的全球效果有：
         
 外交效果：
 当签订友谊宣言时获得50～100金钱
+
+爆铺惩罚：
+每座城市-1快乐
+来自人口的不快乐-20%
 		"
 		"Unbuildable"]
 	},
@@ -162,7 +166,7 @@ Leader Mission 模组中的胜利方式有：
 在游戏内到达设定的回合时获得最高的文明积分。
 		
 宗教胜利：
-使自己创立的宗教成为世界所有主流文明的主要宗教。
+建造圣殿并使自己创立的宗教成为世界所有主流文明的主要宗教。
 主要宗教判定（猜测）：该文明信仰你宗教的城市是否大于一半。
 如果创立宗教的文明已经灭亡了，但是宗教成为了世界主流宗教，该文明并不会触发宗教胜利。
 		
@@ -840,7 +844,7 @@ Leader Mission 模组中的胜利方式有：
 	{
 	//区域建筑：港口
 		"name": "District—Shipping Center",
-		//"greatPersonPoints": {"海军统帅": 1},
+		"greatPersonPoints": {"Great Admiral": 3},
 		"production": 1,
 		"food": 1,
 	    "maintenance": 3,
@@ -858,6 +862,7 @@ Leader Mission 模组中的胜利方式有：
 	{
 		"name": "灯塔",
 		"maintenance": 2,
+		"greatPersonPoints": {"Great Admiral": 1},
 		"uniques": ["Must be next to [Coast]", "[+1 Food] from [Ocean] tiles [in this city]",
 			"[+1 Food] from [Coast] tiles [in this city]", "[+1 Food] from [Fish] tiles [in this city]"],
 		"requiredTech": "光学"	
@@ -867,6 +872,7 @@ Leader Mission 模组中的胜利方式有：
 		"name": "渔港",
 		"food" : 2,
 		"maintenance": 1,
+		"greatPersonPoints": {"Great Admiral": 1},
 		"uniques": ["[+1 Gold] from [Water resource] tiles [in this city]",
 		"Must be next to [Coast]"],
 		"requiredTech": "罗盘",
@@ -876,6 +882,7 @@ Leader Mission 模组中的胜利方式有：
 		"name": "海运港口",
 		"maintenance": 3,
 		"production": 2,
+		"greatPersonPoints": {"Great Admiral": 1},
 		"requiredResource": "Steel"
 		"requiredBuilding": "District—Shipping Center",
 		"uniques": ["[+1 Production, +1 Gold] from [Water resource] tiles [in this city]","Provides [2] [CO2]"],
@@ -883,7 +890,7 @@ Leader Mission 模组中的胜利方式有：
 	},
 	{
 		"name": "军港",
-		//"greatPersonPoints": {"海军统帅": 1},	
+		"greatPersonPoints": {"Great Admiral": 3},
 		"maintenance": 4,
 		"requiredBuilding": "District—Shipping Center",
 		"uniques": ["Consumes [2] [Steel]",
@@ -896,7 +903,7 @@ Leader Mission 模组中的胜利方式有：
 		"gold": 2,
 		"isWonder": true,
 		"uniques": ["Must be next to [Coast]", "[+1] Movement <for [{Military} {Water}] units>","Cannot be hurried",
-			"[+1] Sight <for [{Military} {Water}] units>", "Gain a free [灯塔] [in this city]",//"[1] free [海军统帅] units appear"
+			"[+1] Sight <for [{Military} {Water}] units>", "Gain a free [灯塔] [in this city]","[1] free [Great Admiral] units appear"
 			],
 		"requiredTech": "光学",
 		"requiredBuilding": "District—Shipping Center", 
@@ -1853,7 +1860,7 @@ Leader Mission 模组中的胜利方式有：
 		"cost":1,
 		"uniqueTo": "苏联",
 		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [文明领袖—斯大林]>",
-		"[+1 Culture] from all [Production] buildings"
+		"[+1 Happiness] from all [Production] buildings"
 	"[1] free [Settler] units appear"
 		]
 	},
@@ -1863,7 +1870,7 @@ Leader Mission 模组中的胜利方式有：
 		"cost":1,
 		"uniqueTo": "苏联",
 		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [文明领袖—列宁]>",
-	    "[+15]% Production when constructing [Production] buildings [in all cities]",
+	    "[+20]% Production when constructing [Production] buildings [in all cities]",
 	"[1] free [Settler] units appear"
 		]
 	},
@@ -2112,7 +2119,7 @@ Leader Mission 模组中的胜利方式有：
 		"cost":1,
 		"uniqueTo": "Egypt",
 		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [文明领袖—拉美西斯二世]>",
-	    "Militaristic City-States grant units [3] times as fast when you are at war with a common nation",
+	    "Militaristic City-States grant units [2] times as fast when you are at war with a common nation",
 	    "Resting point for Influence with City-States is increased by [30]"
 	    "City-State Influence recovers at twice the normal rate"
 		]

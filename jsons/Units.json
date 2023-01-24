@@ -29,7 +29,7 @@
 	{
 		"name": "Work Boats",
 		"unitType": "水上公民",
-		"movement": 4,
+		"movement": 3,
 		"cost": 35,
 		"requiredTech": "帆船",
 		"uniques": ["Cannot enter ocean tiles <before discovering [天文学]>", 
@@ -805,7 +805,7 @@
 		"unitType": "远程海军",
 		"uniqueTo": "Byzantium",
 		"replaces": "三列桨战船",
-		"movement": 4,
+		"movement": 3,
 		"strength": 8,
 		"rangedStrength": 9,
 		"cost": 51,
@@ -830,7 +830,7 @@
 	{
 		"name": "私掠舰",
 		"unitType": "近程海军",
-		"movement": 5,
+		"movement": 4,
 		"strength": 25,
 		"cost": 215,
 		"requiredTech": "航海术",
@@ -856,7 +856,7 @@
 	{
 		"name": "驱逐舰",
 		"unitType": "近程海军",
-		"movement": 6,
+		"movement": 4,
 		"strength": 60,
 		"interceptRange": 2,
 		"cost": 720,
@@ -883,7 +883,7 @@
 	{
 		"name": "护卫舰",
 		"unitType": "远程海军",
-		"movement": 5,
+		"movement": 3,
 		"strength": 25,
 		"rangedStrength": 28,
 		"cost": 255,
@@ -896,7 +896,7 @@
 	{
 		"name": "战列舰",
 		"unitType": "远程海军",
-		"movement": 5,
+		"movement": 4,
 		"strength": 50,
 		"rangedStrength": 60,
 		"range": 4,
@@ -910,7 +910,7 @@
 	{
 		"name": "导弹巡洋舰",
 		"unitType": "远程海军",
-		"movement": 7,
+		"movement": 5,
 		"strength": 80,
 		"rangedStrength": 100,
 		"range": 4,
@@ -940,7 +940,7 @@
 	{
 		"name": "潜艇",
 		"unitType": "潜艇",
-		"movement": 5,
+		"movement": 4,
 		"strength": 35,
 		"rangedStrength": 60,
 		"cost": 655,
@@ -953,7 +953,7 @@
 	{
 		"name": "核潜艇",
 		"unitType": "潜艇",
-		"movement": 6,
+		"movement": 5,
 		"strength": 50,
 		"range": 3,
 		"rangedStrength": 85,
@@ -1155,7 +1155,7 @@
 	{
 		"name": "Great Merchant",
 		"unitType": "公民",
-		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [20] Influence",
+		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [60] Influence",
 			"Can construct [Customs house]", "Great Person - [Gold]", "Unbuildable", "Uncapturable"],
 		"movement": 2
 	},
@@ -1180,10 +1180,28 @@
 	{
 		"name": "Great General",
 		"unitType": "公民",
-		"uniques": ["Can start an [8]-turn golden age", "[+15]% Strength bonus for [Land] units within [2] tiles", "Can construct [Citadel]",
-			"Great Person - [War]", 
-			"All adjacent units heal [+5] HP when healing",
-			"Unbuildable", "Uncapturable"],
+		"uniques": [
+		"Can start an [8]-turn golden age", 
+		"[+15]% Strength bonus for [Land] units within [2] tiles", 
+		"Can construct [Citadel]",
+		"Great Person - [War]", 
+		"All adjacent units heal [+10] HP when healing",
+		"Unbuildable", 
+		"Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Great Admiral",
+		"unitType": "公民",
+		"uniques": [
+		"Can start an [8]-turn golden age", 
+		"[+15]% Strength bonus for [Water] units within [3] tiles", 
+		"Great Person - [Great Admiral]", 
+		"Can undertake a trade mission with City-State, giving a large sum of gold and [60] Influence",
+		"Normal vision when embarked",
+		"Double movement in [Coast]"
+		"Unbuildable", 
+		"Uncapturable"],
 		"movement": 2
 	//宗教单位
 	},

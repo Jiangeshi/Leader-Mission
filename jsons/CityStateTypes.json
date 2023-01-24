@@ -1,17 +1,71 @@
 [
     {
-        "name": "Cultured",
+        "name": "NewYork",
         "friendBonusUniques": [
-            "[+3 Culture] <before the [Medieval era]>",
-            "[+6 Culture] <starting from the [Medieval era]> <before the [Industrial era]>",
-            "[+13 Culture] <starting from the [Industrial era]>"
+        "[+10]% [Gold] <before the [Atomic era]>",
+        "[+15]% [Gold] <starting from the [Atomic era]>"
         ],
         "allyBonusUniques": [
-            "[+6 Culture] <before the [Medieval era]>",
-            "[+12 Culture] <starting from the [Medieval era]> <before the [Industrial era]>",
-            "[+26 Culture] <starting from the [Industrial era]>"
+        "[+15]% [Gold] <before the [Atomic era]>",
+        "[+20]% [Gold] <starting from the [Atomic era]>"
+        "Provides military units every ≈[20] turns <when at war>"
         ],
-        "color": [139, 96, 255]
+        "color": [255, 255, 255]
+    },
+    {
+        "name": "London",
+        "friendBonusUniques": [
+        "[+1 Gold] from each Trade Route",
+        "[+10]% [Gold] from Trade Routes"
+        ],
+        "allyBonusUniques": [
+        "[+2 Gold] from each Trade Route",
+	    "[+15]% [Gold] from Trade Routes"
+	    "Provides military units every ≈[20] turns <when at war>"
+        ],
+        "color": [255, 255, 255]
+    },
+    {
+        "name": "Brussels",
+        "friendBonusUniques": [
+        "[+1 Culture] [in all cities] <when not at war>"
+        "[+10]% [Culture] [in capital] <when not at war>",
+        ],
+        "allyBonusUniques": [
+        "[+2 Culture] [in all cities] <when not at war>",
+        "[+20]% [Culture] [in capital] <when not at war>",
+	    "Provides military units every ≈[20] turns <when at war>"
+        ],
+        "color": [255, 255, 255]
+    },
+    {
+        "name": "Jerusalem",
+        "friendBonusUniques": [
+        "[+3 Faith] <before the [Medieval era]>",
+        "[+6 Faith] <starting from the [Medieval era]>"
+        "Provides military units every ≈[20] turns"
+        ],
+        "allyBonusUniques": [
+        "[+6 Faith] <before the [Medieval era]>",
+        "[+9 Faith] <starting from the [Medieval era]>"
+	    "Provides military units every ≈[10] turns"
+        ],
+        "color": [255, 255, 255]
+    },
+    {
+        "name": "Duisburg",
+        "friendBonusUniques": [
+        "[+1 Production] from every [District—Industrial Centre] <before the [Atomic era]>",
+        "[+1 Happiness] from every [District—Industrial Centre] <starting from the [Atomic era]>",
+        "[+5]% Production when constructing [Production] buildings [in all cities]",
+        ],
+        "allyBonusUniques": [
+        "[+2 Production] from every [District—Industrial Centre] <before the [Atomic era]>",
+        "[+2 Happiness] from every [District—Industrial Centre] <starting from the [Atomic era]>",
+        "[+10]% Production when constructing [Production] buildings [in all cities]",
+        "Provides military units every ≈[20] turns <when at war>"
+        ],
+        "color": [255, 255, 255]
     },
     {
         "name": "Maritime",

@@ -58,7 +58,7 @@
     {
         "name": "智慧之神",
         "type": "Pantheon",
-        "uniques": ["[+2 Science] from every [World Wonder]"]
+        "uniques": ["[+3 Science] from every [World Wonder]"]
     },
     {
         "name": "神明使者",
@@ -69,7 +69,7 @@
     {
         "name": "河神",
         "type": "Pantheon",
-        "uniques": ["[+1 Production, +1 Gold, +1 Happiness] in cities on [River] tiles"]
+        "uniques": ["[+1 Production, +1 Gold, +1 Faith] in cities on [River] tiles"]
     },
     {
         "name": "泛滥之神",
@@ -127,7 +127,7 @@
     {
         "name": "一神论",
         "type": "Founder",
-        "uniques": ["[+3 Faith] [in all cities]"]
+        "uniques": ["[+4 Faith, -1 Happiness] [in all cities]"]
     },
     {
         "name": "多神论",
@@ -142,7 +142,7 @@
     {
         "name": "民间宗教",
         "type": "Founder",
-        "uniques": ["[+2 Faith] from every [District—Cultural Center]", "[+1 Gold] from every [District—Religious Cente]"]
+        "uniques": ["[+2 Faith] from every [District—Cultural Center]", "[+1 Food, +1 Gold] from every [District—Religious Cente]"]
     },
     {
         "name": "普世渡人",
@@ -157,7 +157,7 @@
     {
         "name": "宗教融合",
         "type": "Founder",
-        "uniques": ["When spreading religion to a city, gain [15] times the amount of followers of other religions as [Science]"]
+        "uniques": ["When spreading religion to a city, gain [20] times the amount of followers of other religions as [Science]"]
     },
     {
         "name": "宗教统一",
@@ -258,7 +258,7 @@
     {
         "name": "香火祭祀",
         "type": "Follower",
-        "uniques": ["[+1 Faith] from every [坟墓]","[+2 Faith] from every [祭坛]"]    
+        "uniques": ["[+1 Faith] from every [坟墓]","[+1 Faith] from every [祭坛]"]    
     },
     {
         "name": "合唱圣歌",

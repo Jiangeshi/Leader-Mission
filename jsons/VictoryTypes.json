@@ -18,8 +18,8 @@
     {
         "name": "宗教",
         "hiddenInVictoryScreen": false,
-        "victoryScreenHeader": "成为世界上所有文明的主流宗教来获取胜利!",
-        "milestones": ["Become the world religion"],
+        "victoryScreenHeader": "建造圣殿并成为世界上所有文明的主流宗教来获取胜利!",
+        "milestones": ["Build [圣殿]","Become the world religion"],
         "victoryString": "您通过成为世界上唯一的信仰获得了胜利！信仰更强大的事物是一项人类的基本诉求，而现在，所有人都会为您祈祷，您的一言一行就代表了一切，那些虚伪的信仰在您的光辉下已被人遗忘，灰飞烟灭。",
         "defeatString": "您被打败了。虽然您的文明曾经被许多敌人所征服，但是您的人民永不放弃，因为他们知道总有一天您会回来的！届时，您的文明将会成为天空中最耀眼的恒星！"
     },
