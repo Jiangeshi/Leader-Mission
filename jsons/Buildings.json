@@ -1742,10 +1742,8 @@ Leader Mission 模组中的胜利方式有：
 	},
 	{
 		"name": "区域—中华文明",
-		"culture": 1
 		"gold": 5,
 		"happiness": 5,
-		"cost":160,
 	    "maintenance": 0,
 	    "uniqueTo": "中华",
 		"replaces": "District—Country",
@@ -1773,7 +1771,6 @@ Leader Mission 模组中的胜利方式有：
 		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [文明领袖—伯里克利]>",
 		"Damage is ignored when determining unit Strength <for [Melee] units>",
 		"[+50]% XP gained from combat <for [Melee] units>"
-		"[-10]% Production when constructing [Melee] units [in all cities]",
 	]
     },
 	{	
@@ -1782,7 +1779,7 @@ Leader Mission 模组中的胜利方式有：
 		"cost":1,
 		"uniqueTo": "Greece",
 		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [文明领袖—列奥尼达]>",
-	"[+1 Culture] from all [Happiness] buildings","[1] Free Social Policies"]
+	"[+1 Culture, +1 Science] from all [Happiness] buildings","[1] Free Social Policies"]
 	},
 	{
 		"name": "区域—卫城",
@@ -1803,7 +1800,7 @@ Leader Mission 模组中的胜利方式有：
 		"uniqueTo": "Rome",
 		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [文明领袖—屋大维]>",
 		"[+15]% Strength <for [Military] units> <when adjacent to a [Military] unit>",
-		"[Great General] is earned [50]% faster"]
+		"[Great General] is earned [66]% faster"]
 	},
 	{	
         "name": "文明领袖—屋大维",
@@ -1830,8 +1827,7 @@ Leader Mission 模组中的胜利方式有：
 		"cost":1,
 		"uniqueTo": "Russia",
 		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [文明领袖—彼得大帝]>",
-		"[+15]% Strength <for [Land] units> <when fighting in [Tundra] tiles>",	
-		"[+15]% Strength <for [Land] units> <when fighting in [Plains] tiles>",
+		"[+15]% Strength <for [Land] units> <when fighting in [Open terrain] tiles>",	
 		"[+1 Production] from all [Faith] buildings <while the empire is happy>"]
 	},
 	{	
@@ -1934,7 +1930,7 @@ Leader Mission 模组中的胜利方式有：
 		"uniqueTo": "Byzantium",
 		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [文明领袖—查士丁尼一世]>",
 		"[-10]% Faith cost of generating Great Prophet equivalents",
-		"[+20]% Strength <for [Military] units> <within [1] tiles of a [Holy site]>",]
+		"[+33]% Strength <for [Military] units> <within [1] tiles of a [Holy site]>",]
 	},
 	{	
         "name": "文明领袖—查士丁尼一世",
@@ -2072,7 +2068,6 @@ Leader Mission 模组中的胜利方式有：
 		"uniqueTo": "Persia",
 		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [文明领袖—大流士一世]>",
 		"Empire enters golden age <upon conquering a city>"
-		"[-15]% Golden Age length",
 		"[+10]% [Production] [in all cities] <during a Golden Age>"
 		]
 	},
@@ -2100,7 +2095,7 @@ Leader Mission 模组中的胜利方式有：
 		"uniques": [
 			"[+1 Happiness, +1 Gold] from [Gold Ore] tiles [in this city]",
 			"[+1 Happiness, +1 Gold] from [Silver] tiles [in this city]"],		
-	//
+	//埃及
 	},
 	{	
         "name": "文明领袖—拉美西斯二世",
@@ -2109,8 +2104,7 @@ Leader Mission 模组中的胜利方式有：
 		"uniqueTo": "Egypt",
 		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [文明领袖—纳赛尔]>",
 		"[+33]% Production when constructing [Faith] buildings [in all cities]",
-		"[+15]% Strength <for [Military] units> <when fighting in [Desert] tiles>",
-		"[+15]% Strength <for [Military] units> <when fighting in [Plains] tiles>"
+		"[+15]% Strength <for [Military] units> <when fighting in [Open terrain] tiles>"
 		]	
 	},
 	{	
@@ -2130,7 +2124,7 @@ Leader Mission 模组中的胜利方式有：
 		"uniqueTo": "Egypt",
 		"maintenance": 0,
 		"cost": 80,
-		"uniques": ["Destroyed when the city is captured","[+10]% [Faith] [in this city]"],
+		"uniques": ["Destroyed when the city is captured","[+15]% [Faith] [in this city]"],
 		"faith": 2,
 		"culture": 2,
 		"requiredTech": "墓葬"
@@ -2142,14 +2136,16 @@ Leader Mission 模组中的胜利方式有：
 		"cost":1,
 		"uniqueTo": "Macedonia",
 		"uniques": ["Can only be built [in capital]",
-		"[+50]% XP gained from combat <for [Military] units>",
-		"[+1 Happiness, +1 Culture] [in all non-occupied cities] <when at war>"]
+	    "[+1] Movement <for [Military] units>",
+		"[+1] Sight <for [Ranged] units>",
+		]
 	},
 	{
 		"name": "Military Royal School",
 		"maintenance": 1,
 		"uniques": ["New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured",
-		"Provides [1] [Horses]",	"Provides [1] [Iron]",
+		"Provides [1] [Horses]",
+		"Provides [1] [Iron]",
 		"Provides [3] [CO2]"],
 		"requiredTech": "军事学",
 		"requiredBuilding": "District—Military Center",
@@ -2174,7 +2170,7 @@ Leader Mission 模组中的胜利方式有：
 		"cost":1,
 		"uniqueTo": "Carthage",
 		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [文明领袖—汉尼拔]>",
-		"[+30]% Production when constructing [Settler] units [in capital]",
+		"[+33]% Production when constructing [Settler] units [in capital]",
 	    "[+3 Gold] [in all cities connected to capital]"
 	    "Gain a free [District—Shipping Center] [in this city]"
 		]	
@@ -2186,14 +2182,14 @@ Leader Mission 模组中的胜利方式有：
 		"uniqueTo": "Carthage",
 		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [文明领袖—狄多]>",
 	    "All newly-trained [Land] units [in all cities] receive the [穿山] promotion"
-	    "[+50]% to Flank Attack bonuses <for [Military] units>"
+	    "[+75]% to Flank Attack bonuses <for [Military] units>"
 		]
     },
 	{
 		"name": "District—Cothon",
 		"replaces": "District—Shipping Center",
 		"uniqueTo": "Carthage",
-		//"greatPersonPoints": {"海军统帅": 1},
+		"greatPersonPoints": {"海军统帅": 1},
 		"production": 1,
 		"food": 1,
 	    "maintenance": 3,

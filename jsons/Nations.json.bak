@@ -274,9 +274,8 @@
 		"innerColor": [255,211,57],
 		"favoredReligion": "Christianity",
 		"uniqueName": "The Conqueror's Army",
-		"uniques": [
-		"[+1 Happiness, +1 Culture] [in all non-occupied cities] <when at war>",
-		"[+50]% XP gained from combat <for [Military] units>"
+		"uniques": ["[+1] Movement <for [Military] units>",
+		"[+1 Happiness, +1 Culture] [in all non-occupied cities] <when at war>"
 		],
 		"cities": ["佩拉","维尔吉纳","贝尔加马","安卡拉","伊苏斯","安条克","推罗","亚历山大里亚","高加米拉","苏撒",
 			"加摩西亚","帕塔拉","布克发拉","巴克特拉","马拉坎达","埃斯哈塔亚历山大","斯科普里","比托拉","库马诺沃","普里莱普",
