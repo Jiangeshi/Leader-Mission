@@ -215,7 +215,7 @@
 				"name": "军事学",
 				"row": 8,
 				"prerequisites": ["铁器","建筑设计学"],
-				"uniques":["Free [Great General] appears <if no other Civilization has researched this>""]
+				"uniques":["Free [Great General] appears <if no other Civilization has researched this>"]
 				"quote": "正规军队的诞生标志着战争来到了更高的阶段"
 			}
 		]
