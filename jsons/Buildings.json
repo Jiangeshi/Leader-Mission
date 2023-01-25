@@ -223,12 +223,6 @@ Leader Mission 模组中的胜利方式有：
 		"maintenance": 0,
 		"requiredTech": "信仰崇拜",
 		"uniques": ["Destroyed when the city is captured"]
-    },
-	{
-		"name": "石碑",
-		"culture": 2,
-		"maintenance": 0,
-		"requiredTech": "信仰崇拜",
 	},
 	{
 		"name": "土窑",
@@ -291,6 +285,12 @@ Leader Mission 模组中的胜利方式有：
 		"cityHealth": 50,
 		"requiredTech": "石工术",
 		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "石碑",
+		"culture": 2,
+		"maintenance": 0,
+		"requiredTech": "石工术",	
 	},
 	{
 		"name": "石工坊",
@@ -1733,8 +1733,8 @@ Leader Mission 模组中的胜利方式有：
 		"cost":1,
 		"uniqueTo": "中华",
 		"uniques": ["Can only be built [in capital]","Only available <in cities without a [文明领袖—汉武帝]>","Only available <in cities without a [文明领袖—秦始皇]>",
-	    "[+1] Movement <for [公民] units>",
-	    "[+15]% Production when constructing [步兵] units [in all cities]",
+	    "[+1] Movement <for [步兵] units>",
+	    "[+10]% Production when constructing [步兵] units [in all cities]",
 	    "[+2 Production, +1 Happiness] from every [District—Industrial Centre]",   
 	]
 	},
@@ -1743,7 +1743,7 @@ Leader Mission 模组中的胜利方式有：
 		"gold": 5,
 		"happiness": 5,
 	    "maintenance": 0,
-	    "cost":180,
+	    "cost":160,
 	    "uniqueTo": "中华",
 		"replaces": "District—Country",
 		"requiredTech": "国家"
@@ -1857,7 +1857,7 @@ Leader Mission 模组中的胜利方式有：
 		"cost":1,
 		"uniqueTo": "苏联",
 		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [文明领袖—斯大林]>",
-		"[+1 Happiness] from all [Production] buildings"
+	    "[+1 Happiness] from all [Production] buildings",
 	"[1] free [Settler] units appear"
 		]
 	},
@@ -1867,7 +1867,7 @@ Leader Mission 模组中的胜利方式有：
 		"cost":1,
 		"uniqueTo": "苏联",
 		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [文明领袖—列宁]>",
-	    "[+20]% Production when constructing [Production] buildings [in all cities]",
+	    "[+10]% Production when constructing [Military] units [in all cities] <when at war>",
 	"[1] free [Settler] units appear"
 		]
 	},
@@ -2198,5 +2198,41 @@ Leader Mission 模组中的胜利方式有：
 		"[Water] Units adjacent to this city heal [+30] HP per turn when healing",
 		"[+15]% Production when constructing [{Military} {Water}] units [in this city]",
 		]
+    //法兰西
+	},
+	{	
+        "name": "文明领袖—拿破仑",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "France",
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [文明领袖—戴高乐]>",
+	    "[+33]% Strength <for [攻城单位] units> <vs [Military] units> <when attacking>",
+	    "[+33]% Strength <for [炮兵] units> <vs [Military] units> <when attacking>",
+	    "[+2] Sight <for [骑兵] units>",
+	    "[+2] Sight <for [装甲部队] units>",
+		]	
+	},
+	{	
+        "name": "文明领袖—戴高乐",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "France",
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [文明领袖—拿破仑]>",
+	   "[Gold] cost of purchasing items in cities [-33]%"
+	   "Militaristic City-States grant units [3] times as fast when you are at war with a common nation",
+	   "[+1 Happiness, +2 Gold] per [1] social policies adopted"
+		]
+	},
+	{
+		"name": "French Castle",
+		"replaces": "城堡",
+		"uniqueTo": "Frence",
+		"cityStrength": 5,
+		"culture": 3,
+		"maintenance": 2,
+		"cityHealth": 50,
+		"requiredBuilding": "District—Military Center",
+		"requiredTech": "骑士制度",
+		"uniques": ["Destroyed when the city is captured","[+10]% [Culture] [in this city]"],
 	}
 ]

@@ -197,14 +197,16 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "钢铁红流",
 		"uniqueText": "
-	可以向同盟超过5回合的城邦提供经济援助使其加入联盟；
+	可以向同盟超过10回合的城邦提供经济援助使其加入联盟；
 	铁、石油、煤、铀的产量翻倍；
-	军事单位维护费-50%，所有城市-15%金钱
+	军事单位维护费-50%;
+	除首都外城市-3金钱
 			" 
-		"uniques": ["Can spend Gold to annex or puppet a City-State that has been your ally for [5] turns.",
+		"uniques": ["Can spend Gold to annex or puppet a City-State that has been your ally for [10] turns.",
 		"Double quantity of [Oil] produced","Double quantity of [Coal] produced","Double quantity of [Iron] produced","Double quantity of [Uranium] produced",
-	    "[-15]% [Gold] [in all cities]",
-	    "[-50]% maintenance costs <for [Military] units>"
+	    "[-50]% maintenance costs <for [Military] units>",
+	    "[-3 Gold] [in all cities]",
+	    "[+3 Gold] [in capital]"
 		]
 		"cities": ["列宁格勒","斯大林格勒","加里宁格勒","基辅","明斯克","第比利斯","斯摩棱斯克","摩尔曼斯克","塞瓦斯托波尔","图拉","刻赤",
 			"诺沃西比尔斯克","塔什干","哈尔科夫","新西伯利亚","莫洛托夫斯克","基洛夫","新德文斯克","古比雪夫","陶里亚蒂","契科夫",
@@ -303,47 +305,43 @@
 		"favouredReligion": "Taoism",
 		"uniqueName": "文明传承",
 		"uniqueText": "
-        中华文明在每个时代开始时都会获得战斗力、产能、文化、科研上的加成，并且加成效果可持续叠加，叠加持续至原子时代，最高（在原子/信息时代）可获得：
-        +15%产能
-        +15%战斗力
-        +25%文化
-        +25%科研
-        在进入古典时代、启蒙时代、电气时代、原子时代时可以选择一个免费的伟人
+中华文明在进入每个新时代时都会获得额外的战斗力、产能、文化、科研上的加成，并且加成效果可持续叠加，叠加持续至原子时代，最高（在原子/信息时代）可获得：
++20%战斗力
++25%产能
++30%文化
++30%科研
 			" 
 		"uniques": [
-        "[+2]% Strength <for [Military] units> <during the [Ancient era]>",
-        "[+2]% [Production] <starting from the [Ancient era]>",
-        "[+3]% [Culture] <starting from the [Ancient era]>",
-        "[+3]% [Science] <starting from the [Ancient era]>",
-        "[+5]% Strength <for [Military] units> <during the [Classical era]>",
-        "[+3]% [Production] <starting from the [Classical era]>",
-        "[+4]% [Culture] <starting from the [Classical era]>",
-        "[+4]% [Science] <starting from the [Classical era]>",
-        "[+6]% Strength <for [Military] units> <during the [Medieval era]>",
-        "[+1]% [Production] <starting from the [Medieval era]>",
-        "[+3]% [Culture] <starting from the [Medieval era]>",
+        "[+5]% Strength <for [Military] units> <during the [Classical era]>"
+        "[+5]% [Production] <starting from the [Classical era]>"
+        "[+7]% [Culture] <starting from the [Classical era]>"
+        "[+7]% [Science] <starting from the [Classical era]>",
+
+        "[+8]% Strength <for [Military] units> <during the [Medieval era]>"
+        "[+3]% [Production] <starting from the [Medieval era]>"
+        "[+3]% [Culture] <starting from the [Medieval era]>"
         "[+3]% [Science] <starting from the [Medieval era]>",
-        "[+9]% Strength <for [Military] units> <during the [Renaissance era]>",
-        "[+3]% [Production] <starting from the [Renaissance era]>",
-        "[+4]% [Culture] <starting from the [Renaissance era]>",
-        "[+4]% [Science] <starting from the [Renaissance era]>",
-        "[+10]% Strength <for [Military] units> <during the [Industrial era]>",
-        "[+1]% [Production] <starting from the [Industrial era]>",
-        "[+3]% [Culture] <starting from the [Industrial era]>",
-        "[+3]% [Science] <starting from the [Industrial era]>",
-        "[+12]% Strength <for [Military] units> <during the [Modern era]>",
-        "[+2]% [Production] <starting from the [Modern era]>",
-        "[+4]% [Culture] <starting from the [Modern era]>",
-        "[+4]% [Science] <starting from the [Modern era]>",
-        "[+15]% Strength <for [Military] units> <starting from the [Atomic era]>",
-        "[+3]% [Production] <starting from the [Atomic era]>",
-        "[+4]% [Culture] <starting from the [Atomic era]>",
-        "[+4]% [Science] <starting from the [Atomic era]>",
-        "Free Great Person <upon entering the [Classical era]>",
-        "Free Great Person <upon entering the [Renaissance era]>",
-        "Free Great Person <upon entering the [Modern era]>",
-        "Free Great Person <upon entering the [Atomic era]>",
-        ],
+
+        "[+11]% Strength <for [Military] units> <during the [Renaissance era]>"
+        "[+4]% [Production] <starting from the [Renaissance era]>"
+        "[+6]% [Culture] <starting from the [Renaissance era]>"
+        "[+6]% [Science] <starting from the [Renaissance era]>",
+
+        "[+12]% Strength <for [Military] units> <during the [Industrial era]>"
+        "[+3]% [Production] <starting from the [Industrial era]>"
+        "[+2]% [Culture] <starting from the [Industrial era]>"
+        "[+2]% [Science] <starting from the [Industrial era]>",
+
+        "[+16]% Strength <for [Military] units> <during the [Modern era]>"
+        "[+5]% [Production] <starting from the [Modern era]>"
+        "[+6]% [Culture] <starting from the [Modern era]>"
+        "[+6]% [Science] <starting from the [Modern era]>",
+
+        "[+20]% Strength <for [Military] units> <starting from the [Atomic era]>"
+        "[+5]% [Production] <starting from the [Atomic era]>"
+        "[+6]% [Culture] <starting from the [Atomic era]>"
+        "[+6]% [Science] <starting from the [Atomic era]>",
+        ]
 		"cities": ["Beijing","Shanghai","Guangzhou","Nanjing","Xian","Chengdu","Hangzhou","Tianjin","Macau","Shandong",
 			"Kaifeng","Ningbo","Baoding","Yangzhou","Harbin","Chongqing","Luoyang","Kunming","Taipei","Shenyang",
 			"Taiyuan","Tainan","Dalian","Lijiang","Wuxi","Suzhou","Maoming","Shaoguan","Yangjiang","Heyuan","Huangshi",
@@ -374,8 +372,8 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "西伯利亚的财富",
 		"uniques": [
-		"[+1 Faith, +1 Culture, +1 Gold, +1 Food] [in all cities] <with [1] to [3] neighboring [Tundra] tiles>",
-		"[+2 Faith, +2 Culture, +2 Gold, +2 Food] [in all cities] <with [4] to [6] neighboring [Tundra] tiles>",
+		"[+1 Faith, +1 Culture, +1 Food] [in all cities] <with [1] to [3] neighboring [Tundra] tiles>",
+		"[+2 Faith, +2 Culture, +2 Food] [in all cities] <with [4] to [6] neighboring [Tundra] tiles>",
 	    "[+1 Production] from every [Strategic resource]",
 	"Double quantity of [Horses] produced","Double quantity of [Oil] produced","Double quantity of [Gas] produced"
 		],
@@ -591,7 +589,7 @@
 
         "startIntroPart1": "欢迎来到这个新世界，伟大的越南领袖！虽然越南的历史一直在独立与被占领之间徘徊，但越南依旧能够保持繁荣兴旺。越南人民不惧侵略者的进攻，因为树林与沼泽就是他们抵御侵略者最好的屏障。越南人民的自强路程虽几经波折，但最终找到了正确的道路。伟大的越南领袖啊！您的子民在等待着你带领他们再次创造辉煌的文明，您能让越南再次璀璨吗？您能建立一个经得起时间考验的文明吗？",
 
-	"declaringWar": "Your behavior has angered me. I declare a just war against you",
+	    "declaringWar": "Your behavior has angered me. I declare a just war against you",
 		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
 		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
 		
@@ -616,7 +614,95 @@
 			   "河江","高平","老街","谅山","越池","宣光","安沛","莱州","奠边府","山罗","清化",
 			   "荣","河静","洞海","东河","三歧","茶荣","归仁","芽庄","崑嵩","波来古",
 			   "邦美蜀","大叻","同帅","土龙木"],
-        "spyNames": ["Refaat", "Heba", "Salah", "Ahmed", "Zakaria", "Bastet", "Ma'at", "Nebhet", "Tefenet", "Neuth"]        
+        "spyNames": ["Refaat", "Heba", "Salah", "Ahmed", "Zakaria", "Bastet", "Ma'at", "Nebhet", "Tefenet", "Neuth"]   
+    },
+	{
+		"name": "France",
+		"leaderName": "Leader",
+		"adjective": ["French"],
+		"preferredVictoryType": "征服",
+        "startIntroPart1": "",
+	    "declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+		
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+		
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+        "outerColor": [ 38, 98, 255],
+        "innerColor": [239,236,148],
+
+		"favoredReligion": "Christianity",
+		"uniqueName": "Revolutionary Tradition",
+		"uniques": [
+		"[+30]% [Culture] <when between [20] and [10000] Happiness>",
+	
+		"[+28]% [Culture] <when between [18] and [20] Happiness>",
+	
+		"[+26]% [Culture] <when between [16] and [18] Happiness>",
+	
+		"[+24]% [Culture] <when between [14] and [16] Happiness>",
+	
+		"[+22]% [Culture] <when between [12] and [14] Happiness>",
+		
+		"[+20]% [Culture] <when between [10] and [12] Happiness>",
+		
+		"[+18]% [Culture] <when between [8] and [10] Happiness>",
+		"[+2]% Strength <for [Military] units> <when between [8] and [10] Happiness>",
+		
+		"[+16]% [Culture] <when between [6] and [8] Happiness>",
+		"[+4]% Strength <for [Military] units> <when between [6] and [8] Happiness>",
+		
+		"[+14]% [Culture] <when between [4] and [6] Happiness>",
+		"[+6]% Strength <for [Military] units> <when between [4] and [6] Happiness>",
+
+	    "[+12]% [Culture] <when between [2] and [4] Happiness>",
+		"[+8]% Strength <for [Military] units> <when between [2] and [4] Happiness>",
+		
+		"[+10]% [Culture] <when between [0] and [2] Happiness>",
+		"[+10]% Strength <for [Military] units> <when between [0] and [2] Happiness>",
+		
+		"[+8]% [Culture] <when between [-2] and [0] Happiness>",
+		"[+12]% Strength <for [Military] units> <when between [-2] and [0] Happiness>",
+		
+		"[+6]% [Culture] <when between [-4] and [-2] Happiness>",
+		"[+14]% Strength <for [Military] units> <when between [-4] and [-2] Happiness>",
+		
+		"[+4]% [Culture] <when between [-6] and [-4] Happiness>",
+		"[+16]% Strength <for [Military] units> <when between [-6] and [-4] Happiness>",
+		
+		"[+2]% [Culture] <when between [-8] and [-6] Happiness>",
+		"[+18]% Strength <for [Military] units> <when between [-8] and [-6] Happiness>",
+		
+		"[+20]% Strength <for [Military] units> <when between [-10] and [-8] Happiness>",
+		
+		"[+22]% Strength <for [Military] units> <when between [-12] and [-10] Happiness>",
+		
+		"[+24]% Strength <for [Military] units> <when between [-14] and [-12] Happiness>",
+		
+		"[+26]% Strength <for [Military] units> <when between [-16] and [-14] Happiness>",
+		
+		"[+28]% Strength <for [Military] units> <when between [-18] and [-16] Happiness>",
+		
+		"[+30]% Strength <for [Military] units> <when between [-100000] and [-18] Happiness>",
+		],
+		"uniqueText": "
+自-10快乐起，
+每上涨2快乐+2%文化，
+当快乐≥20时+30%文化达到最大值;
+		
+自10快乐起，
+每下降2快乐军事单位+2%战斗力，
+当快乐≤-19时军事单位+30%战斗力达到最大值
+			" 
+		"cities": ["Paris","Orleans","Lyon","Troyes","Tours","Marseille","Chartres","Avignon","Rouen","Grenoble",
+			"Dijon","Amiens","Cherbourg","Poitiers","Toulouse","Bayonne","Strasbourg","Brest","Bordeaux","Rennes",
+			"Nice","Saint Etienne","Nantes","Reims","Le Mans","Montpellier","Limoges","Nancy","Lille","Caen","Toulon",
+			"Le Havre","Lourdes","Cannes","Aix-En-Provence","La Rochelle","Bourges","Calais"],
+        "spyNames": ["Jean-Paul", "Martine", "Lucien", "François", "Augustine", "Monsieur X", "Dr. Dupont", "Vipère", "Yvette", "Renard"]        
     },
 	{
 	//城邦

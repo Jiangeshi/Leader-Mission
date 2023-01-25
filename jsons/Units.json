@@ -139,6 +139,21 @@
 		"attackSound": "shot"
 	},
 	{
+		"name": "Musketeer",
+		"unitType": "步兵",
+		"replaces": "Musketman",
+		"uniqueTo": "France",
+		"movement": 2,
+		"strength": 28,
+		"cost": 230,
+	    "requiredResource": "Saltpeter",
+		"requiredTech": "火药",
+		"upgradesTo": "来复枪兵",
+		"obsoleteTech": "膛线",
+		"uniques":["[+10]% Strength <vs [Military] units> <when defending>"]
+		"attackSound": "shot"
+	},
+	{
 		"name": "来复枪兵",
 		"unitType": "步兵",
 		"movement": 2,
@@ -162,6 +177,21 @@
 		"upgradesTo": "现代步兵",
 		"obsoleteTech": "塑料",
 		"uniques":["[+10]% Strength <vs [Military] units> <when defending>"]
+		"attackSound": "shot"
+	},
+	{
+		"name": "Foreign Legion",
+		"unitType": "步兵",
+		"replaces": "一战步兵",
+		"uniqueTo": "France",
+		"movement": 2,
+		"strength": 50,
+		"cost": 510,
+		"requiredResource": "Saltpeter",
+		"requiredTech": "精密零件",
+		"upgradesTo": "现代步兵",
+		"obsoleteTech": "塑料",
+		"uniques": ["[+20]% Strength <when fighting in [Foreign Land] tiles>","[+10]% Strength <vs [Military] units> <when defending>"],
 		"attackSound": "shot"
 	},
 	{

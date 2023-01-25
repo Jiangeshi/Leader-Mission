@@ -2,8 +2,8 @@
 	{
 		"columnNumber": 0,
 		"era": "Ancient era",
-		"techCost": 22,
-		"buildingCost": 31,
+		"techCost": 20,
+		"buildingCost": 35,
 		"techs": [
 			{
 				"name": "钻木取火",
@@ -16,8 +16,8 @@
 	{
 		"columnNumber": 1,
 		"era": "Ancient era",
-		"techCost": 33,
-		"buildingCost": 40,
+		"techCost": 30,
+		"buildingCost": 45,
 		"wonderCost": 190,
 		"techs": [
 			{
@@ -55,8 +55,8 @@
 	{
 		"columnNumber": 2,
 		"era": "Ancient era",
-		"techCost": 60,
-		"buildingCost": 49,
+		"techCost": 55,
+		"buildingCost": 55,
 		"wonderCost": 190,
 		"techs": [
 			{
@@ -94,8 +94,8 @@
 	{
 		"columnNumber": 3,
 		"era": "Ancient era",
-		"techCost": 77,
-		"buildingCost": 58,
+		"techCost": 70,
+		"buildingCost": 65,
 		"wonderCost": 190,
 		"techs": [
 			{
@@ -139,8 +139,8 @@
 	{
 		"columnNumber": 4,
 		"era": "Classical era",
-		"techCost": 137,
-		"buildingCost": 72,
+		"techCost": 125,
+		"buildingCost": 80,
 		"wonderCost": 250,
 		"techs": [
 			{
@@ -182,8 +182,8 @@
 	{
 		"columnNumber": 5,
 		"era": "Classical era",
-		"techCost": 198,
-		"buildingCost": 90,
+		"techCost": 180,
+		"buildingCost": 100,
 		"wonderCost": 250,
 		"techs": [
 			{
@@ -210,6 +210,13 @@
 				"uniques": ["Improves movement speed on roads","Roads connect tiles across rivers"],
 				"prerequisites": ["骑术","建筑设计学"],
 				"quote": "基础建设永远是一个国家想要富强的重要途径"	
+			},
+			{
+				"name": "军事学",
+				"row": 8,
+				"prerequisites": ["铁器","建筑设计学"],
+				"uniques":["Free [Great General] appears <if no other Civilization has researched this>""]
+				"quote": "正规军队的诞生标志着战争来到了更高的阶段"
 			}
 		]
 	},
@@ -217,13 +224,13 @@
 		"columnNumber": 6,
 		"era": "Classical era",
 		"techCost": 200,
-		"buildingCost": 108,
+		"buildingCost": 120,
 		"wonderCost": 280,
 		"techs": [
 			{
 			    "name": "立法",
 				"row": 1,
-				"cost": 198
+				"cost": 180
 				"prerequisites": ["政治学"],
 				"quote": "法律是人类最基本的道德底线，法无明文规定不为罪，法无明文规定不处罚，因此法律的改良只有进行时没有完成时"
 			},
@@ -235,10 +242,10 @@
 				"quote": "'商人组建了行会，贸易变得更加频繁"	
 			},
 			{
-				"name": "军事学",
+				"name": "防御工事",
 				"row": 8,
-				"prerequisites": ["铁器","工程学"],
-				"quote": "正规军队的诞生标志着战争来到了更高的阶段"
+				"prerequisites": ["军事学","工程学"],
+				"quote": "坚固的堡垒拔地而起，构成最稳固的防线"	
 			}
 	    ]
 	},
@@ -268,10 +275,10 @@
 				"quote": "天上的星星不一定能时刻提供方位，罗盘的发明让远洋航行更为安全"	
 			},
 			{
-				"name": "防御工事",
-				"row": 8,
-				"prerequisites": ["军事学"],
-				"quote": "坚固的堡垒拔地而起，构成最稳固的防线"
+				"name": "兵器储备",
+				"row": 9,
+				"prerequisites": ["防御工事"],
+				"quote": "兵可千日而不用，不可一日而不备"
 			}
 		]
     },
@@ -305,14 +312,8 @@
 				"quote": "我们虽然渺小，但总得有人去仰望星空"	
 			},
 			{
-				"name": "兵器储备",
-				"row": 8,
-				"prerequisites": ["防御工事"],
-				"quote": "兵可千日而不用，不可一日而不备"
-			},
-			{
 				"name": "骑士制度",
-				"row": 9,
+				"row": 8,
 				"prerequisites": ["防御工事"],
 				"quote": "中世纪是城堡—骑士—宗教的时代"
 			}

@@ -2613,6 +2613,15 @@ BuildingIcons/天气控制器
   offset: 0, 0
   index: -1
 
+FrenchCastle.png
+BuildingIcons/French Castle
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+  
 总督.png
 BuildingIcons/总督—马格努斯 I
   rotate: false
@@ -2995,6 +3004,24 @@ BuildingIcons/文明领袖—狄多
 
 文明领袖.png
 BuildingIcons/文明领袖—汉尼拔
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1  
+
+文明领袖.png
+BuildingIcons/文明领袖—拿破仑
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1  
+      
+文明领袖.png
+BuildingIcons/文明领袖—戴高乐
   rotate: false
   xy: 0,0
   size: 50, 50
