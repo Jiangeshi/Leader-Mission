@@ -1743,6 +1743,7 @@ Leader Mission 模组中的胜利方式有：
 		"gold": 5,
 		"happiness": 5,
 	    "maintenance": 0,
+	    "cost":180,
 	    "uniqueTo": "中华",
 		"replaces": "District—Country",
 		"requiredTech": "国家"
