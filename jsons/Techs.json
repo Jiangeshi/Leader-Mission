@@ -2,8 +2,8 @@
 	{
 		"columnNumber": 0,
 		"era": "Ancient era",
-		"techCost": 20,
-		"buildingCost": 35,
+		"techCost": 22,
+		"buildingCost": 31,
 		"techs": [
 			{
 				"name": "钻木取火",
@@ -16,8 +16,8 @@
 	{
 		"columnNumber": 1,
 		"era": "Ancient era",
-		"techCost": 30,
-		"buildingCost": 45,
+		"techCost": 33,
+		"buildingCost": 40,
 		"wonderCost": 190,
 		"techs": [
 			{
@@ -55,8 +55,8 @@
 	{
 		"columnNumber": 2,
 		"era": "Ancient era",
-		"techCost": 55,
-		"buildingCost": 55,
+		"techCost": 60,
+		"buildingCost": 49,
 		"wonderCost": 190,
 		"techs": [
 			{
@@ -94,8 +94,8 @@
 	{
 		"columnNumber": 3,
 		"era": "Ancient era",
-		"techCost": 70,
-		"buildingCost": 65,
+		"techCost": 77,
+		"buildingCost": 58,
 		"wonderCost": 190,
 		"techs": [
 			{
@@ -139,8 +139,8 @@
 	{
 		"columnNumber": 4,
 		"era": "Classical era",
-		"techCost": 125,
-		"buildingCost": 80,
+		"techCost": 137,
+		"buildingCost": 72,
 		"wonderCost": 250,
 		"techs": [
 			{
@@ -182,8 +182,8 @@
 	{
 		"columnNumber": 5,
 		"era": "Classical era",
-		"techCost": 180,
-		"buildingCost": 100,
+		"techCost": 198,
+		"buildingCost": 90,
 		"wonderCost": 250,
 		"techs": [
 			{
@@ -217,13 +217,13 @@
 		"columnNumber": 6,
 		"era": "Classical era",
 		"techCost": 200,
-		"buildingCost": 120,
+		"buildingCost": 108,
 		"wonderCost": 280,
 		"techs": [
 			{
 			    "name": "立法",
 				"row": 1,
-				"cost": 180
+				"cost": 198
 				"prerequisites": ["政治学"],
 				"quote": "法律是人类最基本的道德底线，法无明文规定不为罪，法无明文规定不处罚，因此法律的改良只有进行时没有完成时"
 			},
