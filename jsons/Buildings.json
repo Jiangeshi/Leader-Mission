@@ -1836,7 +1836,9 @@ Leader Mission 模组中的胜利方式有：
 		"uniqueTo": "Russia",
 		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [文明领袖—叶卡捷琳娜大帝]>",
 		"[+2 Science] from each Trade Route",
-		"[+20]% [Science] from Trade Routes"]
+		"[+15]% [Science] from Trade Routes",
+		"[+15]% [Gold] from Trade Routes"
+		]
 	},
 	{
 		"name": "区域—拉夫拉修道院",
@@ -1963,10 +1965,10 @@ Leader Mission 模组中的胜利方式有：
 		"replacementTextForUniques": "
 		能被建造在首都；
 		在未建造文明领袖—欧麦尔一世的城市中可以存在；
-		在圣城+6信仰，+6科研；每座城市新组建的军事单位获得正义信仰晋升。正义信仰：当与宗教单位叠放时+20%战斗力。
+		在圣城+5信仰，+5科研；每座城市新组建的军事单位获得正义信仰晋升。正义信仰：当与宗教单位叠放时+20%战斗力。
 		"
 		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [文明领袖—欧麦尔一世]>",
-	    "[+6 Faith, +6 Science] [in holy cities]",
+	    "[+5 Faith, +5 Science] [in holy cities]",
 	     "All newly-trained [Military] units [in all cities] receive the [正义信仰] promotion",]
 	},
 	{	
@@ -2007,7 +2009,6 @@ Leader Mission 模组中的胜利方式有：
 	{
 		"name": "大庄园",
 	    "production": 2,
-	    "happiness": -1,
 	    "uniqueTo": "大哥伦比亚",
 		"requiredTech": "农业",
 		"uniques":["[+1 Production] from [Plantation] tiles [in this city]","Provides [1] [CO2]"], 

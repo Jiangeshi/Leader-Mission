@@ -127,7 +127,7 @@
 	{
 		"name": "Road",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"turnsToBuild": 6,
+		"turnsToBuild": 4,
 		"techRequired": "The Wheel",
 		"uniques": ["Can be built outside your borders", "Costs [1] [Gold] per turn when in your territory"]
 	},
