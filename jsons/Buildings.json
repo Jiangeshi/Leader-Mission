@@ -2220,8 +2220,8 @@ Leader Mission 模组中的胜利方式有：
 		"cost":1,
 		"uniqueTo": "France",
 		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [文明领袖—拿破仑]>",
-	   "[Gold] cost of purchasing items in cities [-50]%"
-	   "[+1 Happiness, +2 Gold] per [1] social policies adopted"
+	   "[Gold] cost of purchasing items in cities [-33]%"
+	   "[+1 Happiness, +3 Gold] per [1] social policies adopted"
 		]
 	},
 	{
