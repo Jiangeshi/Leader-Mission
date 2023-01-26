@@ -1857,8 +1857,8 @@ Leader Mission 模组中的胜利方式有：
 		"cost":1,
 		"uniqueTo": "苏联",
 		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [文明领袖—斯大林]>",
-	    "[+1 Happiness] from all [Production] buildings",
-	"[1] free [Settler] units appear"
+	    "[+1 Culture, +1 Gold] from all [Production] buildings",
+	    "[1] free [Worker] units appear"
 		]
 	},
 	{	
@@ -1867,14 +1867,14 @@ Leader Mission 模组中的胜利方式有：
 		"cost":1,
 		"uniqueTo": "苏联",
 		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [文明领袖—列宁]>",
-	    "[+10]% Production when constructing [Military] units [in all cities] <when at war>",
-	"[1] free [Settler] units appear"
+	    "[+10]% Production when constructing [Military] units [in all cities]",
+	    "[+10]% Production when constructing [All] buildings [in all cities]",
 		]
 	},
 	{
 		"name": "区域—莫斯科红场",
 	    "maintenance": 3,
-	    "cityStrength": 2,
+	    "cityStrength": 5,
 		"cityHealth": 30,
 	    "uniqueTo": "苏联",
 		"replaces": "District—Military Center",

@@ -199,14 +199,11 @@
 		"uniqueText": "
 	可以向同盟超过10回合的城邦提供经济援助使其加入联盟；
 	铁、石油、煤、铀的产量翻倍；
-	军事单位维护费-50%;
-	除首都外城市-3金钱
+	军事单位维护费-75%;
 			" 
-		"uniques": ["Can spend Gold to annex or puppet a City-State that has been your ally for [10] turns.",
+		"uniques": ["Can spend Gold to annex or puppet a City-State that has been your ally for [5] turns.",
 		"Double quantity of [Oil] produced","Double quantity of [Coal] produced","Double quantity of [Iron] produced","Double quantity of [Uranium] produced",
-	    "[-50]% maintenance costs <for [Military] units>",
-	    "[-3 Gold] [in all cities]",
-	    "[+3 Gold] [in capital]"
+	    "[-75]% maintenance costs <for [Military] units>",
 		]
 		"cities": ["列宁格勒","斯大林格勒","加里宁格勒","基辅","明斯克","第比利斯","斯摩棱斯克","摩尔曼斯克","塞瓦斯托波尔","图拉","刻赤",
 			"诺沃西比尔斯克","塔什干","哈尔科夫","新西伯利亚","莫洛托夫斯克","基洛夫","新德文斯克","古比雪夫","陶里亚蒂","契科夫",
