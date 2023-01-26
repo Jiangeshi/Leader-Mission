@@ -302,7 +302,7 @@
 		"favouredReligion": "Taoism",
 		"uniqueName": "文明传承",
 		"uniqueText": "
-在远古时代，中华所有城市+1产，文明+2科+2文，此效果持续整场游戏；
+在远古时代，中华所有城市+1产，文明+1科+1文，此效果持续整场游戏；
  
  此后中华在每个新时代开始时都会获得战斗力、产能、文化、科研上的加成，并且加成效果可持续叠加，叠加持续至原子时代，最高（在原子/信息时代）可获得：
  +20%战斗力
@@ -313,8 +313,8 @@
 		"uniques": [
 		"[+5]% Strength <for [Military] units> <during the [Ancient era]>"
         "[+1 Production] [in all cities] <starting from the [Ancient era]>"
-        "[+2 Culture] <starting from the [Ancient era]>"
-        "[+2 Science] <starting from the [Ancient era]>",
+        "[+1 Culture] <starting from the [Ancient era]>"
+        "[+1 Science] <starting from the [Ancient era]>",
 		
         "[+8]% Strength <for [Military] units> <during the [Classical era]>"
         "[+4]% [Production] <starting from the [Classical era]>"
