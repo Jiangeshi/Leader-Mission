@@ -2622,6 +2622,15 @@ BuildingIcons/French Castle
   offset: 0, 0
   index: -1
   
+KoreanAcademy.png
+BuildingIcons/Korean Academy
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+  
 总督.png
 BuildingIcons/总督—马格努斯 I
   rotate: false
@@ -3028,6 +3037,25 @@ BuildingIcons/文明领袖—戴高乐
   orig: 50, 50
   offset: 0, 0
   index: -1  
+
+文明领袖.png
+BuildingIcons/文明领袖—李成桂
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1  
+      
+文明领袖.png
+BuildingIcons/文明领袖—金日成
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1  
+
 
 中华.png
 NationIcons/中华

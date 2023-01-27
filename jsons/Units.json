@@ -759,6 +759,21 @@
 		"attackSound": "throw"
 	},
 	{
+		"name": "Hwach'a",
+		"unitType": "攻城单位",
+		"replaces": "抛石机",
+		"uniqueTo": "Korea",
+		"movement": 2,
+		"strength": 13,
+		"rangedStrength": 26,
+		"cost": 148,
+		"requiredTech": "骑士制度",
+		"obsoleteTech": "火药",
+		"upgradesTo": "加农炮",
+		"uniques": ["No defensive terrain bonus","Must set up to ranged attack"],
+		"attackSound": "throw"
+	},
+	{
 		"name": "加农炮",
 		"unitType": "炮兵",
 		"movement": 2,
@@ -855,6 +870,20 @@
 		"upgradesTo": "铁甲舰",
 		"obsoleteTech": "蒸汽机",
 		"uniques": ["[+1] Sight", "May withdraw before melee ([80]%)"]
+		"attackSound": "cannon"
+	},
+	{
+		"name": "Turtle Ship",
+		"unitType": "近程海军",
+		"replaces": "轻帆船",
+		"uniqueTo": "Korea",
+		"movement": 4,
+		"strength": 36,
+		"cost": 153,
+		"requiredTech": "天文学",
+		"upgradesTo": "铁甲舰",
+		"obsoleteTech": "蒸汽机",
+		"uniques": ["Cannot enter ocean tiles"],
 		"attackSound": "cannon"
 	},
 	{

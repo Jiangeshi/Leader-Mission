@@ -10,7 +10,7 @@
             "飞天": 10
         },
         "uniques": [
-            "[+3 Culture] [in capital]",
+            "[+2 Culture] [in capital]",
             "[-50]% Culture cost of natural border growth [in capital]"
         ],
         "policies": [
@@ -44,8 +44,8 @@
             {
                 "name": "Landed Elite",
                 "uniques": [
-                    "[+50]% growth [in capital]",
-                    "[+1 Food] [in capital]"
+                    "[+33]% growth [in capital]",
+                    "[+1 Food, +1 Culture] [in capital]"
                 ],
                 "requires": ["Legalism"],
                 "row": 2,

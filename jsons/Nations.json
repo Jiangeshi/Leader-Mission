@@ -166,7 +166,7 @@
 		"uniqueName": "爱国军",
 		"uniques": [
 		"[+15]% Strength <within [3] tiles of a [City center]> <for [Military] units>"
-		"[+20]% Strength <for [All] units> <vs cities>"]
+		"[+15]% Strength <for [All] units> <vs cities>"]
 		"cities": ["波哥大","麦德林","巴兰基亚","卡塔赫纳","卡利","莱蒂西亚","阿劳卡","通哈","马尼萨莱斯","弗洛伦西亚","约帕尔",
 			"波帕扬","巴耶杜帕尔","基布多","蒙特里亚","伊尼里达港","圣何塞","内瓦","里奥阿查","圣玛尔塔","比亚维森西奥","帕斯托","库库塔","莫科阿","亚美尼亚城","佩雷拉","圣安德列斯",
 			"布卡拉曼加","辛塞莱霍","伊瓦格","米图","卡雷尼奥港"],
@@ -573,8 +573,8 @@
 		"innerColor": [180, 142, 0],
 		"favoredReligion": "Islam",
 		"uniqueName": "By The Nile",
-		"uniques": ["[+20]% Production when constructing [All] wonders [in all cities]",
-		"[+25]% [Culture] [in all cities with a world wonder]",
+		"uniques": ["[+15]% Production when constructing [All] wonders [in all cities]",
+		"[+20]% [Culture] [in all cities with a world wonder]",
 		"[+1 Food, +1 Production] in cities on [River] tiles"
 		]
 		"cities": ["开罗","亚历山大","塞得港","沙姆沙伊赫","吉萨","阿斯旺","苏伊士","卢克索","曼苏拉",
@@ -706,7 +706,40 @@
 			"Dijon","Amiens","Cherbourg","Poitiers","Toulouse","Bayonne","Strasbourg","Brest","Bordeaux","Rennes",
 			"Nice","Saint Etienne","Nantes","Reims","Le Mans","Montpellier","Limoges","Nancy","Lille","Caen","Toulon",
 			"Le Havre","Lourdes","Cannes","Aix-En-Provence","La Rochelle","Bourges","Calais"],
-        "spyNames": ["Jean-Paul", "Martine", "Lucien", "François", "Augustine", "Monsieur X", "Dr. Dupont", "Vipère", "Yvette", "Renard"]        
+        "spyNames": ["Jean-Paul", "Martine", "Lucien", "François", "Augustine", "Monsieur X", "Dr. Dupont", "Vipère", "Yvette", "Renard"]    
+    },
+	{
+		"name": "Korea",
+		"leaderName": "Leader",
+		"adjective": ["Korean"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "征服",
+
+        "startIntroPart1": "",
+        
+        "declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+		
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+		
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+		"outerColor": [27,33,96],
+		"innerColor": [255,0,0],
+		"favoredReligion": "Confucianism",
+		"uniqueName": "Scholars of the Jade Hall",
+        "uniques": [
+        "[+1 Science] from every specialist [in all cities]",
+	    "[Great Scientist] is earned [50]% faster",
+        "Receive a tech boost when scientific buildings/wonders are built in capital"
+        ],
+		"cities": ["Seoul","Busan","Jeonju","Daegu","Pyongyang","Kaesong","Suwon","Gwangju","Gangneung","Hamhung","Wonju","Ulsan",
+			"Changwon","Andong","Gongju","Haeju","Cheongju","Mokpo","Dongducheon","Geoje","Suncheon","Jinju","Sangju",
+			"Rason","Gyeongju","Chungju","Sacheon","Gimje","Anju"],
+        "spyNames": ["Kim", "Park", "Han", "Na", "Kong", "Yu", "Ahn", "Na", "Da", "Eun"]
     },
 	{
 	//城邦

@@ -236,7 +236,7 @@ Leader Mission 模组中的胜利方式有：
 		"uniques": [
 			"[+1 Food] from [Bananas] tiles [in this city]",
 			"[+1 Food] from [Wheat] tiles [in this city]",
-			"[+1 Production] from [Deer] tiles [in this city]",
+			"[+1 Food] from [Deer] tiles [in this city]",
 			],
 		"requiredTech": "制陶"
     },
@@ -337,7 +337,7 @@ Leader Mission 模组中的胜利方式有：
 	{
 	//奇观
 		"name": "巨石阵",
-		"faith": 3,
+		"faith": 1,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Engineer": 1},
 		"requiredTech": "信仰崇拜",
@@ -2117,7 +2117,6 @@ Leader Mission 模组中的胜利方式有：
 		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [文明领袖—拉美西斯二世]>",
 	    "Militaristic City-States grant units [2] times as fast when you are at war with a common nation",
 	    "Resting point for Influence with City-States is increased by [30]"
-	    "City-State Influence recovers at twice the normal rate"
 		]
 	},
 	{
@@ -2235,5 +2234,37 @@ Leader Mission 模组中的胜利方式有：
 		"requiredBuilding": "District—Military Center",
 		"requiredTech": "骑士制度",
 		"uniques": ["Destroyed when the city is captured","[+10]% [Culture] [in this city]"],
+	//朝鲜
+	},
+	{	
+        "name": "文明领袖—李成桂",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Korea",
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [文明领袖—金日成]>",
+	    "Earn [100]% of killed [Military] unit's [Strength] as [Culture]"
+		]	
+	},
+	{	
+        "name": "文明领袖—金日成",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Korea",
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [文明领袖—李成桂]>",
+		"[+15]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>",
+		"[+2 Gold] from all [Production] buildings",
+		]
+	},
+	{
+		"name": "Korean Academy",
+		"replaces": "大学",
+		"uniqueTo": "Korea",
+		"science": 4,
+		"maintenance": 2,
+		"percentStatBonus": {"science": 33},
+		"specialistSlots": {"Scientist": 2},
+		"requiredBuilding": "District—Scientific Research Center",
+		"uniques": ["[+2 Science] from [Jungle] tiles [in this city]"],
+		"requiredTech": "教育学"
 	}
 ]
