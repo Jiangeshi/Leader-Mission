@@ -759,8 +759,8 @@
 		"favoredReligion": "Tengriism",
 		"uniqueName": "Mongol Terror",
 		"uniques": [
-		"Double quantity of [Horses] produced",
 		"+30% Strength when fighting City-State units and cities", 
+		"Double quantity of [Horses] produced",
 		"Heals [15] damage if it kills a unit <for [Military] units>"
 		],
 		"cities": ["Karakorum","Beshbalik","Turfan","Hsia","Old Sarai","New Sarai","Tabriz","Tiflis","Otrar","Sanchu","Kazan",

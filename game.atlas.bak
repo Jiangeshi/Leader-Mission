@@ -2631,15 +2631,6 @@ BuildingIcons/Korean Academy
   offset: 0, 0
   index: -1
   
-Posthouse.png
-BuildingIcons/Posthouse
-  rotate: false
-  xy: 0,0
-  size: 70, 40
-  orig: 70, 40
-  offset: 0, 0
-  index: -1
-  
 总督.png
 BuildingIcons/总督—马格努斯 I
   rotate: false
@@ -3065,7 +3056,6 @@ BuildingIcons/文明领袖—金日成
   offset: 0, 0
   index: -1  
 
-文明领袖.png
 BuildingIcons/文明领袖—成吉思汗
   rotate: false
   xy: 0,0

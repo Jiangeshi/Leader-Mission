@@ -635,7 +635,7 @@
 		"range": 2,
 		"movement": 4,
 		"strength": 15,
-		"rangedStrength": 15,
+		"rangedStrength": 16,
 		"cost": 153,
 	    "requiredTech": "骑士制度",
 		"upgradesTo": "近代骑兵",

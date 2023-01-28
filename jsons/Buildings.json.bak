@@ -2276,7 +2276,7 @@ Leader Mission 模组中的胜利方式有：
 		"uniqueTo": "Mongolia",
 		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [文明领袖—忽必烈]>",
 		"[+1] population [in capital] <upon conquering a city>"
-		"[+1] Movement <for [Mounted] units>"
+		"[+33]% Strength <for [All] units> <vs cities>"
 		]	
 	},
 	{	
@@ -2299,10 +2299,10 @@ Leader Mission 模组中的胜利方式有：
 		"replaces": "法院",
 		"requiredTech": "建筑设计学",
 		"uniqueTo": "Mongolia",
+		"requiredNearbyImprovedResources": ["Horses"],
 		"uniques": ["Remove extra unhappiness from annexed cities",
 		"[-10]% Unhappiness from [Population] [in this city] <after discovering [立法]>",
 		"[+15]% Production when constructing [骑兵] units [in this city]",
-		"Consumes [1] [Horses]",
 		"Destroyed when the city is captured"
 		]
 	}
