@@ -216,18 +216,20 @@ Leader Mission 模组中的胜利方式有：
 		"science": 1,
 		"maintenance": 0,
 		"requiredTech": "钻木取火",
+		"uniques": ["Unsellable"]
 	},
 	{
 		"name": "祭坛",
 		"faith": 1,
 		"maintenance": 0,
 		"requiredTech": "信仰崇拜",
-		"uniques": ["Destroyed when the city is captured"]
+		"uniques": ["Destroyed when the city is captured","Unsellable"]
 	},
 	{
 		"name": "土窑",
 		"production": 2,
 		"requiredTech": "制陶",
+		"uniques": ["Unsellable"]
 	},
 	{
 		"name": "粮仓",
@@ -237,6 +239,7 @@ Leader Mission 模组中的胜利方式有：
 			"[+1 Food] from [Bananas] tiles [in this city]",
 			"[+1 Food] from [Wheat] tiles [in this city]",
 			"[+1 Food] from [Deer] tiles [in this city]",
+			"Unsellable"
 			],
 		"requiredTech": "制陶"
     },
@@ -245,13 +248,13 @@ Leader Mission 模组中的胜利方式有：
 		"maintenance": 1,
 		"food": 1,
 		"production": 1,
-		"uniques": ["Must be on [River]",	"[+1 Production] from [Wheat] tiles [in this city]"],
+		"uniques": ["Must be on [River]",	"[+1 Production] from [Wheat] tiles [in this city]","Unsellable"],
 		"requiredTech": "农业"
     },
 	{
 		"name": "图书馆",
 		"maintenance": 1,
-		"uniques": ["[+1 Science] per [2] population [in this city]"],
+		"uniques": ["[+1 Science] per [2] population [in this city]","Unsellable"],
 		"requiredTech": "文字"
 	},
 	{
@@ -259,10 +262,11 @@ Leader Mission 模组中的胜利方式有：
 		"maintenance": 1,
 		"science": 2,
 		"requiredTech": "历法"
+		"uniques": ["Unsellable"]	
 	},
 	{
 		"name": "集市",
-		"uniques": ["[+1 Gold] per [2] population [in this city]"],
+		"uniques": ["[+1 Gold] per [2] population [in this city]","Unsellable"],
 		"requiredTech": "历法"	
 	},
 	{
@@ -270,7 +274,7 @@ Leader Mission 模组中的胜利方式有：
 		"maintenance": 1,
 		"culture": 2,
 		"requiredTech": "墓葬"
-		"uniques": ["Destroyed when the city is captured"]
+		"uniques": ["Destroyed when the city is captured","Unsellable"]
 	},
 	{
 		"name": "马戏团",
@@ -278,19 +282,21 @@ Leader Mission 模组中的胜利方式有：
 		"happiness": 2,
 		"gold": 1,
 		"requiredTech": "畜牧业"
+		"uniques": ["Unsellable"]	
 	},
 	{
 		"name": "城墙",
 		"cityStrength": 3,
 		"cityHealth": 50,
 		"requiredTech": "石工术",
-		"uniques": ["Destroyed when the city is captured"]
+		"uniques": ["Destroyed when the city is captured","Unsellable"]
 	},
 	{
 		"name": "石碑",
 		"culture": 2,
 		"maintenance": 0,
 		"requiredTech": "石工术",	
+		"uniques": ["Unsellable"]	
 	},
 	{
 		"name": "石工坊",
@@ -299,7 +305,7 @@ Leader Mission 模组中的胜利方式有：
 		"maintenance": 1,
 		"uniques": [
 			"[+1 Production] from [Stone] tiles [in this city]",
-			"[+1 Production] from [Marble] tiles [in this city]"],
+			"[+1 Production] from [Marble] tiles [in this city]","Unsellable"],
 		"requiredTech": "石工术"
 	},
 	{
@@ -310,7 +316,7 @@ Leader Mission 模组中的胜利方式有：
 			"[+1 Production] from [Cattle] tiles [in this city]",
 			"[+1 Production] from [Deer] tiles [in this city]",
 			"[+1 Production] from [Horses] tiles [in this city]",
-			"[+1 Production] from [Sheep] tiles [in this city]"],
+			"[+1 Production] from [Sheep] tiles [in this city]","Unsellable"],
 		"requiredTech": "骑术"
 	},
 	{
@@ -318,12 +324,14 @@ Leader Mission 模组中的胜利方式有：
 		"happiness": 2,
 		"gold": 1,
 		"requiredTech": "建筑设计学"
+		"uniques": ["Unsellable"]	
 	},
 	{
 		"name": "哲学院",
 		"maintenance": 1,
 		"culture": 1,
 		"requiredTech": "哲学"
+		"uniques": ["Unsellable"]
 		"percentStatBonus": {"culture": 10},
 	},
 	{
@@ -332,7 +340,7 @@ Leader Mission 模组中的胜利方式有：
 		"production": 1,
 		"requiredTech": "铁器"
 	"requiredNearbyImprovedResources": ["Iron"],
-		"uniques": ["[+1 Production] from [Iron] tiles [in this city]"]
+		"uniques": ["[+1 Production] from [Iron] tiles [in this city]","Unsellable"]
 	},
 	{
 	//奇观
@@ -482,8 +490,7 @@ Leader Mission 模组中的胜利方式有：
 		"requiredTech": "政治学"
 		"isNationalWonder": true,
 		"uniques":["Cannot be purchased","Unsellable","[-15]% Culture cost of adopting new Policies",
-		"Provides [1] [总督点数]", 
-		"Provides [10] [总督升级]",
+		"Provides [1] [总督点数]",
 		]
 		"civilopediaText": [
 		{"text":"在政府中可建造：", "link":"Wonder/District—Government"},
@@ -500,7 +507,7 @@ Leader Mission 模组中的胜利方式有：
 		"cost": 100,
 		"uniques": ["Remove extra unhappiness from annexed cities",
 		"[-10]% Unhappiness from [Population] [in this city] <after discovering [立法]>",
-		"Destroyed when the city is captured"
+		"Destroyed when the city is captured","Unsellable"
 ],
 		"requiredTech": "建筑设计学",
 	},
@@ -634,9 +641,9 @@ Leader Mission 模组中的胜利方式有：
 	    "requiredTech": "政治学",
 		"requiredResource": "总督点数",
 		"uniques":["Cannot be purchased","Unsellable","Destroyed when the city is captured","Only available <in cities without a [总督—马格努斯 I]>","Only available <in cities without a [总督—平伽拉 I]>",
-		"[+3 Gold] [in this city] <with [1] to [2] neighboring [unimproved] tiles>",
-		"[+6 Gold] [in this city] <with [3] to [4] neighboring [unimproved] tiles>",
-		"[+9 Gold] [in this city] <with [5] to [6] neighboring [unimproved] tiles>"]	
+		"[+4 Gold] [in this city] <with [1] to [2] neighboring [unimproved] tiles>",
+		"[+8 Gold] [in this city] <with [3] to [4] neighboring [unimproved] tiles>",
+		"[+12 Gold] [in this city] <with [5] to [6] neighboring [unimproved] tiles>"]	
 	},
 	{
 	    "name": "总督—瑞纳 IIA",
@@ -749,7 +756,7 @@ Leader Mission 模组中的胜利方式有：
 		"requiredBuilding": "District—Religious Cente",
 		"maintenance": 1,
 		"requiredTech": "宗教",
-		"uniques": ["Destroyed when the city is captured"]
+		"uniques": ["Destroyed when the city is captured","Unsellable"]
 	},
 	{
 		"name": "大教堂",
@@ -759,7 +766,7 @@ Leader Mission 模组中的胜利方式有：
 		"happiness": 1,
 		"requiredBuilding": "District—Religious Cente",
 		"specialistSlots": {"Artist": 1},
-		"uniques": ["Unbuildable"]
+		"uniques": ["Unbuildable","Unsellable"]
 	},
 	{
 		"name": "修道院",
@@ -768,7 +775,7 @@ Leader Mission 模组中的胜利方式有：
 		"faith": 1,
 		"requiredBuilding": "District—Religious Cente",
 		"uniques": ["[+1 Culture, +1 Faith] from [Wine] tiles [in this city]",
-			"[+1 Culture, +1 Faith] from [Incense] tiles [in this city]","Unbuildable"]
+			"[+1 Culture, +1 Faith] from [Incense] tiles [in this city]","Unbuildable","Unsellable"]
 	},
 	{
 		"name": "清真寺",
@@ -777,7 +784,7 @@ Leader Mission 模组中的胜利方式有：
 		"faith": 2,
 		"happiness": 1,
 		"requiredBuilding": "District—Religious Cente",
-		"uniques": ["Unbuildable"]
+		"uniques": ["Unbuildable","Unsellable"]
 	},
 	{
 		"name": "佛塔",
@@ -786,7 +793,7 @@ Leader Mission 模组中的胜利方式有：
 		"faith": 1,
 		"happiness": 1,
 		"requiredBuilding": "District—Religious Cente",
-		"uniques": ["Unbuildable"]
+		"uniques": ["Unbuildable","Unsellable"]
 	},
 	{
 		"name": "圣索菲亚大教堂",
@@ -864,7 +871,7 @@ Leader Mission 模组中的胜利方式有：
 		"maintenance": 2,
 		"greatPersonPoints": {"Great Admiral": 1},
 		"uniques": ["Must be next to [Coast]", "[+1 Food] from [Ocean] tiles [in this city]",
-			"[+1 Food] from [Coast] tiles [in this city]", "[+1 Food] from [Fish] tiles [in this city]"],
+			"[+1 Food] from [Coast] tiles [in this city]", "[+1 Food] from [Fish] tiles [in this city]","Unsellable"],
 		"requiredTech": "光学"	
 		"requiredBuilding": "District—Shipping Center", 
 	},
@@ -874,7 +881,7 @@ Leader Mission 模组中的胜利方式有：
 		"maintenance": 1,
 		"greatPersonPoints": {"Great Admiral": 1},
 		"uniques": ["[+1 Gold] from [Water resource] tiles [in this city]",
-		"Must be next to [Coast]"],
+		"Must be next to [Coast]","Unsellable"],
 		"requiredTech": "罗盘",
 	    "requiredBuilding": "District—Shipping Center",
     },
@@ -885,7 +892,7 @@ Leader Mission 模组中的胜利方式有：
 		"greatPersonPoints": {"Great Admiral": 1},
 		"requiredResource": "Steel"
 		"requiredBuilding": "District—Shipping Center",
-		"uniques": ["[+1 Production, +1 Gold] from [Water resource] tiles [in this city]","Provides [2] [CO2]"],
+		"uniques": ["[+1 Production, +1 Gold] from [Water resource] tiles [in this city]","Provides [2] [CO2]","Unsellable"],
 		"requiredTech": "航海术" 
 	},
 	{
@@ -895,7 +902,7 @@ Leader Mission 模组中的胜利方式有：
 		"requiredBuilding": "District—Shipping Center",
 		"uniques": ["Consumes [2] [Steel]",
 			"Must be next to [Coast]", "[+10]% Production when constructing [{Military} {Water}] units [in this city]",
-			"New [{Military} {Water}] units start with [15] Experience [in this city]", "Destroyed when the city is captured","Provides [3] [CO2]"],
+			"New [{Military} {Water}] units start with [15] Experience [in this city]", "Destroyed when the city is captured","Provides [3] [CO2]","Unsellable"],
 		"requiredTech": "蒸汽机"       
 	},
 	{
@@ -936,11 +943,12 @@ Leader Mission 模组中的胜利方式有：
 		"percentStatBonus": {"gold": 25},
 		"requiredTech": "经济学",
 		"requiredBuilding": "District—Commercial Centre",
+		"uniques": ["Unsellable"]
 	},
 	{
 		"name": "铸币厂",
 		"maintenance": 0,"requiredNearbyImprovedResources": ["Gold Ore", "Silver"],
-		"uniques": ["[+2 Gold] from [Gold Ore] tiles [in this city]", "[+2 Gold] from [Silver] tiles [in this city]","Provides [2] [CO2]"],
+		"uniques": ["[+2 Gold] from [Gold Ore] tiles [in this city]", "[+2 Gold] from [Silver] tiles [in this city]","Provides [2] [CO2]","Unsellable"],
 		"requiredTech": "经济学",
 		"requiredBuilding": "District—Commercial Centre",
 	},
@@ -951,6 +959,7 @@ Leader Mission 模组中的胜利方式有：
 		"percentStatBonus": {"gold": 25},
 		"requiredBuilding": "District—Commercial Centre",
 		"requiredTech": "银行业"
+		"uniques": ["Unsellable"]
 	},
 	{
 		"name": "股票交易所",
@@ -959,6 +968,7 @@ Leader Mission 模组中的胜利方式有：
 		"specialistSlots": {"Merchant": 1},
 		"requiredBuilding": "District—Commercial Centre",
 		"requiredTech": "金融业"
+		"uniques": ["Unsellable"]	
 	},
 	{
 		"name": "证券交易所",
@@ -967,6 +977,7 @@ Leader Mission 模组中的胜利方式有：
 		"specialistSlots": {"Merchant": 2},
 		"requiredBuilding": "District—Commercial Centre",
 		"requiredTech": "电学"
+		"uniques": ["Unsellable"]	
 	},
 	{
 		"name": "太阳神巨像",
@@ -1028,7 +1039,7 @@ Leader Mission 模组中的胜利方式有：
 	{
 		"name": "军营",
 		"maintenance": 3,
-		"uniques": ["New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured","Provides [3] [CO2]"],
+		"uniques": ["Unsellable","New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured","Provides [3] [CO2]"],
 		"requiredTech": "军事学",
 		"requiredBuilding": "District—Military Center",
 	},
@@ -1037,7 +1048,7 @@ Leader Mission 模组中的胜利方式有：
 		"maintenance": 2,
 		"cityStrength": 3,
 		"cityHealth": 25,
-		"uniques": ["Destroyed when the city is captured"],
+		"uniques": ["Destroyed when the city is captured","Unsellable",],
 		"requiredTech": "防御工事",
 		"requiredBuilding": "District—Military Center",
 	},
@@ -1048,13 +1059,13 @@ Leader Mission 模组中的胜利方式有：
 		"cityHealth": 35,
 		"requiredBuilding": "District—Military Center",
 		"requiredTech": "骑士制度",
-		"uniques": ["Destroyed when the city is captured"]
+		"uniques": ["Destroyed when the city is captured","Unsellable"]
 	},
 	{
 		"name": "军械所",
 		"maintenance": 2,
 		"requiredBuilding": "District—Military Center",
-		"uniques": ["All newly-trained [Military] units [in this city] receive the [装备精良] promotion", "Destroyed when the city is captured","Provides [3] [CO2]"],
+		"uniques": ["All newly-trained [Military] units [in this city] receive the [装备精良] promotion", "Destroyed when the city is captured","Provides [3] [CO2]","Unsellable"],
 		"requiredTech": "兵器储备"
 	},
 	{
@@ -1065,13 +1076,13 @@ Leader Mission 模组中的胜利方式有：
 		"cost": 350,
 		"requiredBuilding": "District—Military Center",
 		"requiredTech": "合金",
-		"uniques": ["Destroyed when the city is captured","Consumes [1] [Steel]","Consumes [1] [Coal]","Provides [5] [CO2]"]
+		"uniques": ["Destroyed when the city is captured","Consumes [1] [Steel]","Consumes [1] [Coal]","Provides [5] [CO2]","Unsellable"]
 	},
 	{
 		"name": "军事学院",
 		"maintenance": 2,
 		"requiredBuilding": "District—Military Center",
-		"uniques": ["New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured","Provides [1] [CO2]"],
+		"uniques": ["New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured","Provides [1] [CO2]","Unsellable"],
 		"requiredTech": "军事科学"
 	},
 	{
@@ -1080,7 +1091,7 @@ Leader Mission 模组中的胜利方式有：
 		"cityHealth": 25,
 		"requiredBuilding": "District—Military Center",
 		"requiredTech": "精密零件",
-		"uniques": ["Destroyed when the city is captured","Consumes [3] [Electricity]","Consumes [1] [Steel]","Provides [3] [CO2]"]	
+		"uniques": ["Destroyed when the city is captured","Consumes [3] [Electricity]","Consumes [1] [Steel]","Provides [3] [CO2]","Unsellable"]	
 	},
 	{
 		"name": "英雄史诗",
@@ -1190,12 +1201,12 @@ Leader Mission 模组中的胜利方式有：
 		"specialistSlots": {"Artist": 1},
 		"requiredBuilding": "District—Cultural Center",
 		"maintenance": 2,
-		"uniques": ["Destroyed when the city is captured"],
+		"uniques": ["Unsellable"],
 		"requiredTech": "戏剧与诗歌"
 	},
 	{
 		"name": "花园",
-		"uniques": ["[+25]% Great Person generation [in this city]", "Must be next to [Fresh water]"],
+		"uniques": ["[+25]% Great Person generation [in this city]", "Must be next to [Fresh water]","Unsellable"],
 		"maintenance": 1,
 		"requiredTech": "神学",
 		"requiredBuilding": "District—Cultural Center",
@@ -1204,6 +1215,7 @@ Leader Mission 模组中的胜利方式有：
 		"name": "歌剧院",
 		"culture": 4,
 		"specialistSlots": {"Artist": 1},
+		"uniques": ["Unsellable"],
 		"requiredBuilding": "District—Cultural Center",
 		"maintenance": 2,
 		"requiredTech": "声学",
@@ -1213,6 +1225,7 @@ Leader Mission 模组中的胜利方式有：
 		"happiness": 3,
 		"maintenance": 2,
 		"requiredBuilding": "District—Cultural Center",
+		"uniques": ["Unsellable"],
 		"requiredTech": "印刷术"
 	},
 	{
@@ -1222,13 +1235,14 @@ Leader Mission 模组中的胜利方式有：
 		"specialistSlots": {"Artist": 1},
 		"requiredBuilding": "District—Cultural Center",
 		"requiredTech": "印刷术"
-		"uniques": ["[+30]% Natural religion spread [in this city]","Provides [2] [CO2]"]
+		"uniques": ["[+30]% Natural religion spread [in this city]","Provides [2] [CO2]","Unsellable"]
 	},
 	{
 		"name": "博物馆",
 		"culture": 5,
 		"specialistSlots": {"Artist": 2},
 		"requiredBuilding": "District—Cultural Center",
+		"uniques": ["Unsellable"],
 		"maintenance": 3,
 		"requiredTech": "考古学"
 	},
@@ -1237,7 +1251,7 @@ Leader Mission 模组中的胜利方式有：
 		"happiness": 4,
 		"requiredBuilding": "District—Cultural Center",
 		"maintenance": 3,
-		"uniques":["Consumes [2] [Electricity]","Consumes [1] [Steel]"]
+		"uniques":["Consumes [2] [Electricity]","Consumes [1] [Steel]","Unsellable"]
 		"requiredTech": "制冷"
 	},
 	{
@@ -1369,7 +1383,7 @@ Leader Mission 模组中的胜利方式有：
 	{
 		"name": "引水渠",
 		"maintenance": 1,
-		"uniques": ["[35]% Food is carried over after population increases [in this city]"],
+		"uniques": ["[35]% Food is carried over after population increases [in this city]","Unsellable"],
 		"requiredBuilding": "District—Infrastructure Center",
 		"requiredTech": "工程学"
 	},
@@ -1378,6 +1392,7 @@ Leader Mission 模组中的胜利方式有：
 		"gold": 1,
 		"production": 1, 
 		"cost": 200,
+		"uniques": ["Unsellable"],
 		"requiredBuilding": "District—Infrastructure Center",
 		"requiredTech": "水运"
     },
@@ -1386,14 +1401,14 @@ Leader Mission 模组中的胜利方式有：
 		"culture": 3,
 		"percentStatBonus": {"culture": 33},
 		"requiredBuilding": "District—Infrastructure Center",
-		"uniques":["Consumes [1] [Electricity]","Consumes [1] [Steel]"]
+		"uniques":["Consumes [1] [Electricity]","Consumes [1] [Steel]","Unsellable"]
 		"maintenance": 3,
 		"requiredTech": "无线电",
 	},
 	{
 		"name": "医院",
 		"uniques":["[-10]% Unhappiness from [Population] [in this city]","[Wounded] Units adjacent to this city heal [+15] HP per turn when healing",
-		"Consumes [2] [Electricity]"]
+		"Consumes [2] [Electricity]","Unsellable"]
 		"requiredBuilding": "District—Infrastructure Center",
 		"maintenance": 3,
 		"requiredTech": "生物学"
@@ -1404,7 +1419,7 @@ Leader Mission 模组中的胜利方式有：
 		"maintenance": 3,
 		"requiredTech": "远程通信",
 		"requiredBuilding": "District—Infrastructure Center",
-		"uniques": ["Population loss from nuclear attacks [-85]% [in this city]"]
+		"uniques": ["Population loss from nuclear attacks [-85]% [in this city]","Unsellable"]
 	},
 	{
 		"name": "回收中心",
@@ -1412,7 +1427,7 @@ Leader Mission 模组中的胜利方式有：
 		"maintenance": 3,
 		"requiredTech": "生态学",
 		"requiredBuilding": "District—Infrastructure Center",
-		"uniques": ["Provides [3] [Aluminum]","Consumes [2] [Electricity]"]	
+		"uniques": ["Provides [3] [Aluminum]","Consumes [2] [Electricity]","Unsellable"]	
 	},
 	{
 		"name": "空中花园",
@@ -1512,7 +1527,7 @@ Leader Mission 模组中的胜利方式有：
 		"maintenance": 2,
 		"production": 1,
 		"specialistSlots": {"Engineer": 1},
-		"uniques":["Provides [3] [CO2]"]
+		"uniques":["Provides [3] [CO2]","Unsellable"]
 		"percentStatBonus": {"production": 10},
 		"requiredBuilding": "District—Industrial Centre",
 		"requiredTech": "工业伊始"
@@ -1525,7 +1540,7 @@ Leader Mission 模组中的胜利方式有：
 		"requiredBuilding": "District—Industrial Centre",
 		"uniques": [
 			"[+15]% Production when constructing [Land] units [in this city]",
-			"[+1 Production] from [Iron] tiles [in this city]","Provides [3] [CO2]"]
+			"[+1 Production] from [Iron] tiles [in this city]","Provides [3] [CO2]","Unsellable"]
 	},
 	{
 		"name": "钢铁厂",
@@ -1533,7 +1548,7 @@ Leader Mission 模组中的胜利方式有：
 		"maintenance": 3,
 		"requiredBuilding": "District—Industrial Centre",
 		"requiredTech": "炼钢",
-	    "uniques":["Consumes [3] [Iron]","Consumes [2] [Coal]","Provides [10] [Steel]","Provides [5] [CO2]"]
+	    "uniques":["Consumes [3] [Iron]","Consumes [2] [Coal]","Provides [10] [Steel]","Provides [5] [CO2]","Unsellable"]
 	},
 	{
 		"name": "化肥厂",
@@ -1544,7 +1559,7 @@ Leader Mission 模组中的胜利方式有：
 	    "uniques": [
 			"[+1 Food] from [Farm] tiles [in this city]",
 			"[+1 Food] from [Plantation] tiles [in this city]",
-			"Consumes [2] [Steel]","Consumes [1] [Coal]","Provides [3] [CO2]"],
+			"Consumes [2] [Steel]","Consumes [1] [Coal]","Provides [3] [CO2]","Unsellable"],
 	},
 	{
 		"name": "工厂",
@@ -1552,7 +1567,7 @@ Leader Mission 模组中的胜利方式有：
 		"production": 4,
 		"percentStatBonus": {"production": 10},
 		"specialistSlots": {"Engineer": 2},
-		"uniques":["Consumes [2] [Steel]","Consumes [1] [Coal]","Provides [5] [CO2]"]
+		"uniques":["Consumes [2] [Steel]","Consumes [1] [Coal]","Provides [5] [CO2]","Unsellable"]
 		"requiredBuilding": "District—Industrial Centre",
 		"maintenance": 3,
 		"requiredTech": "工业化"
@@ -1561,7 +1576,7 @@ Leader Mission 模组中的胜利方式有：
 		"name": "水电站",
 		"maintenance": 3,
 		"uniques": ["Consumes [1] [Aluminum]",
-		"Must be on [River]","[+1 Production] from [River] tiles [in this city]","Provides [4] [Electricity]"],
+		"Must be on [River]","[+1 Production] from [River] tiles [in this city]","Provides [4] [Electricity]","Unsellable"],
 		"requiredBuilding": "District—Industrial Centre",
 		"requiredTech": "电学"
 	},
@@ -1571,7 +1586,7 @@ Leader Mission 模组中的胜利方式有：
 		"maintenance": 3,
 		"requiredBuilding": "District—Industrial Centre",
 		"requiredTech": "电学",
-	    "uniques":["Consumes [2] [Coal]","Consumes [1] [Steel]","Provides [8] [Electricity]","Provides [7] [CO2]"]
+	    "uniques":["Consumes [2] [Coal]","Consumes [1] [Steel]","Provides [8] [Electricity]","Provides [7] [CO2]","Unsellable"]
 	},
 	{
 		"name": "燃油发电厂",
@@ -1579,7 +1594,7 @@ Leader Mission 模组中的胜利方式有：
 		"maintenance": 3,
 		"requiredBuilding": "District—Industrial Centre",
 		"requiredTech": "制冷",
-	    "uniques":["Consumes [2] [Oil]","Consumes [1] [Steel]","Provides [12] [Electricity]","Provides [7] [CO2]"] 
+	    "uniques":["Consumes [2] [Oil]","Consumes [1] [Steel]","Provides [12] [Electricity]","Provides [7] [CO2]","Unsellable"] 
 	},
 	{
 		"name": "燃气发电厂",
@@ -1587,7 +1602,7 @@ Leader Mission 模组中的胜利方式有：
 		"maintenance": 3,
 		"requiredBuilding": "District—Industrial Centre",
 		"requiredTech": "制冷",
-	    "uniques":["Consumes [3] [Gas]","Consumes [1] [Steel]","Provides [10] [Electricity]","Provides [3] [CO2]"]           
+	    "uniques":["Consumes [3] [Gas]","Consumes [1] [Steel]","Provides [10] [Electricity]","Provides [3] [CO2]","Unsellable"]           
 	},
 	{
 		"name": "核电站",
@@ -1596,7 +1611,7 @@ Leader Mission 模组中的胜利方式有：
 		"requiredBuilding": "District—Industrial Centre",
 		"maintenance": 7,
 		"requiredTech": "核裂变",
-		"uniques": ["Consumes [1] [Uranium]","Consumes [1] [Aluminum]","Provides [12] [Electricity]"]
+		"uniques": ["Consumes [1] [Uranium]","Consumes [1] [Aluminum]","Provides [12] [Electricity]","Unsellable"]
 	},
 	{
 		"name": "化工厂",
@@ -1604,7 +1619,7 @@ Leader Mission 模组中的胜利方式有：
 		"maintenance": 3,
 		"requiredBuilding": "District—Industrial Centre",
 		"requiredTech": "塑料",
-	    "uniques":["Consumes [2] [Gas]","Consumes [1] [Steel]","Consumes [6] [Electricity]","[+15]% [Gold] [in this city]","Provides [5] [CO2]"]	
+	    "uniques":["Consumes [2] [Gas]","Consumes [1] [Steel]","Consumes [6] [Electricity]","[+15]% [Gold] [in this city]","Provides [5] [CO2]","Unsellable"]	
 	},
 	{
 		"name": "燃料加工厂",
@@ -1613,14 +1628,14 @@ Leader Mission 模组中的胜利方式有：
 		"requiredResource": "Aluminum",
 		"requiredBuilding": "District—Industrial Centre",
 		"requiredTech": "火箭",
-	    "uniques":["Consumes [8] [Electricity]","Consumes [2] [Steel]","Consumes [4] [Saltpeter]","Consumes [4] [Gas]","Consumes [2] [Oil]","Consumes [2] [Coal]","Provides [4] [Mixed fuel]","Provides [3] [CO2]"]
+	    "uniques":["Consumes [8] [Electricity]","Consumes [2] [Steel]","Consumes [4] [Saltpeter]","Consumes [4] [Gas]","Consumes [2] [Oil]","Consumes [2] [Coal]","Provides [4] [Mixed fuel]","Provides [3] [CO2]","Unsellable"]
 	},
 	{
 		"name": "太空飞船工厂",
 		"production": 3,
 		"requiredResource": "Aluminum",
 		"requiredBuilding": "District—Industrial Centre",
-		"uniques": ["[+50]% Production when constructing [Spaceship part] units [in this city]","Consumes [8] [Electricity]"],
+		"uniques": ["[+50]% Production when constructing [Spaceship part] units [in this city]","Consumes [8] [Electricity]","Unsellable"],
 		"requiredTech": "机器人学"
 	},
 	{
@@ -1649,14 +1664,14 @@ Leader Mission 模组中的胜利方式有：
 		"percentStatBonus": {"science": 33},
 		"specialistSlots": {"Scientist": 2},
 		"requiredBuilding": "District—Scientific Research Center",
-		"uniques": ["[+2 Science] from [Jungle] tiles [in this city]"],
+		"uniques": ["[+2 Science] from [Jungle] tiles [in this city]","Unsellable"],
 		"requiredTech": "教育学"
 	},
 	{
 		"name": "天文台",
 		"maintenance": 2,
 		"percentStatBonus": {"science": 50},
-		"uniques": ["Must be next to [Mountain]"],
+		"uniques": ["Must be next to [Mountain]","Unsellable"],
 		"requiredBuilding": "District—Scientific Research Center",
 		"requiredTech": "天文学"
 	},
@@ -1666,7 +1681,7 @@ Leader Mission 模组中的胜利方式有：
 		"specialistSlots": {"Scientist": 1},
 		"requiredBuilding": "District—Scientific Research Center",
 		"maintenance": 3,
-		"uniques": ["[+1 Science] per [2] population [in this city]"],
+		"uniques": ["[+1 Science] per [2] population [in this city]","Unsellable"],
 		"requiredTech": "科学理论"
 	},
 	{
@@ -1676,7 +1691,7 @@ Leader Mission 模组中的胜利方式有：
 		"specialistSlots": {"Scientist": 1},
 		"requiredBuilding": "District—Scientific Research Center",
 		"maintenance": 3,
-		"uniques":["Consumes [3] [Electricity]"]
+		"uniques":["Consumes [3] [Electricity]","Unsellable"]
 		"requiredTech": "塑料"
     },
 	{
@@ -1685,7 +1700,7 @@ Leader Mission 模组中的胜利方式有：
 		"science": 5,
 		"maintenance": 5,
 		"requiredTech": "制药学",
-		"uniques": ["[25]% Food is carried over after population increases [in this city]","Consumes [3] [Electricity]"]		
+		"uniques": ["[25]% Food is carried over after population increases [in this city]","Consumes [3] [Electricity]","Unsellable"]		
 	},
 	{
 		"name": "大报恩寺",
@@ -1725,7 +1740,9 @@ Leader Mission 模组中的胜利方式有：
 		"cost":1,
 		"uniqueTo": "中华",
 		"uniques": ["Can only be built [in capital]","Only available <in cities without a [文明领袖—汉武帝]>","Only available <in cities without a [文明领袖—伟大领袖]>",
-		"All newly-trained [Melee] units [in all cities] receive the [蛮族归顺] promotion"]
+		"All newly-trained [Melee] units [in all cities] receive the [蛮族归顺] promotion",
+		"[+33]% Strength <vs [Barbarian] units> <for [Military] units>",
+		]
 		},
 		{
         "name": "文明领袖—伟大领袖",
@@ -1754,7 +1771,7 @@ Leader Mission 模组中的胜利方式有：
 		"name": "园林",
 		"culture": 1,
 		"happiness": 1,
-		"uniques": ["[+25]% Great Person generation [in this city]",],
+		"uniques": ["[+25]% Great Person generation [in this city]","Unsellable"],
 		"maintenance": 1,
 		"uniqueTo": "中华",
 		"replaces": "花园",
@@ -1814,9 +1831,9 @@ Leader Mission 模组中的胜利方式有：
 		"name": "纪功柱",
 		"culture": 2,
 		"maintenance": 0,
-		"requiredTech": "信仰崇拜",
+		"requiredTech": "石工术",
 	    "uniqueTo": "Rome",
-	    "uniques":["[+10]% [Culture] [in this city]"]
+	    "uniques":["[+10]% [Culture] [in this city]","Unsellable"]
 		"replaces": "石碑",
 	//俄罗斯
 	},
@@ -1900,7 +1917,7 @@ Leader Mission 模组中的胜利方式有：
 	{
 		"name": "甘多小学",
 		"maintenance": 0,
-		"uniques": ["[+2 Science] per [3] population [in this city]"],
+		"uniques": ["[+2 Science] per [3] population [in this city]","Unsellable"],
 		"uniqueTo": "布基纳法索",
 		"replaces": "图书馆",
 		"requiredTech": "文字"
@@ -1912,12 +1929,12 @@ Leader Mission 模组中的胜利方式有：
 		"cost":1,
 		"uniqueTo": "巴拿马",
 		"uniques": ["Can only be built [in capital]",
-		"[+1 Science] from every [运河] <before discovering [水运]>","[+2 Culture, +2 Gold] from every [运河] <after discovering [水运]>",]
+		"[+2 Science] from every [运河] <before discovering [水运]>","[+2 Culture, +2 Gold] from every [运河] <after discovering [水运]>",]
 	},
 	{
 		"name": "巴拿马运河",
 		"cost": 400,
-		"gold": 5,
+		"gold": 7,
 		"uniqueTo": "巴拿马",
 		"replaces": "国家运河",
 		"isNationalWonder": true,
@@ -1995,7 +2012,7 @@ Leader Mission 模组中的胜利方式有：
 		"specialistSlots": {"Merchant": 1},
 		"percentStatBonus": {"gold": 25},
 		"uniques": ["Provides 1 extra copy of each improved luxury resource near this City",
-			"[+2 Gold, +2 Faith] from [Oasis] tiles [in this city]"],
+			"[+2 Gold, +2 Faith] from [Oasis] tiles [in this city]","Unsellable"],
 		"requiredTech": "经济学"	
 	//大哥伦比亚
 	},
@@ -2005,15 +2022,17 @@ Leader Mission 模组中的胜利方式有：
 		"cost":1,
 		"uniqueTo": "大哥伦比亚",
 		"uniques": ["Can only be built [in capital]",
-		"[+15]% Strength <for [Military] units> <when fighting in [Enemy Land] tiles>"
+		"[+10]% Strength <for [Military] units> <when fighting in [Enemy Land] tiles>"
 		"[+3 Happiness, +3 Culture] [in annexed cities]"]
 	},
 	{
 		"name": "大庄园",
-	    "production": 2,
+	    "production": 3,
+	    "replaces": "土窑",
+	    "maintenance": 1,
 	    "uniqueTo": "大哥伦比亚",
-		"requiredTech": "农业",
-		"uniques":["[+1 Production] from [Plantation] tiles [in this city]","Provides [1] [CO2]"], 
+		"requiredTech": "制陶",
+		"uniques":["[+1 Production] from [Plantation] tiles [in this city]","Unsellable"], 
    	//阿富汗
 	},
 	{	
@@ -2034,7 +2053,7 @@ Leader Mission 模组中的胜利方式有：
 		"uniqueTo": "阿富汗",
 		"maintenance": 0,
 		"requiredTech": "信仰崇拜",
-		"uniques": ["Destroyed when the city is captured"]
+		"uniques": ["Destroyed when the city is captured","Unsellable"]
 	//匈人
 	},
 	{	
@@ -2096,7 +2115,7 @@ Leader Mission 模组中的胜利方式有：
 		"requiredTech": "经济学"
 		"uniques": [
 			"[+1 Happiness, +1 Gold] from [Gold Ore] tiles [in this city]",
-			"[+1 Happiness, +1 Gold] from [Silver] tiles [in this city]"],		
+			"[+1 Happiness, +1 Gold] from [Silver] tiles [in this city]","Unsellable"],		
 	//埃及
 	},
 	{	
@@ -2124,8 +2143,8 @@ Leader Mission 模组中的胜利方式有：
 		"replaces": "坟墓",
 		"uniqueTo": "Egypt",
 		"maintenance": 0,
-		"cost": 80,
-		"uniques": ["Destroyed when the city is captured","[+15]% [Faith] [in this city]"],
+		"cost": 60,
+		"uniques": ["Destroyed when the city is captured","[+15]% [Faith] [in this city]","Unsellable"],
 		"faith": 2,
 		"culture": 2,
 		"requiredTech": "墓葬"
@@ -2233,7 +2252,7 @@ Leader Mission 模组中的胜利方式有：
 		"cityHealth": 50,
 		"requiredBuilding": "District—Military Center",
 		"requiredTech": "骑士制度",
-		"uniques": ["Destroyed when the city is captured","[+10]% [Culture] [in this city]"],
+		"uniques": ["Destroyed when the city is captured","[+10]% [Culture] [in this city]","Unsellable"],
 	//朝鲜
 	},
 	{	
@@ -2253,7 +2272,7 @@ Leader Mission 模组中的胜利方式有：
 		"uniqueTo": "Korea",
 		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [文明领袖—李成桂]>",
 		"[+15]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>",
-		"[+1 Science] from all [Production] buildings",
+		"[+1 Science, +1 Gold] from all [Production] buildings",
 		]
 	},
 	{
@@ -2265,7 +2284,7 @@ Leader Mission 模组中的胜利方式有：
 		"percentStatBonus": {"science": 33},
 		"specialistSlots": {"Scientist": 2},
 		"requiredBuilding": "District—Scientific Research Center",
-		"uniques": ["[+2 Science] from [Jungle] tiles [in this city]"],
+		"uniques": ["[+2 Science] from [Jungle] tiles [in this city]","Unsellable"],
 		"requiredTech": "教育学"
 	//蒙古
 	},
@@ -2275,8 +2294,8 @@ Leader Mission 模组中的胜利方式有：
 		"cost":1,
 		"uniqueTo": "Mongolia",
 		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [文明领袖—忽必烈]>",
-		"[+1] population [in capital] <upon conquering a city>"
-		"[+1] Movement <for [Mounted] units>"
+		"[+1] population [in capital] <upon conquering a city>",
+		"[1] free [Worker] units appear <upon conquering a city>"
 		]	
 	},
 	{	
@@ -2293,7 +2312,7 @@ Leader Mission 模组中的胜利方式有：
 	{
 		"name": "Posthouse",
 		"happiness": 1,
-		"culture": 1,
+		"production": 1,
 		"maintenance": 1,
 		"cost": 100,
 		"replaces": "法院",
@@ -2302,8 +2321,71 @@ Leader Mission 模组中的胜利方式有：
 		"uniques": ["Remove extra unhappiness from annexed cities",
 		"[-10]% Unhappiness from [Population] [in this city] <after discovering [立法]>",
 		"[+15]% Production when constructing [骑兵] units [in this city]",
-		"Consumes [1] [Horses]",
-		"Destroyed when the city is captured"
+		"Destroyed when the city is captured","Unsellable"
 		]
+    //古巴
+	},
+	{	
+        "name": "文明领袖—切·格瓦拉",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Cuba",
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [文明领袖—卡斯特罗]>",
+		"[+2 Culture] <when below [0] Happiness>",
+		"[+15]% [Culture] [in all cities] <while the empire is happy>"
+		"[+15]% Strength <when fighting units from a Civilization with more Cities than you>"
+		]	
+	},
+	{	
+        "name": "文明领袖—卡斯特罗",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Cuba",
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [文明领袖—切·格瓦拉]>",
+		"[+6 Gold] from every [District—Industrial Centre]",
+		"[+15]% Strength <for [Military] units> <when defending>"
+		]
+	},
+	{
+		"name": "Cuban Capitol",
+		"cost":200,
+	    "maintenance": 3,
+		"requiredTech": "政治学"
+		"replaces": "District—Government",
+		"uniqueTo": "Cuba",
+		"isNationalWonder": true,
+		"uniques":["Cannot be purchased","Unsellable","[-15]% Culture cost of adopting new Policies",
+		"Provides [2] [总督点数]", 
+		]
+	//巴比伦
+	},
+	{	
+        "name": "文明领袖—汉谟拉比",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Babylon",
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [文明领袖—尼布甲尼撒二世]>",
+		"[-35]% Culture cost of natural border growth [in all cities]"
+		"[+1 Culture, +1 Science] from every [法院]",
+		]	
+	},
+	{	
+        "name": "文明领袖—尼布甲尼撒二世",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Babylon",
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [文明领袖—汉谟拉比]>",
+		"[+20]% [Science] [in all cities with a world wonder]",
+		"[+10]% Strength <for [Military] units> <when attacking>"
+		]
+	},
+	{
+		"name": "Walls of Babylon",
+		"replaces": "城墙",
+		"uniqueTo": "Babylon",
+		"cityStrength": 4,
+		"cityHealth": 100,
+		"requiredTech": "石工术",
+		"uniques": ["Destroyed when the city is captured","Unsellable"]
 	}
 ]

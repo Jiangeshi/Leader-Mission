@@ -65,7 +65,7 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "世界桥梁",
 		"uniques": ["Gain a free [运河] [in all cities]","Gain a free [巴拿马运河] [in capital] <after discovering [水运]>",
-		"[+10]% Strength <for [Military] units> <within [2] tiles of a [Coast]>"
+		"[+10]% Strength <for [Military] units> <within [3] tiles of a [Coast]>"
 		]
 		"cities": ["巴拿马城","圣地亚哥","圣米格利托","博卡斯德尔托罗区","戴维","佩诺诺梅","科隆","帕尔马","奇特雷","洛斯塔布拉斯","拉乔雷拉",
 			"乌尼翁乔科","埃尔波韦尼尔","奇奇卡","马顿干迪库纳族自治市","瓦尔干迪库纳族自治市","恩戈贝布格勒自治区","雅拉库纳族自治区","安贝拉自治区","贝拉瓜斯省","西巴拿马省","巴拿马省","洛斯桑托斯省","埃雷拉省","达连省","科隆省","科克莱省",
@@ -165,8 +165,8 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "爱国军",
 		"uniques": [
-		"[+15]% Strength <within [3] tiles of a [City center]> <for [Military] units>"
-		"[+15]% Strength <for [All] units> <vs cities>"]
+		"[+10]% Strength <within [3] tiles of a [City center]> <for [Military] units>"
+		"[+20]% Strength <for [All] units> <vs cities>"]
 		"cities": ["波哥大","麦德林","巴兰基亚","卡塔赫纳","卡利","莱蒂西亚","阿劳卡","通哈","马尼萨莱斯","弗洛伦西亚","约帕尔",
 			"波帕扬","巴耶杜帕尔","基布多","蒙特里亚","伊尼里达港","圣何塞","内瓦","里奥阿查","圣玛尔塔","比亚维森西奥","帕斯托","库库塔","莫科阿","亚美尼亚城","佩雷拉","圣安德列斯",
 			"布卡拉曼加","辛塞莱霍","伊瓦格","米图","卡雷尼奥港"],
@@ -761,7 +761,9 @@
 		"uniques": [
 		"Double quantity of [Horses] produced",
 		"+30% Strength when fighting City-State units and cities", 
-		"Heals [15] damage if it kills a unit <for [Military] units>"
+		"Heals [25] damage if it kills a unit <for [Military] units>"
+		"[+1] Movement <for [骑兵] units>"
+		"[+1] Sight <for [骑兵] units>"
 		],
 		"cities": ["Karakorum","Beshbalik","Turfan","Hsia","Old Sarai","New Sarai","Tabriz","Tiflis","Otrar","Sanchu","Kazan",
 			"Almarikh","Ulaanbaatar","Hovd","Darhan","Dalandzadgad","Mandalgovi","Choybalsan","Erdenet","Tsetserieg",
@@ -769,6 +771,85 @@
 			"Har-Ayrag","Nalayh","Tes"],
         "spyNames": ["Asashōryū", "Tömöriin", "Zevegiin", "Jigjidiin", "Enkhbat", "Mönkhbayar", "Gündegmaa", "Ssima", "Batachikhan", "Chulunny"]
     },
+	{
+		"name": "Cuba",
+		"leaderName": "Leader",
+		"adjective": ["Cubans"],
+		"startBias": ["Coast"],
+		"preferredVictoryType":"征服",
+
+		"startIntroPart1": ""
+
+		"declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+
+		"outerColor": [0,67,171],
+		"innerColor": [253,213,17],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Caribbean Alligator",
+		"uniques": [
+	"[+25]% Strength <for [Military] units> <on foreign continents>"
+	"All healing effects doubled <for [Military] units>"
+		]
+		"cities": ["哈瓦那","圣地亚哥","卡马圭","圣克拉拉","奥尔金","瓜纳瓦科阿","马坦萨斯","科隆","卡德纳斯","大萨瓜","西恩富戈斯","圣斯皮里图斯","谢戈德阿维拉",
+			"莫龙","佛罗里达","圣何塞·德·拉斯·拉哈斯","拉斯图纳斯","马亚里","关塔那摩","帕尔马索里亚诺","巴亚莫","曼萨尼约","比那尔德里奥","新赫罗纳"],
+        "spyNames": ["阿贝尔", "菲尔比", "布朗特", "克恩克罗斯", "伯吉斯", "麦克林", "博伊斯", "埃姆斯", "汉森", "佐尔格"]
+    },
+	{
+		"name": "Babylon",
+		"leaderName": "Leader",
+		"adjective": ["Babylonian"],
+		"startBias": ["Avoid [Tundra]"],
+		"preferredVictoryType": "征服",
+		"startIntroPart1": "",
+
+		"declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+
+		"outerColor": [27,53,63],
+		"innerColor": [213,249,255],
+		"favoredReligion": "Islam",
+		"uniqueName": "Ingenuity",
+		"uniqueText": "
+巴比伦在首都建造完成建筑时将获得快速下所处时代科研需求平均值的一半的科研数值，自电气时代起数值均采用电气时代科研需求的一半。
+
+*由于代码影响，巴比伦目前仅建议在快速模式下选择，其他速度会影响其强度（越慢越弱，越快越强）
+		" 
+		"uniques": [
+		"Gain [17] [Science] <upon constructing [Buildings] [in capital]> <during the [Ancient era]>",
+		
+		"Gain [56] [Science] <upon constructing [Buildings] [in capital]> <during the [Classical era]>",
+		
+		"Gain [151] [Science] <upon constructing [Buildings] [in capital]> <during the [Medieval era]>",
+		
+		"Gain [352] [Science] <upon constructing [Buildings] [in capital]> <during the [Renaissance era]>",
+		
+		"Gain [720] [Science] <upon constructing [Buildings] [in capital]> <during the [Industrial era]>",
+		
+		"Gain [1307] [Science] <upon constructing [Buildings] [in capital]> <starting from the [Modern era]>",
+		],
+		"cities": ["Babylon","Akkad","Dur-Kurigalzu","Nippur","Borsippa","Sippar","Opis","Mari","Shushan","Eshnunna",
+			"Ellasar","Erech","Kutha","Sirpurla","Neribtum","Ashur","Ninveh","Nimrud","Arbela","Nuzi",
+			"Arrapkha","Tutub","Shaduppum","Rapiqum","Mashkan Shapir","Tuttul","Ramad","Ana","Haradum","Agrab",
+			"Uqair","Gubba","Hafriyat","Nagar","Shubat Enlil","Urhai","Urkesh","Awan","Riblah","Tayma"],
+        "spyNames": ["Rim-Sin II", "Smerdis", "Ilum-ma-ili", "Peshgaldaramesh", "Ur-zigurumaš", "Semiramis", "Em", "Ishtar", "Bilit Taauth", "Aruru"]
+	},
 	{
 	//城邦
 		"name": "New York",
@@ -824,6 +905,61 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [255,190,51],
 		"cities": ["Duisburg"]	
+	},
+	{
+		"name": "Milan",
+		"adjective": ["Milanese"],
+		"cityStateType": "Milan",
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "I guess you weren't here for the sprouts after all...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [185,132,66],
+		"cities": ["Milan"]
+	},
+	{
+		"name": "Kherson",
+		"adjective": ["Khersoner"],
+		"cityStateType": "Kherson",
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "I guess you weren't here for the sprouts after all...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [251,194,12],
+		"cities": ["Kherson"]
+	},
+	{
+		"name": "Ottawa",
+		"adjective": ["Ottawas"],
+		"cityStateType": "Ottawa",
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "I guess you weren't here for the sprouts after all...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [70,247,61],
+		"cities": ["Ottawa"]
+	},
+	{
+		"name": "Vatican",
+		"adjective": ["Vatican"],
+		"cityStateType": "Vatican",
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "I guess you weren't here for the sprouts after all...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,240,108],
+		"cities": ["Vatican"]
+    },
+	{
+		"name": "Dublin",
+		"adjective": ["Dubliner"],
+		"cityStateType": "Dublin",
+	"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "I guess you weren't here for the sprouts after all...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [211,180,113],
+		"cities": ["Dublin"],
 	},
 	{
 	//蛮族

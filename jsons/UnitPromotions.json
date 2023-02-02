@@ -1329,7 +1329,7 @@
 	},
 	{
 		"name": "蛮族归顺", // 秦始皇
-		"uniques": ["May capture killed [{Barbarian} {步兵}] units"]	
+		"uniques": ["May capture killed [{Barbarian}] units"]	
 	}
 ]
     

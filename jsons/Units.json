@@ -216,6 +216,18 @@
 		"attackSound": "shot"	
 	},
 	{
+		"name": "Cuban International Revolutionary Fighter",
+		"unitType": "步兵",
+		"replaces": "伞兵",
+		"uniqueTo": "Cuba",
+		"movement": 2,
+		"strength": 70,
+		"cost": 650,
+		"requiredTech": "雷达",
+		"uniques": ["May Paradrop up to [10] tiles from inside friendly territory","[+10]% Strength <vs [Military] units> <when defending>"],
+		"attackSound": "shot"	
+	},
+	{
 		"name": "机械化步兵",
 		"unitType": "步兵",
 		"movement": 3,
@@ -236,6 +248,21 @@
 		"cost": 36,
 		"requiredTech": "狩猎",
 		"obsoleteTech": "铁器",
+		"upgradesTo": "Composite Bowman",
+		"uniques":["[+10]% Strength <vs [抗骑兵单位] units> <when attacking>"]
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Bowman",
+		"unitType": "弓兵",
+		"movement": 2,
+		"strength": 6,
+		"rangedStrength": 8,
+		"cost": 36,
+		"requiredTech": "狩猎",
+		"obsoleteTech": "铁器",
+		"replaces": "Archer",
+		"uniqueTo": "Babylon",
 		"upgradesTo": "Composite Bowman",
 		"uniques":["[+10]% Strength <vs [抗骑兵单位] units> <when attacking>"]
 		"attackSound": "arrow"
@@ -292,7 +319,7 @@
 		"movement": 5,
 		"strength": 6,
 		"rangedStrength": 10,
-		"cost": 55,
+		"cost": 63,
 		"requiredTech": "The Wheel",
 		"upgradesTo": "骑士",
 		"obsoleteTech": "骑士制度",
@@ -636,12 +663,12 @@
 		"movement": 4,
 		"strength": 15,
 		"rangedStrength": 15,
-		"cost": 153,
+		"cost": 148,
 	    "requiredTech": "骑士制度",
 		"upgradesTo": "近代骑兵",
 		"obsoleteTech": "军事科学",
 		"requiredResource": "Horses",
-		"uniques": ["Can move after attacking","No defensive terrain bonus"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[+10]% Strength <vs [抗骑兵单位] units> <when attacking>"],
 		"promotions": ["[Keshik] ability"],
 		"attackSound": "arrow"
 	},

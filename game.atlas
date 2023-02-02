@@ -2469,6 +2469,15 @@ BuildingIcons/巴拿马运河
   offset: 0, 0
   index: -1       
     
+CubanCapitol.png
+BuildingIcons/Cuban Capitol
+  rotate: false
+  xy: 0,0
+  size: 110, 110
+  orig: 110, 110
+  offset: 0, 0
+  index: -1
+    
 District—Country.png
 BuildingIcons/District—Country
   rotate: false
@@ -3083,6 +3092,42 @@ BuildingIcons/文明领袖—忽必烈
   offset: 0, 0
   index: -1  
 
+文明领袖.png
+BuildingIcons/文明领袖—切·格瓦拉
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1  
+      
+文明领袖.png
+BuildingIcons/文明领袖—卡斯特罗
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1  
+
+文明领袖.png
+BuildingIcons/文明领袖—汉谟拉比
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1  
+      
+文明领袖.png
+BuildingIcons/文明领袖—尼布甲尼撒二世
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1  
+
 中华.png
 NationIcons/中华
   rotate: false
@@ -3105,8 +3150,17 @@ Mongolia.png
 NationIcons/Mongolia
   rotate: false
   xy: 0, 0
-  size: 200, 200
-  orig: 200, 200
+  size: 1000, 1000
+  orig: 1000, 1000
+  offset: 0, 0
+  index: -1
+
+Cuba.png
+NationIcons/Cuba
+  rotate: false
+  xy: 0, 0
+  size: 150, 150
+  orig: 150, 150
   offset: 0, 0
   index: -1
 
@@ -3826,6 +3880,15 @@ UnitIcons/War Elephant
   xy: 0,0
   size: 64, 64
   orig: 64, 64
+  offset: 0, 0
+  index: -1      
+  
+CubanInternationalRevolutionaryFighter图标.png
+UnitIcons/Cuban International Revolutionary Fighter
+  rotate: false
+  xy: 0,0
+  size: 160, 160
+  orig: 160, 160
   offset: 0, 0
   index: -1      
   
