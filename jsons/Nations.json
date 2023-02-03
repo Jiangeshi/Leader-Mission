@@ -568,7 +568,7 @@
 		"favoredReligion": "Islam",
 		"uniqueName": "By The Nile",
 		"uniques": ["[+15]% Production when constructing [All] wonders [in all cities]",
-		"[+20]% [Culture] [in all cities with a world wonder]",
+		"[+15]% [Culture] [in all cities with a world wonder]",
 		"[+1 Food, +1 Production] in cities on [River] tiles"
 		]
 		"cities": ["开罗","亚历山大","塞得港","沙姆沙伊赫","吉萨","阿斯旺","苏伊士","卢克索","曼苏拉",
@@ -726,7 +726,7 @@
 		"favoredReligion": "Confucianism",
 		"uniqueName": "Scholars of the Jade Hall",
         "uniques": [
-        "[+2 Science] from every specialist [in all cities]",
+        "[+1 Science] from every specialist [in all cities]",
 	    "[Great Scientist] is earned [50]% faster",
         "Receive a tech boost when scientific buildings/wonders are built in capital"
         ],
@@ -832,17 +832,17 @@
 *由于代码影响，巴比伦目前仅建议在快速模式下选择，其他速度会影响其强度（越慢越弱，越快越强）
 		" 
 		"uniques": [
-		"Gain [17] [Science] <upon constructing [Buildings] [in capital]> <during the [Ancient era]>",
+		"Gain [11] [Science] <upon constructing [Buildings] [in capital]> <during the [Ancient era]>",
 		
-		"Gain [56] [Science] <upon constructing [Buildings] [in capital]> <during the [Classical era]>",
+		"Gain [37] [Science] <upon constructing [Buildings] [in capital]> <during the [Classical era]>",
 		
-		"Gain [151] [Science] <upon constructing [Buildings] [in capital]> <during the [Medieval era]>",
+		"Gain [101] [Science] <upon constructing [Buildings] [in capital]> <during the [Medieval era]>",
 		
-		"Gain [352] [Science] <upon constructing [Buildings] [in capital]> <during the [Renaissance era]>",
+		"Gain [235] [Science] <upon constructing [Buildings] [in capital]> <during the [Renaissance era]>",
 		
-		"Gain [720] [Science] <upon constructing [Buildings] [in capital]> <during the [Industrial era]>",
+		"Gain [480] [Science] <upon constructing [Buildings] [in capital]> <during the [Industrial era]>",
 		
-		"Gain [1307] [Science] <upon constructing [Buildings] [in capital]> <starting from the [Modern era]>",
+		"Gain [871] [Science] <upon constructing [Buildings] [in capital]> <starting from the [Modern era]>",
 		],
 		"cities": ["Babylon","Akkad","Dur-Kurigalzu","Nippur","Borsippa","Sippar","Opis","Mari","Shushan","Eshnunna",
 			"Ellasar","Erech","Kutha","Sirpurla","Neribtum","Ashur","Ninveh","Nimrud","Arbela","Nuzi",

@@ -2279,7 +2279,7 @@ Leader Mission 模组中的胜利方式有：
 		"name": "Korean Academy",
 		"replaces": "大学",
 		"uniqueTo": "Korea",
-		"science": 4,
+		"science": 3,
 		"maintenance": 2,
 		"percentStatBonus": {"science": 33},
 		"specialistSlots": {"Scientist": 2},
