@@ -730,342 +730,6 @@ BuildingIcons/乌托邦
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/三列桨战船
-  rotate: false
-  xy: 1624, 1249
-  size: 100, 101
-  orig: 100, 101
-  offset: 0, 0
-  index: -1
-UnitIcons/骑手
-  rotate: false
-  xy: 544, 1034
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/投石车
-  rotate: false
-  xy: 220, 1250
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/传教士
-  rotate: false
-  xy: 544, 710
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/审判官
-  rotate: false
-  xy: 1300, 1790
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/桨帆战舰
-  rotate: false
-  xy: 112, 818
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/骑士
-  rotate: false
-  xy: 652, 1034
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/哥萨克骑兵
-  rotate: false
-  xy: 868, 1790
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/甲胄骑兵
-  rotate: false
-  xy: 112, 1142
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/长枪兵
-  rotate: false
-  xy: 544, 494
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/轻帆船
-  rotate: false
-  xy: 544, 1682
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/抛石机
-  rotate: false
-  xy: 1408, 1034
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/加农炮
-  rotate: false
-  xy: 436, 1574
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/私掠舰
-  rotate: false
-  xy: 760, 710
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/护卫舰
-  rotate: false
-  xy: 4, 710
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/近代骑兵
-  rotate: false
-  xy: 436, 1466
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/来复枪兵
-  rotate: false
-  xy: 1408, 1358
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/火炮
-  rotate: false
-  xy: 112, 1574
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/枪骑兵
-  rotate: false
-  xy: 976, 1358
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/铁甲舰
-  rotate: false
-  xy: 1408, 1898
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/一战步兵
-  rotate: false
-  xy: 544, 1142
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/现代步兵
-  rotate: false
-  xy: 1192, 1682
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/机械化步兵
-  rotate: false
-  xy: 1408, 1682
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/履带战车
-  rotate: false
-  xy: 1084, 1472
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/坦克
-  rotate: false
-  xy: 1732, 1467
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/现代坦克
-  rotate: false
-  xy: 760, 926
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/末日机甲
-  rotate: false
-  xy: 544, 1250
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/反坦克炮
-  rotate: false
-  xy: 220, 1898
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/武装直升机
-  rotate: false
-  xy: 1300, 1898
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/火箭炮
-  rotate: false
-  xy: 1516, 1466
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/潜艇
-  rotate: false
-  xy: 1300, 1034
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/核潜艇
-  rotate: false
-  xy: 976, 1034
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/驱逐舰
-  rotate: false
-  xy: 220, 1034
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/战列舰
-  rotate: false
-  xy: 436, 1790
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1  
-UnitIcons/导弹巡洋舰
-  rotate: false
-  xy: 436, 602
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/航空母舰
-  rotate: false
-  xy: 760, 1898
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/三翼机
-  rotate: false
-  xy: 1516, 1142
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/一战轰炸机
-  rotate: false
-  xy: 436, 1034
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/战斗机
-  rotate: false
-  xy: 652, 1466
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/轰炸机
-  rotate: false
-  xy: 328, 1574
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/喷气式战斗机
-  rotate: false
-  xy: 328, 710
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/隐形轰炸机
-  rotate: false
-  xy: 760, 494
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/高射炮
-  rotate: false
-  xy: 112, 1790
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/防空导弹车
-  rotate: false
-  xy: 652, 818
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/伞兵
-  rotate: false
-  xy: 1840, 1898
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/原子弹
-  rotate: false
-  xy: 328, 1790
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/洲际弹道导弹
-  rotate: false
-  xy: 652, 1250
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/核导弹
-  rotate: false
-  xy: 760, 818
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
 
   
   
@@ -1081,6 +745,13 @@ OtherIcons/ConvertCulture
   orig: 100, 100
   offset: 0, 0
   index: -1
+OtherIcons/ConvertFaith
+  rotate: false
+  xy: 1230, 812
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1  
 
 PolicyIcons.png
 size: 2048, 128
@@ -1116,313 +787,6 @@ PolicyIcons/军事传统
   offset: 0, 0
   index: -1
 
-
-Tilesets.png
-size: 2048, 2048
-format: RGBA8888
-filter: MipMapLinearLinear, MipMapLinearLinear
-repeat: none
-TileSets/AbsoluteUnits/Units/三列桨战船
-  rotate: false
-  xy: 1371, 432
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/骑手
-  rotate: false
-  xy: 388, 1363
-  size: 77, 65
-  orig: 77, 65
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/投石车
-  rotate: false
-  xy: 723, 1020
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/桨帆战舰
-  rotate: false
-  xy: 1002, 1287
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/骑士
-  rotate: false
-  xy: 409, 910
-  size: 77, 65
-  orig: 77, 65
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/长枪兵
-  rotate: false
-  xy: 296, 1747
-  size: 95, 81
-  orig: 95, 81
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/轻帆船
-  rotate: false
-  xy: 1678, 1486
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/抛石机
-  rotate: false
-  xy: 1371, 624
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/加农炮
-  rotate: false
-  xy: 579, 385
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/私掠舰
-  rotate: false
-  xy: 1083, 645
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/护卫舰
-  rotate: false
-  xy: 1506, 1289
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/近代骑兵
-  rotate: false
-  xy: 93, 17
-  size: 77, 65
-  orig: 77, 65
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/来复枪兵
-  rotate: false
-  xy: 285, 1480
-  size: 95, 81
-  orig: 95, 81
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/火炮
-  rotate: false
-  xy: 664, 1276
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/枪骑兵
-  rotate: false
-  xy: 409, 691
-  size: 77, 65
-  orig: 77, 65
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/铁甲舰
-  rotate: false
-  xy: 1866, 974
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/一战步兵
-  rotate: false
-  xy: 935, 1874
-  size: 95, 81
-  orig: 95, 81
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/现代步兵
-  rotate: false
-  xy: 1244, 1874
-  size: 95, 81
-  orig: 95, 81
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/机械化步兵
-  rotate: false
-  xy: 494, 1016
-  size: 77, 65
-  orig: 77, 65
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/履带战车
-  rotate: false
-  xy: 477, 1454
-  size: 77, 65
-  orig: 77, 65
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/坦克
-  rotate: false
-  xy: 579, 1331
-  size: 77, 65
-  orig: 77, 65
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/现代坦克
-  rotate: false
-  xy: 494, 578
-  size: 77, 65
-  orig: 77, 65
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/末日机甲
-  rotate: false
-  xy: 1578, 1197
-  size: 64, 84
-  orig: 64, 84
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/反坦克炮
-  rotate: false
-  xy: 579, 513
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/武装直升机
-  rotate: false
-  xy: 1146, 1223
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/火箭炮
-  rotate: false
-  xy: 494, 432
-  size: 77, 65
-  orig: 77, 65
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/潜艇
-  rotate: false
-  xy: 1299, 444
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/核潜艇
-  rotate: false
-  xy: 795, 567
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/驱逐舰
-  rotate: false
-  xy: 426, 80
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/战列舰
-  rotate: false
-  xy: 651, 700
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/导弹巡洋舰
-  rotate: false
-  xy: 939, 831
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/航空母舰
-  rotate: false
-  xy: 1894, 1486
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/高射炮
-  rotate: false
-  xy: 579, 705
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/防空导弹车
-  rotate: false
-  xy: 494, 797
-  size: 77, 65
-  orig: 77, 65
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/伞兵
-  rotate: false
-  xy: 1949, 1785
-  size: 95, 81
-  orig: 95, 81
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/传教士
-  rotate: false
-  xy: 1331, 1785
-  size: 95, 81
-  orig: 95, 81
-  offset: 0, 0
-  index: -1    
-TileSets/AbsoluteUnits/Units/审判官
-  rotate: false
-  xy: 1553, 1874
-  size: 95, 81
-  orig: 95, 81
-  offset: 0, 0
-  index: -1      
-TileSets/AbsoluteUnits/Units/EmbarkedUnit-Civilian
-  rotate: false
-  xy: 426, 16
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/EmbarkedUnit-Civilian-电气时代
-  rotate: false
-  xy: 786, 164
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/EmbarkedUnit-Civilian-启蒙时代
-  rotate: false
-  xy: 930, 1543
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/EmbarkedUnit-Military
-  rotate: false
-  xy: 1218, 1543
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/EmbarkedUnit-Military-电气时代
-  rotate: false
-  xy: 1002, 1479
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-AbsoluteUnits/Units/EmbarkedUnit-Military-启蒙时代
-  rotate: false
-  xy: 1290, 1479
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
 
                 
                              
@@ -2433,8 +1797,8 @@ BuildingIcons/大庄园
   offset: 0, 0
   index: -1
 
-贾姆宣礼塔.png
-BuildingIcons/贾姆宣礼塔
+MinaretofJam.png
+BuildingIcons/Minaret of Jam
   rotate: false
   xy: 0,0
   size: 80, 120
@@ -2477,6 +1841,15 @@ BuildingIcons/Cuban Capitol
   orig: 110, 110
   offset: 0, 0
   index: -1
+    
+GalataTower.png
+BuildingIcons/Galata Tower
+  rotate: false
+  xy: 0,0
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1   
     
 District—Country.png
 BuildingIcons/District—Country
@@ -2958,7 +2331,7 @@ BuildingIcons/文明领袖—玻利瓦尔
   index: -1  
 
 文明领袖.png
-BuildingIcons/文明领袖—哈菲佐拉
+BuildingIcons/Civilized leader—Hafizullah Amin
   rotate: false
   xy: 0,0
   size: 50, 50
@@ -3128,6 +2501,24 @@ BuildingIcons/文明领袖—尼布甲尼撒二世
   offset: 0, 0
   index: -1  
 
+文明领袖.png
+BuildingIcons/文明领袖—奥斯曼一世
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1  
+     
+文明领袖.png
+BuildingIcons/文明领袖—苏莱曼大帝
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1  
+
 中华.png
 NationIcons/中华
   rotate: false
@@ -3200,8 +2591,8 @@ NationIcons/大哥伦比亚
   offset: 0, 0
   index: -1
 
-阿富汗.png
-NationIcons/阿富汗
+Afghanistan.png
+NationIcons/Afghanistan
   rotate: false
   xy: 0, 0
   size: 250, 250
@@ -3226,6 +2617,16 @@ NationIcons/Macedonia
   orig: 329, 329
   offset: 0, 0
   index: -1
+  
+Ottoman.png
+NationIcons/The Ottomans
+  rotate: false
+  xy: 0, 0
+  size: 210, 210
+  orig: 210, 210
+  offset: 0, 0
+  index: -1
+  
 部落.png
 PolicyIcons/部落
   rotate: false
@@ -3838,8 +3239,8 @@ UnitIcons/T-34
   offset: 0, 0
   index: -1     
  
-牛仔骑兵图标.png
-UnitIcons/牛仔骑兵
+CowboyCavalry图标.png
+UnitIcons/Cowboy Cavalry
   rotate: false
   xy: 0,0
   size: 85, 85
@@ -3847,8 +3248,8 @@ UnitIcons/牛仔骑兵
   offset: 0, 0
   index: -1         
 
-古战车图标.png
-UnitIcons/中国古代战车
+AncientChineseChariot图标.png
+UnitIcons/Ancient Chinese Chariot
   rotate: false
   xy: 0,0
   size: 75, 75

@@ -1,93 +1,77 @@
 [
     {
-        "name": "公民",
+        "name": "Civilian",
         "movementType": "Land"
     },
     {
-        "name": "水上公民",
+        "name": "Civilian Water",
         "movementType": "Water"
     },
     {
-        "name": "侦查单位",
+        "name": "Reconnaissance",
         "movementType": "Land"
     },
     {
-        "name": "步兵",
+        "name": "Foot Soldier",
         "movementType": "Land"
     },
     {
-        "name": "弓兵",
+        "name": "Archery",
         "movementType": "Land"
     },
     {
-        "name": "远程火器",
+        "name": "Mobile",
         "movementType": "Land"
     },
     {
-        "name": "骑兵",
+        "name": "Anti-Mobile",
         "movementType": "Land"
     },
     {
-        "name": "装甲部队",
+        "name": "Anti-Air",
         "movementType": "Land"
     },
     {
-        "name": "抗骑兵单位",
-        "movementType": "Land"
-    },
-    {
-        "name": "反装甲单位",
-        "movementType": "Land"
-    },
-    {
-        "name": "防空单位",
-        "movementType": "Land"
-    },
-    {
-        "name": "直升机",
+        "name": "Helicopter",
         "movementType": "Land",    
     },
     {
-        "name": "攻城单位",
+        "name": "Siege",
         "movementType": "Land"
     },
     {
-        "name": "炮兵",
-        "movementType": "Land"
-    },
-    {
-        "name": "近程海军",
+        "name": "Melee Water",
         "movementType": "Water"
     },
     {
-        "name": "远程海军",
+        "name": "Ranged Water",
         "movementType": "Water"
     },
     {
-        "name": "潜艇",
+        "name": "Submarine",
         "movementType": "Water",
     },
     {
-        "name": "海军运输单位",
+        "name": "Water Carrier",
         "movementType": "Water"
     },
     {
-        "name": "战斗机",
+        "name": "Fighter",
         "movementType": "Air"
         "uniques": ["Aircraft"]
     },
     {
-        "name": "轰炸机",
+        "name": "Bomber",
         "movementType": "Air"   
         "uniques": ["Aircraft"]         
     },
     {
-        "name": "炸弹",
+        "name": "Bomb",
         "movementType": "Air",
         "uniques": ["Flybomb"]
     },
     {
-        "name": "导弹",
+        "name": "Missile",
         "movementType": "Air",
         "uniques": ["Flybomb"]
     //判断类型

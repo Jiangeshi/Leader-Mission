@@ -53,7 +53,7 @@
         "startingSettlerCount": 2,
         "startingWorkerCount": 1,
         "startingMilitaryUnitCount": 3,
-        "startingMilitaryUnit": "长枪兵",
+        "startingMilitaryUnit": "Pikeman",
         "startingGold": 50,
         "startingCulture": 300,
         "settlerPopulation": 2,
@@ -86,7 +86,9 @@
         "startPercent": 50,
         "citySound": "cityIndustrial",
         "iconRGB": [63, 81, 182],
-        "uniques": ["Every major Civilization gains a spy once a civilization enters this era"
+        "uniques": ["Every major Civilization gains a spy once a civilization enters this era",
+        "May not generate great prophet equivalents naturally",
+            "May buy [Great Prophet] units for [500] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])",
         ]
     },
     {
@@ -95,7 +97,7 @@
         "startingSettlerCount": 3,
         "startingWorkerCount": 2,
         "startingMilitaryUnitCount": 5,
-        "startingMilitaryUnit": "来复枪兵",
+        "startingMilitaryUnit": "Rifleman",
         "startingGold": 200,
         "startingCulture": 500,
         "settlerPopulation": 3,
@@ -110,7 +112,10 @@
         "startPercent": 65,
         "citySound": "cityModern",
         "iconRGB": [33, 150, 243],
-        "uniques": ["Every major Civilization gains a spy once a civilization enters this era"]
+        "uniques": ["Every major Civilization gains a spy once a civilization enters this era",
+        "May not generate great prophet equivalents naturally",
+            "May buy [Great Prophet] units for [500] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])",
+        ]
     },
     {
         "name": "Atomic era",
@@ -118,7 +123,7 @@
         "startingSettlerCount": 3,
         "startingWorkerCount": 2,
         "startingMilitaryUnitCount": 5,
-        "startingMilitaryUnit": "现代步兵",
+        "startingMilitaryUnit": "Infantry",
         "startingGold": 200,
         "startingCulture": 500,
         "settlerPopulation": 4,
@@ -134,7 +139,9 @@
         "citySound": "cityAtomic",
         "iconRGB": [0, 150, 136],
         "uniques": [
-            "Every major Civilization gains a spy once a civilization enters this era"
+            "Every major Civilization gains a spy once a civilization enters this era",
+        "May not generate great prophet equivalents naturally",
+            "May buy [Great Prophet] units for [500] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])",
         ]
     },
     {
@@ -143,7 +150,7 @@
         "startingSettlerCount": 3,
         "startingWorkerCount": 3,
         "startingMilitaryUnitCount": 5,
-        "startingMilitaryUnit": "机械化步兵",
+        "startingMilitaryUnit": "Mechanized Infantry",
         "startingGold": 400,
         "startingCulture": 600,
         "settlerPopulation": 5,
@@ -163,7 +170,9 @@
         "citySound": "cityInformation",
         "iconRGB": [76, 176, 81],
         "uniques": [
-            "Every major Civilization gains a spy once a civilization enters this era"
+            "Every major Civilization gains a spy once a civilization enters this era",
+            "May not generate great prophet equivalents naturally",
+            "May buy [Great Prophet] units for [500] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])",
         ]
     },
     {
@@ -172,7 +181,7 @@
         "startingSettlerCount": 3,
         "startingWorkerCount": 3,
         "startingMilitaryUnitCount": 5,
-        "startingMilitaryUnit": "机械化步兵",
+        "startingMilitaryUnit": "Mechanized Infantry",
         "startingGold": 400,
         "startingCulture": 600,
         "settlerPopulation": 5,
@@ -191,7 +200,9 @@
         "citySound": "cityFuture",
         "iconRGB": [76, 176, 81],
         "uniques": [
-            "Every major Civilization gains a spy once a civilization enters this era"
+            "Every major Civilization gains a spy once a civilization enters this era",
+            "May not generate great prophet equivalents naturally",
+            "May buy [Great Prophet] units for [500] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])",
         ]
     }
 ]

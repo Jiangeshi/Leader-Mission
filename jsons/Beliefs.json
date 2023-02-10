@@ -304,7 +304,7 @@
     {
         "name": "传教热枕",
         "type": "Enhancer",
-        "uniques": ["[+40]% Spread Religion Strength <for [传教士] units>"]
+        "uniques": ["[+40]% Spread Religion Strength <for [Missionary] units>"]
     },
     {
         "name": "弥赛亚",
@@ -314,6 +314,6 @@
     {
         "name": "教士团体",
         "type": "Enhancer",
-        "uniques": ["[Faith] cost of purchasing [传教士] units [-35]%", "[Faith] cost of purchasing [审判官] units [-35]%"] 
+        "uniques": ["[Faith] cost of purchasing [Missionary] units [-35]%", "[Faith] cost of purchasing [Inquisitor] units [-35]%"] 
     }
 ]

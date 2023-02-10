@@ -232,7 +232,10 @@
             },
             {
                 "name": "Mandate Of Heaven",
-                "uniques": ["[50]% of excess happiness converted to [Culture]"],
+                "uniques": [
+        "May buy [Worker] units with [Faith] for [2] times their normal Production cost",
+        "May buy [Settler] units with [Faith] for [2] times their normal Production cost"
+                ],
                 "row": 1,
                 "column": 5
             },
@@ -482,8 +485,6 @@
         "uniques": [
             "[+25]% Great Person generation [in all cities]",
             "Only available <before adopting [Autocracy]>",
-            "Only available <before adopting [Order]>",
-
         ],
         "policies": [
             {
@@ -545,7 +546,6 @@
         "uniques": [
             "[-33]% maintenance costs <for [All] units>",
             "Upon capturing a city, receive [10] times its [Culture] production as [Culture] immediately",
-            "Only available <before adopting [Order]>",
             "Only available <before adopting [Freedom]>",
 
         ],
@@ -597,7 +597,7 @@
                 "uniques": [
                     "[+25]% Strength <when attacking> <for [Military] units> <for [50] turns>",
                     "May buy [Great General] units for [1500] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
-                    //"May buy [Great Admiral] units for [1500] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
+                    "May buy [Great Admiral] units for [1500] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
                 ]
             }
         ]
@@ -614,9 +614,6 @@
         },
         "uniques": [
             "[+1 Happiness] [in all cities]",
-            "Only available <before adopting [Autocracy]>",
-            "Only available <before adopting [Freedom]>",
-
         ],
         "policies": [
             {

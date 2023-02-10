@@ -167,8 +167,8 @@
 					"Minor deposits generated with weight [10] <in [Featureless] [Desert] tiles>",
 					"Minor deposits generated with weight [10] <in [Featureless] [Tundra] tiles>",
 					"Minor deposits generated with weight [10] <in [Featureless] [Snow] tiles>"],
-		"majorDepositAmount": {"sparse": 8, "default": 10, "abundant": 15},
-		"minorDepositAmount": {"sparse": 4, "default": 5, "abundant": 5}
+		"majorDepositAmount": {"sparse": 8, "default": 12, "abundant": 16},
+		"minorDepositAmount": {"sparse": 5, "default": 10, "abundant": 15}
 	},
 	{
 		"name": "Oil",

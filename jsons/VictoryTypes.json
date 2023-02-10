@@ -1,6 +1,6 @@
 [
     {   
-        "name": "征服",
+        "name": "Domination",
         "hiddenInVictoryScreen": false,
         "victoryScreenHeader": "Destroy all enemies\nto win!",
         "milestones": ["Destroy all players"],
@@ -8,23 +8,23 @@
         "defeatString": "您被打败了。虽然您的文明曾经被许多敌人所征服，但是您的人民永不放弃，因为他们知道总有一天您会回来的！届时，您的文明将会成为天空中最耀眼的恒星！"
     },
     {
-        "name": "分数",
+        "name": "Time",
         "hiddenInVictoryScreen": false,
-        "victoryScreenHeader": "在末日到来前获得最高的分数以取得胜利",
+        "victoryScreenHeader": "Have highest score after max turns",
         "milestones": ["Have highest score after max turns"],
         "victoryString": "世界随时间的变迁而变换，有的文明兴盛，有的文明衰亡，但时间亦有尽头，在这末世之时您的文明已经取得了世界上最高的成就，您的文明将被永载史册！",
         "defeatString": "您被打败了。虽然您的文明曾经被许多敌人所征服，但是您的人民永不放弃，因为他们知道总有一天您会回来的！届时，您的文明将会成为天空中最耀眼的恒星！"
     }
     {
-        "name": "宗教",
+        "name": "Religion",
         "hiddenInVictoryScreen": false,
-        "victoryScreenHeader": "建造圣殿并成为世界上所有文明的主流宗教来获取胜利!",
+        "victoryScreenHeader": "Become the world religion and build the Grand Temple",
         "milestones": ["Build [圣殿]","Become the world religion"],
         "victoryString": "您通过成为世界上唯一的信仰获得了胜利！信仰更强大的事物是一项人类的基本诉求，而现在，所有人都会为您祈祷，您的一言一行就代表了一切，那些虚伪的信仰在您的光辉下已被人遗忘，灰飞烟灭。",
         "defeatString": "您被打败了。虽然您的文明曾经被许多敌人所征服，但是您的人民永不放弃，因为他们知道总有一天您会回来的！届时，您的文明将会成为天空中最耀眼的恒星！"
     },
     {
-        "name": "飞天",
+        "name": "Space",
         "victoryScreenHeader": "Complete all the spaceship parts\nto win!",
         "milestones": [
             "Build [阿波罗计划]", "Add all [spaceship parts] in capital"
@@ -36,7 +36,7 @@
         "defeatString": "您被打败了。虽然您的文明曾经被许多敌人所征服，但是您的人民永不放弃，因为他们知道总有一天您会回来的！届时，您的文明将会成为天空中最耀眼的恒星！"
     },
     {
-        "name": "灾难",
+        "name": "Disaster",
         "victoryScreenHeader": "Build the weather controller to win!",
         "milestones": [
             "Build [天气控制器]"
@@ -45,7 +45,7 @@
         "defeatString": "您被打败了。虽然您的文明曾经被许多敌人所征服，但是您的人民永不放弃，因为他们知道总有一天您会回来的！届时，您的文明将会成为天空中最耀眼的恒星！"
     },
     {
-        "name": "外交",
+        "name": "Diplomatic",
         "hiddenInVictoryScreen": false,
         "victoryScreenHeader": "Build the UN and be voted\nworld leader to win!",
         "milestones": ["Build [联合国]","Win diplomatic vote"],
@@ -53,8 +53,8 @@
         "defeatString": "您被打败了。虽然您的文明曾经被许多敌人所征服，但是您的人民永不放弃，因为他们知道总有一天您会回来的！届时，您的文明将会成为天空中最耀眼的恒星！"
     },
     {
-        "name": "制度",
-        "victoryScreenHeader": "完成5项政策分支并建造乌托邦以取得胜利",
+        "name": "System",
+        "victoryScreenHeader": "Complete 5 policy branches and\nbuild the Utopia Project to win!",
         "milestones": ["Complete [5] Policy branches", "Build [乌托邦]"],
         "victoryString": "您依靠向世界证明您制度的优越性取得了胜利。百姓安居乐业，工业蓬勃发展，科技不断向前，优良的治安，幸福的生活，无一不令世界人民所神往。
 ",

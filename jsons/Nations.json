@@ -6,11 +6,11 @@
 //		"innerColor": [255,255,255]
     },
 	{
-		"name": "阿富汗",
+		"name": "Afghanistan",
 		"leaderName": "Leader",
 		"adjective": ["Afghans"],
 		"startBias": ["Hill"],
-		"preferredVictoryType":"征服",
+		"preferredVictoryType":"Domination",
 
 		"startIntroPart1": "欢迎来到这个新世界，伟大的阿富汗领袖！阿富汗拥有着可歌可泣的反帝反殖民历史，面对英国、苏联、美国等世界最强国家的侵略，阿富汗人民付出了极大的代价令侵略者大败而归，震撼了全世界，在世界反帝反殖民史上留下了自己的光辉灿烂的一笔。伟大的阿富汗领袖啊！您的子民在等待着你带领他们再次创造辉煌的文明，您能让阿富汗再次璀璨吗？您能建立一个经得起时间考验的文明吗？"
 
@@ -27,12 +27,10 @@
 		"innerColor": [255, 213, 15],
 		"outerColor": [0,0,0],
 		"favoredReligion": "Islam",
-		"uniqueName": "帝国坟场",
-		"uniqueText": "所有位于我方军事单位相邻崎岖地块中的敌方军事单位-20%战斗力; 敌方的所有军事单位必须在你的土地上额外花费1点移动力，骑兵与装甲部队需额外花费1移动力
-		" 
+		"uniqueName": "Graveyard of Empires",
+		"uniqueText": "Enemy military units adjacent to our military units in adjacent rough terrain tiles -20% Strength; Enemy military units must spend 1 extra movement points when inside your territory,Enemy Mobile units must spend 1 extra movement points when inside your territory" 
 		"uniques": ["Enemy [Military] units must spend [1] extra movement points when inside your territory",
-		"Enemy [骑兵] units must spend [1] extra movement points when inside your territory",
-		"Enemy [装甲部队] units must spend [1] extra movement points when inside your territory",
+		"Enemy [Mobile] units must spend [1] extra movement points when inside your territory",
 		"[Military] units gain the [山地游击] promotion"
 		]
 		"cities": ["喀布尔","坎大哈","塔卢坎","昆都士","瑙堡","巴格兰","马扎里沙里夫","恰赫恰兰","马哈茂德埃拉基","萨尔普勒","巴米扬",
@@ -45,7 +43,7 @@
 		"leaderName": "Leader",
 		"adjective": ["Panamanian"],
 		"startBias": ["Coast"],
-		"preferredVictoryType":"征服",
+		"preferredVictoryType":"Domination",
 
 		"startIntroPart1": "欢迎来到这个新世界，伟大的巴拿马领袖！巴拿马的命运与巴拿马运河牢牢绑定，面对美帝国主义的威胁，巴拿马政府与巴拿马人民团结一心，历届巴拿马领导人虽政治立场可能有所不同但在捍卫国家权利上从未让步退缩，最终在1999年12月31日收回了本就应当属于自己却被美国强行占有的巴拿马运河的主权。巴拿马之于美洲就如同巴拿马运河之于世界一般不可或缺。伟大的巴拿马领袖啊！您的子民在等待着你带领他们再次创造辉煌的文明，您能让巴拿马再次璀璨吗？您能建立一个经得起时间考验的文明吗？"
 
@@ -77,7 +75,7 @@
 		"leaderName": "Leader",
 		"adjective": ["Burkinabes"],
 		"startBias": ["Avoid [Tundra]"],
-		"preferredVictoryType":"征服",
+		"preferredVictoryType":"Domination",
 
 		"startIntroPart1": "欢迎来到这个新世界，伟大的布基纳法索领袖！布基纳法索曾经是非洲第三世界一时的璀璨明星，它曾经历了太多太多，它曾经使前身上沃尔特第一次远离了饥荒，第一次使医生在乡下出现，第一次让这个国家知道了什么是发展，还有很多的第一次，曾经，布基纳法索的改革使非洲黑暗深渊的前途有了一抹曙光，在漫长悲惨的非洲历史中写下了辉煌的一笔，让布基纳法索相比以往不再默默无闻。伟大的布基纳法索领袖啊！您的子民在等待着你带领他们再次创造辉煌的文明，您能让布基纳法索再次璀璨吗？您能建立一个经得起时间考验的文明吗？"
 
@@ -110,7 +108,7 @@
 		"leaderName": "Leader",
 		"adjective": ["Carthaginian"],
 		"startBias": ["Coast"],
-		"preferredVictoryType": "征服",
+		"preferredVictoryType": "Domination",
         
         "startIntroPart1": "欢迎来到这个新世界，伟大的迦太基领袖！这是一个由腓尼基人创建的地中海国度，垄断了西地中海的贸易，是名副其实的地中海霸主。作为罗马的劲敌，迦太基可以说是罗马前期扩张最大的阻碍。虽然在三次布匿战争后迦太基永远消失在了世间，但腓尼基人留下的传奇故事仍存留在人们的记忆中。伟大的迦太基领袖啊！您的子民在等待着你带领他们再次创造辉煌的文明，您能让迦太基再次璀璨吗？您能建立一个经得起时间考验的文明吗？",
         
@@ -145,7 +143,7 @@
 		"leaderName": "Leader",
 		"adjective": ["Colombian"],
 		"startBias": ["Hill"],
-		"preferredVictoryType":"征服",
+		"preferredVictoryType":"Domination",
 
 		"startIntroPart1": "欢迎来到这个新世界，伟大的大哥伦比亚领袖！大哥伦比亚的人民在领袖的带领下，战胜了西班牙殖民者并彻底地赶跑了他们，建立了一个极其富有潜力的国家，为被西方殖民已久的南美洲带来了独立希望的曙光。虽然大哥伦比亚在建立不久后就因内战而解体，但大哥伦比亚在历史上留下的笔墨永远不会褪色。伟大的大哥伦比亚领袖啊！您的子民在等待着你带领他们再次创造辉煌的文明，您能让大哥伦比亚再次璀璨吗？您能建立一个经得起时间考验的文明吗？"
 
@@ -177,7 +175,7 @@
 		"leaderName": "Leader",
 		"adjective": ["Soviet"],
 		"startBias": ["Avoid [Desert]"],
-		"preferredVictoryType":"征服",
+		"preferredVictoryType":"Domination",
 
 		"startIntroPart1": "欢迎来到这个新世界，伟大的苏联领袖！苏联在第二次世界大战对世界反法西斯做出了巨大的贡献，苏联还创造了许多的奇迹如伟大的卫国战争以及人类第一次登上太空的壮举！苏联的文化，精神，艺术等都对世界产生了很大的影响，作为世界上最强大的社会主义国家，他对世界的影响是不可估量的。伟大的苏联领袖啊！您的子民在等待着你带领他们再次创造辉煌的文明，您能让苏联再次璀璨吗？您能建立一个经得起时间考验的文明吗？"
 
@@ -217,7 +215,7 @@
 		"leaderName": "Leader",
 		"adjective": ["Greek"],
 		"startBias": ["Coast"],
-		"preferredVictoryType":"征服",
+		"preferredVictoryType":"Domination",
 
 		"startIntroPart1": "欢迎来到这个新世界，伟大的希腊领袖！不论是雅典还是斯巴达，无一不彰显着希腊的历史。希腊作为欧洲文明的基石，在政治、文化、军事等多个方面拥有着极高的成就，并深深影响了日后立足于欧洲的每一个文明，斯巴达300勇士被人们歌颂，柏拉图等人的著作让哲学的世界不再空荡。伟大的希腊领袖啊！您的子民在等待着你带领他们再次创造辉煌的文明，您能让希腊再次璀璨吗？您能建立一个经得起时间考验的文明吗？"
 
@@ -249,7 +247,7 @@
 		"leaderName": "Leader",
 		"adjective": ["Macedonian"],
 		"startBias": ["Plains"],
-		"preferredVictoryType":"征服",
+		"preferredVictoryType":"Domination",
 
 		"startIntroPart1": "欢迎来到这个新世界，伟大的马其顿领袖！马其顿从希腊中一个默默无闻的小城邦，在一代代领导者的带领下逐步通过战争扩张成为了一个横跨欧亚非的强大帝国。马其顿的大军直达印度河流域，强如波斯也被马其顿所征服。埃及、希腊、波斯，这些文明在马其顿的扩张中仅仅是个地名，没有什么能阻挡马其顿的军队朝着胜利进发。伟大的马其顿领袖啊！您的子民在等待着你带领他们再次创造辉煌的文明，您能让马其顿再次璀璨吗？您能建立一个经得起时间考验的文明吗？"
 
@@ -282,7 +280,7 @@
 		"leaderName": "Leader",
 		"startBias": ["Plains"],
 		"adjective": ["Chinese"],
-		"preferredVictoryType": "征服",
+		"preferredVictoryType": "Domination",
 
 		"startIntroPart1": "欢迎来到这个新世界，伟大的中华领袖！在中华五千年文明的历史中，中华民族创造了太多太多的奇迹，无论是万里长城，还是四大发明，无一不彰显着中华儿女的智慧，五千年历史的积淀，万万人的付出与努力，造就了中华的不朽。伟大的中华领袖啊！您的子民在等待着你带领他们再次创造辉煌的文明，您能让中华再次璀璨吗？您能建立一个经得起时间考验的文明吗？",
 		
@@ -357,7 +355,7 @@
 		"leaderName": "Leader",
 		"adjective": ["Russian"],
 		"startBias": ["Tundra"],
-		"preferredVictoryType": "征服",
+		"preferredVictoryType": "Domination",
 
 		"startIntroPart1": "欢迎来到这个新世界，伟大的俄罗斯领袖！俄罗斯从小小的莫斯科公国发展到如今拥有世界第一国土的大国，见证了太多国家的兴衰，无论是沙俄，苏俄还是俄罗斯联邦，无一不透露着俄罗斯强悍的军事实力与雄心壮志。伟大的俄罗斯领袖啊！您的子民在等待着你带领他们再次创造辉煌的文明，您能让俄罗斯再次璀璨吗？您能建立一个经得起时间考验的文明吗？"
 		
@@ -392,7 +390,7 @@
 		"leaderName": "Leader",
 		"adjective": ["Roman"],
 		"startBias":["Avoid [Tundra]","Avoid [Desert]"],
-		"preferredVictoryType": "征服",
+		"preferredVictoryType": "Domination",
 
 		"startIntroPart1": "欢迎来到这个新世界，伟大的罗马领袖！罗马是是西方承前启后的重要文明，罗马人们建立了环绕地中海的庞大帝国，留下了无数珍贵的文化遗产，罗马的律法影响了现代法律，而罗马的名字也被后来者争相继承，罗马是西方历史上的一颗璀璨明珠，为欧洲带来数百年的光明。伟大的罗马领袖啊！您的子民在等待着你带领他们再次创造辉煌的文明，您能让罗马再次璀璨吗？您能建立一个经得起时间考验的文明吗？"
 		
@@ -469,7 +467,7 @@
 		"innerColor": [61, 0, 109],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Patriarchate of Constantinople",
-		"uniques": ["May choose [1] additional [Enhancer] beliefs when [founding] a religion", "[+2 Faith] [in all cities]"]
+		"uniques": ["May choose [1] additional belief(s) of any type when [founding] a religion", "[+2 Faith] [in all cities]"]
 	    "cities": ["Constantinople", "Adrianople", "Nicaea", "Antioch", "Varna", "Ohrid", "Nicomedia", "Trebizond", "Cherson", "Sardica",
 			"Ani", "Dyrrachium", "Edessa", "Chalcedon", "Naissus", "Bari", "Iconium", "Prilep", "Samosata", "Kars", "Nicopolis", "Theodosiopolis",
 			"Tyana", "Gaza", "Kerkyra", "Phoenice", "Selymbria", "Sillyon", "Chrysopolis", "Vodena", "Caesarea", "Traianoupoli", "Constantia", "Athens",
@@ -481,7 +479,7 @@
 		"leaderName": "Leader",
 		"adjective": ["Hunnic"],
 		"startBias": ["Avoid [Jungle]", "Avoid [Forest]"],
-		"preferredVictoryType": "征服",
+		"preferredVictoryType": "Domination",
 
         "startIntroPart1": "欢迎来到这个新的世界，伟大的匈人领袖！匈人的骑兵在欧洲大地上所向披靡，不仅击败了诸如日耳曼人、阿兰人等氏族公社时期的民族，强悍如罗马帝国在匈人的铁骑下也是节节败退，这也助推了欧洲奴隶制的灭亡。伟大的匈人领袖啊！您的子民在等待着你带领他们再次创造辉煌的文明，您能让匈人再次璀璨吗？您能建立一个经得起时间考验的文明吗？",
 
@@ -515,7 +513,7 @@
 		"leaderName": "Leader",
 		"adjective": ["Persian"],
 		"startBias": ["Hill"],
-		"preferredVictoryType": "征服",
+		"preferredVictoryType": "Domination",
 
         "startIntroPart1": "欢迎来到这个新的世界，伟大的波斯领袖！波斯人民从伊朗高原西南部出发，在战火之中建立了一个强大而又辉煌的文明，在消灭古巴比伦后波斯一度是整个西亚唯一的文明中心，所创立的波斯第一帝国更是世界史上第一个横跨亚非欧大陆的庞大帝国。伟大的波斯领袖啊！您的子民在等待着你带领他们再次创造辉煌的文明，您能让波斯再次璀璨吗？您能建立一个经得起时间考验的文明吗？",
     
@@ -548,7 +546,7 @@
 		"leaderName": "Leader",
 		"adjective": ["Egyptian"],
 		"startBias": ["Avoid [Jungle]","Avoid [Forest]"],
-		"preferredVictoryType": "征服",
+		"preferredVictoryType": "Domination",
 
         "startIntroPart1": "欢迎来到这个新世界，伟大的埃及领袖！古埃及是四大文明古国之一，而现代埃及也是中东地区不可忽视的一股力量。在古代，古埃及人留下了的雄伟的埃及金字塔，创造了古埃及神话，由此引申出无数伟大的作品，而在现代埃及，世界七大水坝之一的阿斯旺大坝也彰显着埃及人民的力量。虽然在历史的进程中跌宕起伏，但埃及人民在一位又一位领袖的带领下顽强的与侵略者抗争。伟大的埃及领袖啊！您的子民在等待着你带领他们再次创造辉煌的文明，您能让埃及再次璀璨吗？您能建立一个经得起时间考验的文明吗？",
 
@@ -583,7 +581,7 @@
 		"leaderName": "Leader",
 		"adjective": ["Vietnamese"],
 		"startBias": ["Vegetation"],
-		"preferredVictoryType": "征服",
+		"preferredVictoryType": "Domination",
 
         "startIntroPart1": "欢迎来到这个新世界，伟大的越南领袖！虽然越南的历史一直在独立与被占领之间徘徊，但越南依旧能够保持繁荣兴旺。越南人民不惧侵略者的进攻，因为树林与沼泽就是他们抵御侵略者最好的屏障。越南人民的自强路程虽几经波折，但最终找到了正确的道路。伟大的越南领袖啊！您的子民在等待着你带领他们再次创造辉煌的文明，您能让越南再次璀璨吗？您能建立一个经得起时间考验的文明吗？",
 
@@ -618,7 +616,7 @@
 		"name": "France",
 		"leaderName": "Leader",
 		"adjective": ["French"],
-		"preferredVictoryType": "征服",
+		"preferredVictoryType": "Domination",
         "startIntroPart1": "",
 	    "declaringWar": "Your behavior has angered me. I declare a just war against you",
 		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
@@ -707,7 +705,7 @@
 		"leaderName": "Leader",
 		"adjective": ["Korean"],
 		"startBias": ["Coast"],
-		"preferredVictoryType": "征服",
+		"preferredVictoryType": "Domination",
 
         "startIntroPart1": "",
         
@@ -740,7 +738,7 @@
 		"leaderName": "Leader",
 		"adjective": ["Mongolian"],
 		"startBias": ["Plains"],
-		"preferredVictoryType": "征服",
+		"preferredVictoryType": "Domination",
 
         "startIntroPart1": "",
 
@@ -762,8 +760,8 @@
 		"Double quantity of [Horses] produced",
 		"+30% Strength when fighting City-State units and cities", 
 		"Heals [25] damage if it kills a unit <for [Military] units>"
-		"[+1] Movement <for [骑兵] units>"
-		"[+1] Sight <for [骑兵] units>"
+		"[+1] Movement <for [Mobile] units>"
+		"[+1] Sight <for [Mobile] units>"
 		],
 		"cities": ["Karakorum","Beshbalik","Turfan","Hsia","Old Sarai","New Sarai","Tabriz","Tiflis","Otrar","Sanchu","Kazan",
 			"Almarikh","Ulaanbaatar","Hovd","Darhan","Dalandzadgad","Mandalgovi","Choybalsan","Erdenet","Tsetserieg",
@@ -776,7 +774,7 @@
 		"leaderName": "Leader",
 		"adjective": ["Cubans"],
 		"startBias": ["Coast"],
-		"preferredVictoryType":"征服",
+		"preferredVictoryType":"Domination",
 
 		"startIntroPart1": ""
 
@@ -808,7 +806,7 @@
 		"leaderName": "Leader",
 		"adjective": ["Babylonian"],
 		"startBias": ["Avoid [Tundra]"],
-		"preferredVictoryType": "征服",
+		"preferredVictoryType": "Domination",
 		"startIntroPart1": "",
 
 		"declaringWar": "Your behavior has angered me. I declare a just war against you",
@@ -849,6 +847,48 @@
 			"Arrapkha","Tutub","Shaduppum","Rapiqum","Mashkan Shapir","Tuttul","Ramad","Ana","Haradum","Agrab",
 			"Uqair","Gubba","Hafriyat","Nagar","Shubat Enlil","Urhai","Urkesh","Awan","Riblah","Tayma"],
         "spyNames": ["Rim-Sin II", "Smerdis", "Ilum-ma-ili", "Peshgaldaramesh", "Ur-zigurumaš", "Semiramis", "Em", "Ishtar", "Bilit Taauth", "Aruru"]
+    },
+	{
+		"name": "The Ottomans",
+		"leaderName": "Leader",
+		"adjective": ["Ottoman"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Domination",
+
+        "startIntroPart1": "",
+
+	"declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+
+        "outerColor": [245,248,185],
+        "innerColor": [18,84,30],
+
+		"favoredReligion": "Islam",
+		"uniqueName": "Star And Moon",
+		"uniqueText": "
+在首都建造信仰建筑后获得大先知信仰需求的20%的信仰；
+可以在城市中以1:1的比率将产能转化为信仰;
+攻城单位在对战城市当攻击时+50%战斗力		
+		" 
+		"uniques": [
+		"Gain enough Faith for [25]% of a Great Prophet <upon constructing [Faith] [in capital]>",
+        "[+50]% Strength <for [Siege] units> <vs cities> <when attacking>",
+		"Enables conversion of city production to [Faith]",
+		"Production to [Faith] conversion in cities changed by [300]%"
+			],
+		"cities": ["Istanbul","Edirne","Ankara","Bursa","Konya","Samsun","Gaziantep","Diyarbakır","Izmir","Kayseri","Malatya",
+			"Mersin","Antalya","Zonguldak","Denizli","Ordu","Muğla","Eskişehir","Inebolu","Sinop","Adana","Artvin",
+			"Bodrum","Eregli","Silifke","Sivas","Amasya","Marmaris","Trabzon","Erzurum","Urfa","Izmit","Afyonkarahisar",
+			"Bitlis","Yalova"],
+        "spyNames": ["Ibrahim", "Bayezid", "Sokollu", "Mahmut", "Uveys", "Roxelana", "Safiye", "Hafsa", "Kosem", "Nurbanu"]
 	},
 	{
 	//城邦
