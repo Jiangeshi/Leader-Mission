@@ -112,6 +112,13 @@
         "name": "神迹",
         "type": "Pantheon",
         "uniques": ["[+15]% Production when constructing [All] wonders [in cities following this religion]"]
+    },
+    {
+        "name": "雄伟壮丽",
+        "type": "Pantheon",
+        "uniques": [
+        "May buy [Worker] units with [Faith] for [2] times their normal Production cost",
+        "May buy [Settler] units with [Faith] for [2] times their normal Production cost"]
     //创建者词条
     },
     {

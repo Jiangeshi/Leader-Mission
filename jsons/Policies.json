@@ -233,8 +233,7 @@
             {
                 "name": "Mandate Of Heaven",
                 "uniques": [
-        "May buy [Worker] units with [Faith] for [2] times their normal Production cost",
-        "May buy [Settler] units with [Faith] for [2] times their normal Production cost"
+        "[50]% of excess happiness converted to [Culture]"
                 ],
                 "row": 1,
                 "column": 5
