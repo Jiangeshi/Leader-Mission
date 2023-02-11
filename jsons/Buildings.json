@@ -2422,7 +2422,7 @@ Leader Mission 模组中的胜利方式有：
 		"uniqueTo": "The Ottomans",
 		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [文明领袖—奥斯曼一世]>",
 		"Provides [1] [总督点数] <after discovering [政治学]>",
-		"[+5] XP gained from combat <for [Military] units>"
+		"[+3] XP gained from combat <for [Military] units>"
 		]
 	},
 	{
