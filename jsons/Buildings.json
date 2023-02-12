@@ -1571,6 +1571,7 @@ Leader Mission 模组中的胜利方式有：
 			"[+1 Food] from [Farm] tiles [in this city]",
 			"[+1 Food] from [Plantation] tiles [in this city]",
 			"Consumes [2] [Steel]",
+			"Consumes [1] [Saltpeter]",
 			"Consumes [1] [Coal]",
 			"Provides [3] [CO2]","Unsellable","Only available <in cities with a [District—Industrial Centre]>"],
 	},
