@@ -1527,8 +1527,8 @@ UnitPromotionIcons/持续拦截
   index: -1
 
 
-篝火.png
-BuildingIcons/篝火
+Bonfire.png
+BuildingIcons/Bonfire
   rotate: false
   xy: 0,0
   size: 100, 100
@@ -1536,8 +1536,8 @@ BuildingIcons/篝火
   offset: 0, 0
   index: -1
   
-土窑.png
-BuildingIcons/土窑
+Kiln.png
+BuildingIcons/Kiln
   rotate: false
   xy: 0,0
   size: 32, 32
@@ -1545,8 +1545,8 @@ BuildingIcons/土窑
   offset: 0, 0
   index: -1
   
-日晷.png
-BuildingIcons/日晷
+Sundial.png
+BuildingIcons/Sundial
   rotate: false
   xy: 0,0
   size: 50, 50
@@ -1554,8 +1554,8 @@ BuildingIcons/日晷
   offset: 0, 0
   index: -1
 
-坟墓.png
-BuildingIcons/坟墓
+Grave.png
+BuildingIcons/Grave
   rotate: false
   xy: 0,0
   size: 50, 50
@@ -1563,8 +1563,8 @@ BuildingIcons/坟墓
   offset: 0, 0
   index: -1
     
-集市.png
-BuildingIcons/集市
+Fair.png
+BuildingIcons/Fair
   rotate: false
   xy: 0,0
   size: 50, 50
@@ -1572,8 +1572,8 @@ BuildingIcons/集市
   offset: 0, 0
   index: -1    
     
-哲学院.png
-BuildingIcons/哲学院
+SchoolofPhilosophy.png
+BuildingIcons/School of Philosophy
   rotate: false
   xy: 0,0
   size: 30, 30
@@ -1581,8 +1581,8 @@ BuildingIcons/哲学院
   offset: 0, 0
   index: -1
   
-铁匠铺.png
-BuildingIcons/铁匠铺
+Smithy.png
+BuildingIcons/Smithy
   rotate: false
   xy: 0,0
   size: 75, 75
@@ -2159,363 +2159,363 @@ BuildingIcons/总督—瑞纳 IIIB
   offset: 0, 0
   index: -1        
             
-文明领袖.png
+Civilized leader.png
 BuildingIcons/文明领袖—汉武帝
   rotate: false
   xy: 0,0
-  size: 50, 50
-  orig: 50, 50
+  size: 270, 270
+  orig: 270, 270
   offset: 0, 0
   index: -1  
       
-文明领袖.png
+Civilized leader.png
 BuildingIcons/文明领袖—秦始皇
   rotate: false
   xy: 0,0
-  size: 50, 50
-  orig: 50, 50
+  size: 270, 270
+  orig: 270, 270
   offset: 0, 0
   index: -1  
      
-文明领袖.png
+Civilized leader.png
 BuildingIcons/文明领袖—伟大领袖
   rotate: false
   xy: 0,0
-  size: 50, 50
-  orig: 50, 50
+  size: 270, 270
+  orig: 270, 270
   offset: 0, 0
   index: -1  
   
-文明领袖.png
+Civilized leader.png
 BuildingIcons/文明领袖—列奥尼达
   rotate: false
   xy: 0,0
-  size: 50, 50
-  orig: 50, 50
+  size: 270, 270
+  orig: 270, 270
   offset: 0, 0
   index: -1  
      
-文明领袖.png
+Civilized leader.png
 BuildingIcons/文明领袖—伯里克利
   rotate: false
   xy: 0,0
-  size: 50, 50
-  orig: 50, 50
+  size: 270, 270
+  orig: 270, 270
   offset: 0, 0
   index: -1  
  
-文明领袖.png
+Civilized leader.png
 BuildingIcons/文明领袖—亚历山大大帝
   rotate: false
   xy: 0,0
-  size: 50, 50
-  orig: 50, 50
+  size: 270, 270
+  orig: 270, 270
   offset: 0, 0
   index: -1  
  
-文明领袖.png
+Civilized leader.png
 BuildingIcons/文明领袖—屋大维
   rotate: false
   xy: 0,0
-  size: 50, 50
-  orig: 50, 50
+  size: 270, 270
+  orig: 270, 270
   offset: 0, 0
   index: -1  
       
-文明领袖.png
+Civilized leader.png
 BuildingIcons/文明领袖—恺撒
   rotate: false
   xy: 0,0
-  size: 50, 50
-  orig: 50, 50
+  size: 270, 270
+  orig: 270, 270
   offset: 0, 0
-  index: -1                      
+  index: -1                
    
-文明领袖.png
+Civilized leader.png
 BuildingIcons/文明领袖—彼得大帝
   rotate: false
   xy: 0,0
-  size: 50, 50
-  orig: 50, 50
+  size: 270, 270
+  orig: 270, 270
   offset: 0, 0
   index: -1  
       
-文明领袖.png
+Civilized leader.png
 BuildingIcons/文明领袖—叶卡捷琳娜大帝
   rotate: false
   xy: 0,0
-  size: 50, 50
-  orig: 50, 50
+  size: 270, 270
+  orig: 270, 270
   offset: 0, 0
   index: -1                            
 
-文明领袖.png
+Civilized leader.png
 BuildingIcons/文明领袖—列宁
   rotate: false
   xy: 0,0
-  size: 50, 50
-  orig: 50, 50
+  size: 270, 270
+  orig: 270, 270
   offset: 0, 0
   index: -1  
       
-文明领袖.png
+Civilized leader.png
 BuildingIcons/文明领袖—斯大林
   rotate: false
   xy: 0,0
-  size: 50, 50
-  orig: 50, 50
+  size: 270, 270
+  orig: 270, 270
   offset: 0, 0
   index: -1  
 
-文明领袖.png
+Civilized leader.png
 BuildingIcons/文明领袖—桑卡拉
   rotate: false
   xy: 0,0
-  size: 50, 50
-  orig: 50, 50
+  size: 270, 270
+  orig: 270, 270
   offset: 0, 0
   index: -1  
 
-文明领袖.png
+Civilized leader.png
 BuildingIcons/文明领袖—托里霍斯
   rotate: false
   xy: 0,0
-  size: 50, 50
-  orig: 50, 50
+  size: 270, 270
+  orig: 270, 270
   offset: 0, 0
   index: -1  
 
-文明领袖.png
+Civilized leader.png
 BuildingIcons/文明领袖—君士坦丁一世
   rotate: false
   xy: 0,0
-  size: 50, 50
-  orig: 50, 50
+  size: 270, 270
+  orig: 270, 270
   offset: 0, 0
   index: -1  
       
-文明领袖.png
+Civilized leader.png
 BuildingIcons/文明领袖—查士丁尼一世
   rotate: false
   xy: 0,0
-  size: 50, 50
-  orig: 50, 50
+  size: 270, 270
+  orig: 270, 270
   offset: 0, 0
   index: -1  
 
-文明领袖.png
+Civilized leader.png
 BuildingIcons/文明领袖—欧麦尔一世
   rotate: false
   xy: 0,0
-  size: 50, 50
-  orig: 50, 50
+  size: 270, 270
+  orig: 270, 270
   offset: 0, 0
   index: -1  
       
-文明领袖.png
+Civilized leader.png
 BuildingIcons/文明领袖—萨拉丁
   rotate: false
   xy: 0,0
-  size: 50, 50
-  orig: 50, 50
+  size: 270, 270
+  orig: 270, 270
   offset: 0, 0
   index: -1  
 
-文明领袖.png
+Civilized leader.png
 BuildingIcons/文明领袖—玻利瓦尔
   rotate: false
   xy: 0,0
-  size: 50, 50
-  orig: 50, 50
+  size: 270, 270
+  orig: 270, 270
   offset: 0, 0
   index: -1  
 
-文明领袖.png
+Civilized leader.png
 BuildingIcons/Civilized leader—Hafizullah Amin
   rotate: false
   xy: 0,0
-  size: 50, 50
-  orig: 50, 50
+  size: 270, 270
+  orig: 270, 270
   offset: 0, 0
   index: -1  
 
-文明领袖.png
+Civilized leader.png
 BuildingIcons/文明领袖—阿提拉
   rotate: false
   xy: 0,0
-  size: 50, 50
-  orig: 50, 50
+  size: 270, 270
+  orig: 270, 270
   offset: 0, 0
   index: -1  
 
-文明领袖.png
+Civilized leader.png
 BuildingIcons/文明领袖—居鲁士大帝
   rotate: false
   xy: 0,0
-  size: 50, 50
-  orig: 50, 50
+  size: 270, 270
+  orig: 270, 270
   offset: 0, 0
   index: -1  
   
-文明领袖.png
+Civilized leader.png
 BuildingIcons/文明领袖—大流士一世
   rotate: false
   xy: 0,0
-  size: 50, 50
-  orig: 50, 50
+  size: 270, 270
+  orig: 270, 270
   offset: 0, 0
   index: -1  
 
-文明领袖.png
+Civilized leader.png
 BuildingIcons/文明领袖—拉美西斯二世
   rotate: false
   xy: 0,0
-  size: 50, 50
-  orig: 50, 50
+  size: 270, 270
+  orig: 270, 270
   offset: 0, 0
   index: -1  
 
-文明领袖.png
+Civilized leader.png
 BuildingIcons/文明领袖—纳赛尔
   rotate: false
   xy: 0,0
-  size: 50, 50
-  orig: 50, 50
+  size: 270, 270
+  orig: 270, 270
   offset: 0, 0
   index: -1  
 
-文明领袖.png
+Civilized leader.png
 BuildingIcons/文明领袖—胡志明
   rotate: false
   xy: 0,0
-  size: 50, 50
-  orig: 50, 50
+  size: 270, 270
+  orig: 270, 270
   offset: 0, 0
   index: -1  
 
-文明领袖.png
+Civilized leader.png
 BuildingIcons/文明领袖—狄多
   rotate: false
   xy: 0,0
-  size: 50, 50
-  orig: 50, 50
+  size: 270, 270
+  orig: 270, 270
   offset: 0, 0
   index: -1  
 
-文明领袖.png
+Civilized leader.png
 BuildingIcons/文明领袖—汉尼拔
   rotate: false
   xy: 0,0
-  size: 50, 50
-  orig: 50, 50
+  size: 270, 270
+  orig: 270, 270
   offset: 0, 0
   index: -1  
 
-文明领袖.png
+Civilized leader.png
 BuildingIcons/文明领袖—拿破仑
   rotate: false
   xy: 0,0
-  size: 50, 50
-  orig: 50, 50
+  size: 270, 270
+  orig: 270, 270
   offset: 0, 0
   index: -1  
       
-文明领袖.png
+Civilized leader.png
 BuildingIcons/文明领袖—戴高乐
   rotate: false
   xy: 0,0
-  size: 50, 50
-  orig: 50, 50
+  size: 270, 270
+  orig: 270, 270
   offset: 0, 0
   index: -1  
 
-文明领袖.png
+Civilized leader.png
 BuildingIcons/文明领袖—李成桂
   rotate: false
   xy: 0,0
-  size: 50, 50
-  orig: 50, 50
+  size: 270, 270
+  orig: 270, 270
   offset: 0, 0
   index: -1  
       
-文明领袖.png
+Civilized leader.png
 BuildingIcons/文明领袖—金日成
   rotate: false
   xy: 0,0
-  size: 50, 50
-  orig: 50, 50
+  size: 270, 270
+  orig: 270, 270
   offset: 0, 0
   index: -1  
 
-文明领袖.png
+Civilized leader.png
 BuildingIcons/文明领袖—成吉思汗
   rotate: false
   xy: 0,0
-  size: 50, 50
-  orig: 50, 50
+  size: 270, 270
+  orig: 270, 270
   offset: 0, 0
   index: -1  
       
-文明领袖.png
+Civilized leader.png
 BuildingIcons/文明领袖—忽必烈
   rotate: false
   xy: 0,0
-  size: 50, 50
-  orig: 50, 50
+  size: 270, 270
+  orig: 270, 270
   offset: 0, 0
   index: -1  
 
-文明领袖.png
+Civilized leader.png
 BuildingIcons/文明领袖—切·格瓦拉
   rotate: false
   xy: 0,0
-  size: 50, 50
-  orig: 50, 50
+  size: 270, 270
+  orig: 270, 270
   offset: 0, 0
   index: -1  
       
-文明领袖.png
+Civilized leader.png
 BuildingIcons/文明领袖—卡斯特罗
   rotate: false
   xy: 0,0
-  size: 50, 50
-  orig: 50, 50
+  size: 270, 270
+  orig: 270, 270
   offset: 0, 0
   index: -1  
 
-文明领袖.png
+Civilized leader.png
 BuildingIcons/文明领袖—汉谟拉比
   rotate: false
   xy: 0,0
-  size: 50, 50
-  orig: 50, 50
+  size: 270, 270
+  orig: 270, 270
   offset: 0, 0
   index: -1  
       
-文明领袖.png
+Civilized leader.png
 BuildingIcons/文明领袖—尼布甲尼撒二世
   rotate: false
   xy: 0,0
-  size: 50, 50
-  orig: 50, 50
+  size: 270, 270
+  orig: 270, 270
   offset: 0, 0
   index: -1  
 
-文明领袖.png
+Civilized leader.png
 BuildingIcons/文明领袖—奥斯曼一世
   rotate: false
   xy: 0,0
-  size: 50, 50
-  orig: 50, 50
+  size: 270, 270
+  orig: 270, 270
   offset: 0, 0
   index: -1  
      
-文明领袖.png
+Civilized leader.png
 BuildingIcons/文明领袖—苏莱曼大帝
   rotate: false
   xy: 0,0
-  size: 50, 50
-  orig: 50, 50
+  size: 270, 270
+  orig: 270, 270
   offset: 0, 0
   index: -1  
 
@@ -3104,8 +3104,8 @@ TileSets/HexaRealm/Tiles/Saltpeter
   offset: 0, 0
   index: -1  
   
-地热裂缝.png
-TileSets/HexaRealm/Tiles/地热裂缝
+GeothermalCrevice.png
+TileSets/HexaRealm/Tiles/Geothermal Crevice
   rotate: false
   xy: 0, 0
   size: 280, 280
@@ -3113,8 +3113,8 @@ TileSets/HexaRealm/Tiles/地热裂缝
   offset: 0, 0
   index: -1
 
-火山.png
-TileSets/HexaRealm/Tiles/火山
+Volcano.png
+TileSets/HexaRealm/Tiles/Volcano
   rotate: false
   xy: 0, 0
   size: 300, 300
@@ -3122,26 +3122,8 @@ TileSets/HexaRealm/Tiles/火山
   offset: 0, 0
   index: -1
 
-平原冲积平原.png
-TileSets/HexaRealm/Tiles/平原冲积平原
-  rotate: false
-  xy: 0, 0
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-  
-草原冲积平原.png
-TileSets/HexaRealm/Tiles/草原冲积平原
-  rotate: false
-  xy: 0, 0
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-
-火山土.png
-TileSets/HexaRealm/Tiles/火山土
+VolcanicSoil.png
+TileSets/HexaRealm/Tiles/Volcanic Soil
   rotate: false
   xy: 0, -15
   size: 300, 300

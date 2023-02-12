@@ -28,7 +28,7 @@
         ]
     },
     {
-       "name": "南蛮入侵",
+       "name": "Barbarian Breakout",
         "modifier": 0.67,
         "productionCostModifier": 0.67,
         "goldCostModifier": 0.67,

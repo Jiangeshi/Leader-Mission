@@ -1,13 +1,13 @@
 [
 	{
 		"name": "Farm",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains","火山土"],
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains","Volcanic Soil"],
 		"food": 1,
 		"turnsToBuild": 7,
 		"techRequired": "农业",
 		"uniques": ["Can also be built on tiles adjacent to fresh water",
 	    "Pillaging this improvement yields approximately [+20 Gold]",
-		"[+2 Food] <in [火山土] tiles>",
+		"[+2 Food] <in [Volcanic Soil] tiles>",
 		"[+1 Food] <after discovering [化肥]>"]
     },
 	{
@@ -54,12 +54,12 @@
 	},
 	{
 		"name": "Spa",
-		"terrainsCanBeBuiltOn": ["地热裂缝"],
+		"terrainsCanBeBuiltOn": ["Geothermal Crevice"],
 		"gold": 2,
 		"science": 1,
 		"turnsToBuild": 7,
 		"techRequired": "建筑设计学",
-		"uniques": ["Does not need removal of [地热裂缝]", "Pillaging this improvement yields approximately [+30 Gold]","[+1 Gold] <after discovering [建筑学]>","[+1 Gold] <after discovering [考古学]>"]
+		"uniques": ["Does not need removal of [Geothermal Crevice]", "Pillaging this improvement yields approximately [+30 Gold]","[+1 Gold] <after discovering [建筑学]>","[+1 Gold] <after discovering [考古学]>"]
 	},
 	{
 		"name": "Fishing Boats",
@@ -102,11 +102,11 @@
 		"food": -2,
 		"turnsToBuild": 12,
 		"techRequired": "电学",
-		"terrainsCanBeBuiltOn": ["地热裂缝","火山土"],
+		"terrainsCanBeBuiltOn": ["Geothermal Crevice","Volcanic Soil"],
 		"uniques": ["Pillaging this improvement yields approximately [+30 Gold]",
 		"Provides [2] [Electricity]",
 		"[+1 Production] <after discovering [生态学]>"
-		"[+1 Production] <in [火山土] tiles>"]
+		"[+1 Production] <in [Volcanic Soil] tiles>"]
 	},
 	{
 		"name": "Solar farm",
@@ -119,7 +119,7 @@
 		"Cannot be built on [Strategic resource] tiles",	
 		"Provides [1] [Electricity]",
 		"Cannot be built on [Hill] tiles",
-		"Cannot be built on [火山土] tiles",
+		"Cannot be built on [Volcanic Soil] tiles",
 	    "[+1 Science, +1 Production] for each adjacent [Solar farm]"
 		]	
 	//道路

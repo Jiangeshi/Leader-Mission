@@ -42,7 +42,7 @@
 				"Considered [Food] when determining start locations <in [Grassland] Regions>",
 				"Considered [Food] when determining start locations <in [Hybrid] Regions>",
 				"Every [33] tiles with this terrain will receive a major deposit of a strategic resource.",
-					"Becomes [火山土] when adjacent to [火山]",
+					"Becomes [Volcanic Soil] when adjacent to [Volcano]",
 				]
 	},
 	{
@@ -73,7 +73,7 @@
 				"Considered [Food] when determining start locations <in [Plains] Regions>",
 				"Considered [Food] when determining start locations <in [Hybrid] Regions>",
 				"Every [33] tiles with this terrain will receive a major deposit of a strategic resource.",
-					"Becomes [火山土] when adjacent to [火山]",
+					"Becomes [Volcanic Soil] when adjacent to [Volcano]",
 				]
 	},
 	{
@@ -93,7 +93,7 @@
 				"Considered [Desirable] when determining start locations <in [Tundra] Regions>",
 				"Becomes [Plains] when adjacent to [River]",
 				"Every [16] tiles with this terrain will receive a major deposit of a strategic resource.",
-					"Becomes [火山土] when adjacent to [火山]"]
+					"Becomes [Volcanic Soil] when adjacent to [Volcano]"]
 	},
 	{
 		"name": "Desert",
@@ -110,7 +110,7 @@
 				"Becomes [Flood plains] when adjacent to [River]",
 				"Considered [Undesirable] when determining start locations <in all except [Desert] Regions>",
 				"Every [13] tiles with this terrain will receive a major deposit of a strategic resource.",
-					"Becomes [火山土] when adjacent to [火山]"]
+					"Becomes [Volcanic Soil] when adjacent to [Volcano]"]
 	},
 	{
 		"name": "Lakes",
@@ -240,9 +240,7 @@
 		"movementCost": 2,
 		"unbuildable": true,
 		"uniques": ["Nullifies all other stats this tile provides", "Doesn't generate naturally"],
-		// For map editor only - the generator won't place it without code or enabling uniques
-		// If the map generator is ever updated to always take these into account, it should also take the "Doesn't generate naturally" unique into account
-		"occursOn": ["Grassland","Plains","Desert","Tundra","Snow","Forest","Jungle","Hill","Flood plains","Marsh","Oasis","地热裂缝","火山土"]
+		"occursOn": ["Grassland","Plains","Desert","Tundra","Snow","Forest","Jungle","Hill","Flood plains","Marsh","Oasis","Geothermal Crevice","Volcanic Soil"]
 		"defenceBonus": -0.15
 	},
 	{
@@ -506,7 +504,7 @@
     //mod
 	},
 	{
-		"name": "地热裂缝",
+		"name": "Geothermal Crevice",
 		"type": "TerrainFeature",
 		"science": 1,
 		"food": 2,
@@ -517,7 +515,7 @@
 		"uniques": ["Rare feature","Never receives any resources"]
     },
 	{
-		"name": "火山",
+		"name": "Volcano",
 		"type": "TerrainFeature",
 		"production": 1,
 		"science": 1,
@@ -533,11 +531,11 @@
 				"Has an elevation of [3] for visibility calculations",
 				"Nullifies all other stats this tile provides"],
 		"civilopediaText": [
-		{"text":"在火山附近的无其余地貌的平原、沙漠、草原、冻土地块将变为火山土地貌", "link":"Terrain/火山土"}
+		{"text":"The plains, deserts, grasslands and tundras  without other landforms near the volcano will become volcanic soil", "link":"Terrain/Volcanic Soil"}
 		]
 	},
 	{
-		"name": "火山土",
+		"name": "Volcanic Soil",
 		"type": "TerrainFeature",
 		"food": 1,
 		"production": -1,
@@ -551,7 +549,7 @@
 			"Never receives any resources"
 	]
 		"civilopediaText": [
-		{"text":"只在火山周围生成", "link":"Terrain/火山"}]
+		{"text":"Only generated around the volcano", "link":"Terrain/Volcano"}]
 
     }	
 

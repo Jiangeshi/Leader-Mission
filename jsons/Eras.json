@@ -39,8 +39,8 @@
         "startingGold": 25,
         "startingCulture": 200,
         "settlerPopulation": 1,
-        "settlerBuildings": ["篝火","石碑","土窑","坟墓"],
-        "startingObsoleteWonders": ["阿尔忒弥斯神庙", "巨石阵", "大图书馆", "摩索拉斯王陵墓", "大金字塔", "宙斯神像"],
+        "settlerBuildings": ["Bonfire","Monument","Kiln","Grave"],
+        "startingObsoleteWonders": ["Temple of Artemis", "Stonehenge", "The Great Library", "Mausoleum of Halicarnassus", "The Pyramids", "Statue of Zeus"],
         "baseUnitBuyCost": 200,
         "embarkDefense": 6,
         "startPercent": 25,
@@ -57,9 +57,9 @@
         "startingGold": 50,
         "startingCulture": 300,
         "settlerPopulation": 2,
-        "settlerBuildings": ["篝火","祭坛","石碑","粮仓","坟墓","土窑"],
-        "startingObsoleteWonders": ["阿尔忒弥斯神庙", "巨石阵", "大图书馆", "摩索拉斯王陵墓", "大金字塔", "宙斯神像",
-            "大灯塔", "空中花园", "兵马俑", "神谕所", "太阳神巨像"],
+        "settlerBuildings": ["Bonfire","Shrine","Monument","Granary","Grave","Kiln"],
+        "startingObsoleteWonders": ["Temple of Artemis", "Stonehenge", "The Great Library", "Mausoleum of Halicarnassus", "The Pyramids", "Statue of Zeus",
+            "The Great Lighthouse", "Hanging Gardens", "Terracotta Army", "The Oracle", "太阳神巨像"],
         "baseUnitBuyCost": 300,
         "embarkDefense": 8,
         "startPercent": 37,
@@ -77,9 +77,9 @@
         "startingGold": 100,
         "startingCulture": 400,
         "settlerPopulation": 3,
-        "settlerBuildings": ["篝火","集市","石碑","粮仓","日晷","坟墓","土窑","图书馆","祭坛"],
-        "startingObsoleteWonders": ["阿尔忒弥斯神庙", "巨石阵", "大图书馆", "摩索拉斯王陵墓", "大金字塔", "宙斯神像",
-            "大灯塔", "空中花园", "兵马俑", "神谕所", "长城", "太阳神巨像"
+        "settlerBuildings": ["Bonfire","Fair","Monument","Granary","Sundial","Grave","Kiln","Library","Shrine"],
+        "startingObsoleteWonders": ["Temple of Artemis", "Stonehenge", "The Great Library", "Mausoleum of Halicarnassus", "The Pyramids", "Statue of Zeus",
+            "The Great Lighthouse", "Hanging Gardens", "Terracotta Army", "The Oracle", "长城", "太阳神巨像"
             "圣索菲亚大教堂", "奇琴伊察", "马丘比丘", "吴哥窟", "阿尔罕布拉宫", "巴黎圣母院"],
         "baseUnitBuyCost": 400,
         "embarkDefense": 10,
@@ -101,9 +101,9 @@
         "startingGold": 200,
         "startingCulture": 500,
         "settlerPopulation": 3,
-        "settlerBuildings": ["篝火","集市","石碑","粮仓","日晷","坟墓","土窑","图书馆","祭坛","哲学院"],
-        "startingObsoleteWonders": ["阿尔忒弥斯神庙", "巨石阵", "大图书馆", "摩索拉斯王陵墓", "大金字塔", "宙斯神像",
-            "大灯塔", "空中花园", "兵马俑", "神谕所", "长城", "太阳神巨像"
+        "settlerBuildings": ["Bonfire","Fair","Monument","Granary","Sundial","Grave","Kiln","Library","Shrine","School of Philosophy"],
+        "startingObsoleteWonders": ["Temple of Artemis", "Stonehenge", "The Great Library", "Mausoleum of Halicarnassus", "The Pyramids", "Statue of Zeus",
+            "The Great Lighthouse", "Hanging Gardens", "Terracotta Army", "The Oracle", "长城", "太阳神巨像"
             "圣索菲亚大教堂", "奇琴伊察", "马丘比丘", "吴哥窟", "阿尔罕布拉宫", "巴黎圣母院"
            "西斯廷教堂", "紫禁城", "比萨斜塔", "姬路城", "泰姬陵", "大报恩寺", "克里姆林宫"
            ],
@@ -127,9 +127,9 @@
         "startingGold": 200,
         "startingCulture": 500,
         "settlerPopulation": 4,
-        "settlerBuildings": ["篝火","集市","石碑","粮仓","日晷","坟墓","土窑","图书馆","祭坛","哲学院"],
-        "startingObsoleteWonders": ["阿尔忒弥斯神庙", "巨石阵", "大图书馆", "摩索拉斯王陵墓", "大金字塔", "宙斯神像",
-            "大灯塔", "空中花园", "兵马俑", "神谕所", "长城", "太阳神巨像"
+        "settlerBuildings": ["Bonfire","Fair","Monument","Granary","Sundial","Grave","Kiln","Library","Shrine","School of Philosophy"],
+        "startingObsoleteWonders": ["Temple of Artemis", "Stonehenge", "The Great Library", "Mausoleum of Halicarnassus", "The Pyramids", "Statue of Zeus",
+            "The Great Lighthouse", "Hanging Gardens", "Terracotta Army", "The Oracle", "长城", "太阳神巨像"
             "圣索菲亚大教堂", "奇琴伊察", "马丘比丘", "吴哥窟", "阿尔罕布拉宫", "巴黎圣母院"
            "西斯廷教堂", "紫禁城", "比萨斜塔", "姬路城", "泰姬陵", "大报恩寺", "克里姆林宫"
             "卢浮宫", "大本钟", "勃兰登堡门"],
@@ -154,10 +154,10 @@
         "startingGold": 400,
         "startingCulture": 600,
         "settlerPopulation": 5,
-        "settlerBuildings": ["篝火","集市","石碑","粮仓","日晷","坟墓","土窑","图书馆","祭坛","哲学院"],
-        "startingObsoleteWonders": ["石碑","粮仓","日晷","坟墓","土窑","图书馆","祭坛","哲学院"],
-        "startingObsoleteWonders": ["阿尔忒弥斯神庙", "巨石阵", "大图书馆", "摩索拉斯王陵墓", "大金字塔", "宙斯神像",
-            "大灯塔", "空中花园", "兵马俑", "神谕所", "长城", "太阳神巨像"
+        "settlerBuildings": ["Bonfire","Fair","Monument","Granary","Sundial","Grave","Kiln","Library","Shrine","School of Philosophy"],
+        "startingObsoleteWonders": ["Monument","Granary","Sundial","Grave","Kiln","Library","Shrine","School of Philosophy"],
+        "startingObsoleteWonders": ["Temple of Artemis", "Stonehenge", "The Great Library", "Mausoleum of Halicarnassus", "The Pyramids", "Statue of Zeus",
+            "The Great Lighthouse", "Hanging Gardens", "Terracotta Army", "The Oracle", "长城", "太阳神巨像"
             "圣索菲亚大教堂", "奇琴伊察", "马丘比丘", "吴哥窟", "阿尔罕布拉宫", "巴黎圣母院"
            "西斯廷教堂", "紫禁城", "比萨斜塔", "姬路城", "泰姬陵", "大报恩寺", "克里姆林宫"
             "卢浮宫", "大本钟", "勃兰登堡门"
@@ -185,10 +185,9 @@
         "startingGold": 400,
         "startingCulture": 600,
         "settlerPopulation": 5,
-        "settlerBuildings": ["篝火","集市","石碑","粮仓","日晷","坟墓","土窑","图书馆","祭坛","哲学院"],
-        "startingObsoleteWonders": ["石碑","粮仓","日晷","坟墓","土窑","图书馆","祭坛","哲学院"],
-        "startingObsoleteWonders": ["阿尔忒弥斯神庙", "巨石阵", "大图书馆", "摩索拉斯王陵墓", "大金字塔", "宙斯神像",
-            "大灯塔", "空中花园", "兵马俑", "神谕所", "长城", "太阳神巨像"
+        "settlerBuildings": ["Bonfire","Fair","Monument","Granary","Sundial","Grave","Kiln","Library","Shrine","School of Philosophy"],
+        "startingObsoleteWonders": ["Temple of Artemis", "Stonehenge", "The Great Library", "Mausoleum of Halicarnassus", "The Pyramids", "Statue of Zeus",
+            "The Great Lighthouse", "Hanging Gardens", "Terracotta Army", "The Oracle", "长城", "太阳神巨像"
             "圣索菲亚大教堂", "奇琴伊察", "马丘比丘", "吴哥窟", "阿尔罕布拉宫", "巴黎圣母院"
            "西斯廷教堂", "紫禁城", "比萨斜塔", "姬路城", "泰姬陵", "大报恩寺", "克里姆林宫"
             "卢浮宫", "大本钟", "勃兰登堡门"

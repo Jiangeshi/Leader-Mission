@@ -190,7 +190,7 @@
                 "name": "Professional Army",
                 "uniques": [
                     "[-33]% Gold cost of upgrading <for [Military] units>",
-                    "[+1 Happiness] from every [城墙]",
+                    "[+1 Happiness] from every [Walls]",
                     "[+1 Happiness] from every [碉堡]",
                     "[+1 Happiness] from every [城堡]",
                     "[+1 Happiness] from every [军事基地]"
@@ -224,8 +224,8 @@
             {
                 "name": "Organized Religion",
                 "uniques": [
-                    "[+1 Faith] from every [祭坛]",
-                    "[+2 Faith] from every [寺庙]"
+                    "[+1 Faith] from every [Shrine]",
+                    "[+2 Faith] from every [Temple]"
                 ],
                 "row": 1,
                 "column": 2
@@ -574,7 +574,7 @@
             {
                 "name": "Police State",
                 "uniques": [
-                    "[+1 Happiness] from every [法院]",
+                    "[+1 Happiness] from every [Courthouse]",
                     "[+100]% Production when constructing [军事基地] buildings [in all cities]"
                 ],
                 "requires": ["Militarism"],
