@@ -27,25 +27,25 @@
 				"quote": "人们将先人供奉，以求得到已死之人的庇佑对，人们崇拜万物，是以万物皆有灵"
 			},
 			{
-				"name": "制陶",
+				"name": "Pottery",
 				"row": 5,
 				"prerequisites": ["钻木取火"],
 				"quote": "陶器使人们拥有了更多的工具去烹饪、存放食物，当然，陶器在除了吃的方面还有其他用途"
 			},
 			{
-				"name": "农业",
+				"name": "Agriculture",
 				"row": 6,
 				"prerequisites": ["钻木取火"],
 				"quote": "农业的产生是人类得以人口几何式爆炸的关键，人类驯化了小麦，同时小麦也驯化了人类"		
 		    },
 			{
-				"name": "采矿",
+				"name": "Mining",
 				"row": 7,
 				"prerequisites": ["钻木取火"],
 				"quote": "继石头之后，各类矿石的开采让人们拥有了更加强力的武器、装备、工具"
 		    },
 		    {
-			"name": "狩猎",
+			"name": "Archery",
 				"row": 8,
 				"prerequisites": ["钻木取火"],
 				"quote": "在畜牧业产生前，狩猎动物一直是肉类食物的主要来源"
@@ -74,19 +74,19 @@
 			{
 				"name": "历法",
 				"row": 5,
-				"prerequisites": ["制陶"],
+				"prerequisites": ["Pottery"],
 				"quote": "每个文明都依靠不同的参照物建立了各自的历法，历法的诞生让农业的发展更为迅速，也有了时间的参照"
 			},
 			{
-				"name": "畜牧业",
+				"name": "Animal Husbandry",
 				"row": 6,
-				"prerequisites": ["农业"],
+				"prerequisites": ["Agriculture"],
 				"quote": "畜牧业的诞生，让人们能够不需外出进行危险的狩猎便可获得大量的肉制品，以畜牧业而非农业为主的游牧民族也由此诞生"
 			},
 			{
 				"name": "伐木业",
 				"row": 7,
-				"prerequisites": ["采矿"],
+				"prerequisites": ["Mining"],
 				"quote": "发家致富先砍树，不过，过度的砍伐也并不是一件好事"
 		    }
 		]
@@ -119,7 +119,7 @@
 			{
 				"name": "The Wheel",
 				"row": 6,
-				"prerequisites": ["畜牧业","历法"],
+				"prerequisites": ["Animal Husbandry","历法"],
 				"quote": "轮子大大节省了人们的能量消耗，让人们可以以极低的代价运送物资"
 			},
 			{
@@ -131,7 +131,7 @@
 			{
 				"name": "青铜器",
 				"row": 8,
-				"prerequisites": ["伐木业","狩猎"],
+				"prerequisites": ["伐木业","Archery"],
 				"quote": "对青铜的运用是人类历史上十分重要的一步，从此人们对金属的运用愈发熟练"
 			}
 		]
@@ -465,7 +465,7 @@
 		"wonderCost": 1250, 
 		"techs": [
 			{
-		        "name": "税务管理",
+		        "name": "Taxation Administration",
 				"row": 1,
 				"cost": 1800
 				"prerequisites": ["外交"],
@@ -548,7 +548,7 @@
 				"name": "联合国",
 				"row": 1,
 				"cost": 3300
-				"prerequisites": ["税务管理","制冷"],
+				"prerequisites": ["Taxation Administration","制冷"],
 				"quote": "世界的距离被缩短，人类的命运被联系在了一起"
 			},
 			{
@@ -618,7 +618,7 @@
 		"wonderCost": 2000,
 		"techs": [
 			{
-		        "name": "乌托邦",
+		        "name": "Utopia Project",
 				"row": 1,
 				"cost": 5300
 				"prerequisites": ["联合国"], 
@@ -705,10 +705,10 @@
 		"wonderCost": 2000,
 		"techs": [
 			{
-				"name": "世界博览会",
+				"name": "EXPO",
 				"row": 1,
 				"cost": 8000
-				"prerequisites": ["乌托邦","远程通信"],
+				"prerequisites": ["Utopia Project","远程通信"],
 				"quote": "全世界的目光集中于此，这里展示了世界各国的风貌，在这一个个小小的场馆里，你能看到整个世界"
 			},
 			{
@@ -718,7 +718,7 @@
 				"quote": "'Every particle of matter is attracted by or gravitates to every other particle of matter with a force inversely proportional to the squares of their distances.' - Isaac Newton"
 			},
 			{
-				"name": "天气控制",
+				"name": "Weather Manipulation",
 				"row": 5,
 				"prerequisites": ["高等弹道学","人造卫星"],
 				"quote": "当人类掌握了天气的开关，这既是人类的福音，也是人类的噩梦"
@@ -736,7 +736,7 @@
 				"quote": "'The impact of nanotechnology is expected to exceed the impact that the electronics revolution has had on our lives.' - Richard Schwartz"
 			},
 			{
-				"name": "隐形技术",
+				"name": "Stealth",
 				"row": 8,
 				"prerequisites": ["激光"],
 				"quote": "'Be extremely subtle, even to the point of formlessness, be extremely mysterious, even to the point of soundlessness. Thereby you can be the director of the opponent's fate.' - Sun Tzu"
@@ -751,9 +751,9 @@
 		"wonderCost": 2000,
 		"techs": [
 			{
-				"name": "未来科技",
+				"name": "Future Tech",
 				"row": 5,
-				"prerequisites": ["世界博览会","粒子物理","天气控制","核聚变", "纳米技术", "隐形技术"],
+				"prerequisites": ["EXPO","粒子物理","Weather Manipulation","核聚变", "纳米技术", "Stealth"],
 				"uniques": ["Who knows what the future holds?", "Can be continually researched"],
 				"quote": "'I think we agree, the past is over.' - George W. Bush"
 			}

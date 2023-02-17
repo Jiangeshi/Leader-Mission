@@ -79,7 +79,7 @@
 	{
 	    "name": "Horses",
 		"resourceType": "Strategic",
-		"revealedBy": "畜牧业",
+		"revealedBy": "Animal Husbandry",
 		"terrainsCanBeFoundOn": ["Plains","Grassland","Hill"], 
 		"production": 1,
 		"improvement": "Pasture",
@@ -560,13 +560,13 @@
 	//总督
 	},
 	{
-		"name": "总督点数",
+		"name": "Governor Point",
 		"resourceType": "Strategic",
 		"culture": 1,
 		"revealedBy": "政治学",
 	},
 	{
-		"name": "总督升级",
+		"name": "Governor Upgrade Point",
 		"resourceType": "Strategic",
 		"culture": 1,
 		"revealedBy": "政治学",

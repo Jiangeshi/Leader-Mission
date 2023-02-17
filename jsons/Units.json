@@ -21,7 +21,7 @@
 		"name": "SovietWorker",
 		"unitType": "Civilian",
 		"movement": 3,
-		"uniqueTo": "苏联",
+		"uniqueTo": "Soviet Union",
 		"replaces": "Worker",
 		"cost": 50,
 		"uniques": ["Can build [Land] improvements on tiles","Can transform to [Warrior]"]	
@@ -38,7 +38,7 @@
 	//{
 		//"name": "工匠",
 		//"unitType": "公民",
-		//"uniqueTo": "中华",
+		//"uniqueTo": "China",
 	    //"movement": 3,
 		//"uniques": ["Can build [Land] improvements on tiles",
 		//"Can speed up the construction of a wonder <before the [Modern era]>",
@@ -51,7 +51,7 @@
 		"movement": 2,
 		"strength": 5,
 		"cost": 22,
-		"requiredTech": "狩猎",
+		"requiredTech": "Archery",
 		"promotions": ["越野能力"],
 		"attackSound": "nonmetalhit"
     //步兵
@@ -126,6 +126,22 @@
 		"attackSound": "metalhit"
 	},
 	{
+		"name": "Black Watch",
+		"unitType": "Foot Soldier",
+		"uniqueTo": "Scotland",
+		"replaces": "Longswordsman",
+		"movement": 2,
+		"strength": 21,
+		"cost": 144,
+		"requiredTech": "兵器储备",
+		"upgradesTo": "Musketman",
+		"obsoleteTech": "火药",
+		"requiredResource": "Iron",
+		"promotions": ["[Black Watch] ability"],
+		"uniques":["[+10]% Strength <vs [Military] units> <when defending>"]
+		"attackSound": "metalhit"
+	},
+	{
 		"name": "Musketman",
 		"unitType": "Foot Soldier",
 		"movement": 2,
@@ -155,7 +171,7 @@
 		"name": "Janissary",
 		"unitType": "Foot Soldier",
 		"replaces": "Musketman",
-		"uniqueTo": "The Ottomans",
+		"uniqueTo": "Ottoman Türkiye",
 		"movement": 2,
 		"strength": 24,
 		"cost": 230,
@@ -251,12 +267,12 @@
 	},
 	{
 		"name": "Archer",
-		"unitType": "Archery",
+		"unitType": "Shooter",
 		"movement": 2,
 		"strength": 5,
 		"rangedStrength": 7,
 		"cost": 36,
-		"requiredTech": "狩猎",
+		"requiredTech": "Archery",
 		"obsoleteTech": "铁器",
 		"upgradesTo": "Composite Bowman",
 		"uniques":["[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"]
@@ -264,12 +280,12 @@
 	},
 	{
 		"name": "Bowman",
-		"unitType": "Archery",
+		"unitType": "Shooter",
 		"movement": 2,
 		"strength": 6,
 		"rangedStrength": 8,
 		"cost": 36,
-		"requiredTech": "狩猎",
+		"requiredTech": "Archery",
 		"obsoleteTech": "铁器",
 		"replaces": "Archer",
 		"uniqueTo": "Babylon",
@@ -279,7 +295,7 @@
 	},
 	{
 		"name": "Composite Bowman",
-		"unitType": "Archery",
+		"unitType": "Shooter",
 		"movement": 2,
 		"strength": 7,
 		"rangedStrength": 11,
@@ -292,7 +308,7 @@
 	},
 	{
 		"name": "Chariot Archer",
-		"unitType": "Archery",
+		"unitType": "Shooter",
 		"movement": 4,
 		"strength": 6,
 		"rangedStrength": 10,
@@ -307,7 +323,7 @@
 	{
 		"name": "Ancient Chinese Chariot",
 		"unitType": "Foot Soldier",
-		"uniqueTo": "中华",
+		"uniqueTo": "China",
 		"replaces": "Chariot Archer",
 		"range": 1,
 		"movement": 4,
@@ -323,7 +339,7 @@
 	},
 	{
 		"name": "War Chariot",
-		"unitType": "Archery",
+		"unitType": "Shooter",
 		"uniqueTo": "Egypt",
 		"replaces": "Chariot Archer",
 		"movement": 5,
@@ -338,7 +354,7 @@
 	},
 	{
 		"name": "Horse Archer",
-		"unitType": "Archery",
+		"unitType": "Shooter",
 		"uniqueTo": "The Huns",
 		"replaces": "Chariot Archer",
 		"movement": 4,
@@ -354,7 +370,7 @@
 	},
 	{
 		"name": "Crossbowman",
-		"unitType": "Archery",
+		"unitType": "Shooter",
 		"movement": 2,
 		"strength": 12,
 		"rangedStrength": 18,
@@ -367,8 +383,8 @@
 	},
 	{
 		"name": "Chu-Ko-Nu",
-		"unitType": "Archery",
-		"uniqueTo": "中华",
+		"unitType": "Shooter",
+		"uniqueTo": "China",
 		"movement": 2,
 		"strength": 12,
 		"rangedStrength": 16,
@@ -383,7 +399,7 @@
 	},
 	{
 		"name": "Gatling Gun",
-		"unitType": "Archery",
+		"unitType": "Shooter",
 		"range": 2,
 		"movement": 2,
 		"strength": 30,
@@ -397,7 +413,7 @@
 	},
 	{
 		"name": "Machine Gun",
-		"unitType": "Archery",
+		"unitType": "Shooter",
 		"range": 2,
 		"movement": 2,
 		"strength": 60,
@@ -494,7 +510,7 @@
 		"name": "Sipahi",
 		"unitType": "Anti-Mobile",
 		"replaces": "Lancer",
-		"uniqueTo": "The Ottomans",
+		"uniqueTo": "Ottoman Türkiye",
 		"movement": 5,
 		"strength": 25,
 		"cost": 275,
@@ -627,7 +643,7 @@
 	},
 	{
 		"name": "Camel Archer",
-		"unitType": "Archery",
+		"unitType": "Shooter",
 		"replaces": "Knight",
 		"uniqueTo": "Arabia",
 		"movement": 4,
@@ -699,7 +715,7 @@
 	},
 	{
 		"name": "Keshik",
-		"unitType": "Archery",
+		"unitType": "Shooter",
 		"replaces": "Knight",
 		"uniqueTo": "Mongolia",
 		"range": 2,
@@ -734,7 +750,7 @@
 	{
 		"name": "Cowboy Cavalry",
 		"unitType": "Mobile",
-		"uniqueTo": "大哥伦比亚",
+		"uniqueTo": "Columbia",
 		"replaces": "Cavalry",	
 		"movement": 5,
 		"strength": 35,
@@ -782,7 +798,7 @@
 		"name": "T-34",
 		"unitType": "Mobile",
 		"replaces": "Tank",
-		"uniqueTo": "苏联",
+		"uniqueTo": "Soviet Union",
 		"movement": 5,
 		"strength": 80,
 		"cost": 675,
@@ -1195,7 +1211,7 @@
 		"rangedStrength": 85,
 		"range": 20,
 		"cost": 880,
-		"requiredTech": "隐形技术",
+		"requiredTech": "Stealth",
 		"requiredResource": "Aluminum",
 		"uniques": ["Damage taken from interception reduced by [50]%", "Cannot be carried by [Water Carrier] units", "[+4] Sight", "Can see over obstacles","Consumes [1] [Oil]"],
 		"attackSound": "bombing"
@@ -1212,7 +1228,7 @@
 		"requiredTech": "核裂变",
 		"requiredResource": "Uranium",
 		"uniques": ["Nuclear weapon of Strength [1]", 
-		"Only available <if [曼哈顿计划] is constructed>", 
+		"Only available <if [Manhattan Project] is constructed>", 
 		"Self-destructs when attacking",
 			"Blast radius [2]"],
 		"attackSound": "nuke"
@@ -1243,7 +1259,7 @@
 		"range": 10,
 		"cost": 2200,
 		"requiredTech": "高等弹道学",
-		"uniques": ["Nuclear weapon of Strength [2]", "Only available <if [曼哈顿计划] is constructed>",
+		"uniques": ["Nuclear weapon of Strength [2]", "Only available <if [Manhattan Project] is constructed>",
 			"Blast radius [2]", "Consumes [2] [Uranium]","Consumes [1] [Mixed fuel]",
 			"Self-destructs when attacking","Cannot be intercepted"
 			],
@@ -1257,7 +1273,7 @@
 		"cost": 1500,
 		"requiredTech": "高等弹道学",
 		"requiredResource": "Aluminum",
-		"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [阿波罗计划] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [3] per Civilization","Consumes [3] [Mixed fuel]"]
+		"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [3] per Civilization","Consumes [3] [Mixed fuel]"]
 	},
 	{
 		"name": "SS Cockpit",
@@ -1266,7 +1282,7 @@
 		"cost": 1500,
 		"requiredTech": "人造卫星",
 		"requiredResource": "Aluminum",
-		"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [阿波罗计划] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"]
+		"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"]
 	},
 	{
 		"name": "SS Engine",
@@ -1275,7 +1291,7 @@
 		"cost": 1500,
 		"requiredTech": "粒子物理",
 		"requiredResource": "Aluminum",
-		"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [阿波罗计划] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"]
+		"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"]
 	},
 	{
 		"name": "SS Stasis Chamber",
@@ -1284,7 +1300,7 @@
 		"cost": 1500,
 		"requiredTech": "纳米技术",
 		"requiredResource": "Aluminum",
-		"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [阿波罗计划] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"]
+		"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"]
 	//伟人
 	},
 	{

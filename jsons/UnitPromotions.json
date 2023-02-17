@@ -98,14 +98,14 @@
     {
 		"name": "齐射 I",
 		"uniques": ["[+10]% Strength  <when attacking>"],
-		"unitTypes": ["Archery"]
+		"unitTypes": ["Shooter"]
 		"row": 1,
         "column": 7,
     },
     {
 		"name": "援射 I",
 		"uniques": ["[+15]% Strength <when adjacent to a [Melee] unit> <when attacking>"],
-		"unitTypes": ["Archery"]
+		"unitTypes": ["Shooter"]
 		"row": 1,
         "column": 8,
     },
@@ -113,7 +113,7 @@
 		"name": "齐射 II",
 		"prerequisites": ["齐射 I"],
 		"uniques": ["[+10]% Strength  <when attacking>"],
-	    "unitTypes": ["Archery"]
+	    "unitTypes": ["Shooter"]
 		"row": 1,
         "column": 9,
     },
@@ -121,7 +121,7 @@
 		"name": "援射 II",
 		"prerequisites": ["援射 I"],
 		"uniques": ["[+15]% Strength <when adjacent to a [Melee] unit> <when attacking>"],
-	    "unitTypes": ["Archery"]
+	    "unitTypes": ["Shooter"]
 		"row": 1,
         "column": 10,    
     },
@@ -129,7 +129,7 @@
 		"name": "齐射 III",
 		"prerequisites": ["齐射 II"],
 		"uniques": ["[+10]% Strength  <when attacking>"],
-	    "unitTypes": ["Archery"]
+	    "unitTypes": ["Shooter"]
 		"row": 1,
         "column": 11,
     },
@@ -137,7 +137,7 @@
 		"name": "援射 III",
 		"prerequisites": ["援射 II"],
 		"uniques": ["[+15]% Strength <when adjacent to a [Melee] unit> <when attacking>"],
-	    "unitTypes": ["Archery"]
+	    "unitTypes": ["Shooter"]
 		"row": 1,
         "column": 12,
     },
@@ -145,7 +145,7 @@
     	"name": "隐蔽 I",
     	"prerequisites": ["齐射 II","援射 II"],
 		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>"],
-		"unitTypes": ["Archery"]
+		"unitTypes": ["Shooter"]
 		"row": 2,
         "column": 7,      
     },
@@ -153,7 +153,7 @@
     	"name": "涂毒 I",
     	"prerequisites": ["齐射 II","援射 II"],
 		"uniques": ["[+15]% Strength <vs [Wounded] units> <when attacking>"],
-		"unitTypes": ["Archery"]
+		"unitTypes": ["Shooter"]
 		"row": 2,
         "column": 8,  
     },
@@ -161,7 +161,7 @@
     	"name": "近战 I",
     	"prerequisites": ["齐射 II","援射 II"],
 		"uniques": ["[+20]% Strength <vs [{Land} {Melee}] units> <when defending>"],
-		"unitTypes": ["Archery"]
+		"unitTypes": ["Shooter"]
 		"row": 2,
         "column": 9, 
     },
@@ -169,7 +169,7 @@
     	"name": "隐蔽 II",
     	"prerequisites": ["隐蔽 I"],
 		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>"],
-		"unitTypes": ["Archery"]
+		"unitTypes": ["Shooter"]
 		"row": 2,
         "column": 10,      
     },
@@ -177,7 +177,7 @@
     	"name": "涂毒 II",
     	"prerequisites": ["涂毒 I"],
 		"uniques": ["[+15]% Strength <vs [Wounded] units> <when attacking>"],
-		"unitTypes": ["Archery"]
+		"unitTypes": ["Shooter"]
 		"row": 2,
         "column": 11,  
     },
@@ -185,7 +185,7 @@
     	"name": "近战 II",
     	"prerequisites": ["近战 I"],
 		"uniques": ["[+20]% Strength <vs [{Land} {Melee}] units> <when defending>"],
-		"unitTypes": ["Archery"]
+		"unitTypes": ["Shooter"]
 		"row": 2,
         "column": 12,                   
     //机动部队晋升
@@ -193,7 +193,7 @@
     {
 		"name": "践踏 I",
 		"uniques": ["[+15]% Strength <vs [Foot Soldier] units> <when attacking>",
-		"[+15]% Strength <vs [Archery] units> <when attacking>",
+		"[+15]% Strength <vs [Shooter] units> <when attacking>",
 		"[+15]% Strength <vs [Reconnaissance] units> <when attacking>"],
 		"unitTypes": ["Mobile"]
 		"row": 1,
@@ -210,7 +210,7 @@
 		"name": "践踏 II",
 		"prerequisites": ["践踏 I"],
 		"uniques": ["[+15]% Strength <vs [Foot Soldier] units> <when attacking>",
-		"[+15]% Strength <vs [Archery] units> <when attacking>",
+		"[+15]% Strength <vs [Shooter] units> <when attacking>",
 		"[+15]% Strength <vs [Reconnaissance] units> <when attacking>"],
 		"unitTypes":["Mobile"]
 		"row": 1,
@@ -228,7 +228,7 @@
 		"name": "践踏 III",
 	    "prerequisites": ["践踏 II"],
 		"uniques": ["[+15]% Strength <vs [Foot Soldier] units> <when attacking>",
-		"[+15]% Strength <vs [Archery] units> <when attacking>",
+		"[+15]% Strength <vs [Shooter] units> <when attacking>",
 		"[+15]% Strength <vs [Reconnaissance] units> <when attacking>"],
 		"unitTypes": ["Mobile"]
 		"row": 1,
@@ -1024,7 +1024,7 @@
 		"name": "紧急治疗",
 		"uniques": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
 		"unitTypes": ["Foot Soldier",
-		"Archery",
+		"Shooter",
 		"Mobile",
 		"Anti-Mobile","Anti-Air","Helicopter",
 		"Siege",
@@ -1069,7 +1069,7 @@
 		"uniques": ["[+30]% Strength <when attacking> <when fighting in [Forest] tiles>","[+30]% Strength <when attacking> <when fighting in [Jungle] tiles>"],
 		"unitTypes": ["Foot Soldier",
 		"Anti-Mobile","Helicopter","Anti-Air",
-		"Archery"],
+		"Shooter"],
 		"row": 3
         "column": 3,
     },
@@ -1145,7 +1145,7 @@
 		"Reconnaissance",
 		"Anti-Mobile","Helicopter","Anti-Air",
 		"Melee Water","Ranged Water",
-		"Archery",
+		"Shooter",
 		"Submarine"],
         "row": 3,  
         "column": 8,   
@@ -1180,7 +1180,7 @@
 		"uniques": ["[+1] Sight"],
 		"unitTypes": [
 		"Melee Water","Ranged Water",
-		"Archery",
+		"Shooter",
 		"Submarine"]
 		"row": 3,
         "column": 11,   
@@ -1191,7 +1191,7 @@
 		"坚硬 III","轰击 III","战略部署 I","碎片 I","爆破 I",
 		"瞄准 III","火力覆盖 III","巡航 I","支援 I","队列 I"],
 		"uniques": ["Ranged attacks may be performed over obstacles"],
-		"unitTypes": ["Archery",
+		"unitTypes": ["Shooter",
 		"Siege",
 		"Ranged Water"],
 		"row": 3,
@@ -1207,7 +1207,7 @@
 		"定点轰炸 III","饱和轰炸 III","Ambush I","战术规避 I"
 		],
 		"uniques": ["[1] additional attacks per turn", "Can move after attacking"],
-		"unitTypes": ["Archery",
+		"unitTypes": ["Shooter",
 		"Siege",
 		"Ranged Water",
 		"Submarine",
@@ -1224,7 +1224,7 @@
 		"狼群战术 III","下潜 III","穿甲 I","无声 I","携弹 I"
 		],
 		"uniques": ["[+1] Range"],
-		"unitTypes": ["Archery",
+		"unitTypes": ["Shooter",
 		"Siege",
 		"Ranged Water",
 		"Submarine"
@@ -1294,6 +1294,10 @@
     {
         "name": "[Chu-Ko-Nu] ability",
         "uniques": ["[1] additional attacks per turn", "Can move after attacking"]
+    },
+    {
+        "name": "[Black Watch] ability",
+        "uniques": ["[+33]% Strength <when fighting in [Rough terrain] tiles>"]
 	},
 	{
 	//特殊
@@ -1327,10 +1331,6 @@
 	{
 	    "name": "山地游击" //阿富汗
 	    "uniques":["[-20]% Strength for enemy [Military] units in adjacent [Rough terrain] tiles"]
-	},
-	{
-		"name": "俘虏", // 蛮族
-		"uniques": ["May capture killed [Military] units"]
 	},
 	{
 		"name": "蛮族归顺", // 秦始皇

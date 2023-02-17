@@ -10,7 +10,7 @@
             "飞天": 10
         },
         "uniques": [
-            "[+2 Culture] [in capital]",
+            "[+3 Culture] [in capital]",
             "[-50]% Culture cost of natural border growth [in capital]"
         ],
         "policies": [
@@ -44,7 +44,7 @@
             {
                 "name": "Landed Elite",
                 "uniques": [
-                    "[+33]% growth [in capital]",
+                    "[+50]% growth [in capital]",
                     "[+1 Food, +1 Culture] [in capital]"
                 ],
                 "requires": ["Legalism"],
@@ -191,9 +191,9 @@
                 "uniques": [
                     "[-33]% Gold cost of upgrading <for [Military] units>",
                     "[+1 Happiness] from every [Walls]",
-                    "[+1 Happiness] from every [碉堡]",
-                    "[+1 Happiness] from every [城堡]",
-                    "[+1 Happiness] from every [军事基地]"
+                    "[+1 Happiness] from every [Blockhouse]",
+                    "[+1 Happiness] from every [Castle]",
+                    "[+1 Happiness] from every [Military Base]"
                 ],
                 "requires": ["Military Caste"],
                 "row": 3,
@@ -363,8 +363,8 @@
                 "name": "Trade Unions",
                 "uniques": [
                     "[-33]% maintenance on road & railroads",
-                    "[+1 Gold] from every [渔港]",
-                    "[+1 Gold] from every [海运港口]"
+                    "[+1 Gold] from every [Fishing Port]",
+                    "[+1 Gold] from every [Seaport]"
                 ],
                 "row": 1,
                 "column": 4
@@ -381,9 +381,9 @@
                 "uniques": [
                     "[Gold] cost of purchasing items in cities [-25]%",
                     "[+1 Science] from every [District—Commercial Centre]",
-                    "[+1 Science] from every [市场]",
-                    "[+1 Science] from every [银行]",
-                    "[+1 Science] from every [证券交易所]"
+                    "[+1 Science] from every [Market]",
+                    "[+1 Science] from every [Bank]",
+                    "[+1 Science] from every [Stock Exchange]"
                 ],
                 "requires": ["Trade Unions"],
                 "row": 2,
@@ -431,9 +431,9 @@
             {
                 "name": "Humanism",
                 "uniques": [
-                    "[+1 Happiness] from every [大学]",
-                    "[+1 Happiness] from every [天文台]",
-                    "[+1 Happiness] from every [公立学校]"
+                    "[+1 Happiness] from every [University]",
+                    "[+1 Happiness] from every [Observatory]",
+                    "[+1 Happiness] from every [Public School]"
                 ],
                 "row": 1,
                 "column": 5
@@ -442,7 +442,7 @@
                 "name": "Free Thought",
                 "uniques": [
                     "[+1 Science] from every [Trading post]",
-                    "[+17]% [Science] from every [大学]"
+                    "[+17]% [Science] from every [University]"
                 ],
                 "requires": ["Secularism"],
                 "row": 2,
@@ -575,7 +575,7 @@
                 "name": "Police State",
                 "uniques": [
                     "[+1 Happiness] from every [Courthouse]",
-                    "[+100]% Production when constructing [军事基地] buildings [in all cities]"
+                    "[+100]% Production when constructing [Military Base] buildings [in all cities]"
                 ],
                 "requires": ["Militarism"],
                 "row": 2,
@@ -626,8 +626,8 @@
             {
                 "name": "Planned Economy",
                 "uniques": [
-                    "[+25]% [Science] from every [工厂]",
-                    "[+100]% Production when constructing [工厂] buildings [in all cities]"
+                    "[+25]% [Science] from every [Factory]",
+                    "[+100]% Production when constructing [Factory] buildings [in all cities]"
                 ],
                 "row": 1,
                 "column": 3

@@ -1590,8 +1590,8 @@ BuildingIcons/Smithy
   offset: 0, 0
   index: -1
   
-碉堡.png
-BuildingIcons/碉堡
+Blockhouse.png
+BuildingIcons/Blockhouse
   rotate: false
   xy: 0,0
   size: 100, 100
@@ -1599,8 +1599,8 @@ BuildingIcons/碉堡
   offset: 0, 0
   index: -1
   
-印刷厂.png
-BuildingIcons/印刷厂
+PrintingHouse.png
+BuildingIcons/Printing House
   rotate: false
   xy: 0,0
   size: 60, 60
@@ -1608,8 +1608,8 @@ BuildingIcons/印刷厂
   offset: 0, 0
   index: -1
   
-股票交易所.png
-BuildingIcons/股票交易所
+ShareExchange.png
+BuildingIcons/Share Exchange
   rotate: false
   xy: 0,0
   size: 50, 50
@@ -1617,8 +1617,8 @@ BuildingIcons/股票交易所
   offset: 0, 0
   index: -1
   
-外交部.png
-BuildingIcons/外交部
+ForeignMinistry.png
+BuildingIcons/Foreign Ministry
   rotate: false
   xy: 0,0
   size: 38, 38
@@ -1626,8 +1626,8 @@ BuildingIcons/外交部
   offset: 0, 0
   index: -1
   
-国防部.png
-BuildingIcons/国防部
+MinistryofDefense.png
+BuildingIcons/Ministry of Defense
   rotate: false
   xy: 0,0
   size: 150, 150
@@ -1635,8 +1635,8 @@ BuildingIcons/国防部
   offset: 0, 0
   index: -1  
   
-国家法院.png
-BuildingIcons/国家法院
+NationalCourt.png
+BuildingIcons/National Court
   rotate: false
   xy: 0,0
   size: 100, 100
@@ -1644,8 +1644,8 @@ BuildingIcons/国家法院
   offset: 0, 0
   index: -1
   
-渔港.png
-BuildingIcons/渔港
+FishingPort.png
+BuildingIcons/Fishing Port
   rotate: false
   xy: 0,0
   size: 50, 50
@@ -1653,8 +1653,8 @@ BuildingIcons/渔港
   offset: 0, 0
   index: -1  
   
-运河.png
-BuildingIcons/运河
+Canal.png
+BuildingIcons/Canal
   rotate: false
   xy: 0,0
   size: 50, 50
@@ -1662,8 +1662,8 @@ BuildingIcons/运河
   offset: 0, 0
   index: -1  
   
-国家运河.png
-BuildingIcons/国家运河
+NationalCanal.png
+BuildingIcons/National Canal
   rotate: false
   xy: 0,0
   size: 50, 50
@@ -1671,8 +1671,8 @@ BuildingIcons/国家运河
   offset: 0, 0
   index: -1  
   
-世界博览会.png
-BuildingIcons/世界博览会
+WorldExpo.png
+BuildingIcons/World Expo
   rotate: false
   xy: 0, 0
   size: 100, 100
@@ -1680,8 +1680,8 @@ BuildingIcons/世界博览会
   offset: 0, 0
   index: -1    
   
-化肥厂.png
-BuildingIcons/化肥厂
+FertilizerPlant.png
+BuildingIcons/Fertilizer Plant
   rotate: false
   xy: 0,0
   size: 50, 50
@@ -1689,8 +1689,8 @@ BuildingIcons/化肥厂
   offset: 0, 0
   index: -1  
 
-化工厂.png
-BuildingIcons/化工厂
+ChemicalPlant.png
+BuildingIcons/Chemical Plant
   rotate: false
   xy: 0,0
   size: 50, 50
@@ -1698,8 +1698,8 @@ BuildingIcons/化工厂
   offset: 0, 0
   index: -1
   
-开山隧道.png
-BuildingIcons/开山隧道
+Tunnel.png
+BuildingIcons/Tunnel
   rotate: false
   xy: 0,0
   size: 50, 50
@@ -1707,8 +1707,8 @@ BuildingIcons/开山隧道
   offset: 0, 0
   index: -1  
   
-园林.png
-BuildingIcons/园林
+RockeryGarden.png
+BuildingIcons/Rockery Garden
   rotate: false
   xy: 0,0
   size: 40, 40
@@ -1716,8 +1716,8 @@ BuildingIcons/园林
   offset: 0, 0
   index: -1  
   
-燃煤发电厂.png
-BuildingIcons/燃煤发电厂
+Coal-FiredPowerPlant.png
+BuildingIcons/Coal-Fired Power Plant
   rotate: false
   xy: 0,0
   size: 50, 50
@@ -1725,8 +1725,8 @@ BuildingIcons/燃煤发电厂
   offset: 0, 0
   index: -1  
 
-燃油发电厂.png
-BuildingIcons/燃油发电厂
+Oil-FiredPowerPlant.png
+BuildingIcons/Oil-Fired Power Plant
   rotate: false
   xy: 0,0
   size: 50, 50
@@ -1734,8 +1734,8 @@ BuildingIcons/燃油发电厂
   offset: 0, 0
   index: -1  
 
-燃气发电厂.png
-BuildingIcons/燃气发电厂
+Gas-FiredPowerPlant.png
+BuildingIcons/Gas-Fired Power Plant
   rotate: false
   xy: 0,0
   size: 50, 50
@@ -1743,8 +1743,8 @@ BuildingIcons/燃气发电厂
   offset: 0, 0
   index: -1  
   
-燃料加工厂.png
-BuildingIcons/燃料加工厂
+FuelFabricationPlant.png
+BuildingIcons/Fuel Fabrication Plant
   rotate: false
   xy: 0,0
   size: 50, 50
@@ -1752,8 +1752,8 @@ BuildingIcons/燃料加工厂
   offset: 0, 0
   index: -1    
   
-国税局.png
-BuildingIcons/国税局
+NationalTaxBureau.png
+BuildingIcons/National Tax Bureau
   rotate: false
   xy: 0,0
   size: 50, 50
@@ -1761,8 +1761,8 @@ BuildingIcons/国税局
   offset: 0, 0
   index: -1    
   
-纪功柱.png
-BuildingIcons/纪功柱
+Column.png
+BuildingIcons/Column
   rotate: false
   xy: 0,0
   size: 40, 54
@@ -1770,8 +1770,8 @@ BuildingIcons/纪功柱
   offset: 0, 0
   index: -1    
  
-甘多小学.png
-BuildingIcons/甘多小学
+GanduoPrimarySchool.png
+BuildingIcons/Ganduo Primary School
   rotate: false
   xy: 0,0
   size: 100, 100
@@ -1788,8 +1788,8 @@ BuildingIcons/Imperial Court
   offset: 0, 0
   index: -1
 
-大庄园.png
-BuildingIcons/大庄园
+GrandManor.png
+BuildingIcons/Grand Manor
   rotate: false
   xy: 0,0
   size: 50, 50
@@ -1815,8 +1815,8 @@ BuildingIcons/Military Royal School
   offset: 0, 0
   index: -1 
     
-军港.png
-BuildingIcons/军港
+MilitaryPort.png
+BuildingIcons/Military Port
   rotate: false
   xy: 0,0
   size: 90, 70
@@ -1824,8 +1824,17 @@ BuildingIcons/军港
   offset: 0, 0
   index: -1       
     
-巴拿马运河.png
-BuildingIcons/巴拿马运河
+AncientCastle.png
+BuildingIcons/Ancient Castle
+  rotate: false
+  xy: 0,0
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1       
+    
+PanamaCanal.png
+BuildingIcons/Panama Canal
   rotate: false
   xy: 0,0
   size: 90, 70
@@ -1932,8 +1941,8 @@ BuildingIcons/District—Religious Cente
   offset: 0, 0
   index: -1  
 
-区域—卫城.png
-BuildingIcons/区域—卫城
+District—Acropolis.png
+BuildingIcons/District—Acropolis
   rotate: false
   xy: 0,0
   size: 50, 50
@@ -1941,8 +1950,8 @@ BuildingIcons/区域—卫城
   offset: 0, 0
   index: -1
 
-区域—拉夫拉修道院.png
-BuildingIcons/区域—拉夫拉修道院
+District—LavraMonastery.png
+BuildingIcons/District—Lavra Monastery
   rotate: false
   xy: 0,0
   size: 50, 50
@@ -1959,8 +1968,8 @@ BuildingIcons/District—Cothon
   offset: 0, 0
   index: -1
 
-区域—莫斯科红场.png
-BuildingIcons/区域—莫斯科红场
+District—RedSquare.png
+BuildingIcons/District—Red Square
   rotate: false
   xy: 0,0
   size: 100, 100
@@ -1968,8 +1977,8 @@ BuildingIcons/区域—莫斯科红场
   offset: 0, 0
   index: -1
 
-区域—跑马场.png
-BuildingIcons/区域—跑马场
+District—Racetrack.png
+BuildingIcons/District—Racetrack
   rotate: false
   xy: 0,0
   size: 101, 101
@@ -1977,8 +1986,8 @@ BuildingIcons/区域—跑马场
   offset: 0, 0
   index: -1
 
-区域—中华文明.png
-BuildingIcons/区域—中华文明
+District—ChineseCivilization.png
+BuildingIcons/District—Chinese Civilization
   rotate: false
   xy: 0,0
   size: 120, 120
@@ -1986,8 +1995,8 @@ BuildingIcons/区域—中华文明
   offset: 0, 0
   index: -1
 
-天气控制器.png
-BuildingIcons/天气控制器
+WeatherController.png
+BuildingIcons/Weather Controller
   rotate: false
   xy: 0,0
   size: 100, 100
@@ -2022,8 +2031,8 @@ BuildingIcons/Posthouse
   offset: 0, 0
   index: -1
   
-总督.png
-BuildingIcons/总督—马格努斯 I
+Governor.png
+BuildingIcons/Governor—Magnus I
   rotate: false
   xy: 0,0
   size: 100, 100
@@ -2031,8 +2040,8 @@ BuildingIcons/总督—马格努斯 I
   offset: 0, 0
   index: -1
   
-总督.png
-BuildingIcons/总督—马格努斯 IIA
+Governor.png
+BuildingIcons/Governor—Magnus IIA
   rotate: false
   xy: 0,0
   size: 100, 100
@@ -2040,8 +2049,8 @@ BuildingIcons/总督—马格努斯 IIA
   offset: 0, 0
   index: -1
   
-总督.png
-BuildingIcons/总督—马格努斯 IIB
+Governor.png
+BuildingIcons/Governor—Magnus IIB
   rotate: false
   xy: 0,0
   size: 100, 100
@@ -2049,8 +2058,8 @@ BuildingIcons/总督—马格努斯 IIB
   offset: 0, 0
   index: -1
  
-总督.png
-BuildingIcons/总督—马格努斯 IIIA
+Governor.png
+BuildingIcons/Governor—Magnus IIIA
   rotate: false
   xy: 0,0
   size: 100, 100
@@ -2058,8 +2067,8 @@ BuildingIcons/总督—马格努斯 IIIA
   offset: 0, 0
   index: -1
   
-总督.png
-BuildingIcons/总督—马格努斯 IIIB
+Governor.png
+BuildingIcons/Governor—Magnus IIIB
   rotate: false
   xy: 0,0
   size: 100, 100
@@ -2067,8 +2076,8 @@ BuildingIcons/总督—马格努斯 IIIB
   offset: 0, 0
   index: -1
     
-总督.png
-BuildingIcons/总督—平伽拉 I
+Governor.png
+BuildingIcons/Governor—Pingala I
   rotate: false
   xy: 0,0
   size: 100, 100
@@ -2076,8 +2085,8 @@ BuildingIcons/总督—平伽拉 I
   offset: 0, 0
   index: -1  
  
-总督.png
-BuildingIcons/总督—平伽拉 IIA
+Governor.png
+BuildingIcons/Governor—Pingala IIA
   rotate: false
   xy: 0,0
   size: 100, 100
@@ -2085,8 +2094,8 @@ BuildingIcons/总督—平伽拉 IIA
   offset: 0, 0
   index: -1  
    
-总督.png
-BuildingIcons/总督—平伽拉 IIB
+Governor.png
+BuildingIcons/Governor—Pingala IIB
   rotate: false
   xy: 0,0
   size: 100, 100
@@ -2094,8 +2103,8 @@ BuildingIcons/总督—平伽拉 IIB
   offset: 0, 0
   index: -1  
       
-总督.png
-BuildingIcons/总督—平伽拉 IIIA
+Governor.png
+BuildingIcons/Governor—Pingala IIIA
   rotate: false
   xy: 0,0
   size: 100, 100
@@ -2104,8 +2113,8 @@ BuildingIcons/总督—平伽拉 IIIA
   index: -1        
 
       
-总督.png
-BuildingIcons/总督—平伽拉 IIIB
+Governor.png
+BuildingIcons/Governor—Pingala IIIB
   rotate: false
   xy: 0,0
   size: 100, 100
@@ -2113,8 +2122,8 @@ BuildingIcons/总督—平伽拉 IIIB
   offset: 0, 0
   index: -1        
       
-总督.png
-BuildingIcons/总督—瑞纳 I
+Governor.png
+BuildingIcons/Governor—Reina I
   rotate: false
   xy: 0,0
   size: 100, 100
@@ -2122,8 +2131,8 @@ BuildingIcons/总督—瑞纳 I
   offset: 0, 0
   index: -1      
       
-总督.png
-BuildingIcons/总督—瑞纳 IIA
+Governor.png
+BuildingIcons/Governor—Reina IIA
   rotate: false
   xy: 0,0
   size: 100, 100
@@ -2131,8 +2140,8 @@ BuildingIcons/总督—瑞纳 IIA
   offset: 0, 0
   index: -1  
    
-总督.png
-BuildingIcons/总督—瑞纳 IIB
+Governor.png
+BuildingIcons/Governor—Reina IIB
   rotate: false
   xy: 0,0
   size: 100, 100
@@ -2140,8 +2149,8 @@ BuildingIcons/总督—瑞纳 IIB
   offset: 0, 0
   index: -1        
   
-总督.png
-BuildingIcons/总督—瑞纳 IIIA
+Governor.png
+BuildingIcons/Governor—Reina IIIA
   rotate: false
   xy: 0,0
   size: 100, 100
@@ -2150,8 +2159,8 @@ BuildingIcons/总督—瑞纳 IIIA
   index: -1        
 
       
-总督.png
-BuildingIcons/总督—瑞纳 IIIB
+Governor.png
+BuildingIcons/Governor—Reina IIIB
   rotate: false
   xy: 0,0
   size: 100, 100
@@ -2160,7 +2169,7 @@ BuildingIcons/总督—瑞纳 IIIB
   index: -1        
             
 Civilized leader.png
-BuildingIcons/文明领袖—汉武帝
+BuildingIcons/Civilized Leader—Emperor Wu of Han
   rotate: false
   xy: 0,0
   size: 270, 270
@@ -2169,7 +2178,7 @@ BuildingIcons/文明领袖—汉武帝
   index: -1  
       
 Civilized leader.png
-BuildingIcons/文明领袖—秦始皇
+BuildingIcons/Civilized Leader—First Emperor of Qin
   rotate: false
   xy: 0,0
   size: 270, 270
@@ -2178,7 +2187,7 @@ BuildingIcons/文明领袖—秦始皇
   index: -1  
      
 Civilized leader.png
-BuildingIcons/文明领袖—伟大领袖
+BuildingIcons/Civilized Leader—Chairman Mao
   rotate: false
   xy: 0,0
   size: 270, 270
@@ -2187,7 +2196,7 @@ BuildingIcons/文明领袖—伟大领袖
   index: -1  
   
 Civilized leader.png
-BuildingIcons/文明领袖—列奥尼达
+BuildingIcons/Civilized Leader—Leonidas
   rotate: false
   xy: 0,0
   size: 270, 270
@@ -2196,7 +2205,7 @@ BuildingIcons/文明领袖—列奥尼达
   index: -1  
      
 Civilized leader.png
-BuildingIcons/文明领袖—伯里克利
+BuildingIcons/Civilized Leader—Pericles
   rotate: false
   xy: 0,0
   size: 270, 270
@@ -2205,7 +2214,7 @@ BuildingIcons/文明领袖—伯里克利
   index: -1  
  
 Civilized leader.png
-BuildingIcons/文明领袖—亚历山大大帝
+BuildingIcons/Civilized Leader—Alexander
   rotate: false
   xy: 0,0
   size: 270, 270
@@ -2214,7 +2223,7 @@ BuildingIcons/文明领袖—亚历山大大帝
   index: -1  
  
 Civilized leader.png
-BuildingIcons/文明领袖—屋大维
+BuildingIcons/Civilized Leader—Octavius
   rotate: false
   xy: 0,0
   size: 270, 270
@@ -2223,7 +2232,7 @@ BuildingIcons/文明领袖—屋大维
   index: -1  
       
 Civilized leader.png
-BuildingIcons/文明领袖—恺撒
+BuildingIcons/Civilized Leader—Cesar
   rotate: false
   xy: 0,0
   size: 270, 270
@@ -2232,7 +2241,7 @@ BuildingIcons/文明领袖—恺撒
   index: -1                
    
 Civilized leader.png
-BuildingIcons/文明领袖—彼得大帝
+BuildingIcons/Civilized Leader—Peter
   rotate: false
   xy: 0,0
   size: 270, 270
@@ -2241,7 +2250,7 @@ BuildingIcons/文明领袖—彼得大帝
   index: -1  
       
 Civilized leader.png
-BuildingIcons/文明领袖—叶卡捷琳娜大帝
+BuildingIcons/Civilized Leader—Catherine
   rotate: false
   xy: 0,0
   size: 270, 270
@@ -2250,7 +2259,16 @@ BuildingIcons/文明领袖—叶卡捷琳娜大帝
   index: -1                            
 
 Civilized leader.png
-BuildingIcons/文明领袖—列宁
+BuildingIcons/Civilized Leader—Sankara
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1  
+
+Civilized leader.png
+BuildingIcons/Civilized leader—Lenin
   rotate: false
   xy: 0,0
   size: 270, 270
@@ -2259,7 +2277,7 @@ BuildingIcons/文明领袖—列宁
   index: -1  
       
 Civilized leader.png
-BuildingIcons/文明领袖—斯大林
+BuildingIcons/Civilized leader—Stalin
   rotate: false
   xy: 0,0
   size: 270, 270
@@ -2268,7 +2286,7 @@ BuildingIcons/文明领袖—斯大林
   index: -1  
 
 Civilized leader.png
-BuildingIcons/文明领袖—桑卡拉
+BuildingIcons/Civilized leader—Trotsky
   rotate: false
   xy: 0,0
   size: 270, 270
@@ -2277,7 +2295,7 @@ BuildingIcons/文明领袖—桑卡拉
   index: -1  
 
 Civilized leader.png
-BuildingIcons/文明领袖—托里霍斯
+BuildingIcons/Trotsky ability
   rotate: false
   xy: 0,0
   size: 270, 270
@@ -2286,7 +2304,16 @@ BuildingIcons/文明领袖—托里霍斯
   index: -1  
 
 Civilized leader.png
-BuildingIcons/文明领袖—君士坦丁一世
+BuildingIcons/Civilized Leader—Omar Torrijos
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1  
+
+Civilized leader.png
+BuildingIcons/Civilized Leader—Constantine I
   rotate: false
   xy: 0,0
   size: 270, 270
@@ -2295,7 +2322,7 @@ BuildingIcons/文明领袖—君士坦丁一世
   index: -1  
       
 Civilized leader.png
-BuildingIcons/文明领袖—查士丁尼一世
+BuildingIcons/Civilized Leader—Justinian I
   rotate: false
   xy: 0,0
   size: 270, 270
@@ -2304,7 +2331,7 @@ BuildingIcons/文明领袖—查士丁尼一世
   index: -1  
 
 Civilized leader.png
-BuildingIcons/文明领袖—欧麦尔一世
+BuildingIcons/Civilized Leader—Omar I
   rotate: false
   xy: 0,0
   size: 270, 270
@@ -2313,7 +2340,7 @@ BuildingIcons/文明领袖—欧麦尔一世
   index: -1  
       
 Civilized leader.png
-BuildingIcons/文明领袖—萨拉丁
+BuildingIcons/Civilized Leader—Saladin
   rotate: false
   xy: 0,0
   size: 270, 270
@@ -2322,7 +2349,7 @@ BuildingIcons/文明领袖—萨拉丁
   index: -1  
 
 Civilized leader.png
-BuildingIcons/文明领袖—玻利瓦尔
+BuildingIcons/Civilized Leader—Bolivar
   rotate: false
   xy: 0,0
   size: 270, 270
@@ -2340,7 +2367,7 @@ BuildingIcons/Civilized leader—Hafizullah Amin
   index: -1  
 
 Civilized leader.png
-BuildingIcons/文明领袖—阿提拉
+BuildingIcons/Civilized leader—Daoud Khan
   rotate: false
   xy: 0,0
   size: 270, 270
@@ -2349,7 +2376,16 @@ BuildingIcons/文明领袖—阿提拉
   index: -1  
 
 Civilized leader.png
-BuildingIcons/文明领袖—居鲁士大帝
+BuildingIcons/Civilized Leader—Attila
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1  
+
+Civilized leader.png
+BuildingIcons/Civilized Leader—Cyrus
   rotate: false
   xy: 0,0
   size: 270, 270
@@ -2358,7 +2394,7 @@ BuildingIcons/文明领袖—居鲁士大帝
   index: -1  
   
 Civilized leader.png
-BuildingIcons/文明领袖—大流士一世
+BuildingIcons/Civilized Leader—Darius I
   rotate: false
   xy: 0,0
   size: 270, 270
@@ -2367,7 +2403,7 @@ BuildingIcons/文明领袖—大流士一世
   index: -1  
 
 Civilized leader.png
-BuildingIcons/文明领袖—拉美西斯二世
+BuildingIcons/Civilized leader—Ramesses II
   rotate: false
   xy: 0,0
   size: 270, 270
@@ -2376,7 +2412,7 @@ BuildingIcons/文明领袖—拉美西斯二世
   index: -1  
 
 Civilized leader.png
-BuildingIcons/文明领袖—纳赛尔
+BuildingIcons/Civilized leader—Nasser
   rotate: false
   xy: 0,0
   size: 270, 270
@@ -2385,7 +2421,7 @@ BuildingIcons/文明领袖—纳赛尔
   index: -1  
 
 Civilized leader.png
-BuildingIcons/文明领袖—胡志明
+BuildingIcons/Civilized leader—Sadat
   rotate: false
   xy: 0,0
   size: 270, 270
@@ -2394,7 +2430,7 @@ BuildingIcons/文明领袖—胡志明
   index: -1  
 
 Civilized leader.png
-BuildingIcons/文明领袖—狄多
+BuildingIcons/Civilized Leader—Ho Chi Minh
   rotate: false
   xy: 0,0
   size: 270, 270
@@ -2403,7 +2439,7 @@ BuildingIcons/文明领袖—狄多
   index: -1  
 
 Civilized leader.png
-BuildingIcons/文明领袖—汉尼拔
+BuildingIcons/Civilized Leader—Dido
   rotate: false
   xy: 0,0
   size: 270, 270
@@ -2412,7 +2448,16 @@ BuildingIcons/文明领袖—汉尼拔
   index: -1  
 
 Civilized leader.png
-BuildingIcons/文明领袖—拿破仑
+BuildingIcons/Civilized Leader—Hannibal
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1  
+
+Civilized leader.png
+BuildingIcons/Civilized Leader—Napoleon
   rotate: false
   xy: 0,0
   size: 270, 270
@@ -2421,7 +2466,7 @@ BuildingIcons/文明领袖—拿破仑
   index: -1  
       
 Civilized leader.png
-BuildingIcons/文明领袖—戴高乐
+BuildingIcons/Civilized Leader—De Gaulle
   rotate: false
   xy: 0,0
   size: 270, 270
@@ -2430,7 +2475,16 @@ BuildingIcons/文明领袖—戴高乐
   index: -1  
 
 Civilized leader.png
-BuildingIcons/文明领袖—李成桂
+BuildingIcons/Civilized Leader—Louis XIV
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1  
+
+Civilized leader.png
+BuildingIcons/Civilized Leader—Yi Song-gye
   rotate: false
   xy: 0,0
   size: 270, 270
@@ -2439,7 +2493,7 @@ BuildingIcons/文明领袖—李成桂
   index: -1  
       
 Civilized leader.png
-BuildingIcons/文明领袖—金日成
+BuildingIcons/Civilized Leader—Kim Il-sung
   rotate: false
   xy: 0,0
   size: 270, 270
@@ -2448,7 +2502,7 @@ BuildingIcons/文明领袖—金日成
   index: -1  
 
 Civilized leader.png
-BuildingIcons/文明领袖—成吉思汗
+BuildingIcons/Civilized Leader—Genghis Khan
   rotate: false
   xy: 0,0
   size: 270, 270
@@ -2457,7 +2511,7 @@ BuildingIcons/文明领袖—成吉思汗
   index: -1  
       
 Civilized leader.png
-BuildingIcons/文明领袖—忽必烈
+BuildingIcons/Civilized Leader—Kublai
   rotate: false
   xy: 0,0
   size: 270, 270
@@ -2466,7 +2520,7 @@ BuildingIcons/文明领袖—忽必烈
   index: -1  
 
 Civilized leader.png
-BuildingIcons/文明领袖—切·格瓦拉
+BuildingIcons/Civilized Leader—Che Guevara
   rotate: false
   xy: 0,0
   size: 270, 270
@@ -2475,7 +2529,7 @@ BuildingIcons/文明领袖—切·格瓦拉
   index: -1  
       
 Civilized leader.png
-BuildingIcons/文明领袖—卡斯特罗
+BuildingIcons/Civilized Leader—Fidel Castro
   rotate: false
   xy: 0,0
   size: 270, 270
@@ -2484,7 +2538,7 @@ BuildingIcons/文明领袖—卡斯特罗
   index: -1  
 
 Civilized leader.png
-BuildingIcons/文明领袖—汉谟拉比
+BuildingIcons/Civilized Leader—Hammurabi
   rotate: false
   xy: 0,0
   size: 270, 270
@@ -2493,7 +2547,7 @@ BuildingIcons/文明领袖—汉谟拉比
   index: -1  
       
 Civilized leader.png
-BuildingIcons/文明领袖—尼布甲尼撒二世
+BuildingIcons/Civilized Leader—Nebuchadnezzar II
   rotate: false
   xy: 0,0
   size: 270, 270
@@ -2502,7 +2556,7 @@ BuildingIcons/文明领袖—尼布甲尼撒二世
   index: -1  
 
 Civilized leader.png
-BuildingIcons/文明领袖—奥斯曼一世
+BuildingIcons/Civilized leader—Osman I
   rotate: false
   xy: 0,0
   size: 270, 270
@@ -2511,7 +2565,7 @@ BuildingIcons/文明领袖—奥斯曼一世
   index: -1  
      
 Civilized leader.png
-BuildingIcons/文明领袖—苏莱曼大帝
+BuildingIcons/Civilized leader—Suleiman
   rotate: false
   xy: 0,0
   size: 270, 270
@@ -2519,17 +2573,44 @@ BuildingIcons/文明领袖—苏莱曼大帝
   offset: 0, 0
   index: -1  
 
-中华.png
-NationIcons/中华
+Civilized leader.png
+BuildingIcons/Civilized leader—Kemal
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
+  
+Civilized leader.png
+BuildingIcons/Civilized Leader—Wallace
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
+  
+China.png
+NationIcons/China
   rotate: false
   xy: 0, 0
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
+  
+Scotland.png
+NationIcons/Scotland
+  rotate: false
+  xy: 0, 0
+  size: 170, 170
+  orig: 170, 170
+  offset: 0, 0
+  index: -1
 
-苏联.png
-NationIcons/苏联
+SovietUnion.png
+NationIcons/Soviet Union
   rotate: false
   xy: 0, 0
   size: 260, 260
@@ -2556,7 +2637,7 @@ NationIcons/Cuba
   index: -1
 
 TheStar.png
-NationIcons/布基纳法索
+NationIcons/Burkina Faso
   rotate: false
   xy: 0, 0
   size: 250, 250
@@ -2573,8 +2654,8 @@ NationIcons/Vietnam
   offset: 0, 0
   index: -1
 
-巴拿马.png
-NationIcons/巴拿马
+Panama.png
+NationIcons/Panama
   rotate: false
   xy: 0, 0
   size: 400, 400
@@ -2582,8 +2663,8 @@ NationIcons/巴拿马
   offset: 0, 0
   index: -1
 
-大哥伦比亚.png
-NationIcons/大哥伦比亚
+Columbia.png
+NationIcons/Columbia
   rotate: false
   xy: 0, 0
   size: 550, 500
@@ -2618,8 +2699,8 @@ NationIcons/Macedonia
   offset: 0, 0
   index: -1
   
-Ottoman.png
-NationIcons/The Ottomans
+OttomanTürkiye.png
+NationIcons/Ottoman Türkiye
   rotate: false
   xy: 0, 0
   size: 210, 210
@@ -2717,8 +2798,8 @@ PolicyIcons/酋长崇拜
   offset: 0, 0
   index: -1
 
-总督.png
-ResourceIcons/总督点数
+Governor.png
+ResourceIcons/Governor Point
   rotate: false
   xy: 0, 0
   size: 100, 100
@@ -2726,8 +2807,8 @@ ResourceIcons/总督点数
   offset: 0, 0
   index: -1
   
-总督升级.png
-ResourceIcons/总督升级
+GovernorUpgradePoint.png
+ResourceIcons/Governor Upgrade Point
   rotate: false
   xy: 0, 0
   size: 32, 32
@@ -2960,8 +3041,8 @@ TechIcons/水运
   offset: 0, 0
   index: -1     
 
-税务管理.png
-TechIcons/税务管理
+TaxationAdministration.png
+TechIcons/Taxation Administration
   rotate: false
   xy: 0, 0
   size: 100, 100
@@ -2969,8 +3050,8 @@ TechIcons/税务管理
   offset: 0, 0
   index: -1     
 
-乌托邦.png
-TechIcons/乌托邦
+UtopiaProject.png
+TechIcons/Utopia Project
   rotate: false
   xy: 0, 0
   size: 100, 100
@@ -2978,8 +3059,8 @@ TechIcons/乌托邦
   offset: 0, 0
   index: -1  
 
-世博会.png
-TechIcons/世界博览会
+EXPO.png
+TechIcons/EXPO
   rotate: false
   xy: 0, 0
   size: 100, 100
@@ -2987,8 +3068,8 @@ TechIcons/世界博览会
   offset: 0, 0
   index: -1  
 
-天气控制.png
-TechIcons/天气控制
+WeatherManipulation.png
+TechIcons/Weather Manipulation
   rotate: false
   xy: 0, 0
   size: 100, 100
@@ -3275,6 +3356,15 @@ UnitIcons/Cuban International Revolutionary Fighter
   offset: 0, 0
   index: -1      
   
+BlackWatch图标.png
+UnitIcons/Black Watch
+  rotate: false
+  xy: 0,0
+  size: 170, 170
+  orig: 170, 170
+  offset: 0, 0
+  index: -1      
+  
 坚硬.png
 UnitPromotionIcons/坚硬
   rotate: false
@@ -3374,24 +3464,6 @@ UnitPromotionIcons/越野能力
   offset: 0, 0
   index: -1     
 
-俘虏.png
-UnitPromotionIcons/俘虏
-  rotate: false
-  xy: 0,0
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1     
-          
-俘虏.png
-UnitPromotionIcons/蛮族归顺
-  rotate: false
-  xy: 0,0
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1              
-          
 装备精良.png
 UnitPromotionIcons/装备精良
   rotate: false

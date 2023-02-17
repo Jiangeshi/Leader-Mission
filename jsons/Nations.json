@@ -39,7 +39,7 @@
         "spyNames": ["阿贝尔", "菲尔比", "布朗特", "克恩克罗斯", "伯吉斯", "麦克林", "博伊斯", "埃姆斯", "汉森", "佐尔格"]
     },
 	{
-		"name": "巴拿马",
+		"name": "Panama",
 		"leaderName": "Leader",
 		"adjective": ["Panamanian"],
 		"startBias": ["Coast"],
@@ -61,8 +61,8 @@
 		"outerColor": [0,103,198],
 		"innerColor": [255,255,255],
 		"favoredReligion": "Christianity",
-		"uniqueName": "世界桥梁",
-		"uniques": ["Gain a free [运河] [in all cities]","Gain a free [巴拿马运河] [in capital] <after discovering [水运]>",
+		"uniqueName": "Bridge Connecting The World",
+		"uniques": ["Gain a free [Canal] [in all cities]","Gain a free [Panama Canal] [in capital] <after discovering [水运]>",
 		"[+10]% Strength <for [Military] units> <within [3] tiles of a [Coast]>"
 		]
 		"cities": ["巴拿马城","圣地亚哥","圣米格利托","博卡斯德尔托罗区","戴维","佩诺诺梅","科隆","帕尔马","奇特雷","洛斯塔布拉斯","拉乔雷拉",
@@ -71,7 +71,7 @@
         "spyNames": ["阿贝尔", "菲尔比", "布朗特", "克恩克罗斯", "伯吉斯", "麦克林", "博伊斯", "埃姆斯", "汉森", "佐尔格"]
     },
 	{
-		"name": "布基纳法索",
+		"name": "Burkina Faso",
 		"leaderName": "Leader",
 		"adjective": ["Burkinabes"],
 		"startBias": ["Avoid [Tundra]"],
@@ -92,11 +92,11 @@
 		"innerColor": [247, 207, 33],
 		"outerColor": [0,133,61],
 		"favoredReligion": "Islam",
-		"uniqueName": "正人君子之国",
+		"uniqueName": "Country of Upright People",
 		"uniques": ["[-30]% maintenance cost for buildings [in all cities]",
 		"[-30]% maintenance costs <for [Military] units>",
 		"[-20]% Unhappiness from [Population] [in all cities]",
-		"Starts with [农业]"]
+		"Starts with [Agriculture]"]
 		"cities": ["瓦加杜古","博博—迪乌拉索","博罗莫","孔古西","索伦佐","博冈代","法达恩古尔马","瓦尔加伊","库佩拉","布塞","巴蒂埃",
 			"济尼亚雷","亚科","乌恩代","塞巴","萨普伊","瓦希古亚","多里","卡亚","雷奥","加瓦","代杜古","蒂陶","辛杜","奥罗达拉","达诺","滕科多戈",
 			"杰布古","孔比西里","库杜古","邦福拉","佐尔戈","盖埃里","帕马","努纳",
@@ -139,7 +139,7 @@
         "spyNames": ["Hamilcar", "Mago", "Baalhaan", "Sophoniba", "Yzebel", "Similce", "Kandaulo", "Zinnridi", "Gisgo", "Fierelus"]    
     },
 	{
-		"name": "大哥伦比亚",
+		"name": "Columbia",
 		"leaderName": "Leader",
 		"adjective": ["Colombian"],
 		"startBias": ["Hill"],
@@ -161,7 +161,7 @@
 		"innerColor": [250, 196, 0],
 		"outerColor": [2,1,193],
 		"favoredReligion": "Christianity",
-		"uniqueName": "爱国军",
+		"uniqueName": "Liberation Army",
 		"uniques": [
 		"[+10]% Strength <within [3] tiles of a [City center]> <for [Military] units>"
 		"[+20]% Strength <for [All] units> <vs cities>"]
@@ -171,7 +171,7 @@
         "spyNames": ["阿贝尔", "菲尔比", "布朗特", "克恩克罗斯", "伯吉斯", "麦克林", "博伊斯", "埃姆斯", "汉森", "佐尔格"]
 	},
 	{
-		"name": "苏联",
+		"name": "Soviet Union",
 		"leaderName": "Leader",
 		"adjective": ["Soviet"],
 		"startBias": ["Avoid [Desert]"],
@@ -193,7 +193,7 @@
 		"outerColor": [188, 0, 0],
 		"innerColor": [253,209,22],
 		"favoredReligion": "Christianity",
-		"uniqueName": "钢铁红流",
+		"uniqueName": "Tide of Revolution",
 		"uniqueText": "
 	可以向同盟超过10回合的城邦提供经济援助使其加入联盟；
 	铁、石油、煤、铀的产量翻倍；
@@ -233,7 +233,7 @@
 		"outerColor": [60,120,220],
 		"innerColor": [255,255,255],
 		"favoredReligion": "Christianity",
-		"uniqueName": "哲学之光",
+		"uniqueName": "Enlightenment of Western Philosophy",
 		"uniques": ["[+30]% Great Person generation [in all cities]","[+130 Culture, +130 Science] whenever a Great Person is expended"],
 		"cities": ["Athens","Sparta","Corinth","Argos","Knossos","Mycenae","Pharsalos","Ephesus","Halicarnassus","Rhodes",
 			"Eretria","Pergamon","Miletos","Megara","Phocaea","Sicyon","Tiryns","Samos","Mytilene","Chios",
@@ -276,7 +276,7 @@
         "spyNames": ["Jason", "Helena", "Alexa", "Cletus", "Kassandra", "Andres", "Desdemona", "Anthea", "Aeneas", "Leander",]    
     },
 	{
-		"name": "中华",
+		"name": "China",
 		"leaderName": "Leader",
 		"startBias": ["Plains"],
 		"adjective": ["Chinese"],
@@ -298,7 +298,7 @@
 		"outerColor": [222, 41, 16],
 		"innerColor": [255,222,0],
 		"favouredReligion": "Taoism",
-		"uniqueName": "文明传承",
+		"uniqueName": "Inheritance of Civilization",
 		"uniqueText": "
 在远古时代，中华所有城市+1产，文明+1科+1文，此效果持续整场游戏；
  
@@ -372,7 +372,7 @@
 		"outerColor": [ 236, 178, 0],
 		"innerColor": [0,0,0],
 		"favoredReligion": "Christianity",
-		"uniqueName": "西伯利亚的财富",
+		"uniqueName": "Wealth of Siberia",
 		"uniques": [
 		"[+1 Faith, +1 Culture, +1 Food] [in all cities] <with [1] to [3] neighboring [Tundra] tiles>",
 		"[+2 Faith, +2 Culture, +2 Food] [in all cities] <with [4] to [6] neighboring [Tundra] tiles>",
@@ -407,7 +407,7 @@
 		"outerColor": [ 53,0,87],
 		"innerColor": [238,201,9],
 		"favoredReligion": "Christianity",
-		"uniqueName": "条条大路通罗马",
+		"uniqueName": "All Roads Lead To Rome",
 		"uniques": ["[+17]% Production towards any buildings that already exist in the Capital",
 	    "[+1 Culture, +1 Gold] [in all cities connected to capital]"],
 		"cities": ["Rome","Antium","Cumae","Neapolis","Ravenna","Arretium","Mediolanum","Arpinum","Circei","Setia",
@@ -438,7 +438,7 @@
 		"outerColor": [ 41,83,42],
 		"innerColor": [146,221,9],
 		"favoredReligion": "Islam",
-		"uniqueName": "赞颂真主",
+		"uniqueName": "Praise Allah",
 		"uniques": ["Receive free [Great Prophet] when you discover [宗教]","Earn [80]% of killed [Military] unit's [Strength] as [Science]"],
 		"cities": ["Mecca","Medina","Damascus","Baghdad","Najran","Kufah","Basra","Khurasan","Anjar","Fustat",
 			"Aden","Yamama","Muscat","Mansura","Bukhara","Fez","Shiraz","Merw","Balkh","Mosul",
@@ -496,10 +496,10 @@
 		"outerColor": [180, 178, 164],
 		"innerColor": [70, 0, 4],
 		"favoredReligion": "Tengriism",
-		"uniqueName": "上帝之鞭",
+		"uniqueName": "Scourge of God",
 		"uniques": [
 	     "Cities are razed [2] times as fast",
-	     "Starts with [畜牧业]",
+	     "Starts with [Animal Husbandry]",
 	     "Upon capturing a city, receive [20] times its [Gold] production as [Gold] immediately",
          "Upon capturing a city, receive [20] times its [Culture] production as [Culture] immediately",
          "Upon capturing a city, receive [20] times its [Science] production as [Science] immediately",     
@@ -596,7 +596,7 @@
 		
 		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
 
-		"outerColor": [193, 22, 41],
+		"outerColor": [183, 22, 41],
 		"innerColor": [243, 243, 0],
 		"favoredReligion": "Buddhism",
 		"uniqueName": "Hidden In The Forest",
@@ -849,7 +849,7 @@
         "spyNames": ["Rim-Sin II", "Smerdis", "Ilum-ma-ili", "Peshgaldaramesh", "Ur-zigurumaš", "Semiramis", "Em", "Ishtar", "Bilit Taauth", "Aruru"]
     },
 	{
-		"name": "The Ottomans",
+		"name": "Ottoman Türkiye",
 		"leaderName": "Leader",
 		"adjective": ["Ottoman"],
 		"startBias": ["Coast"],
@@ -873,11 +873,7 @@
 
 		"favoredReligion": "Islam",
 		"uniqueName": "Star And Moon",
-		"uniqueText": "
-在首都建造信仰建筑后获得大先知信仰需求的25%的信仰；
-可以在城市中以1:1的比率将产能转化为信仰;
-攻城单位在对战城市当攻击时+50%战斗力		
-		" 
+		"uniqueText": "Gain enough Faith for 25% of a Great Prophet upon constructing Faith building in capital;Enables conversion of city production to Faith in 1:1 scale;+50% Strength for Siege units vs cities when attacking" 
 		"uniques": [
 		"Gain enough Faith for [25]% of a Great Prophet <upon constructing [Faith] [in capital]>",
         "[+50]% Strength <for [Siege] units> <vs cities> <when attacking>",
@@ -888,6 +884,43 @@
 			"Mersin","Antalya","Zonguldak","Denizli","Ordu","Muğla","Eskişehir","Inebolu","Sinop","Adana","Artvin",
 			"Bodrum","Eregli","Silifke","Sivas","Amasya","Marmaris","Trabzon","Erzurum","Urfa","Izmit","Afyonkarahisar",
 			"Bitlis","Yalova"],
+        "spyNames": ["Ibrahim", "Bayezid", "Sokollu", "Mahmut", "Uveys", "Roxelana", "Safiye", "Hafsa", "Kosem", "Nurbanu"]
+    },
+	{
+		"name": "Scotland",
+		"leaderName": "Leader",
+		"adjective": ["Ottoman"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Domination",
+
+        "startIntroPart1": "",
+
+	"declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+
+        "outerColor": [253,231,129],
+        "innerColor": [232,76,76],
+
+		"favoredReligion": "Christianity",
+		"uniqueName": "Lion and Bagpipe",
+		"uniques": [
+		"[75]% of excess happiness converted to [Culture]"
+		"[75]% of excess happiness converted to [Gold]"
+		"[+75]% of excess happiness converted to [Culture] <after discovering [戏剧与诗歌]>"
+		"[+75]% of excess happiness converted to [Science] <after discovering [戏剧与诗歌]>"
+		"[+2] Happiness from each type of luxury resource"
+			],
+		"cities": ["Edinburgh","Glasgow","Ankara","Lenflewshire","West Dunbartonshire","East Dunbartonshire","East Lenflewshire","North Lanarkshire","Falkirk","West Lothian","Midlothian",
+			"East Lothian","Klackmannanshire","Fife","Dundee","Angus","Aberdeenshire","Aberdeen","Moray","Highland","h-Eileanan Siar","Argyll and Bute",
+			"Perth and Kinloss","Stirling","North Ayrshire","East Ayrshire","South Ayrshire","Dumfries and Galloway","South Lanarkshire","Skottish Borders","Orkney Islands","Shetland Islands"],
         "spyNames": ["Ibrahim", "Bayezid", "Sokollu", "Mahmut", "Uveys", "Roxelana", "Safiye", "Hafsa", "Kosem", "Nurbanu"]
 	},
 	{
@@ -943,7 +976,7 @@
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "I guess you weren't here for the sprouts after all...",
 		"outerColor": [0, 0, 0],
-		"innerColor": [255,190,51],
+		"innerColor": [255,160,51],
 		"cities": ["Duisburg"]	
 	},
 	{
@@ -1006,7 +1039,8 @@
 		"name": "Barbarians",
 		"outerColor": [0,0,0],
         "innerColor": [185,12,12],
-		"uniques": ["[Military] units gain the [俘虏] promotion","Enables embarkation for land units <starting from the [Classical era]>", "Enables [All] units to enter ocean tiles <starting from the [Classical era]>", "Normal vision when embarked <for [All] units>"
+		"uniques": ["When defeating a [Military] unit, earn [0] Gold and recruit it","Enables embarkation for land units <starting from the [Classical era]>", "Enables [All] units to enter ocean tiles <starting from the [Classical era]>", "Normal vision when embarked <for [All] units>",
+		"[-10]% Strength <for [All] units>"
 		]
     }
 ]

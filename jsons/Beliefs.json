@@ -53,7 +53,7 @@
     {
         "name": "Divine Revelation",
         "type": "Pantheon",
-        "uniques": ["[+1 Science] from every [Shrine]","[+1 Science] from every [圣殿]"]
+        "uniques": ["[+1 Science] from every [Shrine]","[+1 Science] from every [Grand Temple]"]
     },
     {
         "name": "God of Wisdom",
@@ -235,27 +235,27 @@
     {
         "name": "Cathedrals",
         "type": "Follower",
-        "uniques": ["May buy [大教堂] buildings with [Faith] [in cities following this religion]"] 
+        "uniques": ["May buy [Cathedral] buildings with [Faith] [in cities following this religion]"] 
     },
     {
         "name": "Monasteries",
         "type": "Follower",
-        "uniques": ["May buy [修道院] buildings with [Faith] [in cities following this religion]"]    
+        "uniques": ["May buy [Monastery] buildings with [Faith] [in cities following this religion]"]    
     },
     {
         "name": "Mosques",
         "type": "Follower",
-        "uniques": ["May buy [清真寺] buildings with [Faith] [in cities following this religion]"]    
+        "uniques": ["May buy [Mosque] buildings with [Faith] [in cities following this religion]"]    
     },
     {
         "name": "Pagodas",
         "type": "Follower",
-        "uniques": ["May buy [佛塔] buildings with [Faith] [in cities following this religion]"]   
+        "uniques": ["May buy [Pagoda] buildings with [Faith] [in cities following this religion]"]   
     },
     {
         "name": "Wonderland Garden",
         "type": "Follower",
-        "uniques": ["[+1 Happiness, +2 Faith] from every [花园]"]    
+        "uniques": ["[+1 Happiness, +2 Faith] from every [Garden]"]    
     },
     {
         "name": "Worship",
@@ -270,7 +270,7 @@
     {
         "name": "Choral Chant",
         "type": "Follower",
-        "uniques": ["[+4 Faith] from every [歌剧院]"]    
+        "uniques": ["[+4 Faith] from every [Opera House]"]    
     //增强词条
     },
     {

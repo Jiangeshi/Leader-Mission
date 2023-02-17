@@ -59,7 +59,7 @@
         "settlerPopulation": 2,
         "settlerBuildings": ["Bonfire","Shrine","Monument","Granary","Grave","Kiln"],
         "startingObsoleteWonders": ["Temple of Artemis", "Stonehenge", "The Great Library", "Mausoleum of Halicarnassus", "The Pyramids", "Statue of Zeus",
-            "The Great Lighthouse", "Hanging Gardens", "Terracotta Army", "The Oracle", "太阳神巨像"],
+            "The Great Lighthouse", "Hanging Gardens", "Terracotta Army", "The Oracle", "Colossus"],
         "baseUnitBuyCost": 300,
         "embarkDefense": 8,
         "startPercent": 37,
@@ -79,8 +79,8 @@
         "settlerPopulation": 3,
         "settlerBuildings": ["Bonfire","Fair","Monument","Granary","Sundial","Grave","Kiln","Library","Shrine"],
         "startingObsoleteWonders": ["Temple of Artemis", "Stonehenge", "The Great Library", "Mausoleum of Halicarnassus", "The Pyramids", "Statue of Zeus",
-            "The Great Lighthouse", "Hanging Gardens", "Terracotta Army", "The Oracle", "长城", "太阳神巨像"
-            "圣索菲亚大教堂", "奇琴伊察", "马丘比丘", "吴哥窟", "阿尔罕布拉宫", "巴黎圣母院"],
+            "The Great Lighthouse", "Hanging Gardens", "Terracotta Army", "The Oracle", "Great Wall", "Colossus"
+            "Hagia Sophia", "Chichen Itza", "Machu Picchu", "Angkor Wat", "Alhambra", "Notre Dame"],
         "baseUnitBuyCost": 400,
         "embarkDefense": 10,
         "startPercent": 50,
@@ -103,9 +103,9 @@
         "settlerPopulation": 3,
         "settlerBuildings": ["Bonfire","Fair","Monument","Granary","Sundial","Grave","Kiln","Library","Shrine","School of Philosophy"],
         "startingObsoleteWonders": ["Temple of Artemis", "Stonehenge", "The Great Library", "Mausoleum of Halicarnassus", "The Pyramids", "Statue of Zeus",
-            "The Great Lighthouse", "Hanging Gardens", "Terracotta Army", "The Oracle", "长城", "太阳神巨像"
-            "圣索菲亚大教堂", "奇琴伊察", "马丘比丘", "吴哥窟", "阿尔罕布拉宫", "巴黎圣母院"
-           "西斯廷教堂", "紫禁城", "比萨斜塔", "姬路城", "泰姬陵", "大报恩寺", "克里姆林宫"
+            "The Great Lighthouse", "Hanging Gardens", "Terracotta Army", "The Oracle", "Great Wall", "Colossus"
+            "Hagia Sophia", "Chichen Itza", "Machu Picchu", "Angkor Wat", "Alhambra", "Notre Dame"
+           "Sistine Chapel", "Forbidden Palace", "Leaning Tower of Pisa", "Himeji Castle", "Taj Mahal", "Porcelain Tower", "Kremlin"
            ],
         "baseUnitBuyCost": 600,
         "embarkDefense": 13,
@@ -129,10 +129,10 @@
         "settlerPopulation": 4,
         "settlerBuildings": ["Bonfire","Fair","Monument","Granary","Sundial","Grave","Kiln","Library","Shrine","School of Philosophy"],
         "startingObsoleteWonders": ["Temple of Artemis", "Stonehenge", "The Great Library", "Mausoleum of Halicarnassus", "The Pyramids", "Statue of Zeus",
-            "The Great Lighthouse", "Hanging Gardens", "Terracotta Army", "The Oracle", "长城", "太阳神巨像"
-            "圣索菲亚大教堂", "奇琴伊察", "马丘比丘", "吴哥窟", "阿尔罕布拉宫", "巴黎圣母院"
-           "西斯廷教堂", "紫禁城", "比萨斜塔", "姬路城", "泰姬陵", "大报恩寺", "克里姆林宫"
-            "卢浮宫", "大本钟", "勃兰登堡门"],
+            "The Great Lighthouse", "Hanging Gardens", "Terracotta Army", "The Oracle", "Great Wall", "Colossus"
+            "Hagia Sophia", "Chichen Itza", "Machu Picchu", "Angkor Wat", "Alhambra", "Notre Dame"
+           "Sistine Chapel", "Forbidden Palace", "Leaning Tower of Pisa", "Himeji Castle", "Taj Mahal", "Porcelain Tower", "Kremlin"
+            "The Louvre", "Big Ben", "Brandenburg Gate"],
         "baseUnitBuyCost": 800,
         "embarkDefense": 16,
         "startPercent": 65,
@@ -157,11 +157,11 @@
         "settlerBuildings": ["Bonfire","Fair","Monument","Granary","Sundial","Grave","Kiln","Library","Shrine","School of Philosophy"],
         "startingObsoleteWonders": ["Monument","Granary","Sundial","Grave","Kiln","Library","Shrine","School of Philosophy"],
         "startingObsoleteWonders": ["Temple of Artemis", "Stonehenge", "The Great Library", "Mausoleum of Halicarnassus", "The Pyramids", "Statue of Zeus",
-            "The Great Lighthouse", "Hanging Gardens", "Terracotta Army", "The Oracle", "长城", "太阳神巨像"
-            "圣索菲亚大教堂", "奇琴伊察", "马丘比丘", "吴哥窟", "阿尔罕布拉宫", "巴黎圣母院"
-           "西斯廷教堂", "紫禁城", "比萨斜塔", "姬路城", "泰姬陵", "大报恩寺", "克里姆林宫"
-            "卢浮宫", "大本钟", "勃兰登堡门"
-            "埃菲尔铁塔", "自由女神像", "新天鹅堡", "救世基督像"
+            "The Great Lighthouse", "Hanging Gardens", "Terracotta Army", "The Oracle", "Great Wall", "Colossus"
+            "Hagia Sophia", "Chichen Itza", "Machu Picchu", "Angkor Wat", "Alhambra", "Notre Dame"
+           "Sistine Chapel", "Forbidden Palace", "Leaning Tower of Pisa", "Himeji Castle", "Taj Mahal", "Porcelain Tower", "Kremlin"
+            "The Louvre", "Big Ben", "Brandenburg Gate"
+            "Eiffel Tower", "Statue of Liberty", "Neuschwanstein", "Cristo Redentor"
             ],
         "baseUnitBuyCost": 1000,
         "embarkDefense": 20,
@@ -187,11 +187,11 @@
         "settlerPopulation": 5,
         "settlerBuildings": ["Bonfire","Fair","Monument","Granary","Sundial","Grave","Kiln","Library","Shrine","School of Philosophy"],
         "startingObsoleteWonders": ["Temple of Artemis", "Stonehenge", "The Great Library", "Mausoleum of Halicarnassus", "The Pyramids", "Statue of Zeus",
-            "The Great Lighthouse", "Hanging Gardens", "Terracotta Army", "The Oracle", "长城", "太阳神巨像"
-            "圣索菲亚大教堂", "奇琴伊察", "马丘比丘", "吴哥窟", "阿尔罕布拉宫", "巴黎圣母院"
-           "西斯廷教堂", "紫禁城", "比萨斜塔", "姬路城", "泰姬陵", "大报恩寺", "克里姆林宫"
-            "卢浮宫", "大本钟", "勃兰登堡门"
-            "埃菲尔铁塔", "自由女神像", "新天鹅堡", "救世基督像"
+            "The Great Lighthouse", "Hanging Gardens", "Terracotta Army", "The Oracle", "Great Wall", "Colossus"
+            "Hagia Sophia", "Chichen Itza", "Machu Picchu", "Angkor Wat", "Alhambra", "Notre Dame"
+           "Sistine Chapel", "Forbidden Palace", "Leaning Tower of Pisa", "Himeji Castle", "Taj Mahal", "Porcelain Tower", "Kremlin"
+            "The Louvre", "Big Ben", "Brandenburg Gate"
+            "Eiffel Tower", "Statue of Liberty", "Neuschwanstein", "Cristo Redentor"
             ],
         "baseUnitBuyCost": 1000,
         "embarkDefense": 25,

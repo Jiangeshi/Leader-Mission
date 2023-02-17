@@ -4,7 +4,7 @@
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains","Volcanic Soil"],
 		"food": 1,
 		"turnsToBuild": 7,
-		"techRequired": "农业",
+		"techRequired": "Agriculture",
 		"uniques": ["Can also be built on tiles adjacent to fresh water",
 	    "Pillaging this improvement yields approximately [+20 Gold]",
 		"[+2 Food] <in [Volcanic Soil] tiles>",
@@ -13,14 +13,14 @@
 	{
 		"name": "Pasture",
 		"turnsToBuild": 7,
-		"techRequired": "畜牧业",
+		"techRequired": "Animal Husbandry",
 		"uniques": ["Can only be built to improve a resource", "Pillaging this improvement yields approximately [+20 Gold]","[+1 Food] <after discovering [生物学]>"],
 	},
 	{
 		"name": "Plantation",
 		"turnsToBuild": 7,
 		"gold": 1,
-		"techRequired": "农业",
+		"techRequired": "Agriculture",
 		"uniques": ["Can only be built to improve a resource", "Pillaging this improvement yields approximately [+20 Gold]","[+1 Food] <after discovering [化肥]>"],
 	},
 	{
@@ -28,7 +28,7 @@
 		"terrainsCanBeBuiltOn": ["Hill"],
 		"production": 1,
 		"turnsToBuild": 7,
-		"techRequired": "采矿",
+		"techRequired": "Mining",
 		"uniques": ["Pillaging this improvement yields approximately [+30 Gold]","[+1 Production] <after discovering [化学]>","Provides [1] [CO2]"]
 	},
 	{
@@ -42,14 +42,14 @@
 	{
 		"name": "Camp",
 		"turnsToBuild": 7,
-		"techRequired": "畜牧业",
+		"techRequired": "Animal Husbandry",
 		"uniques": ["Does not need removal of [Forest]","Does not need removal of [Jungle]","Can only be built to improve a resource", "Pillaging this improvement yields approximately [+20 Gold]",
 		"[+1 Gold] <after discovering [金融业]>"],
 	},
 	{
 		"name": "Quarry",
 		"turnsToBuild": 7,
-		"techRequired": "采矿",
+		"techRequired": "Mining",
 		"uniques": ["Can only be built to improve a resource", "Pillaging this improvement yields approximately [+30 Gold]","[+1 Production] <after discovering [化学]>","Provides [1] [CO2]"],
 	},
 	{
