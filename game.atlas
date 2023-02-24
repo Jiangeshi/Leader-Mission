@@ -1563,6 +1563,15 @@ BuildingIcons/Grave
   offset: 0, 0
   index: -1
     
+District—StudenicaMonastery.png
+BuildingIcons/District—Studenica Monastery
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1    
+    
 Fair.png
 BuildingIcons/Fair
   rotate: false
@@ -2591,6 +2600,24 @@ BuildingIcons/Civilized Leader—Wallace
   offset: 0, 0
   index: -1
   
+Civilized leader.png
+BuildingIcons/Civilized Leader—Tito
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1  
+  
+Civilized leader.png
+BuildingIcons/Civilized Leader—Milosevic
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1    
+  
 China.png
 NationIcons/China
   rotate: false
@@ -2708,48 +2735,57 @@ NationIcons/Ottoman Türkiye
   offset: 0, 0
   index: -1
   
-部落.png
-PolicyIcons/部落
+Serbia.png
+NationIcons/Serbia
+  rotate: false
+  xy: 0, 0
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1  
+  
+AdvancedCombatReadiness.png
+PolicyIcons/Advanced Combat Readiness
   rotate: false
   xy: 0,0
-  size: 75, 75
-  orig: 75, 75
+  size: 53, 53
+  orig: 53, 53
   offset: 0, 0
   index: -1
   
-氏族.png
-PolicyIcons/氏族
+PrimaryCombatReadiness.png
+PolicyIcons/Primary Combat Readiness
   rotate: false
   xy: 0,0
-  size: 70, 70
-  orig: 70, 70
+  size: 47, 47
+  orig: 47, 47
   offset: 0, 0
   index: -1
 
-部落会议.png
-PolicyIcons/部落会议
+PartialWarMobilization.png
+PolicyIcons/Partial War Mobilization
   rotate: false
   xy: 0,0
-  size: 160, 160
-  orig: 160, 160
+  size: 50, 50
+  orig: 50, 50
   offset: 0, 0
   index: -1
   
-长老统治.png
-PolicyIcons/长老统治
+TotalWarMobilization.png
+PolicyIcons/Total War Mobilization
   rotate: false
   xy: 0,0
-  size: 100, 100
-  orig: 100, 100
+  size: 50, 50
+  orig: 50, 50
   offset: 0, 0
   index: -1
   
-奴隶制度.png
-PolicyIcons/奴隶制度
+StateofWar.png
+PolicyIcons/State of War
   rotate: false
   xy: 0,0
-  size: 85, 85
-  orig: 85, 85
+  size: 51, 51
+  orig: 51, 51
   offset: 0, 0
   index: -1
   
@@ -2915,8 +2951,8 @@ ImprovementIcons/Gas field
   offset: 0, 0
   index: -1
 
-钻木取火.png
-TechIcons/钻木取火
+DrillWoodtoMakeFire.png
+TechIcons/Drill Wood to Make Fire
   rotate: false
   xy: 0, 0
   size: 100, 100
@@ -2924,8 +2960,8 @@ TechIcons/钻木取火
   offset: 0, 0
   index: -1
   
-信仰崇拜.png
-TechIcons/信仰崇拜
+BeliefWorship.png
+TechIcons/Belief Worship
   rotate: false
   xy: 0, 0
   size: 100, 100
@@ -2933,8 +2969,8 @@ TechIcons/信仰崇拜
   offset: 0, 0
   index: -1
 
-墓葬.png
-TechIcons/墓葬
+BurialCustom.png
+TechIcons/Burial Custom
   rotate: false
   xy: 0, 0
   size: 50, 50
@@ -2942,8 +2978,8 @@ TechIcons/墓葬
   offset: 0, 0
   index: -1  
 
-伐木业.png
-TechIcons/伐木业
+Lumbering.png
+TechIcons/Lumbering
   rotate: false
   xy: 0, 0
   size: 80, 80
@@ -2951,8 +2987,8 @@ TechIcons/伐木业
   offset: 0, 0
   index: -1
   
-宗教.png
-TechIcons/宗教
+ReligiousCulture.png
+TechIcons/Religious Culture
   rotate: false
   xy: 0, 0
   size: 90, 90
@@ -3362,6 +3398,15 @@ UnitIcons/Black Watch
   xy: 0,0
   size: 170, 170
   orig: 170, 170
+  offset: 0, 0
+  index: -1      
+  
+CobraCommando图标.png
+UnitIcons/Cobra Commando
+  rotate: false
+  xy: 0,0
+  size: 75, 125
+  orig: 75, 125
   offset: 0, 0
   index: -1      
   

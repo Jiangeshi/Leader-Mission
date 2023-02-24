@@ -232,6 +232,19 @@
 		"attackSound": "shot"
 	},
 	{
+		"name": "Cobra Commando",
+		"unitType": "Foot Soldier",
+		"replaces": "Infantry",
+		"uniqueTo": "Serbia",
+		"movement": 4,
+		"strength": 70,
+		"cost": 650,
+		"requiredTech": "塑料",
+		"upgradesTo": "Mechanized Infantry",
+		"uniques":["[+10]% Strength <vs [Military] units> <when defending>"]
+		"attackSound": "shot"	
+	},
+	{
 		"name": "Paratrooper",
 		"unitType": "Foot Soldier",
 		"movement": 2,

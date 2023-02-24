@@ -668,5 +668,83 @@
                 ]
             }
         ]
+    },
+    {
+        "name": "Warfare—Preparation",
+        "era": "Ancient era",
+        "priorities": {
+            "Neutral": 50,
+            "制度": 40,
+            "外交": 50,
+            "征服": 40,
+            "飞天": 50
+        },
+        "uniques": [
+        "[1] Free Social Policies"
+        "Only available <after [20] turns>"
+        ],
+        "policies": [
+            {
+                "name": "Partial War Mobilization",
+                "uniques": [
+        "[+50]% Production when constructing [Military] units [in all cities] <for [15] turns>",
+        "[-33]% growth [in all cities] <for [15] turns>"
+        "Triggers the following global alert: []"
+                ],
+                "row": 1,
+                "column": 2
+            },
+            {
+                "name": "Total War Mobilization",
+                "uniques": [
+        "[+100]% Production when constructing [Military] units [in all cities] <for [15] turns>",
+        "[-75]% growth [in all cities] <for [15] turns>"
+        "Triggers the following global alert: []"
+                ],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "Primary Combat Readiness",
+                "uniques": [
+        "Only available <when not at war>","Only available <after discovering [军事学]>",             
+        "[+33]% Production when constructing [Military] units [in all cities] <for [20] turns>",
+        "[+10]% Strength <for [Military] units> <for [20] turns>"
+        "[+33]% maintenance costs <for [Military] units> <for [20] turns>",
+        "Triggers the following global alert: []"
+                ],
+                "row": 1,
+                "column": 4  
+            },
+            {
+                "name": "Advanced Combat Readiness",
+                "uniques": [
+        "Only available <when not at war>","Only available <after discovering [军事学]>",                  
+        "[+66]% Production when constructing [Military] units [in all cities] <for [20] turns>",
+        "[+15]% Strength <for [Military] units> <for [20] turns>"
+        "[+66]% maintenance costs <for [Military] units> <for [20] turns>",
+        "Triggers the following global alert: []"
+                ],
+                "row": 2,
+                "column": 4      
+            },
+            {
+                "name": "State of War",
+                "uniques": [
+        "Only available <when at war>","Only available <if [District—Country] is constructed>",             
+        "[+25]% [Production] [in all cities] <for [15] turns>",
+        "[-20]% [Gold] [in all cities] <for [15] turns>",
+        "Triggers the following global alert: []"
+                ],
+                "row": 3,
+                "column": 3      
+            },
+            {
+                "name": "Warfare—Preparation Complete",
+                "uniques": [
+        "[+15]% Production when constructing [Military] units [in all cities]",
+                ]
+            }
+        ]    
     }
 ]

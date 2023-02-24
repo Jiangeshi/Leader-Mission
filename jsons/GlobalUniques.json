@@ -15,7 +15,8 @@
     //战争
         "[+10]% Production when constructing [Military] units [in all cities] <when at war>",
         "[-25]% growth [in all cities] <when at war>",
-        "[-10]% [Gold] <when at war>",
+        "[+20]% maintenance costs <for [Military] units> <when at war>",
+        "[-20]% maintenance costs <for [Military] units> <when not at war>",
     //我们爱戴领袖日
         "[+5]% [Production] [in all cities] <during We Love The King Day>",
         "[+5]% [Science] [in all cities] <during We Love The King Day>",

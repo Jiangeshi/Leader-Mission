@@ -6,7 +6,7 @@
 		"buildingCost": 35,
 		"techs": [
 			{
-				"name": "钻木取火",
+				"name": "Drill Wood to Make Fire",
 				"row": 6,
 				"quote": "火焰不仅给人类带来了光明，也带来了希望",
 				"uniques": ["Starting tech"]
@@ -21,33 +21,33 @@
 		"wonderCost": 190,
 		"techs": [
 			{
-				"name": "信仰崇拜",
+				"name": "Belief Worship",
 				"row": 3,
-				"prerequisites": ["钻木取火"],
+				"prerequisites": ["Drill Wood to Make Fire"],
 				"quote": "人们将先人供奉，以求得到已死之人的庇佑对，人们崇拜万物，是以万物皆有灵"
 			},
 			{
 				"name": "Pottery",
 				"row": 5,
-				"prerequisites": ["钻木取火"],
+				"prerequisites": ["Drill Wood to Make Fire"],
 				"quote": "陶器使人们拥有了更多的工具去烹饪、存放食物，当然，陶器在除了吃的方面还有其他用途"
 			},
 			{
 				"name": "Agriculture",
 				"row": 6,
-				"prerequisites": ["钻木取火"],
+				"prerequisites": ["Drill Wood to Make Fire"],
 				"quote": "农业的产生是人类得以人口几何式爆炸的关键，人类驯化了小麦，同时小麦也驯化了人类"		
 		    },
 			{
 				"name": "Mining",
 				"row": 7,
-				"prerequisites": ["钻木取火"],
+				"prerequisites": ["Drill Wood to Make Fire"],
 				"quote": "继石头之后，各类矿石的开采让人们拥有了更加强力的武器、装备、工具"
 		    },
 		    {
 			"name": "Archery",
 				"row": 8,
-				"prerequisites": ["钻木取火"],
+				"prerequisites": ["Drill Wood to Make Fire"],
 				"quote": "在畜牧业产生前，狩猎动物一直是肉类食物的主要来源"
 			}
 		]
@@ -62,13 +62,13 @@
 			{
 				"name": "文字",
 				"row": 2,
-				"prerequisites": ["信仰崇拜"],
+				"prerequisites": ["Belief Worship"],
 				"quote": "文字是人类历史上最伟大的发明，有了文字，才有了历史，知识得以传递，信仰得以传播，文明得以延续"	
 	        },
 			{
-				"name": "墓葬",
+				"name": "Burial Custom",
 				"row": 4,
-				"prerequisites": ["信仰崇拜"],
+				"prerequisites": ["Belief Worship"],
 				"quote": "人们为死去之人建造其或宏伟或渺小的坟墓，期待他们能庇佑自己，或有朝一日能再次醒来"
 			},
 			{
@@ -84,7 +84,7 @@
 				"quote": "畜牧业的诞生，让人们能够不需外出进行危险的狩猎便可获得大量的肉制品，以畜牧业而非农业为主的游牧民族也由此诞生"
 			},
 			{
-				"name": "伐木业",
+				"name": "Lumbering",
 				"row": 7,
 				"prerequisites": ["Mining"],
 				"quote": "发家致富先砍树，不过，过度的砍伐也并不是一件好事"
@@ -105,15 +105,15 @@
 				"quote": "没有的正确的思想指导，是难以成事的"
 			},
 			{
-				"name": "宗教",
+				"name": "Religious Culture",
 				"row": 3,
-				"prerequisites": ["文字","墓葬"],
+				"prerequisites": ["文字","Burial Custom"],
 				"quote": "宗教的力量是无穷的，它可以让完全不相识的人因为信仰同一个宗教而共事"
 			},
 			{
 				"name": "帆船",
 				"row": 4,
-				"prerequisites": ["墓葬","历法"],
+				"prerequisites": ["Burial Custom","历法"],
 				"quote": "'虽然在探索大海的路上，会牺牲不少人，但我们依然勇往直前"
 			},
 			{
@@ -125,13 +125,13 @@
 			{
 				"name": "石工术",
 				"row": 7,
-				"prerequisites": ["伐木业"],
+				"prerequisites": ["Lumbering"],
 				"quote": "石头建筑并不意味着破旧低俗，相反，很多伟大的建筑都是石头建成的"
 			},
 			{
 				"name": "青铜器",
 				"row": 8,
-				"prerequisites": ["伐木业","Archery"],
+				"prerequisites": ["Lumbering","Archery"],
 				"quote": "对青铜的运用是人类历史上十分重要的一步，从此人们对金属的运用愈发熟练"
 			}
 		]
@@ -146,7 +146,7 @@
 			{
 				"name": "国家",
 				"row": 2,
-				"prerequisites": ["哲学","宗教","帆船"],
+				"prerequisites": ["哲学","Religious Culture","帆船"],
 				"uniques":[
 				"从野蛮部落步入文明国家，走向正途",
 				"Free Social Policy <if no other Civilization has researched this>"]

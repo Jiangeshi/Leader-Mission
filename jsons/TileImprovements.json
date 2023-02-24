@@ -36,7 +36,7 @@
 		"terrainsCanBeBuiltOn": ["Forest","Jungle"],
 		"production": 1,
 		"turnsToBuild": 7,
-		"techRequired": "伐木业",
+		"techRequired": "Lumbering",
 		"uniques": ["Pillaging this improvement yields approximately [+30 Gold]","Provides [1] [Coal] <after discovering [化学]>","[+1 Production] <after discovering [科学理论]>","Provides [1] [CO2]"],
 	},
 	{
@@ -152,19 +152,19 @@
     {
 		"name": "Remove Forest",
 		"turnsToBuild": 5,
-		"techRequired": "伐木业",
+		"techRequired": "Lumbering",
 		"uniques": ["Can be built outside your borders"]
 	},
 	{
 		"name": "Remove Jungle",
 		"turnsToBuild": 6,
-		"techRequired": "伐木业",
+		"techRequired": "Lumbering",
 		"uniques": ["Can be built outside your borders"],
 	},
 	{
 		"name": "Remove Marsh",
 		"turnsToBuild": 6,
-		"techRequired": "伐木业",
+		"techRequired": "Lumbering",
 		"uniques": ["Can be built outside your borders"],
 	//军事设施
 	},
@@ -253,7 +253,9 @@
 	{
 		"name": "City center",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": ["Unpillagable", "Irremovable", "Unbuildable"],
+		"uniques": ["Unpillagable", "Irremovable", "Unbuildable",
+		"[+1 Food] <in [Fresh Water] tiles> <in tiles without [Hill]>",
+		],
         "civilopediaText": [
 			{"text":"Marks the center of a city"},
 			{"text":"Appearance changes with the technological era of the owning civilization"}

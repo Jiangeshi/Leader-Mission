@@ -95,7 +95,7 @@
 		"uniqueName": "Country of Upright People",
 		"uniques": ["[-30]% maintenance cost for buildings [in all cities]",
 		"[-30]% maintenance costs <for [Military] units>",
-		"[-20]% Unhappiness from [Population] [in all cities]",
+		"[-25]% Unhappiness from [Population] [in all cities]",
 		"Starts with [Agriculture]"]
 		"cities": ["瓦加杜古","博博—迪乌拉索","博罗莫","孔古西","索伦佐","博冈代","法达恩古尔马","瓦尔加伊","库佩拉","布塞","巴蒂埃",
 			"济尼亚雷","亚科","乌恩代","塞巴","萨普伊","瓦希古亚","多里","卡亚","雷奥","加瓦","代杜古","蒂陶","辛杜","奥罗达拉","达诺","滕科多戈",
@@ -194,11 +194,6 @@
 		"innerColor": [253,209,22],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Tide of Revolution",
-		"uniqueText": "
-	可以向同盟超过10回合的城邦提供经济援助使其加入联盟；
-	铁、石油、煤、铀的产量翻倍；
-	军事单位维护费-75%;
-			" 
 		"uniques": ["Can spend Gold to annex or puppet a City-State that has been your ally for [5] turns.",
 		"Double quantity of [Oil] produced","Double quantity of [Coal] produced","Double quantity of [Iron] produced","Double quantity of [Uranium] produced",
 	    "[-75]% maintenance costs <for [Military] units>",
@@ -234,7 +229,7 @@
 		"innerColor": [255,255,255],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Enlightenment of Western Philosophy",
-		"uniques": ["[+30]% Great Person generation [in all cities]","[+130 Culture, +130 Science] whenever a Great Person is expended"],
+		"uniques": ["[+30]% Great Person generation [in all cities]","[+150 Culture, +150 Science] whenever a Great Person is expended"],
 		"cities": ["Athens","Sparta","Corinth","Argos","Knossos","Mycenae","Pharsalos","Ephesus","Halicarnassus","Rhodes",
 			"Eretria","Pergamon","Miletos","Megara","Phocaea","Sicyon","Tiryns","Samos","Mytilene","Chios",
 			"Paros","Elis","Syracuse","Herakleia","Gortyn","Chalkis","Pylos","Pella","Naxos","Sicyon",
@@ -299,20 +294,10 @@
 		"innerColor": [255,222,0],
 		"favouredReligion": "Taoism",
 		"uniqueName": "Inheritance of Civilization",
-		"uniqueText": "
-在远古时代，中华所有城市+1产，文明+1科+1文，此效果持续整场游戏；
- 
- 此后中华在每个新时代开始时都会获得战斗力、产能、文化、科研上的加成，并且加成效果可持续叠加，叠加持续至原子时代，最高（在原子/信息时代）可获得：
- +20%战斗力
- +20%产能
- +30%文化
- +30%科研
-			" 
+		"uniqueText": "+1 production in all cities; At the beginning of each new era, China will gain combat Strength, Production, Culture, and Science bonuses, and the bonus will continue to stack, up to +20% combat Strength,+20% Production,+30% Culture, and+30% Science" 
 		"uniques": [
 		"[+5]% Strength <for [Military] units> <during the [Ancient era]>"
-        "[+1 Production] [in all cities] <starting from the [Ancient era]>"
-        "[+1 Culture] <starting from the [Ancient era]>"
-        "[+1 Science] <starting from the [Ancient era]>",
+        "[+1 Production] [in all cities]"
 		
         "[+8]% Strength <for [Military] units> <during the [Classical era]>"
         "[+4]% [Production] <starting from the [Classical era]>"
@@ -439,7 +424,7 @@
 		"innerColor": [146,221,9],
 		"favoredReligion": "Islam",
 		"uniqueName": "Praise Allah",
-		"uniques": ["Receive free [Great Prophet] when you discover [宗教]","Earn [80]% of killed [Military] unit's [Strength] as [Science]"],
+		"uniques": ["Receive free [Great Prophet] when you discover [Religious Culture]","Earn [80]% of killed [Military] unit's [Strength] as [Science]"],
 		"cities": ["Mecca","Medina","Damascus","Baghdad","Najran","Kufah","Basra","Khurasan","Anjar","Fustat",
 			"Aden","Yamama","Muscat","Mansura","Bukhara","Fez","Shiraz","Merw","Balkh","Mosul",
 			"Aydab","Bayt","Suhar","Taif","Hama","Tabuk","Sana'a","Shihr","Tripoli","Tunis","Kairouan","Algiers","Oran"],
@@ -566,7 +551,7 @@
 		"favoredReligion": "Islam",
 		"uniqueName": "By The Nile",
 		"uniques": ["[+15]% Production when constructing [All] wonders [in all cities]",
-		"[+15]% [Culture] [in all cities with a world wonder]",
+		"[+10]% [Culture] [in all cities with a world wonder]",
 		"[+1 Food, +1 Production] in cities on [River] tiles"
 		]
 		"cities": ["开罗","亚历山大","塞得港","沙姆沙伊赫","吉萨","阿斯旺","苏伊士","卢克索","曼苏拉",
@@ -602,8 +587,8 @@
 		"uniqueName": "Hidden In The Forest",
 		"uniques": [
 		"All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel.",
-		"[+2 Culture] from [Forest] tiles [in all cities]",
-		"[+2 Culture] from [Jungle] tiles [in all cities]"
+		"[+1 Production] from [Forest] tiles [in all cities]",
+		"[+1 Food] from [Jungle] tiles [in all cities]"
 		]
 		"cities": ["河内","胡志明市","海防","岘港","芹苴","下龙","越池","南定","顺化",
 			   "头顿","大叻","芽庄","河仙","永安","北宁","海阳","兴安","府里","太平","宁平",
@@ -685,15 +670,7 @@
 		
 		"[+30]% Strength <for [Military] units> <when between [-100000] and [-18] Happiness>",
 		],
-		"uniqueText": "
-自-10快乐起，
-每上涨2快乐+2%文化，
-当快乐≥20时+30%文化达到最大值;
-		
-自10快乐起，
-每下降2快乐军事单位+2%战斗力，
-当快乐≤-19时军事单位+30%战斗力达到最大值
-			" 
+		"uniqueText": "Greater than or equal to -10 Happiness,every increase of 2 Happiness+2% Culture,up to +30% Culture;Less than or equal to 10 happy,every decrease of 2 Happiness +2% combat Strength for Military units,up to +30% combat Strength" 
 		"cities": ["Paris","Orleans","Lyon","Troyes","Tours","Marseille","Chartres","Avignon","Rouen","Grenoble",
 			"Dijon","Amiens","Cherbourg","Poitiers","Toulouse","Bayonne","Strasbourg","Brest","Bordeaux","Rennes",
 			"Nice","Saint Etienne","Nantes","Reims","Le Mans","Montpellier","Limoges","Nancy","Lille","Caen","Toulon",
@@ -725,7 +702,7 @@
 		"uniqueName": "Scholars of the Jade Hall",
         "uniques": [
         "[+1 Science] from every specialist [in all cities]",
-	    "[Great Scientist] is earned [50]% faster",
+	    "[Great Scientist] is earned [25]% faster",
         "Receive a tech boost when scientific buildings/wonders are built in capital"
         ],
 		"cities": ["Seoul","Busan","Jeonju","Daegu","Pyongyang","Kaesong","Suwon","Gwangju","Gangneung","Hamhung","Wonju","Ulsan",
@@ -759,7 +736,7 @@
 		"uniques": [
 		"Double quantity of [Horses] produced",
 		"+30% Strength when fighting City-State units and cities", 
-		"Heals [25] damage if it kills a unit <for [Military] units>"
+		"Heals [30] damage if it kills a unit <for [Military] units>"
 		"[+1] Movement <for [Mobile] units>"
 		"[+1] Sight <for [Mobile] units>"
 		],
@@ -824,23 +801,19 @@
 		"innerColor": [213,249,255],
 		"favoredReligion": "Islam",
 		"uniqueName": "Ingenuity",
-		"uniqueText": "
-巴比伦在首都建造完成建筑时将获得快速下所处时代科研需求平均值的三分之一的科研数值，自电气时代起数值均采用电气时代科研需求的三分之一。
-
-*由于代码影响，巴比伦目前仅建议在快速模式下选择，其他速度会影响其强度（越慢越弱，越快越强）
-		" 
+		"uniqueText": "When Babylon builds a building in capital, it will obtain 40% of the average scientific research demand of its era at quick speed.The era after the Modern era adopts the standards of the Modern era" 
 		"uniques": [
-		"Gain [11] [Science] <upon constructing [Buildings] [in capital]> <during the [Ancient era]>",
+		"Gain [13] [Science] <upon constructing [Buildings] [in capital]> <during the [Ancient era]>",
 		
-		"Gain [37] [Science] <upon constructing [Buildings] [in capital]> <during the [Classical era]>",
+		"Gain [45] [Science] <upon constructing [Buildings] [in capital]> <during the [Classical era]>",
 		
-		"Gain [101] [Science] <upon constructing [Buildings] [in capital]> <during the [Medieval era]>",
+		"Gain [121] [Science] <upon constructing [Buildings] [in capital]> <during the [Medieval era]>",
 		
-		"Gain [235] [Science] <upon constructing [Buildings] [in capital]> <during the [Renaissance era]>",
+		"Gain [282] [Science] <upon constructing [Buildings] [in capital]> <during the [Renaissance era]>",
 		
-		"Gain [480] [Science] <upon constructing [Buildings] [in capital]> <during the [Industrial era]>",
+		"Gain [576] [Science] <upon constructing [Buildings] [in capital]> <during the [Industrial era]>",
 		
-		"Gain [871] [Science] <upon constructing [Buildings] [in capital]> <starting from the [Modern era]>",
+		"Gain [1045] [Science] <upon constructing [Buildings] [in capital]> <starting from the [Modern era]>",
 		],
 		"cities": ["Babylon","Akkad","Dur-Kurigalzu","Nippur","Borsippa","Sippar","Opis","Mari","Shushan","Eshnunna",
 			"Ellasar","Erech","Kutha","Sirpurla","Neribtum","Ashur","Ninveh","Nimrud","Arbela","Nuzi",
@@ -922,6 +895,40 @@
 			"East Lothian","Klackmannanshire","Fife","Dundee","Angus","Aberdeenshire","Aberdeen","Moray","Highland","h-Eileanan Siar","Argyll and Bute",
 			"Perth and Kinloss","Stirling","North Ayrshire","East Ayrshire","South Ayrshire","Dumfries and Galloway","South Lanarkshire","Skottish Borders","Orkney Islands","Shetland Islands"],
         "spyNames": ["Ibrahim", "Bayezid", "Sokollu", "Mahmut", "Uveys", "Roxelana", "Safiye", "Hafsa", "Kosem", "Nurbanu"]
+    },
+	{
+		"name": "Serbia",
+		"leaderName": "Leader",
+		"adjective": ["Serb"],
+		"startBias": ["Hill"],
+		"preferredVictoryType": "Domination",
+
+        "startIntroPart1": "",
+
+	"declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+
+        "outerColor": [199,58,64],
+        "innerColor": [255,255,255],
+
+		"favoredReligion": "Christianity",
+		"uniqueName": "Balkan Tiger",
+		"uniques": [
+		"Earn [50]% of the damage done to [Military] units as [Culture]",
+	    "[+25]% Strength <for [Military] units> <when below [50] HP>"
+			],
+		"cities": ["Belgrade","Novisad","Nais","Kragujevac","Kosovo State","Podunavski","Toplički","Kolubarski","Mitrovica","Sremski","Rasinski",
+			"Pomoravski","Zaječar","Severnobanatski","Južnobanatski","Srednjebanatski","Pirotski","Jablanički","Zlatiborski","Severnobački","Južnobački","Zapadnobački",
+			"Pčinjski","Nišavski","Mačvanski","Prizren","Raški","Borski","Toplički"],
+        "spyNames": ["Ibrahim", "Bayezid", "Sokollu", "Mahmut", "Uveys", "Roxelana", "Safiye", "Hafsa", "Kosem", "Nurbanu"]    
 	},
 	{
 	//城邦

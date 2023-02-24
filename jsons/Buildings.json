@@ -112,7 +112,9 @@ X
 感谢各位玩家，你们的游玩与反馈就是我制作mod的动力，Leader Mission 将会持续保持更新，定不会辜负各位的期待。
 
 以上。"
-		"Unbuildable"]
+		"Unbuildable",
+		"Cannot be purchased"
+		]
 	},
 	{
 		"name": "2.1 Leader Mission 全球效果",
@@ -129,7 +131,8 @@ Leader Mission 模组中的全球效果有：
 快乐＜-15：人口停止增长，所有城市-50%产能，可能出现叛乱
         
 战争影响：
-当处于战争时，所有城市建造军事单位时+10%产能，所有城市-10%金钱-50%人口增长
+当处于战争时，所有城市建造军事单位时+10%产能，-50%人口增长
+军事单位在和平时期-20%维护费，在战争时期+20%维护费
 
 我们爱戴领袖日效果：
 当处于我们爱戴领袖日时城市+5%产能、科研、文化
@@ -151,7 +154,9 @@ Leader Mission 模组中的全球效果有：
 每座城市-1快乐
 来自人口的不快乐-20%
 		"
-		"Unbuildable"]
+		"Unbuildable"
+		"Cannot be purchased"
+		]
 	},
 	{
 		"name": "2.2 Leader Mission 胜利方式",
@@ -182,7 +187,7 @@ Leader Mission 模组中的胜利方式有：
 自己无法投票给自己。
         
 制度胜利：
-在完成五项政策分支后建造乌托邦。
+在完成四项政策分支后建造乌托邦。
         
 魅力胜利（计划中）：
 在获得足够的魅力值后建造世界博览会。
@@ -196,7 +201,9 @@ Leader Mission 模组中的胜利方式有：
 延续胜利（计划中）：
 拥有世界上所有类型的资源建造方舟计划。
 		"
-		"Unbuildable"]
+		"Unbuildable"
+		"Cannot be purchased"
+		]
 	},
 	{
 		"name": "Palace",
@@ -215,14 +222,14 @@ Leader Mission 模组中的胜利方式有：
 		"culture": 1,
 		"science": 1,
 		"maintenance": 0,
-		"requiredTech": "钻木取火",
+		"requiredTech": "Drill Wood to Make Fire",
 		"uniques": ["Unsellable"]
 	},
 	{
 		"name": "Shrine",
 		"faith": 1,
 		"maintenance": 0,
-		"requiredTech": "信仰崇拜",
+		"requiredTech": "Belief Worship",
 		"uniques": ["Destroyed when the city is captured","Unsellable"]
 	},
 	{
@@ -274,7 +281,7 @@ Leader Mission 模组中的胜利方式有：
 		"maintenance": 1,
 		"culture": 1,
 		"faith": 1,
-		"requiredTech": "墓葬"
+		"requiredTech": "Burial Custom"
 		"uniques": ["Destroyed when the city is captured","Unsellable"]
 	},
 	{
@@ -349,7 +356,7 @@ Leader Mission 模组中的胜利方式有：
 		"faith": 1,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Engineer": 1},
-		"requiredTech": "信仰崇拜",
+		"requiredTech": "Belief Worship",
 		"uniques": ["[1] free [Great Prophet] units appear","Cannot be hurried"]
 		"quote": "'Time crumbles things; everything grows old and is forgotten under the power of time' - Aristotle"
 	},
@@ -378,7 +385,7 @@ Leader Mission 模组中的胜利方式有：
 		"greatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,
 		"uniques": ["[-20]% tile improvement construction time","[2] free [Worker] units appear","Cannot be hurried"],
-		"requiredTech": "墓葬",
+		"requiredTech": "Burial Custom",
 		"quote": "'O, let not the pains of death which come upon thee enter into my body. I am the god Tem, and I am the foremost part of the sky, and the power which protecteth me is that which is with all the gods forever.' - The Book of the Dead, translated by Sir Ernest Alfred Wallis Budge"
 	},
 	{
@@ -388,7 +395,7 @@ Leader Mission 模组中的胜利方式有：
 		"isWonder": true,
 		"uniques": ["Provides a sum of gold each time you spend a Great Person",
 			"[+1 Gold, +1 Science] from [Coast] tiles [in this city]"],
-		"requiredTech": "墓葬",
+		"requiredTech": "Burial Custom",
 		"quote": "'The whole earth is the tomb of heroic men and their story is not given only on stone over their clay but abides everywhere without visible symbol woven into the stuff of other men's lives.' - Pericles"
 	},
 	{
@@ -642,9 +649,9 @@ Leader Mission 模组中的胜利方式有：
 	    "requiredTech": "政治学",
 		"requiredResource": "Governor Point",
 		"uniques":["Cannot be purchased","Unsellable","Destroyed when the city is captured","Only available <in cities without a [Governor—Magnus I]>","Only available <in cities without a [Governor—Pingala I]>",
-		"[+4 Gold] [in this city] <with [1] to [2] neighboring [unimproved] tiles>",
-		"[+8 Gold] [in this city] <with [3] to [4] neighboring [unimproved] tiles>",
-		"[+12 Gold] [in this city] <with [5] to [6] neighboring [unimproved] tiles>","Limited to [1] per Civilization"]	
+		"[+5 Gold] [in this city] <with [1] to [2] neighboring [Bonus resource] tiles>",
+		"[+10 Gold] [in this city] <with [3] to [4] neighboring [Bonus resource] tiles>",
+		"[+15 Gold] [in this city] <with [5] to [6] neighboring [Bonus resource] tiles>","Limited to [1] per Civilization"]	
 	},
 	{
 	    "name": "Governor—Reina IIA",
@@ -700,7 +707,7 @@ Leader Mission 模组中的胜利方式有：
 		"cost": 3000,
 		"isNationalWonder": true,
 		"requiredTech": "Utopia Project"
-		"uniques": ["Hidden until [5] social policy branches have been completed", "Triggers a global alert upon build start","Cannot be hurried",	"Provides [1] [Governor Upgrade Point]"]
+		"uniques": ["Hidden until [4] social policy branches have been completed","Only available <after adopting [Communism]>","Triggers a global alert upon build start","Cannot be hurried",	"Provides [1] [Governor Upgrade Point]"]
 	},
 	{
 		"name": "United Nations",
@@ -735,7 +742,7 @@ Leader Mission 模组中的胜利方式有：
 		"name": "District—Religious Cente",
 		"faith": 4,
 	    "maintenance": 3,
-		"requiredTech": "宗教"
+		"requiredTech": "Religious Culture"
 		"uniques":["Cannot be purchased","Unsellable","Destroyed when the city is captured"]
 		"civilopediaText": [
 		{"text":"Can be built in District—Religious Cente：", "link":"Building/District—Religious Cente"},
@@ -756,7 +763,7 @@ Leader Mission 模组中的胜利方式有：
 		"faith": 2,
 		"requiredBuilding": "District—Religious Cente",
 		"maintenance": 1,
-		"requiredTech": "宗教",
+		"requiredTech": "Religious Culture",
 		"uniques": ["Destroyed when the city is captured","Unsellable","Only available <in cities with a [District—Religious Cente]>"]
 	},
 	{
@@ -1824,7 +1831,7 @@ Leader Mission 模组中的胜利方式有：
 	    "maintenance": 1,
 	    "uniqueTo": "Greece",
 		"replaces": "District—Religious Cente",
-		"requiredTech": "宗教"
+		"requiredTech": "Religious Culture"
 		"uniques":["Cannot be purchased","Unsellable","Destroyed when the city is captured"]
 	//罗马
 	},
@@ -1883,7 +1890,7 @@ Leader Mission 模组中的胜利方式有：
 	    "maintenance": 3,
 	    "uniqueTo": "Russia",
 		"replaces": "District—Religious Cente",
-		"requiredTech": "宗教"
+		"requiredTech": "Religious Culture"
 		"uniques":["Cannot be purchased","Unsellable","Destroyed when the city is captured","[+15]% Natural religion spread [in this city]"]
 	//苏联
 	},
@@ -2102,7 +2109,7 @@ Leader Mission 模组中的胜利方式有：
 		"replaces": "Shrine",
 		"uniqueTo": "Afghanistan",
 		"maintenance": 0,
-		"requiredTech": "信仰崇拜",
+		"requiredTech": "Belief Worship",
 		"uniques": ["Destroyed when the city is captured","Unsellable"]
 	//匈人
 	},
@@ -2208,7 +2215,7 @@ Leader Mission 模组中的胜利方式有：
 		"uniques": ["Destroyed when the city is captured","[+15]% [Faith] [in this city]","Unsellable"],
 		"faith": 2,
 		"culture": 2,
-		"requiredTech": "墓葬"
+		"requiredTech": "Burial Custom"
     //马其顿
     },
 	{	
@@ -2241,9 +2248,9 @@ Leader Mission 模组中的胜利方式有：
 		"cost":1,
 		"uniqueTo": "Vietnam",
 		"uniques": ["Can only be built [in capital]",
-		"[+33]% Strength <for [Military] units> <when fighting in [Forest] tiles> <when defending>",
-		"[+33]% Strength <for [Military] units> <when fighting in [Jungle] tiles> <when defending>",
-		"[+33]% Strength <for [Military] units> <when fighting in [Marsh] tiles> <when defending>"]
+		"[+33]% Strength <for [Military] units> <when fighting in [Forest] tiles>",
+		"[+33]% Strength <for [Military] units> <when fighting in [Jungle] tiles>",
+		"[+33]% Strength <for [Military] units> <when fighting in [Marsh] tiles>"]
 	//迦太基
 	},
 	{	
@@ -2523,5 +2530,36 @@ Leader Mission 模组中的胜利方式有：
 		"uniques": ["Destroyed when the city is captured","Unsellable","Only available <in cities with a [District—Military Center]>"]
 		"replaces": "Castle",
 		"uniqueTo": "Scotland",
+    //塞尔维亚
+	},
+	{	
+        "name": "Civilized Leader—Tito",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Serbia",
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader—Milosevic]>",
+		"Influence of all other civilizations with all city-states degrades [33]% faster"
+		"[+15]% Strength <when fighting units from a Civilization with more Cities than you>"
+		]	
+	},
+	{	
+        "name": "Civilized Leader—Milosevic",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Serbia",
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader—Tito]>",
+		"[-66]% Gold cost of upgrading"
+		"[+25]% City Strength from defensive buildings",
+		]
+	},
+	{
+		"name": "District—Studenica Monastery",
+		"faith": 4,
+		"gold": 4,
+	    "maintenance": 0,
+	    "uniqueTo": "Serbia",
+		"replaces": "District—Religious Cente",
+		"requiredTech": "Religious Culture"
+		"uniques":["Cannot be purchased","Unsellable","Destroyed when the city is captured"]	
 	}
 ]
