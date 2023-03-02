@@ -1319,32 +1319,33 @@
 	{
 		"name": "Great Artist",
 		"unitType": "Civilian",
-		"uniques": ["Can start an [10]-turn golden age", "Can construct [Landmark]", "Great Person - [Culture]", "Unbuildable", "Uncapturable"],
+		"uniques": ["Can start an [10]-turn golden age", "Can instantly construct a [Landmark] improvement <by consuming this unit>", "Great Person - [Culture]", "Unbuildable", "Uncapturable",
+		],
 		"movement": 2
 	},
 	{
 		"name": "Great Scientist",
 		"unitType": "Civilian",
-		"uniques": ["Can hurry technology research", "Can construct [Academy]", "Great Person - [Science]", "Unbuildable", "Uncapturable"],
+		"uniques": ["Can hurry technology research", "Can instantly construct a [Academy] improvement <by consuming this unit>", "Great Person - [Science]", "Unbuildable", "Uncapturable"],
 		"movement": 2
 	},
 	{
 		"name": "Great Merchant",
 		"unitType": "Civilian",
 		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [60] Influence",
-			"Can construct [Customs house]", "Great Person - [Gold]", "Unbuildable", "Uncapturable"],
+			"Can instantly construct a [Customs house] improvement <by consuming this unit>", "Great Person - [Gold]", "Unbuildable", "Uncapturable"],
 		"movement": 2
 	},
 	{
 		"name": "Great Engineer",
 		"unitType": "Civilian",
-		"uniques": ["Can speed up construction of a building", "Can construct [Manufactory]", "Great Person - [Production]", "Unbuildable", "Uncapturable"],
+		"uniques": ["Can speed up construction of a building", "Can instantly construct a [Manufactory] improvement <by consuming this unit>", "Great Person - [Production]", "Unbuildable", "Uncapturable"],
 		"movement": 2
 	},
 	{
 		"name": "Great Prophet",
 		"unitType": "Civilian",
-		"uniques": ["Can construct [Holy site] <if it hasn't used other actions yet>", 
+		"uniques": ["Can instantly construct a [Holy site] improvement <by consuming this unit> <if it hasn't used other actions yet>", 
 		"Can [Spread Religion] [4] times",
 			"Removes other religions when spreading religion", "May found a religion", "May enhance a religion",
 			"May enter foreign tiles without open borders", "[-1] Sight", "Great Person - [Faith]",
@@ -1359,7 +1360,7 @@
 		"uniques": [
 		"Can start an [8]-turn golden age", 
 		"[+15]% Strength bonus for [Land] units within [2] tiles", 
-		"Can construct [Citadel]",
+		"Can instantly construct a [Citadel] improvement <by consuming this unit>",
 		"Great Person - [War]", 
 		"All adjacent units heal [+10] HP when healing",
 		"Unbuildable", 
