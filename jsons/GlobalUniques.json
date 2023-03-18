@@ -43,7 +43,9 @@
     "[-1 Happiness] [in all cities]",
     "[-15]% Unhappiness from [Population] [in all cities]"
     //海军统帅相关
-    "Enables [Great Admiral] units to enter ocean tiles"
+    "Enables [Great Admiral] units to enter ocean tiles",
+    "Enables [Lee Sunshin] units to enter ocean tiles"
     //宗教相关
+    //伟人相关
     ]
 }

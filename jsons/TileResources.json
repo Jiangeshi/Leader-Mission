@@ -570,5 +570,26 @@
 		"resourceType": "Strategic",
 		"culture": 1,
 		"revealedBy": "政治学",
+	//巨作
+	},
+	{
+		"name": "Solt-The Kite Runner",
+		"resourceType": "Bonus",
+		"uniques": ["Will not be displayed in Civilopedia"],
+	},
+	{
+		"name": "Solt-A Thousand Splendid Suns",
+		"resourceType": "Bonus",
+		"uniques": ["Will not be displayed in Civilopedia"],
+	},
+	{
+		"name": "Solt-War and Peace",
+		"resourceType": "Bonus",
+		"uniques": ["Will not be displayed in Civilopedia"],
+	},
+	{
+		"name": "Solt-Resurrection",
+		"resourceType": "Bonus",
+		"uniques": ["Will not be displayed in Civilopedia"],	
 	}
 ]

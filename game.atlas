@@ -3,735 +3,55 @@ size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-BuildingIcons/宫殿
-  rotate: false
-  xy: 1516, 1574
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/祭坛
-  rotate: false
-  xy: 1084, 932
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/石碑
-  rotate: false
-  xy: 1084, 1256
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/粮仓
-  rotate: false
-  xy: 652, 1358
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/水磨机
-  rotate: false
-  xy: 1732, 1251
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/图书馆
-  rotate: false
-  xy: 1516, 1898
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/马戏团
-  rotate: false
-  xy: 4, 926
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/城墙
-  rotate: false
-  xy: 1084, 608
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/石工坊
-  rotate: false
-  xy: 1084, 824
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/寺庙
-  rotate: false
-  xy: 1840, 1574
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/灯塔
-  rotate: false
-  xy: 4, 278
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/马厩
-  rotate: false
-  xy: 328, 62
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/竞技场
-  rotate: false
-  xy: 328, 1250
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/市场
-  rotate: false
-  xy: 1192, 1466
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/巴扎
-  rotate: false
-  xy: 544, 1898
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/铸币厂
-  rotate: false
-  xy: 220, 386
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/军营
-  rotate: false
-  xy: 220, 1574
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/圆形剧场
-  rotate: false
-  xy: 112, 1898
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/引水渠
-  rotate: false
-  xy: 112, 1682
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/花园
-  rotate: false
-  xy: 328, 1034
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
 BuildingIcons/District—Shipping Center
   rotate: false
-  xy: 1192, 1790
+  xy: 622, 460
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/工坊
+UnitIcons/Muhammad
   rotate: false
-  xy: 868, 278
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/锻造场
-  rotate: false
-  xy: 1084, 1898
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/法院
-  rotate: false
-  xy: 976, 1898
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/城堡
-  rotate: false
-  xy: 4, 1034
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/大学
-  rotate: false
-  xy: 544, 62
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/军械所
-  rotate: false
-  xy: 328, 1898
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/银行
-  rotate: false
-  xy: 112, 1466
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/天文台
-  rotate: false
-  xy: 1084, 1148
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/歌剧院
-  rotate: false
-  xy: 1192, 1250
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/钢铁厂
-  rotate: false
-  xy: 4, 386
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/大教堂
-  rotate: false
-  xy: 328, 1358
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/修道院
-  rotate: false
-  xy: 976, 1142
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/清真寺
-  rotate: false
-  xy: 1192, 1358
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/佛塔
-  rotate: false
-  xy: 1408, 1466
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/剧院
-  rotate: false
-  xy: 1300, 926
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/海运港口
-  rotate: false
-  xy: 760, 602
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/兵工厂
-  rotate: false
-  xy: 4, 1466
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/公立学校
-  rotate: false
-  xy: 868, 818
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/博物馆
-  rotate: false
-  xy: 1516, 1682
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/工厂
-  rotate: false
-  xy: 544, 1358
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/军事学院
-  rotate: false
-  xy: 4, 170
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/医院
-  rotate: false
-  xy: 652, 1142
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/研发实验室
-  rotate: false
-  xy: 1300, 1250
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/医学实验室
-  rotate: false
-  xy: 1516, 1790
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/证券交易所
-  rotate: false
-  xy: 976, 710
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/水电站
-  rotate: false
-  xy: 1084, 1580
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/广播塔
-  rotate: false
-  xy: 652, 1898
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/军事基地
-  rotate: false
-  xy: 112, 278
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/体育场
-  rotate: false
-  xy: 436, 170
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/回收中心
-  rotate: false
-  xy: 1192, 1142
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/防空洞
-  rotate: false
-  xy: 220, 1466
+  xy: 406, 574
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1  
-BuildingIcons/太空飞船工厂
+UnitIcons/Confucius
   rotate: false
-  xy: 1732, 1575
+  xy: 406, 574
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
-  index: -1
-BuildingIcons/核电站
+  index: -1    
+UnitIcons/Gautama Siddhartha
   rotate: false
-  xy: 868, 926
+  xy: 406, 574
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
-  index: -1
-BuildingIcons/巨石阵
+  index: -1      
+UnitIcons/Jesus
   rotate: false
-  xy: 1192, 926
+  xy: 406, 574
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
-  index: -1
-BuildingIcons/大图书馆
+  index: -1      
+UnitIcons/Henri Philippe Pétain
   rotate: false
-  xy: 760, 386
-  size: 100, 100
-  orig: 100, 100
+  xy: 406, 682
+  size: 100, 94
+  orig: 100, 94
   offset: 0, 0
-  index: -1
-BuildingIcons/阿尔忒弥斯神庙
+  index: -1    
+UnitIcons/Belisarius
   rotate: false
-  xy: 436, 62
-  size: 100, 100
-  orig: 100, 100
+  xy: 406, 682
+  size: 100, 94
+  orig: 100, 94
   offset: 0, 0
-  index: -1
-BuildingIcons/宙斯神像
-  rotate: false
-  xy: 652, 386
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/大金字塔
-  rotate: false
-  xy: 1192, 818
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/摩索拉斯王陵墓
-  rotate: false
-  xy: 1300, 1574
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/大灯塔
-  rotate: false
-  xy: 868, 494
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/兵马俑
-  rotate: false
-  xy: 652, 278
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/神谕所
-  rotate: false
-  xy: 1084, 716
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/国立研究院
-  rotate: false
-  xy: 112, 170
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/民族史诗
-  rotate: false
-  xy: 220, 278
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/大竞技场
-  rotate: false
-  xy: 112, 1034
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/佩特拉
-  rotate: false
-  xy: 328, 278
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/英雄史诗
-  rotate: false
-  xy: 112, 602
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0  
-BuildingIcons/太阳神巨像
-  rotate: false
-  xy: 436, 1358
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/圣索菲亚大教堂
-  rotate: false
-  xy: 760, 1358
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/吉尼大清真寺
-  rotate: false
-  xy: 4, 602
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/圣殿
-  rotate: false
-  xy: 760, 1466
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/国家金库
-  rotate: false
-  xy: 328, 386
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/马丘比丘
-  rotate: false
-  xy: 544, 818
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/空中花园
-  rotate: false
-  xy: 976, 1574
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/长城
-  rotate: false
-  xy: 328, 926
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/阿尔罕布拉宫
-  rotate: false
-  xy: 4, 1790
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/奇琴伊察
-  rotate: false
-  xy: 760, 1790
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/国立大学
-  rotate: false
-  xy: 1300, 1358
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/紫禁城
-  rotate: false
-  xy: 868, 1682
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/西斯廷教堂
-  rotate: false
-  xy: 1300, 1142
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/吴哥窟
-  rotate: false
-  xy: 4, 1682
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/巴黎圣母院
-  rotate: false
-  xy: 652, 710
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/比萨斜塔
-  rotate: false
-  xy: 1300, 1682
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/姬路城
-  rotate: false
-  xy: 220, 710
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/克里姆林宫
-  rotate: false
-  xy: 760, 1142
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/冬宫
-  rotate: false
-  xy: 4, 494
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/泰姬陵
-  rotate: false
-  xy: 1624, 1358
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/大报恩寺
-  rotate: false
-  xy: 652, 602
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/卢浮宫
-  rotate: false
-  xy: 976, 602
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/大本钟
-  rotate: false
-  xy: 112, 1358
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/勃兰登堡门
-  rotate: false
-  xy: 544, 1790
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/新天鹅堡
-  rotate: false
-  xy: 436, 494
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/五角大楼
-  rotate: false
-  xy: 112, 62
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/埃菲尔铁塔
-  rotate: false
-  xy: 436, 1250
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/自由女神像
-  rotate: false
-  xy: 544, 278
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/悉尼歌剧院
-  rotate: false
-  xy: 1516, 1250
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/救世基督像
-  rotate: false
-  xy: 4, 818
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/加拿大国家电视塔
-  rotate: false
-  xy: 220, 1358
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/哈勃太空望远镜
-  rotate: false
-  xy: 760, 1250
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/曼哈顿计划
-  rotate: false
-  xy: 760, 1034
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1  
-BuildingIcons/阿波罗计划
-  rotate: false
-  xy: 4, 1574
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/联合国
-  rotate: false
-  xy: 1840, 1466
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/乌托邦
-  rotate: false
-  xy: 652, 170
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-
-  
+  index: -1    
   
 game.png
 size: 2048, 1024
@@ -2906,6 +2226,42 @@ ResourceIcons/Mixed fuel
   offset: 0, 0
   index: -1
 
+MonumentalWork图标.png
+ResourceIcons/Solt-The Kite Runner
+  rotate: false
+  xy: 0, 0
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+
+MonumentalWork图标.png
+ResourceIcons/Solt-A Thousand Splendid Suns
+  rotate: false
+  xy: 0, 0
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+
+MonumentalWork图标.png
+ResourceIcons/Solt-War and Peace
+  rotate: false
+  xy: 0, 0
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+
+MonumentalWork图标.png
+ResourceIcons/Solt-Resurrection
+  rotate: false
+  xy: 0, 0
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+
 Spa图标.png
 ImprovementIcons/Spa
   rotate: false
@@ -2951,6 +2307,42 @@ ImprovementIcons/Gas field
   offset: 0, 0
   index: -1
 
+MonumentalWork图标.png
+ImprovementIcons/The Kite Runner
+  rotate: false
+  xy: 0, 0
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+  
+MonumentalWork图标.png
+ImprovementIcons/A Thousand Splendid Suns
+  rotate: false
+  xy: 0, 0
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+  
+MonumentalWork图标.png
+ImprovementIcons/War and Peace
+  rotate: false
+  xy: 0, 0
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+  
+MonumentalWork图标.png
+ImprovementIcons/Resurrection
+  rotate: false
+  xy: 0, 0
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1  
+  
 DrillWoodtoMakeFire.png
 TechIcons/Drill Wood to Make Fire
   rotate: false
@@ -3302,6 +2694,42 @@ TileSets/HexaRealm/Tiles/Gas field
   offset: 0, 0
   index: -1
   
+MonumentalWork.png
+TileSets/HexaRealm/Tiles/The Kite Runner
+  rotate: false
+  xy: 0, 0
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+  
+MonumentalWork.png
+TileSets/HexaRealm/Tiles/A Thousand Splendid Suns
+  rotate: false
+  xy: 0, 0
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1      
+  
+MonumentalWork.png
+TileSets/HexaRealm/Tiles/War and Peace
+  rotate: false
+  xy: 0, 0
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+  
+MonumentalWork.png
+TileSets/HexaRealm/Tiles/Resurrection
+  rotate: false
+  xy: 0, 0
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1        
+  
 GreatAdmiral图标.png
 UnitIcons/Great Admiral
   rotate: false
@@ -3311,6 +2739,33 @@ UnitIcons/Great Admiral
   offset: 0, 0
   index: -1 
   
+GreatAdmiral图标.png
+UnitIcons/Lee Sunshin
+  rotate: false
+  xy: 0,0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1   
+  
+GreatAuthor图标.png
+UnitIcons/Khaled Hosseini
+  rotate: false
+  xy: 0,0
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1   
+  
+GreatAuthor图标.png
+UnitIcons/Lev Tolstoy
+  rotate: false
+  xy: 0,0
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1     
+
 工匠图标.png
 UnitIcons/工匠
   rotate: false
@@ -3409,7 +2864,8 @@ UnitIcons/Cobra Commando
   orig: 75, 125
   offset: 0, 0
   index: -1      
-  
+ 
+      
 坚硬.png
 UnitPromotionIcons/坚硬
   rotate: false

@@ -215,7 +215,10 @@ Leader Mission 模组中的胜利方式有：
 		"cityStrength": 2,
 		"cityHealth": 25,
 		"cost": 1,
-		"uniques": ["Indicates the capital city","Provides [7] [Aluminum] <after discovering [电学]>"]
+		"uniques": ["Indicates the capital city","Provides [7] [Aluminum] <after discovering [电学]>",
+		"Provides [1] [Solt-The Kite Runner]","Provides [1] [Solt-A Thousand Splendid Suns]",
+		"Provides [1] [Solt-War and Peace]","Provides [1] [Solt-Resurrection]",
+		]
 	},
 	{
 		"name": "Bonfire",
@@ -760,11 +763,10 @@ Leader Mission 模组中的胜利方式有：
 	},
 	{
 		"name": "Temple",
-		"faith": 2,
 		"requiredBuilding": "District—Religious Cente",
 		"maintenance": 1,
 		"requiredTech": "Religious Culture",
-		"uniques": ["Destroyed when the city is captured","Unsellable","Only available <in cities with a [District—Religious Cente]>"]
+		"uniques": ["Destroyed when the city is captured","[+1 Faith] per [2] population [in this city]","Unsellable","Only available <in cities with a [District—Religious Cente]>"]
 	},
 	{
 		"name": "Cathedral",
@@ -1870,7 +1872,8 @@ Leader Mission 模组中的胜利方式有：
 		"uniqueTo": "Russia",
 		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader—Peter]>",
 		"[+15]% Strength <for [Land] units> <when fighting in [Open terrain] tiles>",	
-		"[+1 Production] from all [Faith] buildings <while the empire is happy>"]
+		"[+1 Production] from all [Faith] buildings <while the empire is happy>",
+		]
 	},
 	{	
         "name": "Civilized Leader—Peter",
@@ -1932,7 +1935,7 @@ Leader Mission 模组中的胜利方式有：
 	    "maintenance": 0,
 	    "uniqueTo": "Soviet Union",
 		"uniques":["Cannot be purchased","Unsellable","Unbuildable",
-		"[+5]% Strength <for [Military] units>"
+		"[+7]% Strength <for [Military] units>"
 		"Destroyed when the city is captured"
 		]	
 	},
@@ -2086,7 +2089,7 @@ Leader Mission 模组中的胜利方式有：
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Afghanistan",
-		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized leader—Daoud Khan]>",
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized leader—Daoud Khan]>"
 		"[+20]% [Science] [in all cities] <when at war>",
 		"[+20]% [Culture] [in all cities] <when at war>",
 		"[+25]% growth [in all cities] <when at war>"
@@ -2097,7 +2100,7 @@ Leader Mission 模组中的胜利方式有：
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Afghanistan",
-		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized leader—Hafizullah Amin]>",
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized leader—Hafizullah Amin]>"
 		"[+1 Production] [in all cities]",
 		"[+3 Gold] from all [Production] buildings",
         ]
@@ -2192,7 +2195,7 @@ Leader Mission 模组中的胜利方式有：
 		"uniqueTo": "Egypt",
 		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized leader—Ramesses II]>", "Only available <in cities without a [Civilized leader—Sadat]>",
 	    "Militaristic City-States grant units [2] times as fast when you are at war with a common nation",
-	    "Resting point for Influence with City-States is increased by [30]"
+	    "Resting point for Influence with City-States is increased by [25]"
 		]
 	},
 	{	

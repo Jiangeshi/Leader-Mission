@@ -15,7 +15,7 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 55,
-		"uniques": ["Can build [Land] improvements on tiles"]
+		"uniques": ["Can build [Infrastructure] improvements on tiles","Can build [Remove] improvements on tiles"]
 	},
 	{
 		"name": "SovietWorker",
@@ -24,7 +24,7 @@
 		"uniqueTo": "Soviet Union",
 		"replaces": "Worker",
 		"cost": 50,
-		"uniques": ["Can build [Land] improvements on tiles","Can transform to [Warrior]"]	
+		"uniques": ["Can build [Infrastructure] improvements on tiles","Can build [Remove] improvements on tiles"]	
 	},
 	{
 		"name": "Work Boats",
@@ -1319,7 +1319,29 @@
 	{
 		"name": "Great Artist",
 		"unitType": "Civilian",
-		"uniques": ["Can start an [10]-turn golden age", "Can instantly construct a [Landmark] improvement <by consuming this unit>", "Great Person - [Culture]", "Unbuildable", "Uncapturable",
+		"uniques": ["Empire enters a [10]-turn Golden Age <by consuming this unit>", "Can instantly construct a [Landmark] improvement <by consuming this unit>", "Great Person - [Culture]", "Unbuildable", "Uncapturable",
+		],
+		"movement": 2
+	},
+	{
+		"name": "Khaled Hosseini",
+		"unitType": "Civilian",
+		"replaces": "Great Artist",
+		"uniques": ["Empire enters a [10]-turn Golden Age <by consuming this unit>", "Can instantly construct a [Landmark] improvement <by consuming this unit>", "Great Person - [Culture]", "Unbuildable", "Uncapturable",
+		"Can instantly construct a [The Kite Runner] improvement <by consuming this unit> <with [Solt-The Kite Runner]>",
+		"Can instantly construct a [A Thousand Splendid Suns] improvement <by consuming this unit> <with [Solt-A Thousand Splendid Suns]>",
+		"Great Author", "Limited to [1] per Civilization"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Lev Tolstoy",
+		"unitType": "Civilian",
+		"replaces": "Great Artist",
+		"uniques": ["Empire enters a [10]-turn Golden Age <by consuming this unit>", "Can instantly construct a [Landmark] improvement <by consuming this unit>", "Great Person - [Culture]", "Unbuildable", "Uncapturable",
+		"Can instantly construct a [War and Peace] improvement <by consuming this unit> <with [Solt-War and Peace]>",
+		"Can instantly construct a [Resurrection] improvement <by consuming this unit> <with [Solt-Resurrection]>",
+		"Great Author", "Limited to [1] per Civilization"
 		],
 		"movement": 2
 	},
@@ -1355,10 +1377,73 @@
 		"religiousStrength": 1000
 	},
 	{
+		"name": "Confucius",
+		"unitType": "Civilian",
+		"replaces": "Great Prophet",
+		"uniques": ["Can instantly construct a [Holy site] improvement <by consuming this unit> <if it hasn't used other actions yet>", 
+		"Can [Spread Religion] [4] times",
+			"Removes other religions when spreading religion", "May found a religion", "May enhance a religion",
+			"May enter foreign tiles without open borders", "[-1] Sight", "Great Person - [Faith]",
+			"Unbuildable", "Religious Unit","Uncapturable"
+			"Takes your religion over the one in their birth city"
+			"Free Social Policy <by consuming this unit> <if it hasn't used other actions yet>"
+			 "Limited to [1] per Civilization"
+			],
+		"movement": 2,
+		"religiousStrength": 1000	
+	},
+	{
+		"name": "Gautama Siddhartha",
+		"unitType": "Civilian",
+		"replaces": "Great Prophet",
+		"uniques": ["Can instantly construct a [Holy site] improvement <by consuming this unit> <if it hasn't used other actions yet>", 
+		"Can [Spread Religion] [2] times",
+			"Removes other religions when spreading religion", "May found a religion", "May enhance a religion",
+			"May enter foreign tiles without open borders", "[-1] Sight", "Great Person - [Faith]",
+			"Unbuildable", "Religious Unit","Uncapturable"
+			"Takes your religion over the one in their birth city"
+			"Gain a free [Pantheon] belief <by consuming this unit>",
+			 "Limited to [1] per Civilization"
+			],
+		"movement": 2,
+		"religiousStrength": 1000	
+	},
+	{
+		"name": "Jesus",
+		"unitType": "Civilian",
+		"replaces": "Great Prophet",
+		"uniques": ["Can instantly construct a [Holy site] improvement <by consuming this unit>", 
+		"Can [Spread Religion] [3] times",
+			"Removes other religions when spreading religion", "May found a religion", "May enhance a religion",
+			"May enter foreign tiles without open borders", "[-1] Sight", "Great Person - [Faith]",
+			"Unbuildable", "Religious Unit","Uncapturable"
+			"Takes your religion over the one in their birth city"
+			 "Limited to [1] per Civilization"
+			],
+		"movement": 2,
+		"religiousStrength": 1000
+	},
+	{
+		"name": "Muhammad",
+		"unitType": "Civilian",
+		"replaces": "Great Prophet",
+		"uniques": ["Can instantly construct a [Holy site] improvement <by consuming this unit> <if it hasn't used other actions yet>", 
+		"[+15]% Strength bonus for [Land] units within [2] tiles", 
+		"Can [Spread Religion] [4] times",
+			"Removes other religions when spreading religion", "May found a religion", "May enhance a religion",
+			"May enter foreign tiles without open borders", "Great Person - [Faith]",
+			"Unbuildable", "Religious Unit","Uncapturable"
+			"Takes your religion over the one in their birth city"
+			 "Limited to [1] per Civilization"
+			],
+		"movement": 2,
+		"religiousStrength": 1000	
+	},
+	{
 		"name": "Great General",
 		"unitType": "Civilian",
 		"uniques": [
-		"Can start an [8]-turn golden age", 
+		"Empire enters a [8]-turn Golden Age <by consuming this unit>", 
 		"[+15]% Strength bonus for [Land] units within [2] tiles", 
 		"Can instantly construct a [Citadel] improvement <by consuming this unit>",
 		"Great Person - [War]", 
@@ -1368,10 +1453,42 @@
 		"movement": 2
 	},
 	{
+		"name": "Henri Philippe Pétain",
+		"replaces": "Great General",
+		"unitType": "Civilian",
+		"uniques": [
+		"Empire enters a [8]-turn Golden Age <by consuming this unit>", 
+		"[+15]% Strength bonus for [Land] units within [2] tiles", 
+		"Can instantly construct a [Citadel] improvement <by consuming this unit>",	"Can instantly construct a [Fort] improvement <[3] times>"
+		"Great Person - [War]", 
+		"All adjacent units heal [+10] HP when healing",
+		"Unbuildable", 
+		"Uncapturable"
+		"Limited to [1] per Civilization"
+		],
+		"movement": 2	
+	},
+	{
+		"name": "Belisarius",
+		"replaces": "Great General",
+		"unitType": "Civilian",
+		"uniques": [
+		"Empire enters a [8]-turn Golden Age <by consuming this unit>", 
+		"[+15]% Strength bonus for [Land] units within [2] tiles", "[-10]% Strength for enemy [Land] units in adjacent [Land] tiles"
+		"Can instantly construct a [Citadel] improvement <by consuming this unit>",
+		"Great Person - [War]", 
+		"All adjacent units heal [+10] HP when healing",
+		"Unbuildable", 
+		"Uncapturable"
+		"Limited to [1] per Civilization"
+		],
+		"movement": 2		
+	},
+	{
 		"name": "Great Admiral",
 		"unitType": "Civilian",
 		"uniques": [
-		"Can start an [8]-turn golden age", 
+		"Empire enters a [10]-turn Golden Age <by consuming this unit>", 
 		"[+15]% Strength bonus for [Water] units within [3] tiles", 
 		"Great Person - [Great Admiral]", 
 		"Can undertake a trade mission with City-State, giving a large sum of gold and [60] Influence",
@@ -1380,6 +1497,23 @@
 		"Unbuildable", 
 		"Uncapturable"],
 		"movement": 2
+	},
+	{
+		"name": "Lee Sunshin",
+		"unitType": "Civilian",
+		"replaces": "Great Admiral",
+		"uniques": [
+		"Empire enters a [10]-turn Golden Age <by consuming this unit>", 
+		"[+25]% Strength bonus for [Water] units within [3] tiles",  
+		"Great Person - [Great Admiral]", 
+		"Can undertake a trade mission with City-State, giving a large sum of gold and [60] Influence",
+		"Normal vision when embarked",
+		"Double movement in [Coast]"
+		"Unbuildable", 
+		"Uncapturable"
+		"Limited to [1] per Civilization"
+		],
+		"movement": 2	
 	//宗教单位
 	},
 	{
