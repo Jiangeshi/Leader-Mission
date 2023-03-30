@@ -187,7 +187,7 @@ Leader Mission 模组中的胜利方式有：
 自己无法投票给自己。
         
 制度胜利：
-在完成四项政策分支后建造乌托邦。
+在完成五项政策分支后建造乌托邦。
         
 魅力胜利（计划中）：
 在获得足够的魅力值后建造世界博览会。
@@ -710,7 +710,7 @@ Leader Mission 模组中的胜利方式有：
 		"cost": 3000,
 		"isNationalWonder": true,
 		"requiredTech": "Utopia Project"
-		"uniques": ["Hidden until [4] social policy branches have been completed","Only available <after adopting [Communism]>","Triggers a global alert upon build start","Cannot be hurried",	"Provides [1] [Governor Upgrade Point]"]
+		"uniques": ["Hidden until [5] social policy branches have been completed","Only available <after adopting [Communism]>","Triggers a global alert upon build start","Cannot be hurried",	"Provides [1] [Governor Upgrade Point]"]
 	},
 	{
 		"name": "United Nations",
@@ -2563,6 +2563,28 @@ Leader Mission 模组中的胜利方式有：
 	    "uniqueTo": "Serbia",
 		"replaces": "District—Religious Cente",
 		"requiredTech": "Religious Culture"
-		"uniques":["Cannot be purchased","Unsellable","Destroyed when the city is captured"]	
+		"uniques":["Cannot be purchased","Unsellable","Destroyed when the city is captured"]
+	//德国
+	},
+	{	
+        "name": "Civilized Leader—Bismarck",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Germany",
+		"uniques": ["Can only be built [in capital]",
+		"Provides a [Barracks] in your first [2] cities for free",
+		"[+10]% [Production] [in all cities] <when not at war>",
+		"[+10]% [Culture] [in all cities] <when at war>",
+		]
+	},
+	{
+        "name": "Hanse",
+     	"replaces": "Bank",
+        "uniqueTo": "Germany",
+	    "gold": 3,
+		"specialistSlots": {"Merchant": 3},
+		"percentStatBonus": {"gold": 25},
+		"requiredTech": "银行业"
+		"uniques": ["Unsellable"]
 	}
 ]

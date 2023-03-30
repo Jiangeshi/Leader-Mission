@@ -506,6 +506,20 @@
 		"attackSound": "metalhit"
 	},
 	{
+		"name": "Landsknecht",
+		"unitType": "Anti-Mobile",
+		"replaces": "Pikeman",
+		"uniqueTo": "Germany",
+		"movement": 2,
+		"strength": 16,
+		"cost": 75,
+		"requiredTech": "防御工事",
+		"uniques": ["[+50]% Strength <vs [Mobile] units>", "Can move immediately once bought" ],
+		"upgradesTo": "Lancer",
+		"obsoleteTech": "合金",
+		"attackSound": "metalhit"	
+	},
+	{
 		"name": "Lancer",
 		"unitType": "Anti-Mobile",
 		"movement": 4,
@@ -822,6 +836,22 @@
 		"[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>",
         "[+10]% Strength <vs [Range] units> <when defending>"],
 		"attackSound": "tankshot"
+	},
+	{
+		"name": "Panzer",
+		"unitType": "Mobile",
+		"uniqueTo": "Germany",
+		"replaces": "Tank",
+		"movement": 6,
+		"strength": 80,
+		"cost": 720,
+		"requiredTech": "协同作战",
+		"requiredResource": "Oil",
+		"upgradesTo": "Modern Armor",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","Consumes [1] [Steel]",
+		"[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>",
+        "[+10]% Strength <vs [Range] units> <when defending>"],
+		"attackSound": "tankshot"	
 	},
 	{
 		"name": "Modern Armor",

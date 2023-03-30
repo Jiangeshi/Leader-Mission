@@ -929,6 +929,46 @@
 			"Pomoravski","Zaječar","Severnobanatski","Južnobanatski","Srednjebanatski","Pirotski","Jablanički","Zlatiborski","Severnobački","Južnobački","Zapadnobački",
 			"Pčinjski","Nišavski","Mačvanski","Prizren","Raški","Borski","Toplički"],
         "spyNames": ["Ibrahim", "Bayezid", "Sokollu", "Mahmut", "Uveys", "Roxelana", "Safiye", "Hafsa", "Kosem", "Nurbanu"]
+    },
+	{
+		"name": "Germany",
+		"leaderName": "Leader",
+		"adjective": ["German"],
+		"preferredVictoryType": "Domination",
+
+        "startIntroPart1": "",
+
+	    "declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+		"outerColor": [250, 255, 255],
+		"innerColor": [26, 22, 21],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Prussian Spirit",
+		"uniques": [
+		"Free [Spearman] appears <upon declaring war with a major Civilization> <during the [Classical era]>",
+		"Free [Pikeman] appears <upon declaring war with a major Civilization> <during the [Medieval era]>",
+		"Free [Musketman] appears <upon declaring war with a major Civilization> <during the [Renaissance era]>",
+		"Free [Rifleman] appears <upon declaring war with a major Civilization> <during the [Industrial era]>",
+		"Free [Machine Gun] appears <upon declaring war with a major Civilization> <during the [Modern era]>",
+		"Free [Tank] appears <upon declaring war with a major Civilization> <during the [Atomic era]>",
+		"Free [Mechanized Infantry] appears <upon declaring war with a major Civilization> <during the [Information era]>",
+		"Free [Mechanized Infantry] appears <upon declaring war with a major Civilization> <during the [Future era]>",
+		"Starts with [Military Tradition] adopted"],
+		"cities": ["Berlin","Hamburg","Munich","Cologne","Frankfurt","Essen","Dortmund","Stuttgart","Düsseldorf","Bremen",
+			"Hannover","Duisburg","Leipzig","Dresden","Bonn","Bochum","Bielefeld","Karlsruhe","Gelsenkirchen","Wiesbaden",
+			"Münster","Rostock","Chemnitz","Braunschweig","Halle","Mönchengladbach","Kiel","Wuppertal","Freiburg","Hagen",
+			"Erfurt","Kaiserslautern","Kassel","Oberhausen","Hamm","Saarbrücken","Krefeld","Pirmasens","Potsdam","Solingen",
+			"Osnabrück","Ludwigshafen","Leverkusen","Oldenburg","Neuss","Mülheim","Darmstadt","Herne","Würzburg",
+			"Recklinghausen","Göttingen","Wolfsburg","Koblenz","Hildesheim","Erlangen"],
+        "spyNames": ["Johann", "Marlene", "Wilhelm", "Eva", "Heinz", "Horst", "Carl", "Viper", "Albrecht", "Anton"]    
 	},
 	{
 	//城邦

@@ -1938,6 +1938,15 @@ BuildingIcons/Civilized Leader—Milosevic
   offset: 0, 0
   index: -1    
   
+Civilized leader.png
+BuildingIcons/Civilized Leader—Bismarck
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1      
+  
 China.png
 NationIcons/China
   rotate: false
