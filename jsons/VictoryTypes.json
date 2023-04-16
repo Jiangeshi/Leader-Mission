@@ -54,7 +54,7 @@
     },
     {
         "name": "System",
-        "victoryScreenHeader": "Complete 4 policy branches and\nbuild the Utopia Project to win!",
+        "victoryScreenHeader": "Complete 5 policy branches and\nbuild the Utopia Project to win!",
         "milestones": ["Complete [5] Policy branches", "Build [Utopia Project]"],
         "victoryString": "您依靠向世界证明您制度的优越性取得了胜利。百姓安居乐业，工业蓬勃发展，科技不断向前，优良的治安，幸福的生活，无一不令世界人民所神往。
 ",

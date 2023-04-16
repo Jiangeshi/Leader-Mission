@@ -759,6 +759,7 @@ Leader Mission 模组中的胜利方式有：
 		    {"text":"Grand Temple", "link":"Wonder/Grand Temple"},
 		    {"text":"Sistine Chapel", "link":"Wonder/Sistine Chapel"},
 		    {"text":"Notre Dame", "link":"Wonder/Notre Dame"},
+		    {"text":"Jokhang Temple", "link":"Wonder/Jokhang Temple"},
 		]
 	},
 	{
@@ -857,6 +858,19 @@ Leader Mission 模组中的胜利方式有：
 		"requiredTech": "声学",
 		"requiredBuilding": "District—Religious Cente",
 	    "quote": "'Architecture has recorded the great ideas of the human race. Not only every religious symbol, but every human thought has its page in that vast book.' - Victor Hugo"
+	},
+	{
+		"name": "Jokhang Temple",
+		"faith": 3,
+		"culture": 3,
+		"isWonder": true,
+		"cost": 600,
+		"uniques":["[+2 Food] from [Snow] tiles [in this city]","[+2 Faith] from [Hill] tiles [in this city]",
+		"Cannot be hurried","Only available <in cities with a [District—Religious Cente]>",
+		]
+		"requiredTech": "印刷术",
+		"requiredBuilding": "District—Religious Cente",
+	    "quote": "'但契本心,不用求法,心即法也。' - 《传心法要》"    
 	},
 	{
 	//区域建筑：航运
@@ -2586,5 +2600,16 @@ Leader Mission 模组中的胜利方式有：
 		"percentStatBonus": {"gold": 25},
 		"requiredTech": "银行业"
 		"uniques": ["Unsellable"]
+	//美利坚
+	},
+	{	
+        "name": "Civilized Leader—Franklin D. Roosevelt",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "America",
+		"uniques": ["Can only be built [in capital]",
+        "[+1 Production] from every specialist [in all cities] <when not at war>"
+        "[+1 Science] from every specialist [in all cities] <when at war>"
+		]	
 	}
 ]

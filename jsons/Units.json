@@ -183,6 +183,20 @@
 		"attackSound": "shot"	
 	},
 	{
+		"name": "Minuteman",
+		"unitType": "Foot Soldier",
+		"replaces": "Musketman",
+		"uniqueTo": "America",
+		"movement": 2,
+		"strength": 24,
+		"cost": 200,
+		"requiredTech": "火药",
+		"upgradesTo": "Rifleman",
+		"obsoleteTech": "膛线",
+		"uniques": ["Ignores terrain cost","[+10]% Strength <vs [Military] units> <when defending>"],
+		"attackSound": "shot"	
+	},
+	{
 		"name": "Rifleman",
 		"unitType": "Foot Soldier",
 		"movement": 2,
@@ -642,7 +656,7 @@
 		"unitType": "Mobile",
 		"uniqueTo": "Carthage",
 		"replaces": "Horseman",
-		"movement": 4,
+		"movement": 3,
 		"strength": 14,
 		"cost": 72,
 		"requiredTech": "骑术",

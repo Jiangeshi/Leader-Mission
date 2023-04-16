@@ -16,8 +16,6 @@ Available follower beliefs = 可获得的追随者信条
 Size: [size] MB = 大小：[size] MB
 Empire enters a [amount]-turn Golden Age = 帝国进入一个长达[amount]回合的黄金时代
 Complete 5 policy branches and\nbuild the Utopia Project to win! = 完成5项政策分支并建造乌托邦以获取胜利！
-
-
 # 代码
 
 World Wonder = 世界奇观
@@ -42,6 +40,7 @@ upon being defeated = 被打败时
 upon being promoted = 被晋升时
 upon losing at least [amount] HP in a single attack = 受到单次伤害损失至少[amount]HP时
 upon ending a turn in a [tileFilter] tile = 在[tileFilter]结束回合时
+
 
 
 # 速度
