@@ -489,8 +489,9 @@
          "Upon capturing a city, receive [20] times its [Culture] production as [Culture] immediately",
          "Upon capturing a city, receive [20] times its [Science] production as [Science] immediately",     
 	     "Cannot build [Settler] units", 
+	     "\"Borrows\" city names from other civilizations in the game"
 		 ],
-		"cities": ["Atilla's Court"],
+		"cities": ["Attila's Court"],
         "spyNames": ["Balamber", "Uldin", "Donatus", "Charato", "Octar", "Bleda", "Ellac", "Dengizik", "Hildico", "Gudrun"]
     },
 	{
@@ -994,15 +995,15 @@
         "favoredReligion": "Christianity",
 		"uniqueName": "The Afterglow of a Lighthouse",
 		"uniques": [
-		"[+50]% [Gold] [in all cities]"
+		"[+35]% [Gold] [in all cities]"
 		"[+15]% [Science] [in all cities]"
 		"[+15]% [Culture] [in all cities]"
 		"[+15]% [Production] [in all cities]"
 		
-		"[+33]% maintenance costs"
-		"[+33]% maintenance cost for buildings [in all cities]"
+		"[+50]% maintenance costs"
+		"[+50]% maintenance cost for buildings [in all cities]"
 		"[+10]% Culture cost of adopting new Policies"
-		"[+33]% Unhappiness from [Population] [in all cities]"		
+		"[+50]% Unhappiness from [Population] [in all cities]"		
 		],
 		"cities": ["Washington","New York","Boston","Philadelphia","Atlanta","Chicago","Seattle","San Francisco","Los Angeles","Houston",
 			"Portland","St. Louis","Miami","Buffalo","Detroit","New Orleans","Baltimore","Denver","Cincinnati","Dallas","Memphis",
