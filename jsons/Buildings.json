@@ -1928,9 +1928,9 @@ Leader Mission 模组中的胜利方式有：
 		"uniqueTo": "Soviet Union",
 		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized leader—Lenin]>", "Only available <in cities without a [Civilized leader—Trotsky]>",
 	    "[+10]% Production when constructing [All] units [in all cities]",
-	    "[+10]% Production when constructing [All] units [in all cities] <when at war>",
+	    "[+5]% Production when constructing [All] units [in all cities] <when at war>",
 	    "[+10]% Production when constructing [All] buildings [in all cities]",
-	    "[+10]% Production when constructing [All] buildings [in all cities] <when at war>",
+	    "[+5]% Production when constructing [All] buildings [in all cities] <when at war>",
 		]
 	},
 	{	
@@ -1940,7 +1940,7 @@ Leader Mission 模组中的胜利方式有：
 		"uniqueTo": "Soviet Union",
 		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized leader—Lenin]>", "Only available <in cities without a [Civilized leader—Stalin]>",
 	    "[+15]% Production when constructing [Military] units [in all cities]",
-	    "Gain a free [Trotsky ability] [in capital]"
+	    "[+10]% Strength <for [Military] units>"
 		"Gain a free [Trotsky ability] [in annexed cities]"
 		]
 	},
@@ -2611,5 +2611,26 @@ Leader Mission 模组中的胜利方式有：
         "[+1 Production] from every specialist [in all cities] <when not at war>"
         "[+1 Science] from every specialist [in all cities] <when at war>"
 		]	
+	//吕底亚
+	},
+	{	
+        "name": "Civilized Leader—Croesus",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Lydia",
+		"uniques": ["Can only be built [in capital]",
+        "[+20]% Strength <for [Military] units> <when attacking>"
+        "[-15]% Strength <for [Military] units> <when defending>"
+        "[-15]% Culture cost of natural border growth [in all cities]",
+		]		
+	},
+	{
+		"name": "Lydia Mint",
+		"replaces": "Mint",
+        "uniqueTo": "Lydia",
+		"maintenance": 0,
+		"uniques": ["[+1 Gold] per [1] population [in this city]","Provides [2] [CO2]","Unsellable","Only available <in cities with a [District—Commercial Centre]>",],
+		"requiredTech": "经济学",
+		"requiredBuilding": "District—Commercial Centre",	
 	}
 ]

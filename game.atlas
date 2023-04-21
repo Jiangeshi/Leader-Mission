@@ -1965,6 +1965,16 @@ BuildingIcons/Civilized Leader—Franklin D. Roosevelt
   offset: 0, 0
   index: -1      
     
+
+Civilized leader.png
+BuildingIcons/Civilized Leader—Croesus
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1      
+      
 China.png
 NationIcons/China
   rotate: false
@@ -2090,6 +2100,15 @@ NationIcons/Serbia
   orig: 150, 150
   offset: 0, 0
   index: -1  
+  
+Lydia.png
+NationIcons/Lydia
+  rotate: false
+  xy: 0, 0
+  size: 135, 135
+  orig: 135, 135
+  offset: 0, 0
+  index: -1    
   
 AdvancedCombatReadiness.png
 PolicyIcons/Advanced Combat Readiness
@@ -2891,7 +2910,15 @@ UnitIcons/Cobra Commando
   orig: 75, 125
   offset: 0, 0
   index: -1      
- 
+  
+Heavy Spear Cavalry图标.png
+UnitIcons/Heavy Spear Cavalry
+  rotate: false
+  xy: 0,0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1      
       
 坚硬.png
 UnitPromotionIcons/坚硬

@@ -268,6 +268,7 @@
 		"production":1,
 		"resourceType": "Strategic",
 		"revealedBy": "工业伊始",	
+		"uniques": ["Cannot be traded"],
     //奢侈资源	
 	},
 	{
@@ -564,32 +565,34 @@
 		"resourceType": "Strategic",
 		"culture": 1,
 		"revealedBy": "政治学",
+	    "uniques": ["Cannot be traded"],
 	},
 	{
 		"name": "Governor Upgrade Point",
 		"resourceType": "Strategic",
 		"culture": 1,
 		"revealedBy": "政治学",
+		"uniques": ["Cannot be traded"],
 	//巨作
 	},
 	{
 		"name": "Solt-The Kite Runner",
 		"resourceType": "Bonus",
-		"uniques": ["Will not be displayed in Civilopedia"],
+		"uniques": ["Will not be displayed in Civilopedia","Cannot be traded"],
 	},
 	{
 		"name": "Solt-A Thousand Splendid Suns",
 		"resourceType": "Bonus",
-		"uniques": ["Will not be displayed in Civilopedia"],
+		"uniques": ["Will not be displayed in Civilopedia","Cannot be traded"],
 	},
 	{
 		"name": "Solt-War and Peace",
 		"resourceType": "Bonus",
-		"uniques": ["Will not be displayed in Civilopedia"],
+		"uniques": ["Will not be displayed in Civilopedia","Cannot be traded"],
 	},
 	{
 		"name": "Solt-Resurrection",
 		"resourceType": "Bonus",
-		"uniques": ["Will not be displayed in Civilopedia"],	
+		"uniques": ["Will not be displayed in Civilopedia","Cannot be traded"],	
 	}
 ]

@@ -1298,6 +1298,10 @@
     {
         "name": "[Black Watch] ability",
         "uniques": ["[+33]% Strength <when fighting in [Rough terrain] tiles>"]
+    },
+    {
+        "name": "[Heavy Spear Cavalry] ability",
+        "uniques": ["[+33]% Strength <when above [90] HP> <when attacking>","[+33]% Strength <vs [Mobile] units>"]
 	},
 	{
 	//特殊
