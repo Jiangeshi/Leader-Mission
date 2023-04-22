@@ -1040,7 +1040,8 @@
 		"[+5 Gold] in cities on [River] tiles"
 		"[+50]% [Gold] from Trade Routes"
 		"[2] free [Great Merchant] units appear <upon discovering [经济学]>"
-		"May buy [Great Merchant] units for [1000] [Gold] [in all cities] at an increasing price ([1000])"
+		"May buy [Great Merchant] units for [200] [Faith] [in all cities] at an increasing price ([100])"
+		"[+2 Production] from [Customs house] tiles [in all cities]",
 		],
 		"cities": ["Sardis","Samos","Chios","Miletos","Magnesia","Blaundos","Ephesus","Lebedos","Smyrna","Nymphaion","Phokaia","Kymi","Aigai","Hierokaisareia","Hyrkanis","Kasaba","Parsa","Larisa","Salihli","Koloe","Dios Hieron","Bacis","Aktas","Tabala","Nais"],
         "spyNames": ["Cousin", "Felix", "Dennis", "Edward", "Prof. Rex", "Eliza", "Mary", "Virginia", "Scarlett", "Barbara"]
