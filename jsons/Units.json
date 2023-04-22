@@ -1554,7 +1554,7 @@
 		"[+15]% Strength bonus for [Water] units within [3] tiles", 
 		"Great Person - [Great Admiral]", 
 		"Can undertake a trade mission with City-State, giving a large sum of gold and [60] Influence",
-		"Normal vision when embarked",
+		"[+1] Sight <when [Embarked]>",
 		"Double movement in [Coast]"
 		"Unbuildable", 
 		"Uncapturable"],
@@ -1569,7 +1569,7 @@
 		"[+25]% Strength bonus for [Water] units within [3] tiles",  
 		"Great Person - [Great Admiral]", 
 		"Can undertake a trade mission with City-State, giving a large sum of gold and [60] Influence",
-		"Normal vision when embarked",
+		"[+1] Sight <when [Embarked]>",
 		"Double movement in [Coast]"
 		"Unbuildable", 
 		"Uncapturable"
