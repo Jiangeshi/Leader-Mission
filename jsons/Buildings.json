@@ -348,17 +348,16 @@ Leader Mission 模组中的胜利方式有：
 	{
 		"name": "Smithy",
 		"maintenance": 1,
-		"production": 1,
+		"production": 3,
 		"requiredTech": "铁器"
 	"requiredNearbyImprovedResources": ["Iron"],
-		"uniques": ["[+1 Production] from [Iron] tiles [in this city]","Unsellable"]
+		"uniques": ["Unsellable"]
 	},
 	{
 	//奇观
 		"name": "Stonehenge",
-		"faith": 1,
+		"faith": 3,
 		"isWonder": true,
-		"greatPersonPoints": {"Great Engineer": 1},
 		"requiredTech": "Belief Worship",
 		"uniques": ["[1] free [Great Prophet] units appear","Cannot be hurried"]
 		"quote": "'Time crumbles things; everything grows old and is forgotten under the power of time' - Aristotle"
@@ -403,7 +402,8 @@ Leader Mission 模组中的胜利方式有：
 	},
 	{
 		"name": "Statue of Zeus",
-		"culture": 1,
+		"faith": 3,
+		"greatPersonPoints": {"Great Engineer": 2},
 		"isWonder": true,
 		"uniques": ["[+25]% Strength <for [All] units> <vs cities>"],
 		"requiredTech": "青铜器",
