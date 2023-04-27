@@ -954,6 +954,7 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "Prussian Spirit",
 		"uniques": [
+		"Free [Warrior] appears <upon declaring war with a major Civilization> <during the [Ancient era]>",
 		"Free [Spearman] appears <upon declaring war with a major Civilization> <during the [Classical era]>",
 		"Free [Pikeman] appears <upon declaring war with a major Civilization> <during the [Medieval era]>",
 		"Free [Musketman] appears <upon declaring war with a major Civilization> <during the [Renaissance era]>",
@@ -995,7 +996,7 @@
         "favoredReligion": "Christianity",
 		"uniqueName": "The Afterglow of a Lighthouse",
 		"uniques": [
-		"[+35]% [Gold] [in all cities]"
+		"[+40]% [Gold] [in all cities]"
 		"[+15]% [Science] [in all cities]"
 		"[+15]% [Culture] [in all cities]"
 		"[+15]% [Production] [in all cities]"

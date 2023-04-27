@@ -392,11 +392,11 @@ Leader Mission 模组中的胜利方式有：
 	},
 	{
 		"name": "Mausoleum of Halicarnassus",
-		"faith": 5,
+		"faith": 3,
 		"greatPersonPoints": {"Great Merchant": 1},
 		"isWonder": true,
-		"uniques": ["Provides a sum of gold each time you spend a Great Person",
-			"[+1 Gold, +1 Science] from [Coast] tiles [in this city]"],
+		"uniques": ["Provides a sum of gold each time you spend a Great Person","Must be next to [Coast]",
+			"[+2 Science] from [Coast] tiles [in this city]"],
 		"requiredTech": "Burial Custom",
 		"quote": "'The whole earth is the tomb of heroic men and their story is not given only on stone over their clay but abides everywhere without visible symbol woven into the stuff of other men's lives.' - Pericles"
 	},
@@ -461,7 +461,7 @@ Leader Mission 模组中的胜利方式有：
 		"cost": 180,
 		"culture": 3,
 		"isNationalWonder": true,
-		"uniques": ["Requires a [Monument] in all cities", "[+20]% Great Person generation [in this city]", "Cost increases by [30] per owned city","Only available <in cities with a [District—Country]>"],
+		"uniques": ["Requires a [Monument] in all cities", "[+15]% Great Person generation [in all cities]", "Cost increases by [30] per owned city","Only available <in cities with a [District—Country]>"],
 		"requiredTech": "国家",
 		"requiredBuilding": "District—Country",
 	},
