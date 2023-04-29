@@ -296,10 +296,9 @@
 		"uniqueName": "Inheritance of Civilization",
 		"uniqueText": "+1 production in all cities; At the beginning of each new era, China will gain combat Strength, Production, Culture, and Science bonuses, and the bonus will continue to stack, up to +20% combat Strength,+20% Production,+30% Culture, and+30% Science" 
 		"uniques": [
-		"[+5]% Strength <for [Military] units> <during the [Ancient era]>"
         "[+1 Production] [in all cities]"
 		
-        "[+8]% Strength <for [Military] units> <during the [Classical era]>"
+        "[+5]% Strength <for [Military] units> <during the [Classical era]>"
         "[+4]% [Production] <starting from the [Classical era]>"
         "[+5]% [Culture] <starting from the [Classical era]>"
         "[+5]% [Science] <starting from the [Classical era]>",
@@ -736,10 +735,10 @@
 		"uniqueName": "Mongol Terror",
 		"uniques": [
 		"Double quantity of [Horses] produced",
-		"+30% Strength when fighting City-State units and cities", 
+	    "[+15]% Strength <vs [Major] units> <for [Military] units>"
+	    "[+20]% Strength <vs [City-states] units> <for [Military] units>"
 		"Heals [30] damage if it kills a unit <for [Military] units>"
 		"[+1] Movement <for [Mobile] units>"
-		"[+1] Sight <for [Mobile] units>"
 		],
 		"cities": ["Karakorum","Beshbalik","Turfan","Hsia","Old Sarai","New Sarai","Tabriz","Tiflis","Otrar","Sanchu","Kazan",
 			"Almarikh","Ulaanbaatar","Hovd","Darhan","Dalandzadgad","Mandalgovi","Choybalsan","Erdenet","Tsetserieg",
@@ -924,7 +923,8 @@
 		"uniqueName": "Balkan Tiger",
 		"uniques": [
 		"Earn [50]% of the damage done to [Military] units as [Culture]",
-	    "[+25]% Strength <for [Military] units> <when below [50] HP>"
+	    "[+25]% Strength <for [Military] units> <when below [66] HP>"
+	    "[+25]% Strength <for [Military] units> <when below [33] HP>"
 			],
 		"cities": ["Belgrade","Novisad","Nais","Kragujevac","Kosovo State","Podunavski","Toplički","Kolubarski","Mitrovica","Sremski","Rasinski",
 			"Pomoravski","Zaječar","Severnobanatski","Južnobanatski","Srednjebanatski","Pirotski","Jablanički","Zlatiborski","Severnobački","Južnobački","Zapadnobački",

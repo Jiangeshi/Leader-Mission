@@ -1257,7 +1257,7 @@
     },
 	{
 		"name": "[Hoplite] ability",
-		"uniques": ["[+10]% Strength <when adjacent to a [Melee] unit> <vs [Ranged] units> <when defending>"],
+		"uniques": ["[+10]% Strength <when adjacent to a [Melee] unit> <when defending>"],
     },
 	{
 		"name": "[Legion] ability",

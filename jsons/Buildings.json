@@ -2219,8 +2219,8 @@ Leader Mission 模组中的胜利方式有：
 		"uniqueTo": "Egypt",
 		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized leader—Ramesses II]>", "Only available <in cities without a [Civilized leader—Nasser]>",
 	    "All newly-trained [Military] units [in all cities] receive the [两栖作战] promotion"
-	    "Gain [25]-[50] [Gold] <upon declaring friendship>"
-	    "Gain [25]-[50] [Gold] <upon declaring war with a major Civilization>"
+	    "Gain [50]-[75] [Gold] <upon declaring friendship>"
+	    "Gain [50]-[75] [Gold] <upon declaring war with a major Civilization>"
 		]
 	},
 	{
@@ -2511,7 +2511,7 @@ Leader Mission 模组中的胜利方式有：
 		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized leader—Osman I]>", "Only available <in cities without a [Civilized leader—Suleiman]>",
 		"Nullifies [Faith] [in all cities]"
 	    "[+1 Production, +1 Science] from all [Faith] buildings"
-	    "[+10]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>",
+	    "[+15]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>",
 		]	
 	},
 	{
