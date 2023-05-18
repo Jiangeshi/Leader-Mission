@@ -103,7 +103,7 @@
 		"replaces": "Swordsman",
 		"movement": 2,
 		"strength": 14,
-		"cost": 67,
+		"cost": 63,
 		"requiredTech": "铁器",
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "兵器储备",
@@ -332,6 +332,22 @@
 		"upgradesTo": "Crossbowman",
 		"uniques":["[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"]
 		"attackSound": "arrow"
+	},
+	{
+		"name": "Mobile Archer",
+		"unitType": "Shooter",
+		"replaces": "Composite Bowman",
+		"uniqueTo": "Scythian",
+		"movement": 2,
+		"strength": 6,
+		"rangedStrength": 11,
+		"cost": 63,
+		"requiredTech": "铁器",
+		"obsoleteTech": "兵器储备",
+		"upgradesTo": "Crossbowman",
+		"promotions": ["[Mobile Archer] ability"],
+		"uniques":["[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"]
+		"attackSound": "arrow"	
 	},
 	{
 		"name": "Chariot Archer",

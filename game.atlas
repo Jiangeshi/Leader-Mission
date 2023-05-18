@@ -1975,6 +1975,24 @@ BuildingIcons/Civilized Leader—Croesus
   offset: 0, 0
   index: -1      
       
+Civilized leader.png
+BuildingIcons/Civilized Leader—Tomyris
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1            
+      
+Civilizedleaderability.png
+UnitPromotionIcons/TomyrisAbility
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1             
+      
 China.png
 NationIcons/China
   rotate: false
@@ -2109,6 +2127,15 @@ NationIcons/Lydia
   orig: 135, 135
   offset: 0, 0
   index: -1    
+  
+Scythian.png
+NationIcons/Scythian
+  rotate: false
+  xy: 0, 0
+  size: 230, 230
+  orig: 230, 230
+  offset: 0, 0
+  index: -1      
   
 AdvancedCombatReadiness.png
 PolicyIcons/Advanced Combat Readiness
@@ -2919,6 +2946,15 @@ UnitIcons/Heavy Spear Cavalry
   orig: 100, 100
   offset: 0, 0
   index: -1      
+  
+MobileArcher图标.png
+UnitIcons/Mobile Archer
+  rotate: false
+  xy: 0,0
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1        
       
 坚硬.png
 UnitPromotionIcons/坚硬

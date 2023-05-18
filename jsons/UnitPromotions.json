@@ -1302,6 +1302,10 @@
     {
         "name": "[Heavy Spear Cavalry] ability",
         "uniques": ["[+33]% Strength <when above [90] HP> <when attacking>","[+33]% Strength <vs [Mobile] units>"]
+    },
+    {
+        "name": "[Mobile Archer] ability",
+        "uniques": ["Ignores terrain cost","Double movement in [Grassland]"]    
 	},
 	{
 	//特殊
@@ -1338,7 +1342,11 @@
 	},
 	{
 		"name": "蛮族归顺", // 秦始皇
-		"uniques": ["May capture killed [{Barbarian}] units"]	
+		"uniques": ["May capture killed [{Barbarian}] units"]
+	},
+	{
+		"name": "TomyrisAbility", // 托米丽司
+		"uniques": ["Free [Horseman] appears","[-15]% Strength"]			
 	}
 ]
     

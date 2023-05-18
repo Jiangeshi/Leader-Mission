@@ -63,7 +63,7 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "Bridge Connecting The World",
 		"uniques": ["Gain a free [Canal] [in all cities]","Gain a free [Panama Canal] [in capital] <after discovering [水运]>",
-		"[+10]% Strength <for [Military] units> <within [3] tiles of a [Coast]>"
+		"[+15]% Strength <for [Military] units> <within [3] tiles of a [Coast]>"
 		]
 		"cities": ["巴拿马城","圣地亚哥","圣米格利托","博卡斯德尔托罗区","戴维","佩诺诺梅","科隆","帕尔马","奇特雷","洛斯塔布拉斯","拉乔雷拉",
 			"乌尼翁乔科","埃尔波韦尼尔","奇奇卡","马顿干迪库纳族自治市","瓦尔干迪库纳族自治市","恩戈贝布格勒自治区","雅拉库纳族自治区","安贝拉自治区","贝拉瓜斯省","西巴拿马省","巴拿马省","洛斯桑托斯省","埃雷拉省","达连省","科隆省","科克莱省",
@@ -451,7 +451,11 @@
 		"innerColor": [61, 0, 109],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Patriarchate of Constantinople",
-		"uniques": ["May choose [1] additional belief(s) of any type when [founding] a religion", "[+2 Faith] [in all cities]"]
+		"uniques": ["May choose [1] additional belief(s) of any type when [founding] a religion",
+		"[+2 Faith] [in all cities]",
+		"[+2 Faith] [in capital]",
+		"[+2 Faith] [in holy cities]",
+		]
 	    "cities": ["Constantinople", "Adrianople", "Nicaea", "Antioch", "Varna", "Ohrid", "Nicomedia", "Trebizond", "Cherson", "Sardica",
 			"Ani", "Dyrrachium", "Edessa", "Chalcedon", "Naissus", "Bari", "Iconium", "Prilep", "Samosata", "Kars", "Nicopolis", "Theodosiopolis",
 			"Tyana", "Gaza", "Kerkyra", "Phoenice", "Selymbria", "Sillyon", "Chrysopolis", "Vodena", "Caesarea", "Traianoupoli", "Constantia", "Athens",
@@ -1046,6 +1050,37 @@
 		],
 		"cities": ["Sardis","Samos","Chios","Miletos","Magnesia","Blaundos","Ephesus","Lebedos","Smyrna","Nymphaion","Phokaia","Kymi","Aigai","Hierokaisareia","Hyrkanis","Kasaba","Parsa","Larisa","Salihli","Koloe","Dios Hieron","Bacis","Aktas","Tabala","Nais"],
         "spyNames": ["Cousin", "Felix", "Dennis", "Edward", "Prof. Rex", "Eliza", "Mary", "Virginia", "Scarlett", "Barbara"]
+    },
+	{
+		"name": "Scythian",
+		"leaderName": "Leader",
+		"adjective": ["Skolotoi"],
+		"startBias": ["Grassland"],
+		"preferredVictoryType": "Domination",
+
+        "startIntroPart1": "",
+    "declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+
+        "outerColor": [35,40,116],
+        "innerColor": [198,94,65],
+
+        "favoredReligion": "Christianity",
+		"uniqueName": "People of Prairie",
+		"uniqueText": "Gain 75 Gold upon shooter units being defeated;Heal this mobile unit by 5 HP upon losing at least 30 HP in a single attack." 
+		"uniques": [],
+		"cities": ["Massagetae","Scythian Neapolis","Samarkand","Bukhara","Yotgan","Khujand","Talas","Bactra","Chach","Sigal","Parni","Kesh","Khwarazm","Ishtikhan","Ushrusana","Kabutana","Bitik","Tanais","Aksikent","Kabdiyn","Maymurgh","Kushanika","Barbarikon","Osh","Xanthii",
+		"Pissuri","Kapisa","Alay","Erkeshtam","Barda","Min","Palacenti","Minnagara","Chigu","Alexanderia Prophthasia","Agathyrsi","Sindica","Iškuza","Maeotae","Panticapaeum","Pontic Olbia","Phanagoria","Hermonassa","Kallatis","Dionysupolis"
+		],
+        "spyNames": ["Cousin", "Felix", "Dennis", "Edward", "Prof. Rex", "Eliza", "Mary", "Virginia", "Scarlett", "Barbara"]    
 	},
 	{
 	//城邦

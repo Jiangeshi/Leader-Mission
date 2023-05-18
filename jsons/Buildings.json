@@ -2632,5 +2632,14 @@ Leader Mission 模组中的胜利方式有：
 		"uniques": ["[+1 Gold] per [1] population [in this city]","Provides [2] [CO2]","Unsellable","Only available <in cities with a [District—Commercial Centre]>",],
 		"requiredTech": "经济学",
 		"requiredBuilding": "District—Commercial Centre",	
+	//斯基泰
+	},
+	{	
+        "name": "Civilized Leader—Tomyris",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Scythian",
+		"replacementTextForUniques": "Whenever a horseman is produced in capital, you will gain a free horseman, and one of them -15% Strength"
+		"uniques": ["Can only be built [in capital]","All newly-trained [Horseman] units [in capital] receive the [TomyrisAbility] promotion"]
 	}
 ]
