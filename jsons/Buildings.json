@@ -2639,7 +2639,7 @@ Leader Mission 模组中的胜利方式有：
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Scythian",
-		"replacementTextForUniques": "Whenever a horseman is produced in capital, you will gain a free horseman, and one of them -15% Strength"
-		"uniques": ["Can only be built [in capital]","All newly-trained [Horseman] units [in capital] receive the [TomyrisAbility] promotion"]
+		"replacementTextForUniques": "Whenever a horseman is produced in capital, you will gain a free horseman, and one of them -15% Strength; Double quantity of Horses produced."
+		"uniques": ["Can only be built [in capital]","All newly-trained [Horseman] units [in capital] receive the [TomyrisAbility] promotion","Double quantity of [Horses] produced"]
 	}
 ]
