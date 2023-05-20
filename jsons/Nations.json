@@ -1075,7 +1075,7 @@
 
         "favoredReligion": "Christianity",
 		"uniqueName": "People of Prairie",
-		"uniqueText": "Gain 75 Gold upon shooter units being defeated;Mobile unit heals 3 HP and gains 2 XP upon ending a turn in a grassland tile." 
+		"uniqueText": "Gain 75 Gold upon shooter units being defeated;Mobile unit heals 3 HP and gains 1 XP upon ending a turn in a grassland tile." 
 		"uniques": [],
 		"cities": ["Massagetae","Scythian Neapolis","Samarkand","Bukhara","Yotgan","Khujand","Talas","Bactra","Chach","Sigal","Parni","Kesh","Khwarazm","Ishtikhan","Ushrusana","Kabutana","Bitik","Tanais","Aksikent","Kabdiyn","Maymurgh","Kushanika","Barbarikon","Osh","Xanthii",
 		"Pissuri","Kapisa","Alay","Erkeshtam","Barda","Min","Palacenti","Minnagara","Chigu","Alexanderia Prophthasia","Agathyrsi","Sindica","Iškuza","Maeotae","Panticapaeum","Pontic Olbia","Phanagoria","Hermonassa","Kallatis","Dionysupolis"

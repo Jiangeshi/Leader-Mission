@@ -25,7 +25,7 @@
     {
         "name": "Mobile",
         "movementType": "Land"
-        "uniques":["Heal this unit by [3] HP <upon ending a turn in a [Grassland] tile> <for [Scythian]>","This Unit gains [2] XP <upon ending a turn in a [Grassland] tile> <for [Scythian]>"]
+        "uniques":["Heal this unit by [3] HP <upon ending a turn in a [Grassland] tile> <for [Scythian]>","This Unit gains [1] XP <upon ending a turn in a [Grassland] tile> <for [Scythian]>"]
     },
     {
         "name": "Anti-Mobile",
