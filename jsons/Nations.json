@@ -453,7 +453,7 @@
 		"uniqueName": "Patriarchate of Constantinople",
 		"uniques": ["May choose [1] additional belief(s) of any type when [founding] a religion",
 		"[+2 Faith] [in all cities]",
-		"[+2 Faith] [in capital]",
+		"[+1 Faith] [in capital]",
 		"[+2 Faith] [in holy cities]",
 		]
 	    "cities": ["Constantinople", "Adrianople", "Nicaea", "Antioch", "Varna", "Ohrid", "Nicomedia", "Trebizond", "Cherson", "Sardica",
