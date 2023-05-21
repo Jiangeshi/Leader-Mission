@@ -1305,7 +1305,7 @@
     },
     {
         "name": "[Mobile Archer] ability",
-        "uniques": ["Ignores terrain cost","Double movement in [Grassland]"]    
+        "uniques": ["Ignores terrain cost"]    
 	},
 	{
 	//特殊
