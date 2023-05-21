@@ -46,7 +46,7 @@
     "Enables [Great Admiral] units to enter ocean tiles",
     "Enables [Lee Sunshin] units to enter ocean tiles"
     //宗教相关
-    "Free [Worker] appears <upon adopting [Religious Worker]>"
+    "Free [Scout] appears <upon adopting [Religious Scout]>"
     //伟人相关
     ]
 }

@@ -121,9 +121,9 @@
         "May buy [Settler] units with [Faith] for [2] times their normal Production cost"]
     },
     {
-        "name": "Religious Worker",
+        "name": "Religious Scout",
         "type": "Pantheon",
-        "uniques": ["Free Worker appears"
+        "uniques": ["Free Scout appears"
 ]    
     //创建者词条
     },
