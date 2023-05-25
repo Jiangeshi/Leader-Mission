@@ -1616,6 +1616,7 @@
 	{
 		"name": "Father",
 		"unitType": "Civilian",
+		"cost": 333,
 		"strength": 10,
 	    "replaces": "Inquisitor",
 	    "uniqueTo": "Vatican",
