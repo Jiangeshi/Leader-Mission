@@ -1612,6 +1612,25 @@
 			"[+1] Sight", "Unbuildable", "Religious Unit"
 		],
 		"movement": 3
+	},
+	{
+		"name": "Father",
+		"unitType": "Civilian",
+		"strength": 10,
+	    "replaces": "Inquisitor",
+	    "uniqueTo": "Vatican",
+		"uniques": ["Prevents spreading of religion to the city it is next to",
+		"Can [Remove Foreign religions from your own cities] [1] times",
+		"Unbuildable", "Religious Unit"
+		"[+50]% Strength <during the [Classical era]>"
+		"[+130]% Strength <during the [Medieval era]>"
+		"[+160]% Strength <during the [Renaissance era]>"
+		"[+270]% Strength <during the [Industrial era]>"
+		"[+450]% Strength <during the [Modern era]>"
+		"[+650]% Strength <starting from the [Atomic era]>"
+		"[+1] Sight",
+		],
+		"movement": 3	
     //国家特色伟人
     }
 ]

@@ -1080,7 +1080,39 @@
 		"cities": ["Massagetae","Scythian Neapolis","Samarkand","Bukhara","Yotgan","Khujand","Talas","Bactra","Chach","Sigal","Parni","Kesh","Khwarazm","Ishtikhan","Ushrusana","Kabutana","Bitik","Tanais","Aksikent","Kabdiyn","Maymurgh","Kushanika","Barbarikon","Osh","Xanthii",
 		"Pissuri","Kapisa","Alay","Erkeshtam","Barda","Min","Palacenti","Minnagara","Chigu","Alexanderia Prophthasia","Agathyrsi","Sindica","Iškuza","Maeotae","Panticapaeum","Pontic Olbia","Phanagoria","Hermonassa","Kallatis","Dionysupolis"
 		],
-        "spyNames": ["Cousin", "Felix", "Dennis", "Edward", "Prof. Rex", "Eliza", "Mary", "Virginia", "Scarlett", "Barbara"]    
+        "spyNames": ["Cousin", "Felix", "Dennis", "Edward", "Prof. Rex", "Eliza", "Mary", "Virginia", "Scarlett", "Barbara"]    },
+	{
+		"name": "Vatican",
+		"leaderName": "Leader",
+		"adjective": ["Pope"],
+		"preferredVictoryType": "Religion",
+        "startIntroPart1": "",
+    "declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+
+        "outerColor": [246,222,13],
+        "innerColor": [229,49,49],
+
+        "favoredReligion": "Christianity",
+		"uniqueName": "Catholic Holy Land",
+		"uniques": [
+		"Free [Great Prophet] appears <upon founding a city>"
+		"Free [Missionary] appears <upon declaring friendship>"
+		"May buy [Father] units for [50] [Faith] [in capital] at an increasing price ([50])"
+		"[+50 Faith, +300 Gold] when a city adopts this religion for the first time (modified by game speed)"
+		"[+1 Faith] from [All] tiles [in all cities]",
+		"Cannot build [Settler] units", 
+		],
+		"cities": ["Vatican City"],
+        "spyNames": ["Cousin", "Felix", "Dennis", "Edward", "Prof. Rex", "Eliza", "Mary", "Virginia", "Scarlett", "Barbara"]  
 	},
 	{
 	//城邦

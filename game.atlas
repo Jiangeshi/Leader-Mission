@@ -1993,6 +1993,15 @@ UnitPromotionIcons/TomyrisAbility
   offset: 0, 0
   index: -1             
       
+Civilized leader.png
+BuildingIcons/Pope—Francis
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1               
+      
 China.png
 NationIcons/China
   rotate: false
@@ -2136,6 +2145,15 @@ NationIcons/Scythian
   orig: 230, 230
   offset: 0, 0
   index: -1      
+  
+Vatican.png
+NationIcons/Vatican
+  rotate: false
+  xy: 0, 0
+  size: 105, 105
+  orig: 105, 105
+  offset: 0, 0
+  index: -1       
   
 AdvancedCombatReadiness.png
 PolicyIcons/Advanced Combat Readiness
@@ -2955,6 +2973,15 @@ UnitIcons/Mobile Archer
   orig: 150, 150
   offset: 0, 0
   index: -1        
+      
+Father图标.png
+UnitIcons/Father
+  rotate: false
+  xy: 0,0
+  size: 210, 210
+  orig: 210, 210
+  offset: 0, 0
+  index: -1              
       
 坚硬.png
 UnitPromotionIcons/坚硬
