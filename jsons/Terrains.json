@@ -133,6 +133,7 @@
 					"Occurs in chains at high elevations",
 					"Units ending their turn on this terrain take [50] damage",
 					"Always Fertility [-2] for Map Generation",
+					"Tile provides yield without assigned population",
 					"Considered [Undesirable] when determining start locations"]
 	},
 	{

@@ -1106,13 +1106,48 @@
 		"uniques": [
 		"Free [Great Prophet] appears <upon founding a city>"
 		"Free [Missionary] appears <upon declaring friendship>"
-		"May buy [Father] units for [50] [Faith] [in capital] at an increasing price ([25])"
+		"May buy [Father] units for [50] [Faith] [in capital] at an increasing price ([30])"
 		"[+50 Faith, +300 Gold] when a city adopts this religion for the first time (modified by game speed)"
 		"[+1 Faith] from [All] tiles [in all cities]",
 		"Cannot build [Settler] units", 
 		],
 		"cities": ["Vatican City"],
-        "spyNames": ["Cousin", "Felix", "Dennis", "Edward", "Prof. Rex", "Eliza", "Mary", "Virginia", "Scarlett", "Barbara"]  
+        "spyNames": ["Cousin", "Felix", "Dennis", "Edward", "Prof. Rex", "Eliza", "Mary", "Virginia", "Scarlett", "Barbara"]
+    },
+	{
+		"name": "Inca",
+		"leaderName": "Leader",
+		"adjective": ["Incan"],
+		"startBias": ["Mountain"],
+		"preferredVictoryType": "Domination",
+        "startIntroPart1": "",
+    "declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+
+        "outerColor": [255,184,33],
+        "innerColor": [3,115,86],
+
+		"favoredReligion": "Christianity",
+		"uniqueName": "Descendants of the Sun",
+		"uniqueText": "Inca's units ignore terrain costs when moving into any tile with Hills; +13% Strength for Military units within 3 tiles of a Mountain; Mountains within the Inca +1 Faith (no population required)" 
+		"uniques": [
+		"Units ignore terrain costs when moving into any tile with Hills",
+		"[+13]% Strength <for [Military] units> <within [3] tiles of a [Mountain]>"
+		"[+1 Faith] from [Mountain] tiles [in all cities]",
+		],
+		"cities": ["Cuzco","Tiwanaku","Machu","Ollantaytambo","Corihuayrachina","Huamanga","Rumicucho","Vilcabamba","Vitcos",
+			"Andahuaylas","Ica","Arequipa","Nasca","Atico","Juli","Chuito","Chuquiapo","Huanuco Pampa","Tamboccocha",
+			"Huaras","Riobamba","Caxamalca","Sausa","Tambo Colorado","Huaca","Tumbes","Chan Chan","Sipan","Pachacamac",
+			"Llactapata","Pisac","Kuelap","Pajaten","Chucuito","Choquequirao"],
+        "spyNames": ["Amaru", "Apichu", "Pariapichiu", "Puma", "Quenti", "Suyuntu", "Uturuncu", "Uturuncu", "Purutu", "Ozcollo"]          
 	},
 	{
 	//城邦

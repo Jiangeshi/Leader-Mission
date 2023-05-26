@@ -1197,6 +1197,15 @@ BuildingIcons/Galata Tower
   orig: 250, 250
   offset: 0, 0
   index: -1   
+
+IncaPyramid.png
+BuildingIcons/Inca Pyramid
+  rotate: false
+  xy: 0,0
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1     
     
 District—Country.png
 BuildingIcons/District—Country
@@ -2001,6 +2010,15 @@ BuildingIcons/Pope—Francis
   orig: 270, 270
   offset: 0, 0
   index: -1               
+      
+Civilized leader.png
+BuildingIcons/Civilized Leader—Pachacútec
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1                  
       
 China.png
 NationIcons/China

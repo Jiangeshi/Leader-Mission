@@ -2651,5 +2651,24 @@ Leader Mission 模组中的胜利方式有：
 		"uniques": ["Can only be built [in capital]",
 		"Resting point for Influence with City-States following this religion [60]"
 	]	
+	//印加	
+	},
+	{	
+        "name": "Civilized Leader—Pachacútec",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Inca",
+		"uniques": ["Can only be built [in capital]",
+	    "[+1 Happiness, +1 Gold] from every [Wonder]",
+	    "[-15]% tile improvement construction time"]
+	},
+	{
+		"name": "Inca Pyramid",
+		"replaces": "Shrine",
+        "uniqueTo": "Inca",
+		"faith": 1,
+		"culture": 1,
+		"requiredTech": "Belief Worship",
+		"uniques": ["Destroyed when the city is captured","Unsellable"]
 	}
 ]

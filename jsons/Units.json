@@ -321,6 +321,20 @@
 		"attackSound": "arrow"
 	},
 	{
+		"name": "Slinger",
+		"unitType": "Shooter",
+		"uniqueTo": "Inca",
+		"replaces": "Archer",
+		"movement": 2,
+		"strength": 6,
+		"rangedStrength": 7,
+		"cost": 36,
+		"obsoleteTech": "铁器",
+		"upgradesTo": "Composite Bowman",
+		"uniques":["[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"]
+		"attackSound": "arrow"	
+	},
+	{
 		"name": "Composite Bowman",
 		"unitType": "Shooter",
 		"movement": 2,
@@ -1615,7 +1629,7 @@
 	},
 	{
 		"name": "Father",
-		"unitType": "Civilian",
+		"unitType": "Foot Soldier",
 		"cost": 333,
 		"strength": 10,
 	    "replaces": "Inquisitor",
@@ -1631,7 +1645,7 @@
 		"[+650]% Strength <starting from the [Atomic era]>"
 		"[+1] Sight",
 		],
-		"movement": 3	
+		"movement": 2	
     //国家特色伟人
     }
 ]
