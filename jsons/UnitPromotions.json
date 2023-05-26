@@ -1032,7 +1032,9 @@
 		"Melee Water","Ranged Water",
 		"Submarine",
 		"Water Carrier",
-		"Fighter","Bomber"],
+		"Fighter","Bomber",
+		"Civilian",
+		],
         "row": 0,
         "column": 0
     },

@@ -556,7 +556,7 @@
 		"uniqueName": "By The Nile",
 		"uniques": ["[+15]% Production when constructing [All] wonders [in all cities]",
 		"[+10]% [Culture] [in all cities with a world wonder]",
-		"[+1 Food, +1 Production] in cities on [River] tiles"
+		"[+1 Food] in cities on [River] tiles"
 		]
 		"cities": ["开罗","亚历山大","塞得港","沙姆沙伊赫","吉萨","阿斯旺","苏伊士","卢克索","曼苏拉",
 			   "坦塔","卡夫拉·谢赫","贝尼·苏夫","法尤姆","米尼亚","索哈杰","基纳","本哈","左尔达卜","达米埃塔","阿斯尤特",
@@ -1106,7 +1106,7 @@
 		"uniques": [
 		"Free [Great Prophet] appears <upon founding a city>"
 		"Free [Missionary] appears <upon declaring friendship>"
-		"May buy [Father] units for [50] [Faith] [in capital] at an increasing price ([50])"
+		"May buy [Father] units for [50] [Faith] [in capital] at an increasing price ([25])"
 		"[+50 Faith, +300 Gold] when a city adopts this religion for the first time (modified by game speed)"
 		"[+1 Faith] from [All] tiles [in all cities]",
 		"Cannot build [Settler] units", 

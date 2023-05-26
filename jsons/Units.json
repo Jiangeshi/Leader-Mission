@@ -1621,7 +1621,7 @@
 	    "replaces": "Inquisitor",
 	    "uniqueTo": "Vatican",
 		"uniques": ["Prevents spreading of religion to the city it is next to",
-		"Can [Remove Foreign religions from your own cities] [1] times",
+		"Can [Remove Foreign religions from your own cities] [2] times",
 		"Unbuildable", "Religious Unit"
 		"[+50]% Strength <during the [Classical era]>"
 		"[+130]% Strength <during the [Medieval era]>"

@@ -8,6 +8,14 @@
         "defeatString": "您被打败了。虽然您的文明曾经被许多敌人所征服，但是您的人民永不放弃，因为他们知道总有一天您会回来的！届时，您的文明将会成为天空中最耀眼的恒星！"
     },
     {
+        "name": "Conquer",
+        "hiddenInVictoryScreen": false,
+        "victoryScreenHeader": "Capture all capitals to win!",
+        "milestones": ["Capture all capitals"],
+        "victoryString": "世界因战争而动荡不安。曾有许多伟大而强盛的文明，但他们都已被您打败，在这个世界上您的文明便是唯一的存在！！世界将永远记住您的光辉与荣耀！",
+        "defeatString": "您被打败了。虽然您的文明曾经被许多敌人所征服，但是您的人民永不放弃，因为他们知道总有一天您会回来的！届时，您的文明将会成为天空中最耀眼的恒星！"
+    },
+    {
         "name": "Time",
         "hiddenInVictoryScreen": false,
         "victoryScreenHeader": "Have highest score after max turns",

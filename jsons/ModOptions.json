@@ -1,1 +1,1 @@
-{isBaseRuleset: true,constants:{minimalCityDistance:2}}
+{isBaseRuleset: true,constants:{minimalCityDistance:2,religionLimitMultiplier:1,riverCountMultiplier:0.02}}
