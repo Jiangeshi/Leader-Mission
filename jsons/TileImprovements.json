@@ -17,7 +17,7 @@
 		"food": 1,
 		"turnsToBuild": 10,
 		"uniques": ["Cannot be built on [Bonus resource] tiles",
-			"[+1 Food] for each adjacent [Mountain]",
+			"[+1 Food] for each adjacent [Mountain]","Infrastructure",
 			"[+1 Food] <after discovering [化肥]>"
             "Pillaging this improvement yields approximately [+20 Gold]"],
 		"techRequired": "The Wheel",	
