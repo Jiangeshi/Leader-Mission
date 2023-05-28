@@ -2308,7 +2308,7 @@ ResourceIcons/Saltpeter
   offset: 0, 0
   index: -1
 
-Gas图标.png
+GasIcon.png
 ResourceIcons/Gas
   rotate: false
   xy: 0, 0
@@ -2335,7 +2335,7 @@ ResourceIcons/Mixed fuel
   offset: 0, 0
   index: -1
 
-MonumentalWork图标.png
+MonumentalWorkIcon.png
 ResourceIcons/Solt-The Kite Runner
   rotate: false
   xy: 0, 0
@@ -2344,7 +2344,7 @@ ResourceIcons/Solt-The Kite Runner
   offset: 0, 0
   index: -1
 
-MonumentalWork图标.png
+MonumentalWorkIcon.png
 ResourceIcons/Solt-A Thousand Splendid Suns
   rotate: false
   xy: 0, 0
@@ -2353,7 +2353,7 @@ ResourceIcons/Solt-A Thousand Splendid Suns
   offset: 0, 0
   index: -1
 
-MonumentalWork图标.png
+MonumentalWorkIcon.png
 ResourceIcons/Solt-War and Peace
   rotate: false
   xy: 0, 0
@@ -2362,7 +2362,7 @@ ResourceIcons/Solt-War and Peace
   offset: 0, 0
   index: -1
 
-MonumentalWork图标.png
+MonumentalWorkIcon.png
 ResourceIcons/Solt-Resurrection
   rotate: false
   xy: 0, 0
@@ -2371,7 +2371,7 @@ ResourceIcons/Solt-Resurrection
   offset: 0, 0
   index: -1
 
-Spa图标.png
+SpaIcon.png
 ImprovementIcons/Spa
   rotate: false
   xy: 0, 0
@@ -2380,7 +2380,7 @@ ImprovementIcons/Spa
   offset: 0, 0
   index: -1
 
-Geothermalpowerplant图标.png
+GeothermalpowerplantIcon.png
 ImprovementIcons/Geothermal power plant
   rotate: false
   xy: 0, 0
@@ -2389,7 +2389,7 @@ ImprovementIcons/Geothermal power plant
   offset: 0, 0
   index: -1
 
-Solarfarm图标.png
+SolarfarmIcon.png
 ImprovementIcons/Solar farm
   rotate: false
   xy: 0, 0
@@ -2398,7 +2398,7 @@ ImprovementIcons/Solar farm
   offset: 0, 0
   index: -1
 
-VietnameseCity图标.png
+VietnameseCityIcon.png
 ImprovementIcons/Vietnamese City
   rotate: false
   xy: 0, 0
@@ -2407,7 +2407,7 @@ ImprovementIcons/Vietnamese City
   offset: 0, 0
   index: -1
 
-Gasfield图标.png
+GasfieldIcon.png
 ImprovementIcons/Gas field
   rotate: false
   xy: 0, 0
@@ -2416,7 +2416,7 @@ ImprovementIcons/Gas field
   offset: 0, 0
   index: -1
 
-MonumentalWork图标.png
+MonumentalWorkIcon.png
 ImprovementIcons/The Kite Runner
   rotate: false
   xy: 0, 0
@@ -2425,7 +2425,7 @@ ImprovementIcons/The Kite Runner
   offset: 0, 0
   index: -1
   
-MonumentalWork图标.png
+MonumentalWorkIcon.png
 ImprovementIcons/A Thousand Splendid Suns
   rotate: false
   xy: 0, 0
@@ -2434,7 +2434,7 @@ ImprovementIcons/A Thousand Splendid Suns
   offset: 0, 0
   index: -1
   
-MonumentalWork图标.png
+MonumentalWorkIcon.png
 ImprovementIcons/War and Peace
   rotate: false
   xy: 0, 0
@@ -2443,7 +2443,7 @@ ImprovementIcons/War and Peace
   offset: 0, 0
   index: -1
   
-MonumentalWork图标.png
+MonumentalWorkIcon.png
 ImprovementIcons/Resurrection
   rotate: false
   xy: 0, 0
@@ -2613,15 +2613,6 @@ TechIcons/Weather Manipulation
   orig: 100, 100
   offset: 0, 0
   index: -1  
-
-工匠.png
-TileSets/AbsoluteUnits/Units/工匠
-  rotate: false
-  xy: 0, 0
-  size: 95, 81
-  orig: 95, 81
-  offset: 0, 0
-  index: -1
 
 Persian Immortal(Ranged).png
 TileSets/AbsoluteUnits/Units/Persian Immortal(Ranged)
@@ -2839,7 +2830,7 @@ TileSets/HexaRealm/Tiles/Resurrection
   offset: 0, 0
   index: -1        
   
-GreatAdmiral图标.png
+GreatAdmiralIcon.png
 UnitIcons/Great Admiral
   rotate: false
   xy: 0,0
@@ -2848,7 +2839,7 @@ UnitIcons/Great Admiral
   offset: 0, 0
   index: -1 
   
-GreatAdmiral图标.png
+GreatAdmiralIcon.png
 UnitIcons/Lee Sunshin
   rotate: false
   xy: 0,0
@@ -2857,7 +2848,7 @@ UnitIcons/Lee Sunshin
   offset: 0, 0
   index: -1   
   
-GreatAuthor图标.png
+GreatAuthorIcon.png
 UnitIcons/Khaled Hosseini
   rotate: false
   xy: 0,0
@@ -2866,7 +2857,7 @@ UnitIcons/Khaled Hosseini
   offset: 0, 0
   index: -1   
   
-GreatAuthor图标.png
+GreatAuthorIcon.png
 UnitIcons/Lev Tolstoy
   rotate: false
   xy: 0,0
@@ -2875,16 +2866,7 @@ UnitIcons/Lev Tolstoy
   offset: 0, 0
   index: -1     
 
-工匠图标.png
-UnitIcons/工匠
-  rotate: false
-  xy: 0,0
-  size: 150, 190
-  orig: 150, 190
-  offset: 0, 0
-  index: -1 
-
-SovietWorker图标.png
+SovietWorkerIcon.png
 UnitIcons/SovietWorker
   rotate: false
   xy: 0,0
@@ -2893,7 +2875,7 @@ UnitIcons/SovietWorker
   offset: 0, 0
   index: -1  
 
-T-34图标.png
+T-34Icon.png
 UnitIcons/T-34
   rotate: false
   xy: 0,0
@@ -2902,7 +2884,7 @@ UnitIcons/T-34
   offset: 0, 0
   index: -1     
  
-CowboyCavalry图标.png
+CowboyCavalryIcon.png
 UnitIcons/Cowboy Cavalry
   rotate: false
   xy: 0,0
@@ -2911,7 +2893,7 @@ UnitIcons/Cowboy Cavalry
   offset: 0, 0
   index: -1         
 
-AncientChineseChariot图标.png
+AncientChineseChariotIcon.png
 UnitIcons/Ancient Chinese Chariot
   rotate: false
   xy: 0,0
@@ -2920,7 +2902,7 @@ UnitIcons/Ancient Chinese Chariot
   offset: 0, 0
   index: -1     
   
-Persian Immortal(Ranged)图标.png
+Persian Immortal(Ranged)Icon.png
 UnitIcons/Persian Immortal(Ranged)
   rotate: false
   xy: 0,0
@@ -2929,7 +2911,7 @@ UnitIcons/Persian Immortal(Ranged)
   offset: 0, 0
   index: -1    
   
-Hypaspist图标.png
+HypaspistIcon.png
 UnitIcons/Hypaspist
   rotate: false
   xy: 0,0
@@ -2938,7 +2920,7 @@ UnitIcons/Hypaspist
   offset: 0, 0
   index: -1      
   
-War Elephant图标.png
+War ElephantIcon.png
 UnitIcons/War Elephant
   rotate: false
   xy: 0,0
@@ -2947,7 +2929,7 @@ UnitIcons/War Elephant
   offset: 0, 0
   index: -1      
   
-CubanInternationalRevolutionaryFighter图标.png
+CubanInternationalRevolutionaryFighterIcon.png
 UnitIcons/Cuban International Revolutionary Fighter
   rotate: false
   xy: 0,0
@@ -2956,7 +2938,7 @@ UnitIcons/Cuban International Revolutionary Fighter
   offset: 0, 0
   index: -1      
   
-BlackWatch图标.png
+BlackWatchIcon.png
 UnitIcons/Black Watch
   rotate: false
   xy: 0,0
@@ -2965,7 +2947,7 @@ UnitIcons/Black Watch
   offset: 0, 0
   index: -1      
   
-CobraCommando图标.png
+CobraCommandoIcon.png
 UnitIcons/Cobra Commando
   rotate: false
   xy: 0,0
@@ -2974,7 +2956,7 @@ UnitIcons/Cobra Commando
   offset: 0, 0
   index: -1      
   
-Heavy Spear Cavalry图标.png
+Heavy Spear CavalryIcon.png
 UnitIcons/Heavy Spear Cavalry
   rotate: false
   xy: 0,0
@@ -2983,7 +2965,7 @@ UnitIcons/Heavy Spear Cavalry
   offset: 0, 0
   index: -1      
   
-MobileArcher图标.png
+MobileArcherIcon.png
 UnitIcons/Mobile Archer
   rotate: false
   xy: 0,0
@@ -2992,7 +2974,7 @@ UnitIcons/Mobile Archer
   offset: 0, 0
   index: -1        
       
-Father图标.png
+FatherIcon.png
 UnitIcons/Father
   rotate: false
   xy: 0,0
@@ -3046,7 +3028,7 @@ UnitPromotionIcons/瞄准
   offset: 0, 0
   index: -1 
  
-阿拉伯能力.png
+Arabability.png
 UnitPromotionIcons/正义信仰
   rotate: false
   xy: 0,0
@@ -3055,7 +3037,7 @@ UnitPromotionIcons/正义信仰
   offset: 0, 0
   index: -1      
  
-阿拉伯能力.png
+Arabability.png
 UnitPromotionIcons/真主荣耀
   rotate: false
   xy: 0,0

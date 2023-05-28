@@ -34,15 +34,6 @@
 		"requiredTech": "帆船",
 		"uniques": ["Cannot enter ocean tiles <before discovering [天文学]>", 
 		"May create improvements on water resources", "Uncapturable"]
-    //},
-	//{
-		//"name": "工匠",
-		//"unitType": "公民",
-		//"uniqueTo": "China",
-	    //"movement": 3,
-		//"uniques": ["Can build [Land] improvements on tiles",
-		//"Can speed up the construction of a wonder <before the [Modern era]>",
-		//"Unbuildable","Uncapturable"]
 	//侦查单位
 	},
 	{
@@ -328,7 +319,7 @@
 		"movement": 2,
 		"strength": 6,
 		"rangedStrength": 7,
-		"cost": 36,
+		"cost": 40,
 		"obsoleteTech": "铁器",
 		"upgradesTo": "Composite Bowman",
 		"uniques":["[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"]

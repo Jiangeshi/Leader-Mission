@@ -1106,8 +1106,8 @@
 		"uniques": [
 		"Free [Great Prophet] appears <upon founding a city>"
 		"Free [Missionary] appears <upon declaring friendship>"
-		"May buy [Father] units for [50] [Faith] [in capital] at an increasing price ([30])"
-		"[+50 Faith, +300 Gold] when a city adopts this religion for the first time (modified by game speed)"
+		"May buy [Father] units for [50] [Faith] [in capital] at an increasing price ([35])"
+		"[+50 Faith, +200 Gold] when a city adopts this religion for the first time (modified by game speed)"
 		"[+1 Faith] from [All] tiles [in all cities]",
 		"Cannot build [Settler] units", 
 		],
@@ -1137,11 +1137,11 @@
 
 		"favoredReligion": "Christianity",
 		"uniqueName": "Descendants of the Sun",
-		"uniqueText": "Inca's units ignore terrain costs when moving into any tile with Hills; +13% Strength for Military units within 3 tiles of a Mountain; Mountains within the Inca +1 Faith (no population required)" 
+		"uniqueText": "Inca's units ignore terrain costs when moving into any tile with Hills; +15% Strength for Military units within 3 tiles of a Mountain; Mountains within the Inca +1 Faith and +1 Culture (no population required)" 
 		"uniques": [
 		"Units ignore terrain costs when moving into any tile with Hills",
-		"[+13]% Strength <for [Military] units> <within [3] tiles of a [Mountain]>"
-		"[+1 Faith] from [Mountain] tiles [in all cities]",
+		"[+15]% Strength <for [Military] units> <within [3] tiles of a [Mountain]>"
+		"[+1 Faith, +1 Culture] from [Mountain] tiles [in all cities]",
 		],
 		"cities": ["Cuzco","Tiwanaku","Machu","Ollantaytambo","Corihuayrachina","Huamanga","Rumicucho","Vilcabamba","Vitcos",
 			"Andahuaylas","Ica","Arequipa","Nasca","Atico","Juli","Chuito","Chuquiapo","Huanuco Pampa","Tamboccocha",
