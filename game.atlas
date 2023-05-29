@@ -2134,51 +2134,6 @@ PolicyIcons/State of War
   orig: 51, 51
   offset: 0, 0
   index: -1
-  
-强迫劳役.png
-PolicyIcons/强迫劳役
-  rotate: false
-  xy: 0,0
-  size: 80, 80
-  orig: 80, 80
-  offset: 0, 0
-  index: -1
-  
-私有制.png
-PolicyIcons/私有制
-  rotate: false
-  xy: 0,0
-  size: 80, 80
-  orig: 80, 80
-  offset: 0, 0
-  index: -1
-  
-国内贸易.png
-PolicyIcons/国内贸易
-  rotate: false
-  xy: 0,0
-  size: 75, 75
-  orig: 75, 75
-  offset: 0, 0
-  index: -1
-  
-对外贸易.png
-PolicyIcons/对外贸易
-  rotate: false
-  xy: 0,0
-  size: 95, 95
-  orig: 95, 95
-  offset: 0, 0
-  index: -1
-
-酋长崇拜.png
-PolicyIcons/酋长崇拜
-  rotate: false
-  xy: 0,0
-  size: 120, 120
-  orig: 120, 120
-  offset: 0, 0
-  index: -1
 
 Governor.png
 ResourceIcons/Governor Point
