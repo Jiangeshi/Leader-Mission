@@ -2045,8 +2045,8 @@ NationIcons/Macedonia
   offset: 0, 0
   index: -1
   
-Turkey.png
-NationIcons/Türkiye
+Turkey.png  
+NationIcons/Turkey
   rotate: false
   xy: 0, 0
   size: 210, 210

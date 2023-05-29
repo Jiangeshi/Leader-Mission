@@ -826,7 +826,7 @@
         "spyNames": ["Rim-Sin II", "Smerdis", "Ilum-ma-ili", "Peshgaldaramesh", "Ur-zigurumaš", "Semiramis", "Em", "Ishtar", "Bilit Taauth", "Aruru"]
     },
 	{
-		"name": "Türkiye",
+		"name": "Turkey",
 		"leaderName": "Leader",
 		"adjective": ["Turks"],
 		"startBias": ["Coast"],
@@ -866,7 +866,7 @@
 	{
 		"name": "Scotland",
 		"leaderName": "Leader",
-		"adjective": ["Ottoman"],
+		"adjective": ["Scot"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Domination",
 
