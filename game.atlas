@@ -52,26 +52,6 @@ UnitIcons/Belisarius
   orig: 100, 94
   offset: 0, 0
   index: -1    
-  
-game.png
-size: 2048, 1024
-format: RGBA8888
-filter: MipMapLinearLinear, MipMapLinearLinear
-repeat: none
-OtherIcons/ConvertCulture
-  rotate: false
-  xy: 111, 164
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-OtherIcons/ConvertFaith
-  rotate: false
-  xy: 1230, 812
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1  
 
 PolicyIcons.png
 size: 2048, 128
