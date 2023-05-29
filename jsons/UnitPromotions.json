@@ -1,94 +1,94 @@
 [
     //步兵晋升
 	{
-		"name": "操练 I",
+		"name": "Barrage I",
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
 		"unitTypes": ["Foot Soldier"]
 		"row": 1,
         "column": 1,
     },
     {
-    	"name": "冲击 I",
+    	"name": "Accuracy I",
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
 		"unitTypes": ["Foot Soldier"]
 		"row": 1,
         "column": 2,
     },	
     {
-		"name": "操练 II",
-		"prerequisites": ["操练 I"],
+		"name": "Barrage II",
+		"prerequisites": ["Barrage I"],
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
 		"unitTypes": ["Foot Soldier"]
 		"row": 1,
         "column": 3,
     },	
     {
-		"name": "冲击 II",
-		"prerequisites": ["冲击 I"],
+		"name": "Accuracy II",
+		"prerequisites": ["Accuracy I"],
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
 		"unitTypes": ["Foot Soldier"]
 		"row": 1,
         "column": 4,
     },	
     {
-		"name": "操练 III",
-		"prerequisites": ["操练 II"],
+		"name": "Barrage III",
+		"prerequisites": ["Barrage II"],
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
 		"unitTypes": ["Foot Soldier"]
 		"row": 1,
         "column": 5,       
     },	
     {
-		"name": "冲击 III",
-		"prerequisites": ["冲击 II"],
+		"name": "Accuracy III",
+		"prerequisites": ["Accuracy II"],
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
 		"unitTypes": ["Foot Soldier"]
 		"row": 1,
         "column": 6,
     },
     {
-    	"name": "巷战 I",
-    	"prerequisites": ["操练 II","冲击 II"],
+    	"name": "Street Battle I",
+    	"prerequisites": ["Barrage II","Accuracy II"],
 		"uniques": ["[+20]% Strength <within [2] tiles of a [City center]>"],
 		"unitTypes": ["Foot Soldier"]
 		"row": 2,
         "column": 1,
     },
     {
-    	"name": "固守 I",
-    	"prerequisites": ["操练 II","冲击 II"],
+    	"name": "Hold Ground I",
+    	"prerequisites": ["Barrage II","Accuracy II"],
 		"uniques": ["[+15]% Strength <when defending>"],
 		"unitTypes": ["Foot Soldier"]
 		"row": 2,
         "column": 2,
     },
     {
-    	"name": "攻城 I",
-    	"prerequisites": ["操练 II","冲击 II"],
+    	"name": "Attack City I",
+    	"prerequisites": ["Barrage II","Accuracy II"],
 		"uniques": ["[+50]% Strength <vs cities>"],
 		"unitTypes": ["Foot Soldier"]
 		"row": 2,
         "column": 3,
     },	
     {
-		"name": "巷战 II",
-		"prerequisites": ["巷战 I"],
+		"name": "Street Battle II",
+		"prerequisites": ["Street Battle I"],
 		"uniques": ["[+20]% Strength <within [2] tiles of a [City center]>"],
 		"unitTypes": ["Foot Soldier"]
 		"row": 2,
         "column": 4,    
     },	
     {
-		"name": "固守 II",
-		"prerequisites": ["固守 I"],
+		"name": "Hold Ground II",
+		"prerequisites": ["Hold Ground I"],
 		"uniques": ["[+15]% Strength <when defending>"],
 		"unitTypes": ["Foot Soldier"]
 		"row": 2,
         "column": 5, 
     },	
     {
-		"name": "攻城 II",
-		"prerequisites": ["攻城 I"],
+		"name": "Attack City II",
+		"prerequisites": ["Attack City I"],
 		"uniques": ["[+50]% Strength <vs cities>"],
 		"unitTypes": ["Foot Soldier"]
 		"row": 2,
@@ -96,94 +96,94 @@
     //射手晋升
     },
     {
-		"name": "齐射 I",
+		"name": "Salvo I",
 		"uniques": ["[+10]% Strength  <when attacking>"],
 		"unitTypes": ["Shooter"]
 		"row": 1,
         "column": 7,
     },
     {
-		"name": "援射 I",
+		"name": "Shooting Support I",
 		"uniques": ["[+15]% Strength <when adjacent to a [Melee] unit> <when attacking>"],
 		"unitTypes": ["Shooter"]
 		"row": 1,
         "column": 8,
     },
     {
-		"name": "齐射 II",
-		"prerequisites": ["齐射 I"],
+		"name": "Salvo II",
+		"prerequisites": ["Salvo I"],
 		"uniques": ["[+10]% Strength  <when attacking>"],
 	    "unitTypes": ["Shooter"]
 		"row": 1,
         "column": 9,
     },
     {
-		"name": "援射 II",
-		"prerequisites": ["援射 I"],
+		"name": "Shooting Support II",
+		"prerequisites": ["Shooting Support I"],
 		"uniques": ["[+15]% Strength <when adjacent to a [Melee] unit> <when attacking>"],
 	    "unitTypes": ["Shooter"]
 		"row": 1,
         "column": 10,    
     },
     {
-		"name": "齐射 III",
-		"prerequisites": ["齐射 II"],
+		"name": "Salvo III",
+		"prerequisites": ["Salvo II"],
 		"uniques": ["[+10]% Strength  <when attacking>"],
 	    "unitTypes": ["Shooter"]
 		"row": 1,
         "column": 11,
     },
     {
-		"name": "援射 III",
-		"prerequisites": ["援射 II"],
+		"name": "Shooting Support III",
+		"prerequisites": ["Shooting Support II"],
 		"uniques": ["[+15]% Strength <when adjacent to a [Melee] unit> <when attacking>"],
 	    "unitTypes": ["Shooter"]
 		"row": 1,
         "column": 12,
     },
     {
-    	"name": "隐蔽 I",
-    	"prerequisites": ["齐射 II","援射 II"],
+    	"name": "Cover I",
+    	"prerequisites": ["Salvo II","Shooting Support II"],
 		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>"],
 		"unitTypes": ["Shooter"]
 		"row": 2,
         "column": 7,      
     },
     {
-    	"name": "涂毒 I",
-    	"prerequisites": ["齐射 II","援射 II"],
+    	"name": "Apply Poison I",
+    	"prerequisites": ["Salvo II","Shooting Support II"],
 		"uniques": ["[+15]% Strength <vs [Wounded] units> <when attacking>"],
 		"unitTypes": ["Shooter"]
 		"row": 2,
         "column": 8,  
     },
     {
-    	"name": "近战 I",
-    	"prerequisites": ["齐射 II","援射 II"],
+    	"name": "Bayonet Charge I",
+    	"prerequisites": ["Salvo II","Shooting Support II"],
 		"uniques": ["[+20]% Strength <vs [{Land} {Melee}] units> <when defending>"],
 		"unitTypes": ["Shooter"]
 		"row": 2,
         "column": 9, 
     },
     {
-    	"name": "隐蔽 II",
-    	"prerequisites": ["隐蔽 I"],
+    	"name": "Cover II",
+    	"prerequisites": ["Cover I"],
 		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>"],
 		"unitTypes": ["Shooter"]
 		"row": 2,
         "column": 10,      
     },
     {
-    	"name": "涂毒 II",
-    	"prerequisites": ["涂毒 I"],
+    	"name": "Apply Poison II",
+    	"prerequisites": ["Apply Poison I"],
 		"uniques": ["[+15]% Strength <vs [Wounded] units> <when attacking>"],
 		"unitTypes": ["Shooter"]
 		"row": 2,
         "column": 11,  
     },
     {
-    	"name": "近战 II",
-    	"prerequisites": ["近战 I"],
+    	"name": "Bayonet Charge II",
+    	"prerequisites": ["Bayonet Charge I"],
 		"uniques": ["[+20]% Strength <vs [{Land} {Melee}] units> <when defending>"],
 		"unitTypes": ["Shooter"]
 		"row": 2,
@@ -191,7 +191,7 @@
     //机动部队晋升
     },
     {
-		"name": "践踏 I",
+		"name": "Trample I",
 		"uniques": ["[+15]% Strength <vs [Foot Soldier] units> <when attacking>",
 		"[+15]% Strength <vs [Shooter] units> <when attacking>",
 		"[+15]% Strength <vs [Reconnaissance] units> <when attacking>"],
@@ -200,15 +200,15 @@
         "column": 13,
     },
     {
-		"name": "冲锋 I",
+		"name": "Charge I",
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
 		"unitTypes": ["Mobile"]
 		"row": 1,
         "column": 14,    
     },
     {
-		"name": "践踏 II",
-		"prerequisites": ["践踏 I"],
+		"name": "Trample II",
+		"prerequisites": ["Trample I"],
 		"uniques": ["[+15]% Strength <vs [Foot Soldier] units> <when attacking>",
 		"[+15]% Strength <vs [Shooter] units> <when attacking>",
 		"[+15]% Strength <vs [Reconnaissance] units> <when attacking>"],
@@ -217,16 +217,16 @@
         "column": 15,
     },
     {
-		"name": "冲锋 II",
-		"prerequisites": ["冲锋 I"],
+		"name": "Charge II",
+		"prerequisites": ["Charge I"],
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
 		"unitTypes":["Mobile"]
 		"row": 1,
         "column": 16,    
     },
     {
-		"name": "践踏 III",
-	    "prerequisites": ["践踏 II"],
+		"name": "Trample III",
+	    "prerequisites": ["Trample II"],
 		"uniques": ["[+15]% Strength <vs [Foot Soldier] units> <when attacking>",
 		"[+15]% Strength <vs [Shooter] units> <when attacking>",
 		"[+15]% Strength <vs [Reconnaissance] units> <when attacking>"],
@@ -235,56 +235,56 @@
         "column": 17,
     },
     {
-		"name": "冲锋 III",
-	    "prerequisites": ["冲锋 II"],
+		"name": "Charge III",
+	    "prerequisites": ["Charge II"],
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
 		"unitTypes": ["Mobile"]
 		"row": 1,
         "column": 18,
     },
     {
-    	"name": "披甲 I",
-    	"prerequisites": ["践踏 II","冲锋 II"],
+    	"name": "Wear Armor I",
+    	"prerequisites": ["Trample II","Charge II"],
 		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>"],
 		"unitTypes": ["Mobile"]
 		"row": 2,
         "column": 13,  
     },
     {
-    	"name": "攻坚 I",
-    	"prerequisites": ["践踏 II","冲锋 II"],
+    	"name": "Storm Fortification I",
+    	"prerequisites": ["Trample II","Charge II"],
 		"uniques": ["[+33]% Strength <vs cities>"],
 		"unitTypes": ["Mobile"]
 		"row": 2,
         "column": 14,  
     },
     {
-    	"name": "破敌 I",
-    	"prerequisites": ["践踏 II","冲锋 II"],
+    	"name": "Rout I",
+    	"prerequisites": ["Trample II","Charge II"],
 		"uniques": ["[+15]% Strength <vs [Wounded] units> <when attacking>"],
 		"unitTypes": ["Mobile"]
 		"row": 2,
         "column": 15,  
     },	
     {
-		"name": "披甲 II",
-		"prerequisites": ["披甲 I"],
+		"name": "Wear Armor II",
+		"prerequisites": ["Wear Armor I"],
 		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>"],
 		"unitTypes": ["Mobile"]
 		"row": 2,
         "column": 16,    
     },	
     {
-		"name": "攻坚 II",
-		"prerequisites": ["攻坚 I"],
+		"name": "Storm Fortification II",
+		"prerequisites": ["Storm Fortification I"],
 		"uniques": ["[+33]% Strength <vs cities>"],
 		"unitTypes": ["Mobile"]
 		"row": 2,
         "column": 17,      
     },	
     {
-		"name": "破敌 II",
-		"prerequisites": ["破敌 I"],
+		"name": "Rout II",
+		"prerequisites": ["Rout I"],
 		"uniques": ["[+15]% Strength <vs [Wounded] units> <when attacking>"],
 		"unitTypes": ["Mobile"]
 		"row": 2,
@@ -292,94 +292,94 @@
     //抗机动单位、直升机晋升
     },	
     {
-		"name": "列阵 I",
+		"name": "Formation I",
 		"uniques": ["[+15]% Strength <when adjacent to a [Anti-Mobile] unit> <when defending>","[+15]% Strength <when adjacent to a [Helicopter] unit> <when defending>","[+15]% Strength <when adjacent to a [Anti-Air] unit> <when defending>"],
 		"unitTypes": ["Anti-Mobile","Helicopter","Anti-Air"]
 		"row": 1,
         "column": 19,
     },	
     {
-		"name": "突袭 I",
+		"name": "Raid I",
 		"uniques": ["[+15]% Strength <vs [Melee] units> <when attacking>"],
 		"unitTypes": ["Anti-Mobile","Helicopter","Anti-Air"]
 		"row": 1,
         "column": 20,
     },	
     {
-		"name": "列阵 II",
-		"prerequisites": ["列阵 I"],
+		"name": "Formation II",
+		"prerequisites": ["Formation I"],
 		"uniques": ["[+15]% Strength <when adjacent to a [Anti-Mobile] unit> <when defending>","[+15]% Strength <when adjacent to a [Helicopter] unit> <when defending>","[+15]% Strength <when adjacent to a [Anti-Air] unit> <when defending>"],
 		"unitTypes": ["Anti-Mobile","Helicopter","Anti-Air"]
 		"row": 1,
         "column": 21,
     },	
     {
-		"name": "突袭 II",
-		"prerequisites": ["突袭 I"],
+		"name": "Raid II",
+		"prerequisites": ["Raid I"],
 		"uniques": ["[+15]% Strength <vs [Melee] units> <when attacking>"],
 		"unitTypes": ["Anti-Mobile","Helicopter","Anti-Air"]
 		"row": 1,
         "column": 22,    
     },	
     {
-		"name": "列阵 III",
-		"prerequisites": ["列阵 II"],
+		"name": "Formation III",
+		"prerequisites": ["Formation II"],
 		"uniques": ["[+15]% Strength <when adjacent to a [Anti-Mobile] unit> <when defending>","[+15]% Strength <when adjacent to a [Helicopter] unit> <when defending>","[+15]% Strength <when adjacent to a [Anti-Air] unit> <when defending>"],
 		"unitTypes": ["Anti-Mobile","Helicopter","Anti-Air"]
 		"row": 1,
         "column": 23,
     },	
     {
-		"name": "突袭 III",
-		"prerequisites": ["突袭 II"],
+		"name": "Raid III",
+		"prerequisites": ["Raid II"],
 		"uniques": ["[+15]% Strength <vs [Melee] units> <when attacking>"],
 		"unitTypes": ["Anti-Mobile","Helicopter","Anti-Air"]
 		"row": 1,
         "column": 24,  
     },
     {
-    	"name": "破甲 I",
-    	"prerequisites": ["列阵 II","突袭 II"],
+    	"name": "Expose Armor I",
+    	"prerequisites": ["Formation II","Raid II"],
 		"uniques": ["[+20]% Strength <vs [Mobile] units>","[+20]% Strength <vs [Air] units>"],
 		"unitTypes": ["Anti-Mobile","Helicopter","Anti-Air"]
 		"row": 2,
         "column": 19,  
     },
     {
-    	"name": "破城 I",
-    	"prerequisites": ["列阵 II","突袭 II"],
+    	"name": "Break City I",
+    	"prerequisites": ["Formation II","Raid II"],
 		"uniques": ["[+50]% Strength <vs cities>"],
 		"unitTypes": ["Anti-Mobile","Helicopter","Anti-Air"]
 		"row": 2,
         "column": 20,   
     },
     {
-    	"name": "要道 I",
-    	"prerequisites": ["列阵 II","突袭 II"],
+    	"name": "Pass I",
+    	"prerequisites": ["Formation II","Raid II"],
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>","[+15]% Strength <when fighting in [Marsh] tiles>"],
 		"unitTypes": ["Anti-Mobile","Helicopter","Anti-Air"]
 		"row": 2,
         "column": 21,             
     },
     {
-    	"name": "破甲 II",
-    	"prerequisites": ["破甲 I"],
+    	"name": "Expose Armor II",
+    	"prerequisites": ["Expose Armor I"],
 		"uniques": ["[+20]% Strength <vs [Mobile] units>","[+20]% Strength <vs [Air] units>"],
 		"unitTypes": ["Anti-Mobile","Helicopter","Anti-Air"]
 		"row": 2,
         "column": 22,     
     },
     {
-    	"name": "破城 II",
-    	"prerequisites": ["破城 I"],
+    	"name": "Break City II",
+    	"prerequisites": ["Break City I"],
 		"uniques": ["[+50]% Strength <vs cities>"],
 		"unitTypes": ["Anti-Mobile","Helicopter","Anti-Air"]
 		"row": 2,
         "column": 23,  
     },
     {
-    	"name": "要道 II",
-    	"prerequisites": ["要道 I"],
+    	"name": "Pass II",
+    	"prerequisites": ["Pass I"],
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>","[+15]% Strength <when fighting in [Marsh] tiles>"],
 		"unitTypes": ["Anti-Mobile","Helicopter","Anti-Air"]
 		"row": 2,
@@ -387,46 +387,46 @@
     //侦察单位晋升
     },	
     {
-		"name": "侦查 I",
+		"name": "Detection I",
 		"uniques": ["[+1] Sight"],
 		"unitTypes": ["Reconnaissance"]
 		"row": 1,
         "column": 25,
     },
     {
-		"name": "生存 I",
+		"name": "Survivalism I",
 		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>", "[+25]% Strength <when defending>"],
 		"unitTypes": ["Reconnaissance"],
 	    "row": 1,
         "column": 26,        
     },	
     {
-		"name": "侦查 II",
-		"prerequisites": ["侦查 I"],
+		"name": "Detection II",
+		"prerequisites": ["Detection I"],
 		"uniques": ["[+1] Sight"],
 		"unitTypes": ["Reconnaissance"]
 		"row": 1,
         "column": 27,
 	},
 	{
-		"name": "生存 II",
-		"prerequisites": ["生存 I"],
+		"name": "Survivalism II",
+		"prerequisites": ["Survivalism I"],
 		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>", "[+25]% Strength <when defending>"],
 		"unitTypes": ["Reconnaissance"],
         "row": 1,
         "column": 28,        
     },	
     {
-		"name": "侦查 III",
-		"prerequisites": ["侦查 II"],
+		"name": "Detection III",
+		"prerequisites": ["Detection II"],
 		"uniques": ["[+1] Sight"],
 		"unitTypes": ["Reconnaissance"]
 		"row": 1,
         "column": 29,
 	},
 	{
-		"name": "生存 III",
-		"prerequisites": ["生存 II"],
+		"name": "Survivalism III",
+		"prerequisites": ["Survivalism II"],
 		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>", "[+25]% Strength <when defending>"], 
 		"unitTypes": ["Reconnaissance"],
         "row": 1,
@@ -434,94 +434,94 @@
     //攻城单位晋升
     },	
     {
-		"name": "坚硬 I",
+		"name": "Hard I",
 		"uniques": ["[+20]% Strength <vs [Melee] units> <when defending>"],
 		"unitTypes": ["Siege"]
 		"row": 1,
         "column": 31,
     },	
     {
-		"name": "轰击 I",
+		"name": "Bombard I",
 		"uniques": ["[+20]% Strength <vs [Land] units> <when attacking>"],
 		"unitTypes": ["Siege"]
 		"row": 1,
         "column": 32,    
     },	
     {
-		"name": "坚硬 II",
-		"prerequisites": ["坚硬 I"],
+		"name": "Hard II",
+		"prerequisites": ["Hard I"],
 		"uniques": ["[+20]% Strength <vs [Melee] units> <when defending>"],
 		"unitTypes": ["Siege"]
 		"row": 1,
         "column": 33,
     },	
     {
-		"name": "轰击 II",
-		"prerequisites": ["轰击 I"],
+		"name": "Bombard II",
+		"prerequisites": ["Bombard I"],
 		"uniques": ["[+20]% Strength <vs [Land] units> <when attacking>"],
 		"unitTypes": ["Siege"]
 		"row": 1,
         "column": 34,
     },	
     {
-		"name": "坚硬 III",
-		"prerequisites": ["坚硬 II"],
+		"name": "Hard III",
+		"prerequisites": ["Hard II"],
 		"uniques": ["[+20]% Strength <vs [Melee] units> <when defending>"],
 		"unitTypes": ["Siege"]
 		"row": 1,
         "column": 35,
     },	
     {
-		"name": "轰击 III",
-		"prerequisites": ["轰击 II"],
+		"name": "Bombard III",
+		"prerequisites": ["Bombard II"],
 		"uniques": ["[+20]% Strength <vs [Land] units> <when attacking>"],
 		"unitTypes": ["Siege"]
 		"row": 1,
         "column": 36,
     },
     {
-    	"name": "战略部署 I",
-    	"prerequisites": ["坚硬 II","轰击 II"],
+    	"name": "Strategic Deployment I",
+    	"prerequisites": ["Hard II","Bombard II"],
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
 		"unitTypes": ["Siege"]
 		"row": 2,
         "column": 31, 
     },
     {
-    	"name": "碎片 I",
-    	"prerequisites": ["坚硬 II","轰击 II"],
+    	"name": "Shrapnel I",
+    	"prerequisites": ["Hard II","Bombard II"],
 		"uniques": ["[+15]% Strength <vs [Wounded] units>"],
 		"unitTypes": ["Siege"]
 		"row": 2,
         "column": 32, 
     },
     {
-    	"name": "爆破 I",
-    	"prerequisites": ["坚硬 II","轰击 II"],
+    	"name": "Detonate I",
+    	"prerequisites": ["Hard II","Bombard II"],
 		"uniques": ["[+33]% Strength <vs cities> <when attacking>"],
 		"unitTypes": ["Siege"]
 		"row": 2,
         "column": 33,        
     },
     {
-    	"name": "战略部署 II",
-    	"prerequisites": ["战略部署 I"],
+    	"name": "Strategic Deployment II",
+    	"prerequisites": ["Strategic Deployment I"],
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
 		"unitTypes": ["Siege"]
 		"row": 2,
         "column": 34,
     },
     {
-    	"name": "碎片 II",
-    	"prerequisites": ["碎片 I"],
+    	"name": "Shrapnel II",
+    	"prerequisites": ["Shrapnel I"],
 		"uniques": ["[+15]% Strength <vs [Wounded] units>"],
 		"unitTypes": ["Siege"]
 		"row": 2,
         "column": 35,   
     },
     {
-    	"name": "爆破 II",
-    	"prerequisites": ["爆破 I"],
+    	"name": "Detonate II",
+    	"prerequisites": ["Detonate I"],
 		"uniques": ["[+33]% Strength <vs cities> <when attacking>"],
 		"unitTypes": ["Siege"]
 		"row": 2,
@@ -529,94 +529,94 @@
     //近程海军晋升
     },	
     {
-		"name": "接舷 I",
+		"name": "Boarding Party I",
 		"uniques": ["[+15]% Strength <vs [Water] units>"],
 		"unitTypes": ["Melee Water"]
 		"row": 1,
         "column": 37,
     },	
     {
-		"name": "接舷 II",
-		"prerequisites": ["接舷 I"],
+		"name": "Boarding Party II",
+		"prerequisites": ["Boarding Party I"],
 		"uniques": ["[+15]% Strength <vs [Water] units>"],
 		"unitTypes": ["Melee Water"]
 		"row": 1,
         "column": 38,
     },	
     {
-		"name": "接舷 III",
-		"prerequisites": ["接舷 II"],
+		"name": "Boarding Party III",
+		"prerequisites": ["Boarding Party II"],
 		"uniques": ["[+15]% Strength <vs [Water] units>"],
 		"unitTypes": ["Melee Water"]
 		"row": 1,
         "column": 39,
     },
 	{
-		"name": "海掠 I",
+		"name": "Coastal Raider I",
 		"uniques": ["[+20]% Strength <vs cities>", "Earn [33]% of the damage done to [City] units as [Gold]"],
 		"unitTypes": ["Melee Water"],
 	    "row": 1,
         "column": 40,
 	},
 	{
-		"name": "海掠 II",
-		"prerequisites": ["海掠 I"],
+		"name": "Coastal Raider II",
+		"prerequisites": ["Coastal Raider I"],
 		"uniques": ["[+20]% Strength <vs cities>", "Earn [33]% of the damage done to [City] units as [Gold]"],
 		"unitTypes": ["Melee Water"],
 	    "row": 1,
         "column": 41,
 	},
 	{
-		"name": "海掠 III",
-		"prerequisites": ["海掠 II"],
+		"name": "Coastal Raider III",
+		"prerequisites": ["Coastal Raider II"],
 		"uniques": ["[+20]% Strength <vs cities>", "Earn [33]% of the damage done to [City] units as [Gold]"],
 		"unitTypes": ["Melee Water"],
         "row": 1,
         "column": 42,
     },
     {
-    	"name": "装甲 I",
-    	"prerequisites": ["接舷 II","海掠 II"],
+    	"name": "Armor I",
+    	"prerequisites": ["Boarding Party II","Coastal Raider II"],
 		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>"],
 		"unitTypes": ["Melee Water"]
 		"row": 2,
         "column": 37,
     },
     {
-    	"name": "登陆 I",
-    	"prerequisites": ["接舷 II","海掠 II"],
+    	"name": "Landfall I",
+    	"prerequisites": ["Boarding Party II","Coastal Raider II"],
 		"uniques": ["[+15]% Strength <when fighting in [Coast] tiles>"],
 		"unitTypes": ["Melee Water"]
 		"row": 2,
         "column": 38,  
     },
     {
-    	"name": "护航 I",
-    	"prerequisites": ["接舷 II","海掠 II"],
+    	"name": "Escort I",
+    	"prerequisites": ["Boarding Party II","Coastal Raider II"],
 		"uniques": ["[+10]% Strength bonus for [Water] units within [1] tiles <when defending>"],
 		"unitTypes": ["Melee Water"]
 		"row": 2,
         "column": 39,          
     },
     {
-    	"name": "装甲 II",
-    	"prerequisites": ["装甲 I"],
+    	"name": "Armor II",
+    	"prerequisites": ["Armor I"],
 		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>"],
 		"unitTypes": ["Melee Water"]
 		"row": 2,
         "column": 40, 
     },
     {
-    	"name": "登陆 II",
-    	"prerequisites": ["登陆 I"],
+    	"name": "Landfall II",
+    	"prerequisites": ["Landfall I"],
 		"uniques": ["[+15]% Strength <when fighting in [Coast] tiles>"],
 		"unitTypes": ["Melee Water"]
 		"row": 2,
         "column": 41,
     },
     {
-    	"name": "护航 II",
-    	"prerequisites": ["护航 I"],
+    	"name": "Escort II",
+    	"prerequisites": ["Escort I"],
 		"uniques": ["[+10]% Strength bonus for [Water] units within [1] tiles <when defending>"],
 		"unitTypes": ["Melee Water"]
 		"row": 2,
@@ -624,94 +624,94 @@
     //远程海军晋升
     },	
     {
-		"name": "瞄准 I",
+		"name": "Aim I",
 		"uniques": ["[+15]% Strength <vs [Water] units>"],
 		"unitTypes": ["Ranged Water"]
 		"row": 1,
         "column": 43,
     },	
     {
-		"name": "火力覆盖 I",
+		"name": "Firepower Coverage I",
 		"uniques": ["[+33]% Strength <vs [Land] units> <when attacking>"],
 		"unitTypes": ["Ranged Water"]
 		"row": 1,
         "column": 44,    
     },	
     {
-		"name": "瞄准 II",
-		"prerequisites": ["瞄准 I"],
+		"name": "Aim II",
+		"prerequisites": ["Aim I"],
 		"uniques": ["[+15]% Strength <vs [Water] units>"],
 		"unitTypes": ["Ranged Water"]
 		"row": 1,
         "column": 45, 
     },	
     {
-		"name": "火力覆盖 II",
-		"prerequisites": ["火力覆盖 I"],
+		"name": "Firepower Coverage II",
+		"prerequisites": ["Firepower Coverage I"],
 		"uniques": ["[+33]% Strength <vs [Land] units> <when attacking>"],
 		"unitTypes": ["Ranged Water"]
 		"row": 1,
         "column": 46,        
     },	
     {
-		"name": "瞄准 III",
-		"prerequisites": ["瞄准 II"],
+		"name": "Aim III",
+		"prerequisites": ["Aim II"],
 		"uniques": ["[+15]% Strength <vs [Water] units>"],
 		"unitTypes": ["Ranged Water"]
 		"row": 1,
         "column": 47,
     },	
     {
-		"name": "火力覆盖 III",
-		"prerequisites": ["火力覆盖 II"],
+		"name": "Firepower Coverage III",
+		"prerequisites": ["Firepower Coverage II"],
 		"uniques": ["[+33]% Strength <vs [Land] units> <when attacking>"],
 		"unitTypes": ["Ranged Water"]
 		"row": 1,
         "column": 48,      
     },
     {
-    	"name": "巡航 I",
-    	"prerequisites": ["瞄准 II","火力覆盖 II"],
+    	"name": "Cruise I",
+    	"prerequisites": ["Aim II","Firepower Coverage II"],
 		"uniques": ["[+10] HP when healing"],
 		"unitTypes": ["Ranged Water"]
 		"row": 2,
         "column": 43,
     },
     {
-    	"name": "支援 I",
-        "prerequisites": ["瞄准 II","火力覆盖 II"],
+    	"name": "Fire Support I",
+        "prerequisites": ["Aim II","Firepower Coverage II"],
 		"uniques": ["[+15]% Strength <when adjacent to a [Military] unit> <when attacking>"],
 		"unitTypes": ["Ranged Water"]
 		"row": 2,
         "column": 44,  
     },
     {
-    	"name": "队列 I",
-        "prerequisites": ["瞄准 II","火力覆盖 II"],
+    	"name": "Queue I",
+        "prerequisites": ["Aim II","Firepower Coverage II"],
 		"uniques": ["[+10]% Strength bonus for [Ranged Water] units within [1] tiles"],
 		"unitTypes": ["Ranged Water"]
 		"row": 2,
         "column": 45,          
     },
     {
-    	"name": "巡航 II",
-    	"prerequisites": ["巡航 I"],
+    	"name": "Cruise II",
+    	"prerequisites": ["Cruise I"],
 		"uniques": ["[+1] Sight"],
 		"unitTypes": ["Ranged Water"]
 		"row": 2,
         "column": 46, 
     },
     {
-    	"name": "支援 II",
-    	"prerequisites": ["支援 I"],
+    	"name": "Fire Support II",
+    	"prerequisites": ["Fire Support I"],
 		"uniques": ["[+15]% Strength <when adjacent to a [Military] unit> <when attacking>"],
 		"unitTypes": ["Ranged Water"]
 		"row": 2,
         "column": 47,
     },
     {
-    	"name": "队列 II",
-    	"prerequisites": ["队列 I"],
+    	"name": "Queue II",
+    	"prerequisites": ["Queue I"],
 		"uniques": ["[+10]% Strength bonus for [Ranged Water] units within [1] tiles"],
 		"unitTypes": ["Ranged Water"]
 		"row": 2,
@@ -766,94 +766,94 @@
     //潜艇晋升 
     },  
     {
-		"name": "狼群战术 I",
+		"name": "Wolfpack I",
 		"uniques": ["[+20]% Strength <when attacking>"],
 		"unitTypes": ["Submarine"],
         "row": 1,
         "column": 55,
     },  
     {
-		"name": "下潜 I",
+		"name": "Dive I",
 		"uniques": ["[+20]% Strength <when defending>"],
 		"unitTypes": ["Submarine"],
         "row": 1,
         "column": 56,    
 	},
 	{
-		"name": "狼群战术 II",
-		"prerequisites": ["狼群战术 I"],
+		"name": "Wolfpack II",
+		"prerequisites": ["Wolfpack I"],
 		"uniques": ["[+20]% Strength <when attacking>"],
 		"unitTypes": ["Submarine"],
         "row": 1,
         "column": 57,
     },
 	{
-		"name": "下潜 II",
-		"prerequisites": ["下潜 I"],
+		"name": "Dive II",
+		"prerequisites": ["Dive I"],
 		"uniques": ["[+20]% Strength <when defending>"],
 		"unitTypes": ["Submarine"],
         "row": 1,
         "column": 58,    
 	},
 	{
-		"name": "狼群战术 III",
-		"prerequisites": ["狼群战术 II"],
+		"name": "Wolfpack III",
+		"prerequisites": ["Wolfpack II"],
 		"uniques": ["[+20]% Strength <when attacking>"],
 		"unitTypes": ["Submarine"],
         "row": 1,
         "column": 59,
     },
 	{
-		"name": "下潜 III",
-		"prerequisites": ["下潜 II"],
+		"name": "Dive III",
+		"prerequisites": ["Dive II"],
 		"uniques": ["[+20]% Strength <when defending>"],
 		"unitTypes": ["Submarine"],
         "row": 1,
         "column": 60,   
     },  
     {
-		"name": "穿甲 I",
-		"prerequisites": ["狼群战术 II","下潜 II"],
+		"name": "Armor Piercing I",
+		"prerequisites": ["Wolfpack II","Dive II"],
 		"uniques": ["[+33]% Strength <vs [Melee Water] units> <when attacking>"],
 		"unitTypes": ["Submarine"],
         "row": 2,
         "column": 55,     
     },  
     {
-		"name": "无声 I",
-		"prerequisites": ["狼群战术 II","下潜 II"],
+		"name": "Noise Reduction I",
+		"prerequisites": ["Wolfpack II","Dive II"],
 		"uniques": ["[+33]% Strength <vs [Ranged Water] units> <when defending>"],
 		"unitTypes": ["Submarine"],
         "row": 2,
         "column": 56,        
     },  
     {
-		"name": "携弹 I",
-		"prerequisites": ["狼群战术 II","下潜 II"],
+		"name": "Carrying Missile I",
+		"prerequisites": ["Wolfpack II","Dive II"],
 		"uniques": ["Can carry [1] extra [Flybomb] units"],
 		"unitTypes": ["Submarine"],
         "row": 2,
         "column": 57,          
     },  
     {
-		"name": "穿甲 II",
-		"prerequisites": ["穿甲 I"],
+		"name": "Armor Piercing II",
+		"prerequisites": ["Armor Piercing I"],
 		"uniques": ["[+33]% Strength <vs [Melee Water] units> <when attacking>"],
 		"unitTypes": ["Submarine"],
         "row": 2,
         "column": 58,        
     },  
     {
-		"name": "无声 II",
-		"prerequisites": ["无声 I"],
+		"name": "Noise Reduction II",
+		"prerequisites": ["Noise Reduction I"],
 		"uniques": ["[+33]% Strength <vs [Ranged Water] units> <when defending>"],
 		"unitTypes": ["Submarine"],
         "row": 2,
         "column": 59,     
     },  
     {
-		"name": "携弹 II",
-		"prerequisites": ["携弹 I"],
+		"name": "Carrying Missile II",
+		"prerequisites": ["Carrying Missile I"],
 		"uniques": ["Can carry [1] extra [Flybomb] units"],
 		"unitTypes": ["Submarine"],
         "row": 2,
@@ -915,7 +915,7 @@
         "column": 61,  
     },
 	{
-		"name": "持续拦截 I",
+		"name": "Continuous Interception I",
 		"prerequisites": ["Interception II", "Dogfighting II"],
 		"uniques": ["[1] extra interceptions may be made per turn"],
 		"unitTypes": ["Fighter"],
@@ -931,8 +931,8 @@
         "column": 64,  
     },
 	{
-		"name": "持续拦截 II",
-		"prerequisites": ["持续拦截 I"],
+		"name": "Continuous Interception II",
+		"prerequisites": ["Continuous Interception I"],
 		"uniques": ["[1] extra interceptions may be made per turn"],
 		"unitTypes": ["Fighter"],
         "row": 2,
@@ -940,46 +940,46 @@
     //轰炸机晋升
     },
 	{
-		"name": "定点轰炸 I",
+		"name": "Pinpoint Bombing I",
 		"uniques": ["[+33]% Strength <vs cities>"],
 		"unitTypes": ["Bomber"],
         "row": 1,
         "column": 67,   
     },
 	{
-		"name": "饱和轰炸 I",
+		"name": "Saturation Bombing I",
 		"uniques": ["[+33]% Strength <vs [Land] units>"],
 		"unitTypes": ["Bomber"],
         "row": 1,
         "column": 68,      
 	},
 	{
-		"name": "定点轰炸 II",
-		"prerequisites": ["定点轰炸 I"],
+		"name": "Pinpoint Bombing II",
+		"prerequisites": ["Pinpoint Bombing I"],
 		"uniques": ["[+33]% Strength <vs cities>"],
 		"unitTypes": ["Bomber"],
         "row": 1,
         "column": 69,   
     },
 	{
-		"name": "饱和轰炸 II",
-		"prerequisites": ["饱和轰炸 I"],
+		"name": "Saturation Bombing II",
+		"prerequisites": ["Saturation Bombing I"],
 		"uniques": ["[+33]% Strength <vs [Land] units>"],
 		"unitTypes": ["Bomber"],
         "row": 1,
         "column": 70,       
 	},
 	{
-		"name": "定点轰炸 III",
-		"prerequisites": ["定点轰炸 II"],
+		"name": "Pinpoint Bombing III",
+		"prerequisites": ["Pinpoint Bombing II"],
 		"uniques": ["[+33]% Strength <vs cities>"],
 		"unitTypes": ["Bomber"],
         "row": 1,
         "column": 71,   
 	},
 	{
-		"name": "饱和轰炸 III",
-		"prerequisites": ["饱和轰炸 II"],
+		"name": "Saturation Bombing III",
+		"prerequisites": ["Saturation Bombing II"],
 		"uniques": ["[+33]% Strength <vs [Land] units>"],
 		"unitTypes": ["Bomber"],
         "row": 1,
@@ -987,15 +987,15 @@
     },
 	{
 		"name": "Ambush I",
-		"prerequisites": ["定点轰炸 II","饱和轰炸 II"],
+		"prerequisites": ["Pinpoint Bombing II","Saturation Bombing II"],
 		"uniques": ["[+33]% Strength <vs [Water] units>"],
 		"unitTypes": ["Bomber"],
         "row": 2,
         "column": 67,   
     },
 	{
-		"name": "战术规避 I",
-		"prerequisites": ["定点轰炸 II","饱和轰炸 II"],
+		"name": "Tactical Evasion I",
+		"prerequisites": ["Pinpoint Bombing II","Saturation Bombing II"],
 		"uniques": ["Damage taken from interception reduced by [25]%"],
 		"unitTypes": ["Bomber"],
         "row": 2,
@@ -1010,8 +1010,8 @@
         "column": 69,   
     },
 	{
-		"name": "战术规避 II",
-		"prerequisites": ["战术规避 I"],
+		"name": "Tactical Evasion II",
+		"prerequisites": ["Tactical Evasion I"],
 		"uniques": ["Damage taken from interception reduced by [25]%"],
 		"unitTypes": ["Bomber"],
         "row": 2,
@@ -1021,7 +1021,7 @@
     //特殊晋升
     },
     {
-		"name": "紧急治疗",
+		"name": "Heal Instantly",
 		"uniques": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
 		"unitTypes": ["Foot Soldier",
 		"Shooter",
@@ -1038,12 +1038,12 @@
         "column": 0
     },
 	{
-		"name": "快速攻势",
-		"prerequisites": ["操练 III","冲击 III","巷战 I","固守 I","攻城 I",
-		"践踏 III","冲锋 III","披甲 I","攻坚 I","破敌 I",
-		"侦查 III","生存 III",
-		"列阵 III","突袭 III","破甲 I","破城 I","要道 I",
-		"接舷 III","海掠 III","装甲 I","登陆 I","护航 I"],
+		"name": "Quick Offensive",
+		"prerequisites": ["Barrage III","Accuracy III","Street Battle I","Hold Ground I","Attack City I",
+		"Trample III","Charge III","Wear Armor I","Storm Fortification I","Rout I",
+		"Detection III","Survivalism III",
+		"Formation III","Raid III","Expose Armor I","Break City I","Pass I",
+		"Boarding Party III","Coastal Raider III","Armor I","Landfall I","Escort I"],
 		"uniques": ["[1] additional attacks per turn"],
 		"unitTypes": ["Foot Soldier",
 		"Mobile",
@@ -1053,10 +1053,10 @@
         "column": 1,
     },
 	{
-		"name": "越野能力",
-		"prerequisites": ["操练 III","冲击 III","巷战 I","固守 I","攻城 I",
-		"列阵 III","突袭 III","破甲 I","破城 I","要道 I",
-		"坚硬 III","轰击 III","战略部署 I","碎片 I","爆破 I"],
+		"name": "Off-road",
+		"prerequisites": ["Barrage III","Accuracy III","Street Battle I","Hold Ground I","Attack City I",
+		"Formation III","Raid III","Expose Armor I","Break City I","Pass I",
+		"Hard III","Bombard III","Strategic Deployment I","Shrapnel I","Detonate I"],
 		"uniques": ["Ignores terrain cost"],
 		"unitTypes": ["Foot Soldier",
 		"Anti-Mobile","Helicopter","Anti-Air",
@@ -1065,8 +1065,8 @@
         "column": 2,
     },
 	{
-		"name": "潜伏",
-		"prerequisites": ["操练 III","冲击 III","巷战 I","固守 I","攻城 I","列阵 III","突袭 III","破甲 I","破城 I","要道 I","齐射 III","援射 III","隐蔽 I","涂毒 I","近战 I"],
+		"name": "Hide",
+		"prerequisites": ["Barrage III","Accuracy III","Street Battle I","Hold Ground I","Attack City I","Formation III","Raid III","Expose Armor I","Break City I","Pass I","Salvo III","Shooting Support III","Cover I","Apply Poison I","Bayonet Charge I"],
 		"uniques": ["[+30]% Strength <when attacking> <when fighting in [Forest] tiles>","[+30]% Strength <when attacking> <when fighting in [Jungle] tiles>"],
 		"unitTypes": ["Foot Soldier",
 		"Anti-Mobile","Helicopter","Anti-Air",
@@ -1075,8 +1075,8 @@
         "column": 3,
     },
 	{
-		"name": "两栖作战",
-		"prerequisites": ["操练 III","冲击 III","巷战 I","固守 I","攻城 I","践踏 III","冲锋 III","披甲 I","攻坚 I","破敌 I","侦查 III","生存 III","列阵 III","突袭 III","破甲 I","破城 I","要道 I"],
+		"name": "Amphibious",
+		"prerequisites": ["Barrage III","Accuracy III","Street Battle I","Hold Ground I","Attack City I","Trample III","Charge III","Wear Armor I","Storm Fortification I","Rout I","Detection III","Survivalism III","Formation III","Raid III","Expose Armor I","Break City I","Pass I"],
 		"uniques": ["Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking across a coast"],
 		"unitTypes": ["Foot Soldier",
 		"Mobile",
@@ -1086,10 +1086,10 @@
         "column": 4,
     },
 	{
-		"name": "救助",
-		"prerequisites": ["操练 III","冲击 III","巷战 I","固守 I","攻城 I",
-		"侦查 III","生存 III",
-		"坚硬 III","轰击 III","战略部署 I","碎片 I","爆破 I"],
+		"name": "Rescue",
+		"prerequisites": ["Barrage III","Accuracy III","Street Battle I","Hold Ground I","Attack City I",
+		"Detection III","Survivalism III",
+		"Hard III","Bombard III","Strategic Deployment I","Shrapnel I","Detonate I"],
 		"uniques": ["All adjacent units heal [+5] HP when healing"],
 		"unitTypes": ["Foot Soldier",
 		"Reconnaissance",
@@ -1098,13 +1098,13 @@
         "column": 5,
     },
 	{
-		"name": "长途行军",
-		"prerequisites": ["操练 III","冲击 III","巷战 I","固守 I","攻城 I",
-		"践踏 III","冲锋 III","披甲 I","攻坚 I","破敌 I",
-		"侦查 III","生存 III",
-		"列阵 III","突袭 III","破甲 I","破城 I","要道 I",
-		"坚硬 III","轰击 III","战略部署 I","碎片 I","爆破 I",
-		"狼群战术 III","下潜 III","穿甲 I","无声 I","携弹 I"
+		"name": "March",
+		"prerequisites": ["Barrage III","Accuracy III","Street Battle I","Hold Ground I","Attack City I",
+		"Trample III","Charge III","Wear Armor I","Storm Fortification I","Rout I",
+		"Detection III","Survivalism III",
+		"Formation III","Raid III","Expose Armor I","Break City I","Pass I",
+		"Hard III","Bombard III","Strategic Deployment I","Shrapnel I","Detonate I",
+		"Wolfpack III","Dive III","Armor Piercing I","Noise Reduction I","Carrying Missile I"
 		],
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
 		"unitTypes": ["Foot Soldier",
@@ -1118,10 +1118,10 @@
         "column": 6,
     },
 	{
-		"name": "一鼓作气",
+		"name": "First Attack",
 		"prerequisites": [
-		"践踏 III","冲锋 III","披甲 I","攻坚 I","破敌 I",
-		"接舷 III","海掠 III","装甲 I","登陆 I","护航 I"],
+		"Trample III","Charge III","Wear Armor I","Storm Fortification I","Rout I",
+		"Boarding Party III","Coastal Raider III","Armor I","Landfall I","Escort I"],
 		"uniques": ["[+75]% Strength <when above [95] HP>"],
 		"unitTypes": [
 		"Mobile",
@@ -1131,15 +1131,15 @@
         "column": 7, 
     },
 	{
-		"name": "急行",
+		"name": "Rush",
 		"prerequisites": [
-		"践踏 III","冲锋 III","披甲 I","攻坚 I","破敌 I",
-		"侦查 III","生存 III",
-		"列阵 III","突袭 III","破甲 I","破城 I","要道 I",
-		"接舷 III","海掠 III","装甲 I","登陆 I","护航 I",
-		"齐射 III","援射 III","隐蔽 I","涂毒 I","近战 I",
-		"瞄准 III","火力覆盖 III","巡航 I","支援 I","队列 I",
-		"狼群战术 III","下潜 III","穿甲 I","无声 I","携弹 I"
+		"Trample III","Charge III","Wear Armor I","Storm Fortification I","Rout I",
+		"Detection III","Survivalism III",
+		"Formation III","Raid III","Expose Armor I","Break City I","Pass I",
+		"Boarding Party III","Coastal Raider III","Armor I","Landfall I","Escort I",
+		"Salvo III","Shooting Support III","Cover I","Apply Poison I","Bayonet Charge I",
+		"Aim III","Firepower Coverage III","Cruise I","Fire Support I","Queue I",
+		"Wolfpack III","Dive III","Armor Piercing I","Noise Reduction I","Carrying Missile I"
 		],
 		"uniques": ["[+1] Movement"],
 		"unitTypes": ["Mobile",
@@ -1152,18 +1152,18 @@
         "column": 8,   
     },
 	{
-		"name": "抢滩",
-		"prerequisites": ["接舷 III","海掠 III","装甲 I","登陆 I","护航 I"],
+		"name": "Grab Beach",
+		"prerequisites": ["Boarding Party III","Coastal Raider III","Armor I","Landfall I","Escort I"],
 		"uniques": ["Eliminates combat penalty for attacking across a coast"],
 		"unitTypes": ["Melee Water"],
         "row": 3,  
         "column": 9,
     },
 	{
-		"name" : "海上补给",
-		"prerequisites": ["接舷 III","海掠 III","装甲 I","登陆 I","护航 I",
-		"瞄准 III","火力覆盖 III","巡航 I","支援 I","队列 I",
-		"狼群战术 III","下潜 III","穿甲 I","无声 I","携弹 I"
+		"name" : "Sealift",
+		"prerequisites": ["Boarding Party III","Coastal Raider III","Armor I","Landfall I","Escort I",
+		"Aim III","Firepower Coverage III","Cruise I","Fire Support I","Queue I",
+		"Wolfpack III","Dive III","Armor Piercing I","Noise Reduction I","Carrying Missile I"
 		],
 		"uniques": ["May heal outside of friendly territory", "[+15] HP when healing <in [Foreign Land] tiles>"],
 		"unitTypes": ["Melee Water","Ranged Water","Submarine"],
@@ -1171,12 +1171,12 @@
         "column": 10,
     },	
     {
-		"name": "警戒",
+		"name": "Alert",
 		"prerequisites": [
-		"接舷 III","海掠 III","装甲 I","登陆 I","护航 I",
-		"齐射 III","援射 III","隐蔽 I","涂毒 I","近战 I",
-		"瞄准 III","火力覆盖 III","巡航 I","支援 I","队列 I",
-		"狼群战术 III","下潜 III","穿甲 I","无声 I","携弹 I"
+		"Boarding Party III","Coastal Raider III","Armor I","Landfall I","Escort I",
+		"Salvo III","Shooting Support III","Cover I","Apply Poison I","Bayonet Charge I",
+		"Aim III","Firepower Coverage III","Cruise I","Fire Support I","Queue I",
+		"Wolfpack III","Dive III","Armor Piercing I","Noise Reduction I","Carrying Missile I"
 		],
 		"uniques": ["[+1] Sight"],
 		"unitTypes": [
@@ -1187,10 +1187,10 @@
         "column": 11,   
     },
 	{
-		"name": "间瞄射击",
-		"prerequisites": ["齐射 III","援射 III","隐蔽 I","涂毒 I","近战 I",
-		"坚硬 III","轰击 III","战略部署 I","碎片 I","爆破 I",
-		"瞄准 III","火力覆盖 III","巡航 I","支援 I","队列 I"],
+		"name": "Indirect Fire",
+		"prerequisites": ["Salvo III","Shooting Support III","Cover I","Apply Poison I","Bayonet Charge I",
+		"Hard III","Bombard III","Strategic Deployment I","Shrapnel I","Detonate I",
+		"Aim III","Firepower Coverage III","Cruise I","Fire Support I","Queue I"],
 		"uniques": ["Ranged attacks may be performed over obstacles"],
 		"unitTypes": ["Shooter",
 		"Siege",
@@ -1199,13 +1199,13 @@
 		"column": 12,
 	},
 	{
-		"name": "连续出击",
-		"prerequisites": ["齐射 III","援射 III","隐蔽 I","涂毒 I","近战 I",
-		"坚硬 III","轰击 III","战略部署 I","碎片 I","爆破 I",
-		"瞄准 III","火力覆盖 III","巡航 I","支援 I","队列 I"
-		"狼群战术 III","下潜 III","穿甲 I","无声 I","携弹 I",
-		"Interception III", "Dogfighting III", "持续拦截 I","Air Targeting I",
-		"定点轰炸 III","饱和轰炸 III","Ambush I","战术规避 I"
+		"name": "Continuous Attack",
+		"prerequisites": ["Salvo III","Shooting Support III","Cover I","Apply Poison I","Bayonet Charge I",
+		"Hard III","Bombard III","Strategic Deployment I","Shrapnel I","Detonate I",
+		"Aim III","Firepower Coverage III","Cruise I","Fire Support I","Queue I"
+		"Wolfpack III","Dive III","Armor Piercing I","Noise Reduction I","Carrying Missile I",
+		"Interception III", "Dogfighting III", "Continuous Interception I","Air Targeting I",
+		"Pinpoint Bombing III","Saturation Bombing III","Ambush I","Tactical Evasion I"
 		],
 		"uniques": ["[1] additional attacks per turn", "Can move after attacking"],
 		"unitTypes": ["Shooter",
@@ -1218,11 +1218,11 @@
          "column": 13,    
     },
 	{
-		"name": "额外射程",
-		"prerequisites": ["齐射 III","援射 III","隐蔽 I","涂毒 I","近战 I",
-		"坚硬 III","轰击 III","战略部署 I","碎片 I","爆破 I",
-		"瞄准 III","火力覆盖 III","巡航 I","支援 I","队列 I",
-		"狼群战术 III","下潜 III","穿甲 I","无声 I","携弹 I"
+		"name": "Additional Range",
+		"prerequisites": ["Salvo III","Shooting Support III","Cover I","Apply Poison I","Bayonet Charge I",
+		"Hard III","Bombard III","Strategic Deployment I","Shrapnel I","Detonate I",
+		"Aim III","Firepower Coverage III","Cruise I","Fire Support I","Queue I",
+		"Wolfpack III","Dive III","Armor Piercing I","Noise Reduction I","Carrying Missile I"
 		],
 		"uniques": ["[+1] Range"],
 		"unitTypes": ["Shooter",
@@ -1236,8 +1236,8 @@
 	{
 		"name": "Operational Range",
 		"prerequisites": [
-		"Interception III", "Dogfighting III", "持续拦截 I","Air Targeting I",
-		"定点轰炸 III","饱和轰炸 III","Ambush I","战术规避 I"
+		"Interception III", "Dogfighting III", "Continuous Interception I","Air Targeting I",
+		"Pinpoint Bombing III","Saturation Bombing III","Ambush I","Tactical Evasion I"
 		],
 		"uniques": ["[+2] Range"],
 		"unitTypes": ["Fighter","Bomber"],
@@ -1247,8 +1247,8 @@
 	{
 		"name": "Air Repair",
 		"prerequisites": [
-		"Interception III", "Dogfighting III", "持续拦截 I","Air Targeting I",
-		"定点轰炸 III","饱和轰炸 III","Ambush I","战术规避 I"
+		"Interception III", "Dogfighting III", "Continuous Interception I","Air Targeting I",
+		"Pinpoint Bombing III","Saturation Bombing III","Ambush I","Tactical Evasion I"
 		],
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
 		"unitTypes": ["Fighter","Bomber"],
@@ -1314,19 +1314,19 @@
 		"uniques": ["All healing effects doubled"]
 	},
 	{
-		"name": "士气强化", // 英雄史诗
+		"name": "Morale Enhancement", // 英雄史诗
 		"uniques": ["[+15]% Strength"]
     },
 	{
-		"name": "穿山", // 英雄史诗
+		"name": "Crossing the Mountain", // 英雄史诗
 		"uniques": ["Can pass through impassable tiles"]
     },
 	{
-		"name": "装备精良", // 军械所
+		"name": "Well Equipped", // 军械所
 		"uniques": ["[+10]% Strength"]
 	},
 	{
-		"name": "卫国", // 区域—红场
+		"name": "Defend the Motherland", // 区域—红场
 		"uniques": ["[+10]% Strength <when fighting in [Friendly Land] tiles>"]
 	},
 	{
@@ -1338,12 +1338,8 @@
 		"uniques": ["[+10]% Strength <when adjacent to a [Great Prophet] unit>"]
 	},
 	{
-	    "name": "山地游击" //阿富汗
+	    "name": "Mountain Guerrilla" //阿富汗
 	    "uniques":["[-20]% Strength for enemy [Military] units in adjacent [Rough terrain] tiles"]
-	},
-	{
-		"name": "蛮族归顺", // 秦始皇
-		"uniques": ["May capture killed [{Barbarian}] units"]
 	},
 	{
 		"name": "TomyrisAbility", // 托米丽司

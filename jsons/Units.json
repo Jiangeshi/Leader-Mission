@@ -43,7 +43,7 @@
 		"strength": 5,
 		"cost": 22,
 		"requiredTech": "Archery",
-		"promotions": ["越野能力"],
+		"promotions": ["Off-road"],
 		"attackSound": "nonmetalhit"
     //步兵
 	},
@@ -480,7 +480,7 @@
 		"strength": 12,
 		"cost": 49,
 		"requiredTech": "青铜器",
-		"obsoleteTech": "防御工事",
+		"obsoleteTech": "Defensive Fortification",
 		"upgradesTo": "Pikeman",
 		"uniques":["[+50]% Strength <vs [Mobile] units>"]
 		"attackSound": "metalhit"
@@ -494,7 +494,7 @@
 		"strength": 13,
 		"cost": 52,
 		"requiredTech": "青铜器",
-		"obsoleteTech": "防御工事",
+		"obsoleteTech": "Defensive Fortification",
 		"upgradesTo": "Pikeman",
 	    "uniques":["[+50]% Strength <vs [Mobile] units>"]	
 	    "promotions": ["[Hoplite] ability"],
@@ -509,7 +509,7 @@
 		"strength": 13,
 	    "cost": 55,
 		"requiredTech": "青铜器",
-		"obsoleteTech": "防御工事",
+		"obsoleteTech": "Defensive Fortification",
 		"upgradesTo": "Pikeman",
 		"uniques": ["[+50]% Strength <vs [Mobile] units>","Can transform to [Persian Immortal(Ranged)]"],
 		"promotions":["[Persian Immortal] ability"],
@@ -534,7 +534,7 @@
 		"movement": 2,
 		"strength": 17,
 		"cost": 130,
-		"requiredTech": "防御工事",
+		"requiredTech": "Defensive Fortification",
 		"upgradesTo": "Lancer",
 	    "obsoleteTech": "合金",
         "uniques":["[+50]% Strength <vs [Mobile] units>"]	    
@@ -548,7 +548,7 @@
 		"movement": 2,
 		"strength": 16,
 		"cost": 75,
-		"requiredTech": "防御工事",
+		"requiredTech": "Defensive Fortification",
 		"uniques": ["[+50]% Strength <vs [Mobile] units>", "Can move immediately once bought" ],
 		"upgradesTo": "Lancer",
 		"obsoleteTech": "合金",
@@ -563,7 +563,7 @@
 		"requiredTech": "合金",
 		"requiredResource": "Horses",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[+50]% Strength <vs [Mobile] units>"],
-		"promotions": ["列阵 I"],
+		"promotions": ["Formation I"],
 		"upgradesTo": "Anti-Tank Gun",
 		"obsoleteTech": "协同作战",
 		"attackSound": "metalhit"
@@ -1003,7 +1003,7 @@
 	    "obsoleteTech": "火箭",
 		"upgradesTo": "Rocket Artillery",
 		"uniques": ["No defensive terrain bonus","Must set up to ranged attack","[-1] Sight","[+200]% Strength <vs cities> <when attacking>"],
-		"promotions": ["间瞄射击"],
+		"promotions": ["Indirect Fire"],
 		"attackSound": "artillery"
 	},
 	{
@@ -1017,7 +1017,7 @@
 		"requiredTech": "火箭",
 		"requiredResource": "Aluminum",
 		"uniques": ["No defensive terrain bonus","[-1] Sight","[+200]% Strength <vs cities> <when attacking>","Can carry [1] [Flybomb] units"],
-		"promotions": ["间瞄射击"],
+		"promotions": ["Indirect Fire"],
 		"attackSound": "artillery"
 	//近程海军
 	},
@@ -1096,7 +1096,7 @@
 		"requiredTech": "航海术",
 		"upgradesTo": "Destroyer",
 		"obsoleteTech": "内燃机",
-		"promotions": ["海掠 I"],
+		"promotions": ["Coastal Raider I"],
 		"uniques": ["May capture killed [Water] units"],
 		"attackSound": "cannon"
 	},
@@ -1164,7 +1164,7 @@
 		"requiredResource": "Oil",
 		"requiredTech": "电子学",
 		"uniques": ["Consumes [1] [Steel]"],
-		"promotions": ["间瞄射击"],
+		"promotions": ["Indirect Fire"],
 		"attackSound": "shipguns"
 	},
 	{
@@ -1182,7 +1182,7 @@
 			"[+100]% Strength <vs [Submarine] units>",
 			"Consumes [1] [Oil]","Consumes [1] [Steel]","Consumes [1] [Aluminum]",
 		],
-		"promotions": ["间瞄射击"],
+		"promotions": ["Indirect Fire"],
 		"attackSound": "shipguns"
 	//海军运输单位
 	},

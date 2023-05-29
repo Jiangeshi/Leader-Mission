@@ -435,7 +435,7 @@ Leader Mission 模组中的胜利方式有：
 		"happiness": 5,
 		"cost":180,
 	    "maintenance": 0,
-		"requiredTech": "国家"
+		"requiredTech": "Nation"
 		"isNationalWonder": true,
 		"uniques":["Cannot be purchased","Unsellable","Can only be built [in capital]","[+1 Production] [in all cities]","Triggers a global alert upon completion"]
 		"civilopediaText": [
@@ -453,7 +453,7 @@ Leader Mission 模组中的胜利方式有：
 		"isNationalWonder": true,
 		"percentStatBonus": {"science": 50},
 		"uniques": ["Cost increases by [30] per owned city","Requires a [Library] in all cities","Only available <in cities with a [District—Country]>",],
-		"requiredTech": "国家"
+		"requiredTech": "Nation"
 		"requiredBuilding": "District—Country",
 	},
 	{
@@ -462,7 +462,7 @@ Leader Mission 模组中的胜利方式有：
 		"culture": 3,
 		"isNationalWonder": true,
 		"uniques": ["Requires a [Monument] in all cities", "[+15]% Great Person generation [in all cities]", "Cost increases by [30] per owned city","Only available <in cities with a [District—Country]>"],
-		"requiredTech": "国家",
+		"requiredTech": "Nation",
 		"requiredBuilding": "District—Country",
 	},
 	{
@@ -498,7 +498,7 @@ Leader Mission 模组中的胜利方式有：
 		"name": "District—Government",
 		"cost":200,
 	    "maintenance": 3,
-		"requiredTech": "政治学"
+		"requiredTech": "Politics"
 		"isNationalWonder": true,
 		"uniques":["Cannot be purchased","Unsellable","[-15]% Culture cost of adopting new Policies",
 		"Provides [1] [Governor Point]",
@@ -517,7 +517,7 @@ Leader Mission 模组中的胜利方式有：
 		"maintenance": 0,
 		"cost": 100,
 		"uniques": ["Remove extra unhappiness from annexed cities",
-		"[-10]% Unhappiness from [Population] [in this city] <after discovering [立法]>",
+		"[-10]% Unhappiness from [Population] [in this city] <after discovering [Legislation]>",
 		"Destroyed when the city is captured","Unsellable"
 ],
 		"requiredTech": "建筑设计学",
@@ -529,7 +529,7 @@ Leader Mission 模组中的胜利方式有：
 		"uniques": ["Requires a [Courthouse] in all cities", "Cost increases by [30] per owned city","[-10]% Unhappiness from [Population] [in all cities]",
 		"[+1 Happiness] [in all cities]"
 		"Provides [1] [Governor Upgrade Point]","Only available <in cities with a [District—Government]>"],
-		"requiredTech": "立法",
+		"requiredTech": "Legislation",
 		"requiredBuilding": "District—Government",
 	},
 	{
@@ -541,7 +541,7 @@ Leader Mission 模组中的胜利方式有：
 		 "[+15]% Production when constructing [Military] units [in all cities] <when not at war>",
 		"[-5]% [Gold] [in all cities]",
 		"Provides [1] [Governor Upgrade Point]","Only available <in cities with a [District—Government]>"],
-		"requiredTech": "国防",
+		"requiredTech": "National Defense",
 		"requiredBuilding": "District—Government"
 	},
 	{
@@ -553,7 +553,7 @@ Leader Mission 模组中的胜利方式有：
 		"When declaring friendship, both parties gain a [5]% boost to great person generation",
 		"Gain [50]-[100] [Culture] <upon declaring friendship>"
 		"Provides [1] [Governor Upgrade Point]","Only available <in cities with a [District—Government]>"],
-		"requiredTech": "外交",
+		"requiredTech": "Diplomacy",
 		"requiredBuilding": "District—Government",
 	},
 	{
@@ -567,7 +567,7 @@ Leader Mission 模组中的胜利方式有：
 	{
 	    "name": "Governor—Magnus I",
 		"cost": 100,
-	    "requiredTech": "政治学",
+	    "requiredTech": "Politics",
 		"requiredResource": "Governor Point",
 		"uniques":["Cannot be purchased","Unsellable","Destroyed when the city is captured","Only available <in cities without a [Governor—Reina I]>","Only available <in cities without a [Governor—Pingala I]>","Limited to [1] per Civilization"
 		    "[+1 Gold] from [Mine] tiles [in this city]",
@@ -611,7 +611,7 @@ Leader Mission 模组中的胜利方式有：
 	{
 	    "name": "Governor—Pingala I",
 		"cost": 100,
-		"requiredTech": "政治学",
+		"requiredTech": "Politics",
 		"requiredResource": "Governor Point",
 		"percentStatBonus":{"culture": 15,"science": 15}
 		"uniques":["Cannot be purchased","Unsellable","Destroyed when the city is captured","Only available <in cities without a [Governor—Magnus I]>","Only available <in cities without a [Governor—Reina I]>","Limited to [1] per Civilization",]
@@ -649,7 +649,7 @@ Leader Mission 模组中的胜利方式有：
 	{
 	    "name": "Governor—Reina I",
 		"cost": 100,
-	    "requiredTech": "政治学",
+	    "requiredTech": "Politics",
 		"requiredResource": "Governor Point",
 		"uniques":["Cannot be purchased","Unsellable","Destroyed when the city is captured","Only available <in cities without a [Governor—Magnus I]>","Only available <in cities without a [Governor—Pingala I]>",
 		"[+5 Gold] [in this city] <with [1] to [2] neighboring [Bonus resource] tiles>",
@@ -1041,7 +1041,7 @@ Leader Mission 模组中的胜利方式有：
 	    "maintenance": 3,
 	    "cityStrength": 2,
 		"cityHealth": 30,
-		"requiredTech": "军事学",
+		"requiredTech": "Army Formation",
 		"uniques":["Cannot be purchased","Unsellable","New [Military] units start with [10] Experience [in this city]",                    "[+10]% Production when constructing [Military] units [in this city]","Destroyed when the city is captured","Provides [3] [CO2]"],
 		"civilopediaText": [
 		{"text":"Can be built in District—Military Center：", "link":"Building/District—Military Center"},
@@ -1065,7 +1065,7 @@ Leader Mission 模组中的胜利方式有：
 		"name": "Barracks",
 		"maintenance": 3,
 		"uniques": ["Unsellable","New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured","Provides [3] [CO2]","Only available <in cities with a [District—Military Center]>"],
-		"requiredTech": "军事学",
+		"requiredTech": "Army Formation",
 		"requiredBuilding": "District—Military Center",
 	},
 	{
@@ -1074,7 +1074,7 @@ Leader Mission 模组中的胜利方式有：
 		"cityStrength": 3,
 		"cityHealth": 25,
 		"uniques": ["Destroyed when the city is captured","Unsellable","Only available <in cities with a [District—Military Center]>",],
-		"requiredTech": "防御工事",
+		"requiredTech": "Defensive Fortification",
 		"requiredBuilding": "District—Military Center",
 	},
 	{
@@ -1090,7 +1090,7 @@ Leader Mission 模组中的胜利方式有：
 		"name": "Armory",
 		"maintenance": 2,
 		"requiredBuilding": "District—Military Center",
-		"uniques": ["All newly-trained [Military] units [in this city] receive the [装备精良] promotion", "Destroyed when the city is captured","Provides [3] [CO2]","Unsellable","Only available <in cities with a [District—Military Center]>"],
+		"uniques": ["All newly-trained [Military] units [in this city] receive the [Well Equipped] promotion", "Destroyed when the city is captured","Provides [3] [CO2]","Unsellable","Only available <in cities with a [District—Military Center]>"],
 		"requiredTech": "兵器储备"
 	},
 	{
@@ -1122,9 +1122,9 @@ Leader Mission 模组中的胜利方式有：
 		"name": "Heroic Epic",
 		"cost": 220,
 		"isNationalWonder": true,
-		"uniques": ["Requires a [Barracks] in all cities", "All newly-trained [non-air] units [in this city] receive the [士气强化] promotion",
+		"uniques": ["Requires a [Barracks] in all cities", "All newly-trained [non-air] units [in this city] receive the [Morale Enhancement] promotion",
 			"Cost increases by [30] per owned city","Only available <in cities with a [District—Military Center]>"],
-		"requiredTech": "军事学",
+		"requiredTech": "Army Formation",
 		"requiredBuilding": "District—Military Center",
 	},
 	{
@@ -1134,7 +1134,7 @@ Leader Mission 模组中的胜利方式有：
 		"isWonder": true,
 		"uniques": ["Enemy [Land] units must spend [1] extra movement points when inside your territory"
 			"Gain a free [Blockhouse] [in this city]","Cannot be hurried","Only available <in cities with a [District—Military Center]>"],
-		"requiredTech": "防御工事",
+		"requiredTech": "Defensive Fortification",
 		"requiredBuilding": "District—Military Center",
 		"quote": "'The art of war teaches us to rely not on the likelihood of the enemy's not attacking, but rather on the fact that we have made our position unassailable.' - Sun Tzu"
 	},
@@ -1144,7 +1144,7 @@ Leader Mission 模组中的胜利方式有：
 		"greatPersonPoints": {"Great Artist": 1},
 		"isWonder": true,
 		"percentStatBonus": {"culture": 20},
-		"uniques": ["All newly-trained [relevant] units [in this city] receive the [操练 I] promotion",
+		"uniques": ["All newly-trained [relevant] units [in this city] receive the [Barrage I] promotion",
 			"Gain a free [Castle] [in this city]","Cannot be hurried","Only available <in cities with a [District—Military Center]>"],
 		"requiredTech": "骑士制度",
 		"requiredBuilding": "District—Military Center",
@@ -1424,7 +1424,7 @@ Leader Mission 模组中的胜利方式有：
 		"cost": 200,
 		"uniques": ["Unsellable","Only available <in cities with a [District—Infrastructure Center]>"],
 		"requiredBuilding": "District—Infrastructure Center",
-		"requiredTech": "水运"
+		"requiredTech": "Waterage"
     },
 	{
 		"name": "Broadcast Tower",
@@ -1495,14 +1495,14 @@ Leader Mission 模组中的胜利方式有：
 		"cost": 400,
 		"isNationalWonder": true,
 		"uniques": ["Cost increases by [50] per owned city","Requires a [Canal] in all cities","[+4 Gold, +4 Production] [in all cities]","Only available <in cities with a [District—Infrastructure Center]>"],
-		"requiredTech": "水运"
+		"requiredTech": "Waterage"
 		"requiredBuilding": "District—Infrastructure Center",
 	},
 	{
 		"name": "Tunnel",
 		"cost": 800,
 		"isNationalWonder": true,
-	    "uniques":["All newly-trained [Land] units [in this city] receive the [穿山] promotion","Only available <in cities with a [District—Infrastructure Center]>"]
+	    "uniques":["All newly-trained [Land] units [in this city] receive the [Crossing the Mountain] promotion","Only available <in cities with a [District—Infrastructure Center]>"]
 		"requiredTech": "炸药"
 		"requiredBuilding": "District—Infrastructure Center",
 	},
@@ -1578,7 +1578,7 @@ Leader Mission 模组中的胜利方式有：
 		"maintenance": 3,
 		"requiredResource": "Coal",
 		"requiredBuilding": "District—Industrial Centre",
-		"requiredTech": "炼钢",
+		"requiredTech": "Steelmaking",
 	    "uniques":[
 	    "Consumes [3] [Iron]",
 	    "Provides [15] [Steel]",
@@ -1781,8 +1781,8 @@ Leader Mission 模组中的胜利方式有：
 		"cost":1,
 		"uniqueTo": "China",
 		"uniques": ["Can only be built [in capital]","Only available <in cities without a [Civilized Leader—Emperor Wu of Han]>","Only available <in cities without a [Civilized Leader—Chairman Mao]>",
-	    "[+20]% Strength <for [Military] units> <before discovering [国家]>"
-	    "Free Great Person <upon discovering [国家]>"
+	    "[+20]% Strength <for [Military] units> <before discovering [Nation]>"
+	    "Free Great Person <upon discovering [Nation]>"
 	    "[+33]% Production when constructing [National Wonder] wonders [in all cities]"
 		]
 		},
@@ -1805,7 +1805,7 @@ Leader Mission 模组中的胜利方式有：
 	    "cost":160,
 	    "uniqueTo": "China",
 		"replaces": "District—Country",
-		"requiredTech": "国家"
+		"requiredTech": "Nation"
 		"isNationalWonder": true,
 		"uniques":["Cannot be purchased","Unsellable","Can only be built [in capital]","[+1 Production] [in all cities]","[+2 Culture] [in all cities]","Triggers a global alert upon completion"]
 	},
@@ -1960,10 +1960,10 @@ Leader Mission 模组中的胜利方式有：
 		"cityHealth": 30,
 	    "uniqueTo": "Soviet Union",
 		"replaces": "District—Military Center",
-		"requiredTech": "军事学"
+		"requiredTech": "Army Formation"
 		"uniques":["Cannot be purchased","Unsellable",
 		"New [Military] units start with [10] Experience [in this city]","[+10]% Production when constructing [Military] units [in this city]",
-		"All newly-trained [Military] units [in this city] receive the [卫国] promotion",
+		"All newly-trained [Military] units [in this city] receive the [Defend the Motherland] promotion",
 		"Destroyed when the city is captured","Provides [3] [CO2]"]	
 		//布基纳法索
 	},
@@ -1992,7 +1992,7 @@ Leader Mission 模组中的胜利方式有：
 		"cost":1,
 		"uniqueTo": "Panama",
 		"uniques": ["Can only be built [in capital]",
-		"[+2 Science] from every [Canal] <before discovering [水运]>","[+2 Culture, +2 Gold] from every [Canal] <after discovering [水运]>",]
+		"[+2 Science] from every [Canal] <before discovering [Waterage]>","[+2 Culture, +2 Gold] from every [Canal] <after discovering [Waterage]>",]
 	},
 	{
 		"name": "Panama Canal",
@@ -2002,7 +2002,7 @@ Leader Mission 模组中的胜利方式有：
 		"replaces": "National Canal",
 		"isNationalWonder": true,
 		"uniques": ["Cost increases by [50] per owned city","Requires a [Canal] in all cities","[+4 Gold, +4 Production] [in all cities]","Only available <in cities with a [District—Infrastructure Center]>"]
-		"requiredTech": "水运"
+		"requiredTech": "Waterage"
 		"requiredBuilding": "District—Infrastructure Center",
 		//拜占庭
 	},
@@ -2218,7 +2218,7 @@ Leader Mission 模组中的胜利方式有：
 		"cost":1,
 		"uniqueTo": "Egypt",
 		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized leader—Ramesses II]>", "Only available <in cities without a [Civilized leader—Nasser]>",
-	    "All newly-trained [Military] units [in all cities] receive the [两栖作战] promotion"
+	    "All newly-trained [Military] units [in all cities] receive the [Amphibious] promotion"
 	    "Gain [50]-[75] [Gold] <upon declaring friendship>"
 	    "Gain [50]-[75] [Gold] <upon declaring war with a major Civilization>"
 		]
@@ -2253,7 +2253,7 @@ Leader Mission 模组中的胜利方式有：
 		"Provides [1] [Iron]",
 		"Provides [3] [CO2]",
 		"Only available <in cities with a [District—Military Center]>","Unsellable"],
-		"requiredTech": "军事学",
+		"requiredTech": "Army Formation",
 		"requiredBuilding": "District—Military Center",
 		"replaces": "Barracks",
 		"uniqueTo": "Macedonia",
@@ -2287,7 +2287,7 @@ Leader Mission 模组中的胜利方式有：
 		"cost":1,
 		"uniqueTo": "Carthage",
 		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader—Dido]>",
-	    "All newly-trained [Land] units [in all cities] receive the [穿山] promotion"
+	    "All newly-trained [Land] units [in all cities] receive the [Crossing the Mountain] promotion"
 	    "[+75]% to Flank Attack bonuses <for [Military] units>"
 		]
     },
@@ -2413,7 +2413,7 @@ Leader Mission 模组中的胜利方式有：
 		"requiredTech": "建筑设计学",
 		"uniqueTo": "Mongolia",
 		"uniques": ["Remove extra unhappiness from annexed cities",
-		"[-10]% Unhappiness from [Population] [in this city] <after discovering [立法]>",
+		"[-10]% Unhappiness from [Population] [in this city] <after discovering [Legislation]>",
 		"[+15]% Production when constructing [Mobile] units [in this city]",
 		"Destroyed when the city is captured","Unsellable"
 		]
@@ -2444,7 +2444,7 @@ Leader Mission 模组中的胜利方式有：
 		"name": "Cuban Capitol",
 		"cost":200,
 	    "maintenance": 3,
-		"requiredTech": "政治学"
+		"requiredTech": "Politics"
 		"replaces": "District—Government",
 		"uniqueTo": "Cuba",
 		"isNationalWonder": true,
@@ -2499,7 +2499,7 @@ Leader Mission 模组中的胜利方式有：
 		"cost":1,
 		"uniqueTo": "Ottoman Türkiye",
 		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized leader—Osman I]>", "Only available <in cities without a [Civilized leader—Kemal]>",
-		"Provides [1] [Governor Point] <after discovering [政治学]>",
+		"Provides [1] [Governor Point] <after discovering [Politics]>",
 		"[+3] XP gained from combat <for [Military] units>"
 		]
 	},
@@ -2521,7 +2521,7 @@ Leader Mission 模组中的胜利方式有：
 		"cityStrength": 6,
 		"cityHealth": 50,
 		"uniques": ["Destroyed when the city is captured","Unsellable","Only available <in cities with a [District—Military Center]>",],
-		"requiredTech": "防御工事",
+		"requiredTech": "Defensive Fortification",
 		"requiredBuilding": "District—Military Center",
 		"replaces": "Blockhouse",
 		"uniqueTo": "Ottoman Türkiye",

@@ -656,14 +656,7 @@ size: 2048, 128
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-UnitPromotionIcons/操练
-  rotate: false
-  xy: 982, 62
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/快速攻势
+UnitPromotionIcons/Quick Offensive
   rotate: false
   xy: 576, 62
   size: 50, 50
@@ -677,168 +670,112 @@ UnitPromotionIcons/Rejuvenation
   orig: 50, 50
   offset: 0, 0
   index: -1
-UnitPromotionIcons/侦查
+UnitPromotionIcons/Detection
   rotate: false
   xy: 112, 4
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-UnitPromotionIcons/警戒
+UnitPromotionIcons/Alert
   rotate: false
   xy: 112, 4
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1  
-UnitPromotionIcons/海掠
-  rotate: false
-  xy: 808, 62
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/紧急治疗
-  rotate: false
-  xy: 1388, 62
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1    
-UnitPromotionIcons/连续出击
+UnitPromotionIcons/Continuous Attack
   rotate: false
   xy: 1620, 62
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1   
-UnitPromotionIcons/两栖作战
-  rotate: false
-  xy: 344, 62
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/冲击
-  rotate: false
-  xy: 170, 4
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/潜伏
+UnitPromotionIcons/Hide
   rotate: false
   xy: 576, 4
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-UnitPromotionIcons/攻城
+UnitPromotionIcons/Attack City
   rotate: false
   xy: 518, 62
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-UnitPromotionIcons/攻坚
+UnitPromotionIcons/Storm Fortification
   rotate: false
   xy: 518, 62
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1  
-UnitPromotionIcons/破城
+UnitPromotionIcons/Break City
   rotate: false
   xy: 518, 62
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-UnitPromotionIcons/爆破
+UnitPromotionIcons/Detonate
   rotate: false
   xy: 518, 62
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1        
-UnitPromotionIcons/定点轰炸
+UnitPromotionIcons/Pinpoint Bombing
   rotate: false
   xy: 518, 62
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1    
-UnitPromotionIcons/救助
+UnitPromotionIcons/Rescue
   rotate: false
   xy: 1736, 62
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-UnitPromotionIcons/长途行军
-  rotate: false
-  xy: 1678, 62
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/生存
-  rotate: false
-  xy: 402, 4
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/抢滩
+UnitPromotionIcons/Grab Beach
   rotate: false
   xy: 344, 62
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-UnitPromotionIcons/海上补给
+UnitPromotionIcons/Sealift
   rotate: false
   xy: 344, 4
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-UnitPromotionIcons/隐蔽
-  rotate: false
-  xy: 866, 62
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/额外射程
+UnitPromotionIcons/Additional Range
   rotate: false
   xy: 1098, 62
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-UnitPromotionIcons/狼群战术
-  rotate: false
-  xy: 518, 4
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/携弹
+UnitPromotionIcons/Carrying Missile
   rotate: false
   xy: 692, 62
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-UnitPromotionIcons/饱和轰炸
+UnitPromotionIcons/Saturation Bombing
   rotate: false
   xy: 692, 62
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1  
-UnitPromotionIcons/持续拦截
+UnitPromotionIcons/Continuous Interception
   rotate: false
   xy: 286, 4
   size: 50, 50
@@ -2497,8 +2434,8 @@ TechIcons/Religious Culture
   offset: 0, 0
   index: -1  
   
-国家.png
-TechIcons/国家
+Nation.png
+TechIcons/Nation
   rotate: false
   xy: 0, 0
   size: 100, 100
@@ -2506,8 +2443,8 @@ TechIcons/国家
   offset: 0, 0
   index: -1  
   
-政治学.png
-TechIcons/政治学
+Politics.png
+TechIcons/Politics
   rotate: false
   xy: 0, 0
   size: 100, 100
@@ -2515,8 +2452,8 @@ TechIcons/政治学
   offset: 0, 0
   index: -1  
   
-军事学.png
-TechIcons/军事学
+Army Formation.png
+TechIcons/Army Formation
   rotate: false
   xy: 0, 0
   size: 400, 400
@@ -2524,8 +2461,8 @@ TechIcons/军事学
   offset: 0, 0
   index: -1  
   
-防御工事.png
-TechIcons/防御工事
+Defensive Fortification.png
+TechIcons/Defensive Fortification
   rotate: false
   xy: 0, 0
   size: 70, 70
@@ -2533,8 +2470,8 @@ TechIcons/防御工事
   offset: 0, 0
   index: -1  
   
-立法.png
-TechIcons/立法
+Legislation.png
+TechIcons/Legislation
   rotate: false
   xy: 0, 0
   size: 100, 100
@@ -2542,8 +2479,8 @@ TechIcons/立法
   offset: 0, 0
   index: -1    
 
-国防.png
-TechIcons/国防
+National Defense.png
+TechIcons/National Defense
   rotate: false
   xy: 0, 0
   size: 150, 150
@@ -2551,8 +2488,8 @@ TechIcons/国防
   offset: 0, 0
   index: -1  
   
-炼钢.png
-TechIcons/炼钢
+Steelmaking.png
+TechIcons/Steelmaking
   rotate: false
   xy: 0, 0
   size: 200, 200
@@ -2560,8 +2497,8 @@ TechIcons/炼钢
   offset: 0, 0
   index: -1     
 
-外交.png
-TechIcons/外交
+Diplomacy.png
+TechIcons/Diplomacy
   rotate: false
   xy: 0, 0
   size: 200, 200
@@ -2569,8 +2506,8 @@ TechIcons/外交
   offset: 0, 0
   index: -1     
 
-水运.png
-TechIcons/水运
+Waterage.png
+TechIcons/Waterage
   rotate: false
   xy: 0, 0
   size: 100, 100
@@ -2983,8 +2920,8 @@ UnitIcons/Father
   offset: 0, 0
   index: -1              
       
-坚硬.png
-UnitPromotionIcons/坚硬
+Hard.png
+UnitPromotionIcons/Hard
   rotate: false
   xy: 0,0
   size: 50, 50
@@ -2992,8 +2929,8 @@ UnitPromotionIcons/坚硬
   offset: 0, 0
   index: -1 
   
-践踏.png
-UnitPromotionIcons/践踏
+Trample.png
+UnitPromotionIcons/Trample
   rotate: false
   xy: 0,0
   size: 70, 70
@@ -3001,17 +2938,8 @@ UnitPromotionIcons/践踏
   offset: 0, 0
   index: -1 
   
-接舷.png
-UnitPromotionIcons/接舷
-  rotate: false
-  xy: 0,0
-  size: 60, 60
-  orig: 60, 60
-  offset: 0, 0
-  index: -1 
-  
-列阵.png
-UnitPromotionIcons/列阵
+Formation.png
+UnitPromotionIcons/Formation
   rotate: false
   xy: 0,0
   size: 200, 200
@@ -3019,8 +2947,8 @@ UnitPromotionIcons/列阵
   offset: 0, 0
   index: -1 
   
-瞄准.png
-UnitPromotionIcons/瞄准
+Aim.png
+UnitPromotionIcons/Aim
   rotate: false
   xy: 0,0
   size: 100, 100
@@ -3046,8 +2974,8 @@ UnitPromotionIcons/真主荣耀
   offset: 0, 0
   index: -1     
  
-齐射.png
-UnitPromotionIcons/齐射
+Salvo.png
+UnitPromotionIcons/Salvo
   rotate: false
   xy: 0,0
   size: 50, 50
@@ -3055,8 +2983,8 @@ UnitPromotionIcons/齐射
   offset: 0, 0
   index: -1 
  
-间瞄射击.png
-UnitPromotionIcons/间瞄射击
+Indirect Fire.png
+UnitPromotionIcons/Indirect Fire
   rotate: false
   xy: 0,0
   size: 100, 100
@@ -3064,8 +2992,8 @@ UnitPromotionIcons/间瞄射击
   offset: 0, 0
   index: -1  
  
-穿山.png
-UnitPromotionIcons/穿山
+Crossing the Mountain.png
+UnitPromotionIcons/Crossing the Mountain
   rotate: false
   xy: 0,0
   size: 50, 50
@@ -3073,8 +3001,8 @@ UnitPromotionIcons/穿山
   offset: 0, 0
   index: -1 
  
-越野能力.png
-UnitPromotionIcons/越野能力
+Off-road.png
+UnitPromotionIcons/Off-road
   rotate: false
   xy: 0,0
   size: 50, 50
@@ -3082,8 +3010,8 @@ UnitPromotionIcons/越野能力
   offset: 0, 0
   index: -1     
 
-装备精良.png
-UnitPromotionIcons/装备精良
+Well Equipped.png
+UnitPromotionIcons/Well Equipped
   rotate: false
   xy: 0,0
   size: 70, 70
@@ -3091,8 +3019,8 @@ UnitPromotionIcons/装备精良
   offset: 0, 0
   index: -1 
   
-士气强化.png
-UnitPromotionIcons/士气强化
+Morale Enhancement.png
+UnitPromotionIcons/Morale Enhancement
   rotate: false
   xy: 0,0
   size: 70, 70
@@ -3100,8 +3028,8 @@ UnitPromotionIcons/士气强化
   offset: 0, 0
   index: -1 
  
-卫国.png
-UnitPromotionIcons/卫国
+Defend the Motherland.png
+UnitPromotionIcons/Defend the Motherland
   rotate: false
   xy: 0,0
   size: 100, 100
@@ -3109,8 +3037,8 @@ UnitPromotionIcons/卫国
   offset: 0, 0
   index: -1 
   
-固守.png
-UnitPromotionIcons/固守
+Hold Ground.png
+UnitPromotionIcons/Hold Ground
   rotate: false
   xy: 0,0
   size: 50, 50
@@ -3118,8 +3046,8 @@ UnitPromotionIcons/固守
   offset: 0, 0
   index: -1 
   
-巷战.png
-UnitPromotionIcons/巷战
+Street Battle.png
+UnitPromotionIcons/Street Battle
   rotate: false
   xy: 0,0
   size: 50, 50
@@ -3127,8 +3055,8 @@ UnitPromotionIcons/巷战
   offset: 0, 0
   index: -1 
  
-冲锋.png
-UnitPromotionIcons/冲锋
+Charge.png
+UnitPromotionIcons/Charge
   rotate: false
   xy: 0,0
   size: 45, 45
@@ -3136,8 +3064,8 @@ UnitPromotionIcons/冲锋
   offset: 0, 0
   index: -1 
  
-披甲.png
-UnitPromotionIcons/披甲
+Wear Armor.png
+UnitPromotionIcons/Wear Armor
   rotate: false
   xy: 0,0
   size: 25, 25
@@ -3145,17 +3073,8 @@ UnitPromotionIcons/披甲
   offset: 0, 0
   index: -1  
  
-破敌.png
-UnitPromotionIcons/破敌
-  rotate: false
-  xy: 0,0
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1    
- 
-一鼓作气.png
-UnitPromotionIcons/一鼓作气
+First Attack.png
+UnitPromotionIcons/First Attack
   rotate: false
   xy: 0,0
   size: 40, 40
@@ -3163,8 +3082,8 @@ UnitPromotionIcons/一鼓作气
   offset: 0, 0
   index: -1     
   
-急行.png
-UnitPromotionIcons/急行
+Rush.png
+UnitPromotionIcons/Rush
   rotate: false
   xy: 0,0
   size: 50, 50
@@ -3172,8 +3091,8 @@ UnitPromotionIcons/急行
   offset: 0, 0
   index: -1   
   
-突袭.png
-UnitPromotionIcons/突袭
+Raid.png
+UnitPromotionIcons/Raid
   rotate: false
   xy: 0,0
   size: 50, 50
@@ -3181,8 +3100,8 @@ UnitPromotionIcons/突袭
   offset: 0, 0
   index: -1     
 
-破甲.png
-UnitPromotionIcons/破甲
+Expose Armor.png
+UnitPromotionIcons/Expose Armor
   rotate: false
   xy: 0,0
   size: 50, 50
@@ -3190,8 +3109,8 @@ UnitPromotionIcons/破甲
   offset: 0, 0
   index: -1     
   
-破甲.png
-UnitPromotionIcons/穿甲
+Expose Armor.png
+UnitPromotionIcons/Armor Piercing
   rotate: false
   xy: 0,0
   size: 50, 50
@@ -3199,8 +3118,8 @@ UnitPromotionIcons/穿甲
   offset: 0, 0
   index: -1  
   
-要道.png
-UnitPromotionIcons/要道
+Pass.png
+UnitPromotionIcons/Pass
   rotate: false
   xy: 0,0
   size: 40, 40
@@ -3208,8 +3127,8 @@ UnitPromotionIcons/要道
   offset: 0, 0
   index: -1       
   
-护航.png
-UnitPromotionIcons/护航
+Escort.png
+UnitPromotionIcons/Escort
   rotate: false
   xy: 0,0
   size: 50, 50
@@ -3217,8 +3136,8 @@ UnitPromotionIcons/护航
   offset: 0, 0
   index: -1    
   
-护航.png
-UnitPromotionIcons/队列
+Escort.png
+UnitPromotionIcons/Queue
   rotate: false
   xy: 0,0
   size: 50, 50
@@ -3226,8 +3145,8 @@ UnitPromotionIcons/队列
   offset: 0, 0
   index: -1      
 
-登陆.png
-UnitPromotionIcons/登陆
+Landfall.png
+UnitPromotionIcons/Landfall
   rotate: false
   xy: 0,0
   size: 50, 50
@@ -3235,8 +3154,8 @@ UnitPromotionIcons/登陆
   offset: 0, 0
   index: -1    
   
-装甲.png
-UnitPromotionIcons/装甲
+Armor.png
+UnitPromotionIcons/Armor
   rotate: false
   xy: 0,0
   size: 50, 50
@@ -3244,8 +3163,8 @@ UnitPromotionIcons/装甲
   offset: 0, 0
   index: -1      
  
-援射.png
-UnitPromotionIcons/援射
+Shooting Support.png
+UnitPromotionIcons/Shooting Support
   rotate: false
   xy: 0,0
   size: 50, 50
@@ -3253,8 +3172,8 @@ UnitPromotionIcons/援射
   offset: 0, 0
   index: -1     
  
-近战.png
-UnitPromotionIcons/近战
+Bayonet Charge.png
+UnitPromotionIcons/Bayonet Charge
   rotate: false
   xy: 0,0
   size: 50, 50
@@ -3262,8 +3181,8 @@ UnitPromotionIcons/近战
   offset: 0, 0
   index: -1         
  
-涂毒.png
-UnitPromotionIcons/涂毒
+Apply Poison.png
+UnitPromotionIcons/Apply Poison
   rotate: false
   xy: 0,0
   size: 50, 50
@@ -3271,8 +3190,8 @@ UnitPromotionIcons/涂毒
   offset: 0, 0
   index: -1               
        
-轰击.png
-UnitPromotionIcons/轰击
+Bombard.png
+UnitPromotionIcons/Bombard
   rotate: false
   xy: 0,0
   size: 50, 50
@@ -3280,8 +3199,8 @@ UnitPromotionIcons/轰击
   offset: 0, 0
   index: -1                   
    
-碎片.png
-UnitPromotionIcons/碎片
+Shrapnel.png
+UnitPromotionIcons/Shrapnel
   rotate: false
   xy: 0,0
   size: 50, 50
@@ -3289,8 +3208,8 @@ UnitPromotionIcons/碎片
   offset: 0, 0
   index: -1                   
    
-战略部署.png
-UnitPromotionIcons/战略部署
+Strategic Deployment.png
+UnitPromotionIcons/Strategic Deployment
   rotate: false
   xy: 0,0
   size: 50, 50
@@ -3298,8 +3217,8 @@ UnitPromotionIcons/战略部署
   offset: 0, 0
   index: -1    
    
-火力覆盖.png
-UnitPromotionIcons/火力覆盖
+Firepower Coverage.png
+UnitPromotionIcons/Firepower Coverage
   rotate: false
   xy: 0,0
   size: 50, 50
@@ -3307,8 +3226,8 @@ UnitPromotionIcons/火力覆盖
   offset: 0, 0
   index: -1 
   
-巡航.png
-UnitPromotionIcons/巡航
+Cruise.png
+UnitPromotionIcons/Cruise
   rotate: false
   xy: 0,0
   size: 50, 50
@@ -3316,8 +3235,8 @@ UnitPromotionIcons/巡航
   offset: 0, 0
   index: -1                    
    
-支援.png
-UnitPromotionIcons/支援
+Fire Support.png
+UnitPromotionIcons/Fire Support
   rotate: false
   xy: 0,0
   size: 50, 50
@@ -3325,8 +3244,8 @@ UnitPromotionIcons/支援
   offset: 0, 0
   index: -1           
    
-下潜.png
-UnitPromotionIcons/下潜
+Dive.png
+UnitPromotionIcons/Dive
   rotate: false
   xy: 0,0
   size: 50, 50
@@ -3334,8 +3253,8 @@ UnitPromotionIcons/下潜
   offset: 0, 0
   index: -1              
    
-无声.png
-UnitPromotionIcons/无声
+Noise Reduction.png
+UnitPromotionIcons/Noise Reduction
   rotate: false
   xy: 0,0
   size: 50, 50
@@ -3343,8 +3262,8 @@ UnitPromotionIcons/无声
   offset: 0, 0
   index: -1      
    
-战术规避.png
-UnitPromotionIcons/战术规避
+Tactical Evasion.png
+UnitPromotionIcons/Tactical Evasion
   rotate: false
   xy: 0,0
   size: 50, 50
@@ -3352,12 +3271,21 @@ UnitPromotionIcons/战术规避
   offset: 0, 0
   index: -1      
    
-山地游击.png
-UnitPromotionIcons/山地游击
+Mountain Guerrilla.png
+UnitPromotionIcons/Mountain Guerrilla
   rotate: false
   xy: 0,0
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1   
+    
+Rout.png
+UnitPromotionIcons/Rout
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1        
     

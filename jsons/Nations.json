@@ -31,7 +31,7 @@
 		"uniqueText": "Enemy military units adjacent to our military units in adjacent rough terrain tiles -20% Strength; Enemy military units must spend 1 extra movement points when inside your territory,Enemy Mobile units must spend 1 extra movement points when inside your territory" 
 		"uniques": ["Enemy [Military] units must spend [1] extra movement points when inside your territory",
 		"Enemy [Mobile] units must spend [1] extra movement points when inside your territory",
-		"[Military] units gain the [山地游击] promotion"
+		"[Military] units gain the [Mountain Guerrilla] promotion"
 		]
 		"cities": ["喀布尔","坎大哈","塔卢坎","昆都士","瑙堡","巴格兰","马扎里沙里夫","恰赫恰兰","马哈茂德埃拉基","萨尔普勒","巴米扬",
 			"卡得","迈马纳","加兹尼","赫拉特","霍斯特","拉什卡尔加","希比尔甘","法扎巴德","迈丹","米特拉姆","普勒阿拉姆","贾拉拉巴德","扎兰季","塔林科特","加德兹","沙兰",
@@ -62,7 +62,7 @@
 		"innerColor": [255,255,255],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Bridge Connecting The World",
-		"uniques": ["Gain a free [Canal] [in all cities]","Gain a free [Panama Canal] [in capital] <after discovering [水运]>",
+		"uniques": ["Gain a free [Canal] [in all cities]","Gain a free [Panama Canal] [in capital] <after discovering [Waterage]>",
 		"[+15]% Strength <for [Military] units> <within [3] tiles of a [Coast]>"
 		]
 		"cities": ["巴拿马城","圣地亚哥","圣米格利托","博卡斯德尔托罗区","戴维","佩诺诺梅","科隆","帕尔马","奇特雷","洛斯塔布拉斯","拉乔雷拉",

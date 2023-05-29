@@ -144,7 +144,7 @@
 		"wonderCost": 250,
 		"techs": [
 			{
-				"name": "国家",
+				"name": "Nation",
 				"row": 2,
 				"prerequisites": ["哲学","Religious Culture","帆船"],
 				"uniques":[
@@ -187,15 +187,15 @@
 		"wonderCost": 250,
 		"techs": [
 			{
-				"name": "政治学",
+				"name": "Politics",
 				"row": 1,
-				"prerequisites": ["国家"],
+				"prerequisites": ["Nation"],
 				"quote": "一个强势的国家需要一个强势的政府，一个强盛的国家需要一个智慧的政府"
 			},
 			{
 				"name": "戏剧与诗歌",
 				"row": 3,
-				"prerequisites": ["国家","光学"],
+				"prerequisites": ["Nation","光学"],
 				"quote": "美妙的言语荡漾在耳旁，他们演绎世事，他们歌颂美好"	
 			},
 			{
@@ -212,7 +212,7 @@
 				"quote": "基础建设永远是一个国家想要富强的重要途径"	
 			},
 			{
-				"name": "军事学",
+				"name": "Army Formation",
 				"row": 8,
 				"prerequisites": ["铁器","建筑设计学"],
 				"uniques":["Free [Great General] appears <if no other Civilization has researched this>"]
@@ -228,10 +228,10 @@
 		"wonderCost": 280,
 		"techs": [
 			{
-			    "name": "立法",
+			    "name": "Legislation",
 				"row": 1,
 				"cost": 180
-				"prerequisites": ["政治学"],
+				"prerequisites": ["Politics"],
 				"quote": "法律是人类最基本的道德底线，法无明文规定不为罪，法无明文规定不处罚，因此法律的改良只有进行时没有完成时"
 			},
 			{
@@ -242,9 +242,9 @@
 				"quote": "'商人组建了行会，贸易变得更加频繁"	
 			},
 			{
-				"name": "防御工事",
+				"name": "Defensive Fortification",
 				"row": 8,
-				"prerequisites": ["军事学","工程学"],
+				"prerequisites": ["Army Formation","工程学"],
 				"quote": "坚固的堡垒拔地而起，构成最稳固的防线"	
 			}
 	    ]
@@ -277,7 +277,7 @@
 			{
 				"name": "兵器储备",
 				"row": 9,
-				"prerequisites": ["防御工事"],
+				"prerequisites": ["Defensive Fortification"],
 				"quote": "兵可千日而不用，不可一日而不备"
 			}
 		]
@@ -290,10 +290,10 @@
 		"wonderCost": 500,
 		"techs": [
 		    {
-		        "name": "国防",
+		        "name": "National Defense",
 				"row": 1,
 				"cost": 350
-				"prerequisites": ["立法"],
+				"prerequisites": ["Legislation"],
 				"uniques":["[1] free [Great General] units appear"]
 				"quote": "兵可千日而不用，不可一日而不备"
 			},
@@ -314,7 +314,7 @@
 			{
 				"name": "骑士制度",
 				"row": 8,
-				"prerequisites": ["防御工事"],
+				"prerequisites": ["Defensive Fortification"],
 				"quote": "中世纪是城堡—骑士—宗教的时代"
 			}
 		]
@@ -339,7 +339,7 @@
 				"quote": "印刷术是人类近代文明的先导，为知识的广泛传播、交流创造了条件"	
 			},
 			{
-				"name": "炼钢",
+				"name": "Steelmaking",
 				"row": 5,
 				"prerequisites": ["工业伊始","教育学"],
 				"quote": "随着工业的发展，更多的更强的材料也随之出现"	
@@ -366,15 +366,15 @@
 		"wonderCost": 800,
 		"techs": [
 			{
-			    "name": "外交",
+			    "name": "Diplomacy",
 				"row": 1,
 				"cost": 900
-				"prerequisites": ["国防","声学"],
+				"prerequisites": ["National Defense","声学"],
 				"uniques":["Enables Research agreements"]
 				"quote": "想要避免通过军队解决问题，优秀的外交是必不可少的前提"
 			},
 			{
-				"name": "水运",
+				"name": "Waterage",
 				"row": 2,
 				"prerequisites": ["声学"],
 				"quote": "人工开凿的运河联通了城市与城市"	
@@ -382,13 +382,13 @@
 			{
 				"name": "建筑学",
 				"row": 3,
-				"prerequisites": ["声学","炼钢","印刷术"],
+				"prerequisites": ["声学","Steelmaking","印刷术"],
 				"quote": "万丈高楼平地起"	
 		    },
 			{
 				"name": "合金",
 				"row": 5,
-				"prerequisites": ["炼钢"],
+				"prerequisites": ["Steelmaking"],
 				"quote": "好刀离不开好钢"
 			},
 			{
@@ -421,7 +421,7 @@
 			{
 				"name": "考古学",
 				"row": 2,
-				"prerequisites": ["水运","建筑学"],
+				"prerequisites": ["Waterage","建筑学"],
 				"uniques":["Enables conversion of city production to [Culture]"]
 				"quote": "以史为鉴，可以知兴衰"
 			},
@@ -468,7 +468,7 @@
 		        "name": "Taxation Administration",
 				"row": 1,
 				"cost": 1800
-				"prerequisites": ["外交"],
+				"prerequisites": ["Diplomacy"],
 				"quote": "国家的财务来源中最重要的就是税收，税收来自于人们，最终也应用于人民"
 			},
 			{

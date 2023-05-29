@@ -707,7 +707,7 @@
             {
                 "name": "Primary Combat Readiness",
                 "uniques": [
-        "Only available <when not at war>","Only available <after discovering [军事学]>",             
+        "Only available <when not at war>","Only available <after discovering [Army Formation]>",             
         "[+15]% Production when constructing [Military] units [in all cities] <for [20] turns>",
         "[+10]% Strength <for [Military] units> <for [20] turns>"
         "[+33]% maintenance costs <for [Military] units> <for [20] turns>",
@@ -719,7 +719,7 @@
             {
                 "name": "Advanced Combat Readiness",
                 "uniques": [
-        "Only available <when not at war>","Only available <after discovering [军事学]>",                  
+        "Only available <when not at war>","Only available <after discovering [Army Formation]>",                  
         "[+30]% Production when constructing [Military] units [in all cities] <for [20] turns>",
         "[+15]% Strength <for [Military] units> <for [20] turns>"
         "[+66]% maintenance costs <for [Military] units> <for [20] turns>",
