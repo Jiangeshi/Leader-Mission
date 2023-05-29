@@ -64,7 +64,7 @@
                 "name": "Tradition Complete",
                 "uniques": [
                     "[+10]% growth [in all cities]",
-                    "Provides a [District—Infrastructure Center] in your first [5] cities for free"
+                    "Provides a [District-Infrastructure Center] in your first [5] cities for free"
                 ]
             }
         ]
@@ -240,7 +240,7 @@
             },
             {
                 "name": "Theocracy",
-                "uniques": ["[+15]% [Gold] from every [District—Religious Cente]"],
+                "uniques": ["[+15]% [Gold] from every [District-Religious Cente]"],
                 "requires": ["Organized Religion"],
                 "row": 2,
                 "column": 1
@@ -266,7 +266,7 @@
                 "name": "Piety Complete",
                 "uniques": [
                     "[Faith] cost of purchasing items in cities [-20]%",
-                    "[+3 Gold, +3 Culture] from every [District—Religious Cente]"
+                    "[+3 Gold, +3 Culture] from every [District-Religious Cente]"
                 ]
             }
         ]
@@ -380,7 +380,7 @@
                 "name": "Mercantilism",
                 "uniques": [
                     "[Gold] cost of purchasing items in cities [-25]%",
-                    "[+1 Science] from every [District—Commercial Centre]",
+                    "[+1 Science] from every [District-Commercial Centre]",
                     "[+1 Science] from every [Market]",
                     "[+1 Science] from every [Bank]",
                     "[+1 Science] from every [Stock Exchange]"
@@ -670,7 +670,7 @@
         ]
     },
     {
-        "name": "Warfare—Preparation",
+        "name": "Warfare-Preparation",
         "era": "Ancient era",
         "priorities": {
             "Neutral": 0,
@@ -731,7 +731,7 @@
             {
                 "name": "State of War",
                 "uniques": [
-        "Only available <when at war>","Only available <if [District—Country] is constructed>",             
+        "Only available <when at war>","Only available <if [District-Country] is constructed>",             
         "[+20]% [Production] [in all cities] <for [15] turns>",
         "[-20]% [Gold] [in all cities] <for [15] turns>",
         "Triggers the following global alert: []"
@@ -740,7 +740,7 @@
                 "column": 3      
             },
             {
-                "name": "Warfare—Preparation Complete",
+                "name": "Warfare-Preparation Complete",
                 "uniques": [
         "[+15]% Production when constructing [Military] units [in all cities]",
                 ]

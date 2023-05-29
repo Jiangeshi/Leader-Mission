@@ -134,7 +134,7 @@
     {
         "name": "Nation Led by God",
         "type": "Founder",
-        "uniques": ["[+10 Faith] from every [District—Government]", "[+1 Culture] from every [District—Religious Cente]"]
+        "uniques": ["[+10 Faith] from every [District-Government]", "[+1 Culture] from every [District-Religious Cente]"]
     },
     {
         "name": "Monotheism",
@@ -154,12 +154,12 @@
     {
         "name": "Popular Religion",
         "type": "Founder",
-        "uniques": ["[+2 Faith] from every [District—Cultural Center]", "[+1 Food, +1 Gold] from every [District—Religious Cente]"]
+        "uniques": ["[+2 Faith] from every [District-Cultural Center]", "[+1 Food, +1 Gold] from every [District-Religious Cente]"]
     },
     {
         "name": "Feed the World",
         "type": "Founder",
-        "uniques": ["[+1 Food, +1 Faith] from every [District—Religious Cente]", "[+1 Food] from every [Temple]"]
+        "uniques": ["[+1 Food, +1 Faith] from every [District-Religious Cente]", "[+1 Food] from every [Temple]"]
     },
     {
         "name": "State Religion",

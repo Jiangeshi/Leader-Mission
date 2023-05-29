@@ -1326,7 +1326,7 @@
 		"uniques": ["[+10]% Strength"]
 	},
 	{
-		"name": "Defend the Motherland", // 区域—红场
+		"name": "Defend the Motherland", // 区域-红场
 		"uniques": ["[+10]% Strength <when fighting in [Friendly Land] tiles>"]
 	},
 	{

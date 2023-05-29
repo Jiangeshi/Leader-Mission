@@ -429,7 +429,7 @@ Leader Mission 模组中的胜利方式有：
 	//区域建筑：国家
 	},
 	{
-		"name": "District—Country",
+		"name": "District-Country",
 		"culture": 5,
 		"gold": 5,
 		"happiness": 5,
@@ -439,7 +439,7 @@ Leader Mission 模组中的胜利方式有：
 		"isNationalWonder": true,
 		"uniques":["Cannot be purchased","Unsellable","Can only be built [in capital]","[+1 Production] [in all cities]","Triggers a global alert upon completion"]
 		"civilopediaText": [
-		{"text":"Can be built in District—Country：", "link":"Wonder/District—Country"},
+		{"text":"Can be built in District-Country：", "link":"Wonder/District-Country"},
 		    {"text":"National College", "link":"Wonder/National College"},
 		    {"text":"National Epic", "link":"Wonder/National Epic"},
 		    {"text":"National Treasury", "link":"Wonder/National Treasury"},
@@ -452,36 +452,36 @@ Leader Mission 模组中的胜利方式有：
 		"science": 3,
 		"isNationalWonder": true,
 		"percentStatBonus": {"science": 50},
-		"uniques": ["Cost increases by [30] per owned city","Requires a [Library] in all cities","Only available <in cities with a [District—Country]>",],
+		"uniques": ["Cost increases by [30] per owned city","Requires a [Library] in all cities","Only available <in cities with a [District-Country]>",],
 		"requiredTech": "Nation"
-		"requiredBuilding": "District—Country",
+		"requiredBuilding": "District-Country",
 	},
 	{
 		"name": "National Epic",
 		"cost": 180,
 		"culture": 3,
 		"isNationalWonder": true,
-		"uniques": ["Requires a [Monument] in all cities", "[+15]% Great Person generation [in all cities]", "Cost increases by [30] per owned city","Only available <in cities with a [District—Country]>"],
+		"uniques": ["Requires a [Monument] in all cities", "[+15]% Great Person generation [in all cities]", "Cost increases by [30] per owned city","Only available <in cities with a [District-Country]>"],
 		"requiredTech": "Nation",
-		"requiredBuilding": "District—Country",
+		"requiredBuilding": "District-Country",
 	},
 	{
 		"name": "National Treasury",
 		"cost": 300,
 		"gold": 9,
 		"isNationalWonder": true,
-		"uniques": ["Cost increases by [30] per owned city","Only available <in cities with a [District—Country]>"],
+		"uniques": ["Cost increases by [30] per owned city","Only available <in cities with a [District-Country]>"],
 		"requiredTech": "行会",
-		"requiredBuilding": "District—Country",
+		"requiredBuilding": "District-Country",
 	},
 	{
 		"name": "Oxford University",
 		"cost": 400
 		"science": 3,
 		"isNationalWonder": true,
-		"uniques": ["Only available <in cities with a [District—Country]>","Free Technology", "Cost increases by [30] per owned city"],
+		"uniques": ["Only available <in cities with a [District-Country]>","Free Technology", "Cost increases by [30] per owned city"],
 		"requiredTech": "教育学",
-		"requiredBuilding": "District—Country",
+		"requiredBuilding": "District-Country",
     },
 	{
 		"name": "Hermitage",
@@ -489,13 +489,13 @@ Leader Mission 模组中的胜利方式有：
 		"percentStatBonus": {"culture": 50},
 		"culture": 5,
 		"isNationalWonder": true,
-		"uniques": ["Cost increases by [30] per owned city","Only available <in cities with a [District—Country]>"],
+		"uniques": ["Cost increases by [30] per owned city","Only available <in cities with a [District-Country]>"],
 		"requiredTech": "建筑学"
-		"requiredBuilding": "District—Country",
+		"requiredBuilding": "District-Country",
 	//区域建筑：政府
 	},
 	{
-		"name": "District—Government",
+		"name": "District-Government",
 		"cost":200,
 	    "maintenance": 3,
 		"requiredTech": "Politics"
@@ -504,7 +504,7 @@ Leader Mission 模组中的胜利方式有：
 		"Provides [1] [Governor Point]",
 		]
 		"civilopediaText": [
-		{"text":"Can be built in District—Government：", "link":"Wonder/District—Government"},
+		{"text":"Can be built in District-Government：", "link":"Wonder/District-Government"},
 		{"text":"National Court", "link":"Wonder/National Court"},
 		{"text":"Ministry of Defense", "link":"Wonder/Ministry of Defense"},
 		{"text":"Foreign Ministry", "link":"Wonder/Foreign Ministry"},
@@ -528,9 +528,9 @@ Leader Mission 模组中的胜利方式有：
 		"isNationalWonder": true,
 		"uniques": ["Requires a [Courthouse] in all cities", "Cost increases by [30] per owned city","[-10]% Unhappiness from [Population] [in all cities]",
 		"[+1 Happiness] [in all cities]"
-		"Provides [1] [Governor Upgrade Point]","Only available <in cities with a [District—Government]>"],
+		"Provides [1] [Governor Upgrade Point]","Only available <in cities with a [District-Government]>"],
 		"requiredTech": "Legislation",
-		"requiredBuilding": "District—Government",
+		"requiredBuilding": "District-Government",
 	},
 	{
 		"name": "Ministry of Defense",
@@ -540,9 +540,9 @@ Leader Mission 模组中的胜利方式有：
 		"[+10]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>",
 		 "[+15]% Production when constructing [Military] units [in all cities] <when not at war>",
 		"[-5]% [Gold] [in all cities]",
-		"Provides [1] [Governor Upgrade Point]","Only available <in cities with a [District—Government]>"],
+		"Provides [1] [Governor Upgrade Point]","Only available <in cities with a [District-Government]>"],
 		"requiredTech": "National Defense",
-		"requiredBuilding": "District—Government"
+		"requiredBuilding": "District-Government"
 	},
 	{
 		"name": "Foreign Ministry",
@@ -552,24 +552,24 @@ Leader Mission 模组中的胜利方式有：
 		"[-20]% City-State Influence degradation",
 		"When declaring friendship, both parties gain a [5]% boost to great person generation",
 		"Gain [50]-[100] [Culture] <upon declaring friendship>"
-		"Provides [1] [Governor Upgrade Point]","Only available <in cities with a [District—Government]>"],
+		"Provides [1] [Governor Upgrade Point]","Only available <in cities with a [District-Government]>"],
 		"requiredTech": "Diplomacy",
-		"requiredBuilding": "District—Government",
+		"requiredBuilding": "District-Government",
 	},
 	{
 		"name": "National Tax Bureau",
 		"cost": 900,
 		"isNationalWonder": true,
-	    "uniques": ["Only available <in cities with a [District—Government]>","[+1 Gold] per [3] population [in all cities]","Provides [1] [Governor Point]"],
+	    "uniques": ["Only available <in cities with a [District-Government]>","[+1 Gold] per [3] population [in all cities]","Provides [1] [Governor Point]"],
 		"requiredTech": "Taxation Administration",
-		"requiredBuilding": "District—Government",
+		"requiredBuilding": "District-Government",
 	},
 	{
-	    "name": "Governor—Magnus I",
+	    "name": "Governor-Magnus I",
 		"cost": 100,
 	    "requiredTech": "Politics",
 		"requiredResource": "Governor Point",
-		"uniques":["Cannot be purchased","Unsellable","Destroyed when the city is captured","Only available <in cities without a [Governor—Reina I]>","Only available <in cities without a [Governor—Pingala I]>","Limited to [1] per Civilization"
+		"uniques":["Cannot be purchased","Unsellable","Destroyed when the city is captured","Only available <in cities without a [Governor-Reina I]>","Only available <in cities without a [Governor-Pingala I]>","Limited to [1] per Civilization"
 		    "[+1 Gold] from [Mine] tiles [in this city]",
 			"[+1 Gold] from [Lumber mill] tiles [in this city]",
 			"[+1 Gold] from [Quarry] tiles [in this city]",
@@ -578,113 +578,113 @@ Leader Mission 模组中的胜利方式有：
 			"[+1 Food] from [Pasture] tiles [in this city]"]
     },
 	{
-	    "name": "Governor—Magnus IIA",
+	    "name": "Governor-Magnus IIA",
 		"cost": 50,
 		"food": 2,
-	    "requiredBuilding": "Governor—Magnus I",
+	    "requiredBuilding": "Governor-Magnus I",
 		"requiredResource": "Governor Upgrade Point",
-		"uniques":["Cannot be purchased","Unsellable","Only available <in cities without a [Governor—Magnus IIB]>","Only available <in cities with a [Governor—Magnus I]>","Destroyed when the city is captured","[+20]% growth [in this city]"]
+		"uniques":["Cannot be purchased","Unsellable","Only available <in cities without a [Governor-Magnus IIB]>","Only available <in cities with a [Governor-Magnus I]>","Destroyed when the city is captured","[+20]% growth [in this city]"]
     },
 	{
-	    "name": "Governor—Magnus IIB",
+	    "name": "Governor-Magnus IIB",
 		"cost": 50,
-	    "requiredBuilding": "Governor—Magnus I",
+	    "requiredBuilding": "Governor-Magnus I",
 		"requiredResource": "Governor Upgrade Point",
-		"uniques":["Cannot be purchased","Unsellable","Only available <in cities without a [Governor—Magnus IIA]>","Only available <in cities with a [Governor—Magnus I]>","Destroyed when the city is captured","[+2] population [in this city]"]
+		"uniques":["Cannot be purchased","Unsellable","Only available <in cities without a [Governor-Magnus IIA]>","Only available <in cities with a [Governor-Magnus I]>","Destroyed when the city is captured","[+2] population [in this city]"]
     },
 	{
-	    "name": "Governor—Magnus IIIA",
+	    "name": "Governor-Magnus IIIA",
 		"cost": 50,
-	    "requiredBuilding": "Governor—Magnus IIA",
+	    "requiredBuilding": "Governor-Magnus IIA",
 		"requiredResource": "Governor Upgrade Point",
-		"uniques":["Cannot be purchased","Unsellable","Only available <in cities with a [Governor—Magnus IIA]>","Destroyed when the city is captured",
+		"uniques":["Cannot be purchased","Unsellable","Only available <in cities with a [Governor-Magnus IIA]>","Destroyed when the city is captured",
 		"[+1 Production] from [Strategic resource] tiles [in this city]"]	
     },
 	{
-	    "name": "Governor—Magnus IIIB",
+	    "name": "Governor-Magnus IIIB",
 		"cost": 50,
-	    "requiredBuilding": "Governor—Magnus IIB",
+	    "requiredBuilding": "Governor-Magnus IIB",
 		"requiredResource": "Governor Upgrade Point",
-		"uniques":["Cannot be purchased","Unsellable","Only available <in cities with a [Governor—Magnus IIB]>","Destroyed when the city is captured",
+		"uniques":["Cannot be purchased","Unsellable","Only available <in cities with a [Governor-Magnus IIB]>","Destroyed when the city is captured",
         "[+1 Production, +1 Gold] per [4] population [in this city]"]	
     },
 	{
-	    "name": "Governor—Pingala I",
+	    "name": "Governor-Pingala I",
 		"cost": 100,
 		"requiredTech": "Politics",
 		"requiredResource": "Governor Point",
 		"percentStatBonus":{"culture": 15,"science": 15}
-		"uniques":["Cannot be purchased","Unsellable","Destroyed when the city is captured","Only available <in cities without a [Governor—Magnus I]>","Only available <in cities without a [Governor—Reina I]>","Limited to [1] per Civilization",]
+		"uniques":["Cannot be purchased","Unsellable","Destroyed when the city is captured","Only available <in cities without a [Governor-Magnus I]>","Only available <in cities without a [Governor-Reina I]>","Limited to [1] per Civilization",]
     },
 	{
-	    "name": "Governor—Pingala IIA",
+	    "name": "Governor-Pingala IIA",
 		"cost": 50,
-	    "requiredBuilding": "Governor—Pingala I",
+	    "requiredBuilding": "Governor-Pingala I",
 		"requiredResource": "Governor Upgrade Point",
-		"uniques": ["Cannot be purchased","Unsellable","Only available <in cities without a [Governor—Pingala IIB]>","Only available <in cities with a [Governor—Pingala I]>","Destroyed when the city is captured","[+1 Science] per [1] population [in this city]"],
+		"uniques": ["Cannot be purchased","Unsellable","Only available <in cities without a [Governor-Pingala IIB]>","Only available <in cities with a [Governor-Pingala I]>","Destroyed when the city is captured","[+1 Science] per [1] population [in this city]"],
 	},
 	{
-	    "name": "Governor—Pingala IIB",
+	    "name": "Governor-Pingala IIB",
 		"cost": 50,
-	    "requiredBuilding": "Governor—Pingala I",
+	    "requiredBuilding": "Governor-Pingala I",
 		"requiredResource": "Governor Upgrade Point",
-		"uniques": ["Cannot be purchased","Unsellable","Only available <in cities without a [Governor—Pingala IIA]>","Only available <in cities with a [Governor—Pingala I]>","Destroyed when the city is captured","[+1 Culture] per [1] population [in this city]"],
+		"uniques": ["Cannot be purchased","Unsellable","Only available <in cities without a [Governor-Pingala IIA]>","Only available <in cities with a [Governor-Pingala I]>","Destroyed when the city is captured","[+1 Culture] per [1] population [in this city]"],
 	},
 	{
-	    "name": "Governor—Pingala IIIA",
+	    "name": "Governor-Pingala IIIA",
 		"cost": 50,
-	    "requiredBuilding": "Governor—Pingala IIA",
+	    "requiredBuilding": "Governor-Pingala IIA",
 		"requiredResource": "Governor Upgrade Point",
-		"uniques": ["Cannot be purchased","Unsellable","Only available <in cities with a [Governor—Pingala IIA]>","Destroyed when the city is captured",
+		"uniques": ["Cannot be purchased","Unsellable","Only available <in cities with a [Governor-Pingala IIA]>","Destroyed when the city is captured",
 		"[+50]% Great Person generation [in this city]"],	
 	},
 	{
-	    "name": "Governor—Pingala IIIB",
+	    "name": "Governor-Pingala IIIB",
 		"cost": 50,
-	    "requiredBuilding": "Governor—Pingala IIB",
+	    "requiredBuilding": "Governor-Pingala IIB",
 		"requiredResource": "Governor Upgrade Point",
-		"uniques": ["Cannot be purchased","Unsellable","Only available <in cities with a [Governor—Pingala IIB]>","Destroyed when the city is captured",
+		"uniques": ["Cannot be purchased","Unsellable","Only available <in cities with a [Governor-Pingala IIB]>","Destroyed when the city is captured",
 		"Free Great Person"],	
 	},
 	{
-	    "name": "Governor—Reina I",
+	    "name": "Governor-Reina I",
 		"cost": 100,
 	    "requiredTech": "Politics",
 		"requiredResource": "Governor Point",
-		"uniques":["Cannot be purchased","Unsellable","Destroyed when the city is captured","Only available <in cities without a [Governor—Magnus I]>","Only available <in cities without a [Governor—Pingala I]>",
+		"uniques":["Cannot be purchased","Unsellable","Destroyed when the city is captured","Only available <in cities without a [Governor-Magnus I]>","Only available <in cities without a [Governor-Pingala I]>",
 		"[+5 Gold] [in this city] <with [1] to [2] neighboring [Bonus resource] tiles>",
 		"[+10 Gold] [in this city] <with [3] to [4] neighboring [Bonus resource] tiles>",
 		"[+15 Gold] [in this city] <with [5] to [6] neighboring [Bonus resource] tiles>","Limited to [1] per Civilization"]	
 	},
 	{
-	    "name": "Governor—Reina IIA",
+	    "name": "Governor-Reina IIA",
 		"cost": 50,
-	    "requiredBuilding": "Governor—Reina I",
+	    "requiredBuilding": "Governor-Reina I",
 		"requiredResource": "Governor Upgrade Point",
-		"uniques": ["Cannot be purchased","Unsellable","Only available <in cities without a [Governor—Reina IIB]>","Only available <in cities with a [Governor—Reina I]>","Destroyed when the city is captured","[+3 Gold] per [3] population [in this city]"],	
+		"uniques": ["Cannot be purchased","Unsellable","Only available <in cities without a [Governor-Reina IIB]>","Only available <in cities with a [Governor-Reina I]>","Destroyed when the city is captured","[+3 Gold] per [3] population [in this city]"],	
 	},
 	{
-	    "name": "Governor—Reina IIB",
+	    "name": "Governor-Reina IIB",
 		"cost": 50,
-	    "requiredBuilding": "Governor—Reina I",
+	    "requiredBuilding": "Governor-Reina I",
 		"requiredResource": "Governor Upgrade Point",
-		"uniques": ["Cannot be purchased","Unsellable","Only available <in cities without a [Governor—Reina IIA]>","Only available <in cities with a [Governor—Reina I]>","Destroyed when the city is captured","[+1 Gold] from all [Gold] buildings"],	
+		"uniques": ["Cannot be purchased","Unsellable","Only available <in cities without a [Governor-Reina IIA]>","Only available <in cities with a [Governor-Reina I]>","Destroyed when the city is captured","[+1 Gold] from all [Gold] buildings"],	
 	},
 	{
-	    "name": "Governor—Reina IIIA",
+	    "name": "Governor-Reina IIIA",
 		"cost": 50,
-	    "requiredBuilding": "Governor—Reina IIA",
+	    "requiredBuilding": "Governor-Reina IIA",
 		"requiredResource": "Governor Upgrade Point",
 		"uniques": [
-		"Cannot be purchased","Unsellable","Only available <in cities with a [Governor—Reina IIA]>","Destroyed when the city is captured",
+		"Cannot be purchased","Unsellable","Only available <in cities with a [Governor-Reina IIA]>","Destroyed when the city is captured",
 		"[+35]% [Gold] [in this city]"],	
 	},
 	{
-	    "name": "Governor—Reina IIIB",
+	    "name": "Governor-Reina IIIB",
 		"cost": 50,
-	    "requiredBuilding": "Governor—Reina IIB",
+	    "requiredBuilding": "Governor-Reina IIB",
 		"requiredResource": "Governor Upgrade Point",
-		"uniques": ["Cannot be purchased","Unsellable","Only available <in cities with a [Governor—Reina IIB]>","Destroyed when the city is captured",
+		"uniques": ["Cannot be purchased","Unsellable","Only available <in cities with a [Governor-Reina IIB]>","Destroyed when the city is captured",
 			"[-30]% maintenance cost for buildings [in this city]"
 	],			
 	},
@@ -742,13 +742,13 @@ Leader Mission 模组中的胜利方式有：
     },
 	{
 	//区域建筑：宗教
-		"name": "District—Religious Cente",
+		"name": "District-Religious Cente",
 		"faith": 4,
 	    "maintenance": 3,
 		"requiredTech": "Religious Culture"
 		"uniques":["Cannot be purchased","Unsellable","Destroyed when the city is captured"]
 		"civilopediaText": [
-		{"text":"Can be built in District—Religious Cente：", "link":"Building/District—Religious Cente"},
+		{"text":"Can be built in District-Religious Cente：", "link":"Building/District-Religious Cente"},
 		    {"text":"Temple", "link":"Building/Temple"},
 		    {"text":"Cathedral", "link":"Building/Cathedral"},
 		        {"text":"Monastery", "link":"Building/Monastery"},
@@ -764,10 +764,10 @@ Leader Mission 模组中的胜利方式有：
 	},
 	{
 		"name": "Temple",
-		"requiredBuilding": "District—Religious Cente",
+		"requiredBuilding": "District-Religious Cente",
 		"maintenance": 1,
 		"requiredTech": "Religious Culture",
-		"uniques": ["Destroyed when the city is captured","[+1 Faith] per [2] population [in this city]","Unsellable","Only available <in cities with a [District—Religious Cente]>"]
+		"uniques": ["Destroyed when the city is captured","[+1 Faith] per [2] population [in this city]","Unsellable","Only available <in cities with a [District-Religious Cente]>"]
 	},
 	{
 		"name": "Cathedral",
@@ -775,18 +775,18 @@ Leader Mission 模组中的胜利方式有：
 		"faith": 1,
 		"culture": 1,
 		"happiness": 1,
-		"requiredBuilding": "District—Religious Cente",
+		"requiredBuilding": "District-Religious Cente",
 		"specialistSlots": {"Artist": 1},
-		"uniques": ["Unbuildable","Unsellable","Only available <in cities with a [District—Religious Cente]>"]
+		"uniques": ["Unbuildable","Unsellable","Only available <in cities with a [District-Religious Cente]>"]
 	},
 	{
 		"name": "Monastery",
 		"cost": 0,
 		"culture": 2,
 		"faith": 1,
-		"requiredBuilding": "District—Religious Cente",
+		"requiredBuilding": "District-Religious Cente",
 		"uniques": ["[+1 Culture, +1 Faith] from [Wine] tiles [in this city]",
-			"[+1 Culture, +1 Faith] from [Incense] tiles [in this city]","Unbuildable","Unsellable","Only available <in cities with a [District—Religious Cente]>"]
+			"[+1 Culture, +1 Faith] from [Incense] tiles [in this city]","Unbuildable","Unsellable","Only available <in cities with a [District-Religious Cente]>"]
 	},
 	{
 		"name": "Mosque",
@@ -794,8 +794,8 @@ Leader Mission 模组中的胜利方式有：
 		"culture": 1,
 		"faith": 2,
 		"happiness": 1,
-		"requiredBuilding": "District—Religious Cente",
-		"uniques": ["Unbuildable","Unsellable","Only available <in cities with a [District—Religious Cente]>"]
+		"requiredBuilding": "District-Religious Cente",
+		"uniques": ["Unbuildable","Unsellable","Only available <in cities with a [District-Religious Cente]>"]
 	},
 	{
 		"name": "Pagoda",
@@ -803,16 +803,16 @@ Leader Mission 模组中的胜利方式有：
 		"culture": 2,
 		"faith": 1,
 		"happiness": 1,
-		"requiredBuilding": "District—Religious Cente",
-		"uniques": ["Unbuildable","Unsellable","Only available <in cities with a [District—Religious Cente]>"]
+		"requiredBuilding": "District-Religious Cente",
+		"uniques": ["Unbuildable","Unsellable","Only available <in cities with a [District-Religious Cente]>"]
 	},
 	{
 		"name": "Hagia Sophia",
 		"faith": 4,
 		"isWonder": true,
-		"uniques": ["Free [Great Prophet] appears","Only available <in cities with a [District—Religious Cente]>"],
+		"uniques": ["Free [Great Prophet] appears","Only available <in cities with a [District-Religious Cente]>"],
 		"requiredTech": "神学",
-		"requiredBuilding": "District—Religious Cente",
+		"requiredBuilding": "District-Religious Cente",
 	    "quote": "'For it soars to a height to match the sky, and as if surging up from among the other buildings it stands on high and looks down upon the remainder of the city, adorning it, because it is a part of it, but glorying in its own beauty' - Procopius, De Aedificis"
 	},
 	{
@@ -822,9 +822,9 @@ Leader Mission 模组中的胜利方式有：
 		"greatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,
 		"uniques": ["[Missionary] units built [in this city] can [Spread Religion] [1] extra times", 
-		"[Great Prophet] units built [in this city] can [Spread Religion] [1] extra times","Only available <in cities with a [District—Religious Cente]>"],
+		"[Great Prophet] units built [in this city] can [Spread Religion] [1] extra times","Only available <in cities with a [District-Religious Cente]>"],
 		"requiredTech": "神学",
-		"requiredBuilding": "District—Religious Cente",
+		"requiredBuilding": "District-Religious Cente",
 	    "quote": "'With the magnificence of eternity before us, let time, with all its fluctuations, dwindle into its own littleness.' - Thomas Chalmers"
 	},
 	{
@@ -833,9 +833,9 @@ Leader Mission 模组中的胜利方式有：
 		"culture": 1,
 		"faith": 8,
 		"uniques": ["Requires a [Temple] in all cities", "Cost increases by [30] per owned city",
-			"[+100]% Natural religion spread [in this city]", "Gain a free [Pantheon] belief","Only available <in cities with a [District—Religious Cente]>"],
+			"[+100]% Natural religion spread [in this city]", "Gain a free [Pantheon] belief","Only available <in cities with a [District-Religious Cente]>"],
 		"requiredTech": "神学",
-		"requiredBuilding": "District—Religious Cente",
+		"requiredBuilding": "District-Religious Cente",
 		"isNationalWonder": true
 	},
 	{
@@ -843,9 +843,9 @@ Leader Mission 模组中的胜利方式有：
 		"faith": 1,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Artist": 2},
-		"uniques": ["[+20]% [Culture] [in all cities]","Cannot be hurried","Only available <in cities with a [District—Religious Cente]>"],
+		"uniques": ["[+20]% [Culture] [in all cities]","Cannot be hurried","Only available <in cities with a [District-Religious Cente]>"],
 		"requiredTech": "声学",
-		"requiredBuilding": "District—Religious Cente",
+		"requiredBuilding": "District-Religious Cente",
 		"quote": "'I live and love in God's peculiar light.' - Michelangelo Buonarroti"
 	},
 	{
@@ -854,9 +854,9 @@ Leader Mission 模组中的胜利方式有：
 		"happiness": 8,
 		"greatPersonPoints": {"Great Merchant": 1},
 		"isWonder": true,
-		"uniques":["Cannot be hurried","Only available <in cities with a [District—Religious Cente]>"]
+		"uniques":["Cannot be hurried","Only available <in cities with a [District-Religious Cente]>"]
 		"requiredTech": "声学",
-		"requiredBuilding": "District—Religious Cente",
+		"requiredBuilding": "District-Religious Cente",
 	    "quote": "'Architecture has recorded the great ideas of the human race. Not only every religious symbol, but every human thought has its page in that vast book.' - Victor Hugo"
 	},
 	{
@@ -866,15 +866,15 @@ Leader Mission 模组中的胜利方式有：
 		"isWonder": true,
 		"cost": 600,
 		"uniques":["[+2 Food] from [Snow] tiles [in this city]","[+2 Faith] from [Hill] tiles [in this city]",
-		"Cannot be hurried","Only available <in cities with a [District—Religious Cente]>",
+		"Cannot be hurried","Only available <in cities with a [District-Religious Cente]>",
 		]
 		"requiredTech": "印刷术",
-		"requiredBuilding": "District—Religious Cente",
+		"requiredBuilding": "District-Religious Cente",
 	    "quote": "'但契本心,不用求法,心即法也。' - 《传心法要》"    
 	},
 	{
 	//区域建筑：航运
-		"name": "District—Shipping Center",
+		"name": "District-Shipping Center",
 		"greatPersonPoints": {"Great Admiral": 3},
 		"production": 2,
 		"food": 1,
@@ -882,7 +882,7 @@ Leader Mission 模组中的胜利方式有：
 		"requiredTech": "帆船"
 		"uniques":["Cannot be purchased","Unsellable","Must be next to [Coast]","Connects trade routes over water"]
 		"civilopediaText": [
-		{"text":"Can be built in District—Shipping Center：", "link":"Building/District—Shipping Center"},
+		{"text":"Can be built in District-Shipping Center：", "link":"Building/District-Shipping Center"},
 		    {"text":"Lighthouse", "link":"Building/Lighthouse"},
 		    {"text":"Fishing Port", "link":"Building/Fishing Port"},
 		    {"text":"Seaport", "link":"Building/Seaport"},
@@ -895,9 +895,9 @@ Leader Mission 模组中的胜利方式有：
 		"maintenance": 2,
 		"greatPersonPoints": {"Great Admiral": 1},
 		"uniques": ["Must be next to [Coast]", "[+1 Food] from [Ocean] tiles [in this city]",
-			"[+1 Food] from [Coast] tiles [in this city]", "[+1 Food] from [Fish] tiles [in this city]","Unsellable","Only available <in cities with a [District—Shipping Center]>"],
+			"[+1 Food] from [Coast] tiles [in this city]", "[+1 Food] from [Fish] tiles [in this city]","Unsellable","Only available <in cities with a [District-Shipping Center]>"],
 		"requiredTech": "光学"	
-		"requiredBuilding": "District—Shipping Center", 
+		"requiredBuilding": "District-Shipping Center", 
 	},
 	{
 		"name": "Fishing Port",
@@ -905,9 +905,9 @@ Leader Mission 模组中的胜利方式有：
 		"maintenance": 1,
 		"greatPersonPoints": {"Great Admiral": 1},
 		"uniques": ["[+1 Gold] from [Water resource] tiles [in this city]",
-		"Must be next to [Coast]","Unsellable","Only available <in cities with a [District—Shipping Center]>"],
+		"Must be next to [Coast]","Unsellable","Only available <in cities with a [District-Shipping Center]>"],
 		"requiredTech": "罗盘",
-	    "requiredBuilding": "District—Shipping Center",
+	    "requiredBuilding": "District-Shipping Center",
     },
 	{
 		"name": "Seaport",
@@ -915,18 +915,18 @@ Leader Mission 模组中的胜利方式有：
 		"production": 2,
 		"greatPersonPoints": {"Great Admiral": 1},
 		"requiredResource": "Steel"
-		"requiredBuilding": "District—Shipping Center",
-		"uniques": ["[+1 Production, +1 Gold] from [Water resource] tiles [in this city]","Provides [2] [CO2]","Unsellable","Only available <in cities with a [District—Shipping Center]>"],
+		"requiredBuilding": "District-Shipping Center",
+		"uniques": ["[+1 Production, +1 Gold] from [Water resource] tiles [in this city]","Provides [2] [CO2]","Unsellable","Only available <in cities with a [District-Shipping Center]>"],
 		"requiredTech": "航海术" 
 	},
 	{
 		"name": "Military Port",
 		"greatPersonPoints": {"Great Admiral": 3},
 		"maintenance": 4,
-		"requiredBuilding": "District—Shipping Center",
+		"requiredBuilding": "District-Shipping Center",
 		"uniques": ["Consumes [2] [Steel]",
 			"Must be next to [Coast]", "[+10]% Production when constructing [{Military} {Water}] units [in this city]",
-			"New [{Military} {Water}] units start with [15] Experience [in this city]", "Destroyed when the city is captured","Provides [3] [CO2]","Unsellable","Only available <in cities with a [District—Shipping Center]>"],
+			"New [{Military} {Water}] units start with [15] Experience [in this city]", "Destroyed when the city is captured","Provides [3] [CO2]","Unsellable","Only available <in cities with a [District-Shipping Center]>"],
 		"requiredTech": "蒸汽机"       
 	},
 	{
@@ -934,22 +934,22 @@ Leader Mission 模组中的胜利方式有：
 		"gold": 2,
 		"isWonder": true,
 		"uniques": ["Must be next to [Coast]", "[+1] Movement <for [{Military} {Water}] units>","Cannot be hurried",
-			"[+1] Sight <for [{Military} {Water}] units>", "Gain a free [Lighthouse] [in this city]","[1] free [Great Admiral] units appear","Only available <in cities with a [District—Shipping Center]>"
+			"[+1] Sight <for [{Military} {Water}] units>", "Gain a free [Lighthouse] [in this city]","[1] free [Great Admiral] units appear","Only available <in cities with a [District-Shipping Center]>"
 			],
 		"requiredTech": "光学",
-		"requiredBuilding": "District—Shipping Center", 
+		"requiredBuilding": "District-Shipping Center", 
 		"quote": "'They that go down to the sea in ships, that do business in great waters; these see the works of the Lord, and his wonders in the deep.' - The Bible, Psalms 107:23-24"
 	},
 	{
 	//区域建筑：经济
-		"name": "District—Commercial Centre",
+		"name": "District-Commercial Centre",
 		"gold": 5,
 	    "maintenance": 0,
 		"requiredTech": "经济学",
 		"greatPersonPoints": {"Great Merchant": 1},
 		"uniques":["Cannot be purchased","Unsellable"],
 		"civilopediaText": [
-		{"text":"Can be built in District—Commercial Centre：", "link":"Building/District—Commercial Centre"},
+		{"text":"Can be built in District-Commercial Centre：", "link":"Building/District-Commercial Centre"},
 		    {"text":"Market", "link":"Building/Market"},
 		    {"text":"Mint", "link":"Building/Mint"},
 		    {"text":"Bank", "link":"Building/Bank"},
@@ -966,51 +966,51 @@ Leader Mission 模组中的胜利方式有：
 		"specialistSlots": {"Merchant": 1},
 		"percentStatBonus": {"gold": 25},
 		"requiredTech": "经济学",
-		"requiredBuilding": "District—Commercial Centre",
-		"uniques": ["Unsellable","Only available <in cities with a [District—Commercial Centre]>"]
+		"requiredBuilding": "District-Commercial Centre",
+		"uniques": ["Unsellable","Only available <in cities with a [District-Commercial Centre]>"]
 	},
 	{
 		"name": "Mint",
 		"maintenance": 0,"requiredNearbyImprovedResources": ["Gold Ore", "Silver"],
-		"uniques": ["[+2 Gold] from [Gold Ore] tiles [in this city]", "[+2 Gold] from [Silver] tiles [in this city]","Provides [2] [CO2]","Unsellable","Only available <in cities with a [District—Commercial Centre]>"],
+		"uniques": ["[+2 Gold] from [Gold Ore] tiles [in this city]", "[+2 Gold] from [Silver] tiles [in this city]","Provides [2] [CO2]","Unsellable","Only available <in cities with a [District-Commercial Centre]>"],
 		"requiredTech": "经济学",
-		"requiredBuilding": "District—Commercial Centre",
+		"requiredBuilding": "District-Commercial Centre",
 	},
 	{
 		"name": "Bank",
 		"gold": 3,
 		"specialistSlots": {"Merchant": 1},
 		"percentStatBonus": {"gold": 25},
-		"requiredBuilding": "District—Commercial Centre",
+		"requiredBuilding": "District-Commercial Centre",
 		"requiredTech": "银行业"
-		"uniques": ["Unsellable","Only available <in cities with a [District—Commercial Centre]>"]
+		"uniques": ["Unsellable","Only available <in cities with a [District-Commercial Centre]>"]
 	},
 	{
 		"name": "Share Exchange",
 		"gold": 3,
 		"production": 2,
 		"specialistSlots": {"Merchant": 1},
-		"requiredBuilding": "District—Commercial Centre",
+		"requiredBuilding": "District-Commercial Centre",
 		"requiredTech": "金融业"
-		"uniques": ["Unsellable","Only available <in cities with a [District—Commercial Centre]>"]	
+		"uniques": ["Unsellable","Only available <in cities with a [District-Commercial Centre]>"]	
 	},
 	{
 		"name": "Stock Exchange",
 		"gold": 3,
 		"percentStatBonus": {"gold": 25},
 		"specialistSlots": {"Merchant": 2},
-		"requiredBuilding": "District—Commercial Centre",
+		"requiredBuilding": "District-Commercial Centre",
 		"requiredTech": "电学"
-		"uniques": ["Unsellable","Only available <in cities with a [District—Commercial Centre]>"]	
+		"uniques": ["Unsellable","Only available <in cities with a [District-Commercial Centre]>"]	
 	},
 	{
 		"name": "Colossus",
 		"gold": 6,
 		"greatPersonPoints": {"Great Merchant": 1},
 		"isWonder": true,
-		"uniques": ["Must be next to [Coast]", "[+1 Gold] from [Water] tiles [in this city]","Only available <in cities with a [District—Commercial Centre]>"],
+		"uniques": ["Must be next to [Coast]", "[+1 Gold] from [Water] tiles [in this city]","Only available <in cities with a [District-Commercial Centre]>"],
 		"requiredTech": "经济学",
-		"requiredBuilding": "District—Commercial Centre",
+		"requiredBuilding": "District-Commercial Centre",
 		"quote": "'Why man, he doth bestride the narrow world like a colossus, and we petty men walk under his huge legs, and peep about to find ourselves dishonorable graves.' - William Shakespeare, Julius Caesar"
     },
 	{
@@ -1019,9 +1019,9 @@ Leader Mission 模组中的胜利方式有：
 		"greatPersonPoints": {"Great Merchant": 1},
 		"culture": 1,
 		"isWonder": true,
-		"uniques": ["[+25]% [Gold] from Trade Routes","Must have an owned [Mountain] within [2] tiles","Only available <in cities with a [District—Commercial Centre]>"],
+		"uniques": ["[+25]% [Gold] from Trade Routes","Must have an owned [Mountain] within [2] tiles","Only available <in cities with a [District-Commercial Centre]>"],
 		"requiredTech": "行会",
-	    "requiredBuilding": "District—Commercial Centre",
+	    "requiredBuilding": "District-Commercial Centre",
 	    "quote": "'Few romances can ever surpass that of the granite citadel on top of the beetling precipices of Machu Picchu, the crown of Inca Land.' - Hiram Bingham"
 	},
 	{
@@ -1030,21 +1030,21 @@ Leader Mission 模组中的胜利方式有：
 		"gold": 4,
 		"greatPersonPoints": {"Great Merchant": 2},
 		"isWonder": true,
-		"uniques": ["[Gold] cost of purchasing items in cities [-15]%","Only available <in cities with a [District—Commercial Centre]>"],
+		"uniques": ["[Gold] cost of purchasing items in cities [-15]%","Only available <in cities with a [District-Commercial Centre]>"],
 		"requiredTech": "工业化",
-		"requiredBuilding": "District—Commercial Centre",
+		"requiredBuilding": "District-Commercial Centre",
       	"quote": "'To achieve great things, two things are needed: a plan, and not quite enough time.' - Leonard Bernstein"
 	},
 	{
 	//区域建筑：军事
-		"name": "District—Military Center",
+		"name": "District-Military Center",
 	    "maintenance": 3,
 	    "cityStrength": 2,
 		"cityHealth": 30,
 		"requiredTech": "Army Formation",
 		"uniques":["Cannot be purchased","Unsellable","New [Military] units start with [10] Experience [in this city]",                    "[+10]% Production when constructing [Military] units [in this city]","Destroyed when the city is captured","Provides [3] [CO2]"],
 		"civilopediaText": [
-		{"text":"Can be built in District—Military Center：", "link":"Building/District—Military Center"},
+		{"text":"Can be built in District-Military Center：", "link":"Building/District-Military Center"},
 		   {"text":"Barracks", "link":"Building/Barracks"},
 		   {"text":"Blockhouse", "link":"Building/Blockhouse"},
 		   {"text":"Castle", "link":"Building/Castle"},
@@ -1064,33 +1064,33 @@ Leader Mission 模组中的胜利方式有：
 	{
 		"name": "Barracks",
 		"maintenance": 3,
-		"uniques": ["Unsellable","New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured","Provides [3] [CO2]","Only available <in cities with a [District—Military Center]>"],
+		"uniques": ["Unsellable","New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured","Provides [3] [CO2]","Only available <in cities with a [District-Military Center]>"],
 		"requiredTech": "Army Formation",
-		"requiredBuilding": "District—Military Center",
+		"requiredBuilding": "District-Military Center",
 	},
 	{
 		"name": "Blockhouse",
 		"maintenance": 2,
 		"cityStrength": 3,
 		"cityHealth": 25,
-		"uniques": ["Destroyed when the city is captured","Unsellable","Only available <in cities with a [District—Military Center]>",],
+		"uniques": ["Destroyed when the city is captured","Unsellable","Only available <in cities with a [District-Military Center]>",],
 		"requiredTech": "Defensive Fortification",
-		"requiredBuilding": "District—Military Center",
+		"requiredBuilding": "District-Military Center",
 	},
 	{
 		"name": "Castle",
 		"cityStrength": 5,
 		"maintenance": 2,
 		"cityHealth": 35,
-		"requiredBuilding": "District—Military Center",
+		"requiredBuilding": "District-Military Center",
 		"requiredTech": "骑士制度",
-		"uniques": ["Destroyed when the city is captured","Unsellable","Only available <in cities with a [District—Military Center]>"]
+		"uniques": ["Destroyed when the city is captured","Unsellable","Only available <in cities with a [District-Military Center]>"]
 	},
 	{
 		"name": "Armory",
 		"maintenance": 2,
-		"requiredBuilding": "District—Military Center",
-		"uniques": ["All newly-trained [Military] units [in this city] receive the [Well Equipped] promotion", "Destroyed when the city is captured","Provides [3] [CO2]","Unsellable","Only available <in cities with a [District—Military Center]>"],
+		"requiredBuilding": "District-Military Center",
+		"uniques": ["All newly-trained [Military] units [in this city] receive the [Well Equipped] promotion", "Destroyed when the city is captured","Provides [3] [CO2]","Unsellable","Only available <in cities with a [District-Military Center]>"],
 		"requiredTech": "兵器储备"
 	},
 	{
@@ -1099,33 +1099,33 @@ Leader Mission 模组中的胜利方式有：
 		"cityHealth": 25,
 		"maintenance": 4,
 		"cost": 350,
-		"requiredBuilding": "District—Military Center",
+		"requiredBuilding": "District-Military Center",
 		"requiredTech": "合金",
-		"uniques": ["Destroyed when the city is captured","Consumes [1] [Steel]","Consumes [1] [Coal]","Provides [5] [CO2]","Unsellable","Only available <in cities with a [District—Military Center]>"]
+		"uniques": ["Destroyed when the city is captured","Consumes [1] [Steel]","Consumes [1] [Coal]","Provides [5] [CO2]","Unsellable","Only available <in cities with a [District-Military Center]>"]
 	},
 	{
 		"name": "Military Academy",
 		"maintenance": 2,
-		"requiredBuilding": "District—Military Center",
-		"uniques": ["New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured","Provides [1] [CO2]","Unsellable","Only available <in cities with a [District—Military Center]>"],
+		"requiredBuilding": "District-Military Center",
+		"uniques": ["New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured","Provides [1] [CO2]","Unsellable","Only available <in cities with a [District-Military Center]>"],
 		"requiredTech": "军事科学"
 	},
 	{
 		"name": "Military Base",
 		"cityStrength": 12,
 		"cityHealth": 25,
-		"requiredBuilding": "District—Military Center",
+		"requiredBuilding": "District-Military Center",
 		"requiredTech": "精密零件",
-		"uniques": ["Destroyed when the city is captured","Consumes [5] [Electricity]","Consumes [1] [Steel]","Provides [3] [CO2]","Unsellable","Only available <in cities with a [District—Military Center]>"]	
+		"uniques": ["Destroyed when the city is captured","Consumes [5] [Electricity]","Consumes [1] [Steel]","Provides [3] [CO2]","Unsellable","Only available <in cities with a [District-Military Center]>"]	
 	},
 	{
 		"name": "Heroic Epic",
 		"cost": 220,
 		"isNationalWonder": true,
 		"uniques": ["Requires a [Barracks] in all cities", "All newly-trained [non-air] units [in this city] receive the [Morale Enhancement] promotion",
-			"Cost increases by [30] per owned city","Only available <in cities with a [District—Military Center]>"],
+			"Cost increases by [30] per owned city","Only available <in cities with a [District-Military Center]>"],
 		"requiredTech": "Army Formation",
-		"requiredBuilding": "District—Military Center",
+		"requiredBuilding": "District-Military Center",
 	},
 	{
 		"name": "Great Wall",
@@ -1133,9 +1133,9 @@ Leader Mission 模组中的胜利方式有：
 		"greatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,
 		"uniques": ["Enemy [Land] units must spend [1] extra movement points when inside your territory"
-			"Gain a free [Blockhouse] [in this city]","Cannot be hurried","Only available <in cities with a [District—Military Center]>"],
+			"Gain a free [Blockhouse] [in this city]","Cannot be hurried","Only available <in cities with a [District-Military Center]>"],
 		"requiredTech": "Defensive Fortification",
-		"requiredBuilding": "District—Military Center",
+		"requiredBuilding": "District-Military Center",
 		"quote": "'The art of war teaches us to rely not on the likelihood of the enemy's not attacking, but rather on the fact that we have made our position unassailable.' - Sun Tzu"
 	},
 	{
@@ -1145,9 +1145,9 @@ Leader Mission 模组中的胜利方式有：
 		"isWonder": true,
 		"percentStatBonus": {"culture": 20},
 		"uniques": ["All newly-trained [relevant] units [in this city] receive the [Barrage I] promotion",
-			"Gain a free [Castle] [in this city]","Cannot be hurried","Only available <in cities with a [District—Military Center]>"],
+			"Gain a free [Castle] [in this city]","Cannot be hurried","Only available <in cities with a [District-Military Center]>"],
 		"requiredTech": "骑士制度",
-		"requiredBuilding": "District—Military Center",
+		"requiredBuilding": "District-Military Center",
 		"quote": "'Justice is an unassailable fortress, built on the brow of a mountain which cannot be overthrown by the violence of torrents, nor demolished by the force of armies.' - Joseph Addison"
 	},
 	{
@@ -1156,11 +1156,11 @@ Leader Mission 模组中的胜利方式有：
 		"isWonder": true,
 		"greatPersonPoints": {"Great Engineer": 2},
 		"uniques": [
-	"Only available <in cities with a [District—Military Center]>",
+	"Only available <in cities with a [District-Military Center]>",
 		"[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
 			"Gain a free [Castle] [in this city]"],
 		"requiredTech": "火药",
-		"requiredBuilding": "District—Military Center",
+		"requiredBuilding": "District-Military Center",
 	    "quote": "'Bushido is realized in the presence of death. This means choosing death whenever there is a choice between life and death. There is no other reasoning.' - Yamamoto Tsunetomo"
 	},
 	{
@@ -1169,9 +1169,9 @@ Leader Mission 模组中的胜利方式有：
 		"cityStrength": 10,
 		"isWonder": true,
 		"uniques": ["[+20]% City Strength from defensive buildings","Cannot be hurried",
-	"Only available <in cities with a [District—Military Center]>"],
+	"Only available <in cities with a [District-Military Center]>"],
 		"requiredTech": "合金",
-		"requiredBuilding": "District—Military Center",
+		"requiredBuilding": "District-Military Center",
 	    "quote": "'The Law is a fortress on a hill that armies cannot take or floods wash away.' - The Prophet Muhammed"
 	},
 	{
@@ -1179,8 +1179,8 @@ Leader Mission 模组中的胜利方式有：
 		"culture": 3,
 		"greatPersonPoints": {"Great Scientist": 2},
 		"isWonder": true,
-		"requiredBuilding": "District—Military Center",
-		"uniques": ["Free [Great General] appears", "New [Military] units start with [15] Experience [in this city]","Only available <in cities with a [District—Military Center]>"],
+		"requiredBuilding": "District-Military Center",
+		"uniques": ["Free [Great General] appears", "New [Military] units start with [15] Experience [in this city]","Only available <in cities with a [District-Military Center]>"],
 		"requiredTech": "军事科学",
 		"quote": "'Pale Death beats equally at the poor man's gate and at the palaces of kings.' - Horace"
 	},
@@ -1188,15 +1188,15 @@ Leader Mission 模组中的胜利方式有：
 		"name": "Pentagon",
 		"isWonder": true,
 		"culture": 3,
-		"requiredBuilding": "District—Military Center",
+		"requiredBuilding": "District-Military Center",
 		"greatPersonPoints": {"Great Engineer": 2},
-		"uniques": ["[-33]% Gold cost of upgrading <for [Military] units>","Only available <in cities with a [District—Military Center]>"],
+		"uniques": ["[-33]% Gold cost of upgrading <for [Military] units>","Only available <in cities with a [District-Military Center]>"],
 		"requiredTech": "协同作战",
 		"quote": "'In preparing for battle I have always found that plans are useless, but planning is indispensable.' - Dwight D. Eisenhower"
 	},
 	{
 	//区域建筑：文娱
-		"name": "District—Cultural Center",
+		"name": "District-Cultural Center",
 	    "maintenance": 3,
 	    "happiness": 2,
 	    "culture":3,
@@ -1204,7 +1204,7 @@ Leader Mission 模组中的胜利方式有：
 		"requiredTech": "戏剧与诗歌",
 		"uniques":["Cannot be purchased","Unsellable"],
 		"civilopediaText": [
-		{"text":"Can be built in District—Cultural Center：", "link":"Building/District—Cultural Center"},	
+		{"text":"Can be built in District-Cultural Center：", "link":"Building/District-Cultural Center"},	
 		   {"text":"Amphitheater","link":"Building/Amphitheater"},
 		   {"text":"Garden","link":"Building/Garden"},
 		   {"text":"Opera House","link":"Building/Opera House"},
@@ -1228,24 +1228,24 @@ Leader Mission 模组中的胜利方式有：
 		"name": "Amphitheater",
 		"culture": 3,
 		"specialistSlots": {"Artist": 1},
-		"requiredBuilding": "District—Cultural Center",
+		"requiredBuilding": "District-Cultural Center",
 		"maintenance": 2,
-		"uniques": ["Unsellable","Only available <in cities with a [District—Cultural Center]>"],
+		"uniques": ["Unsellable","Only available <in cities with a [District-Cultural Center]>"],
 		"requiredTech": "戏剧与诗歌"
 	},
 	{
 		"name": "Garden",
-		"uniques": ["[+25]% Great Person generation [in this city]", "Must be next to [Fresh water]","Unsellable","Only available <in cities with a [District—Cultural Center]>"],
+		"uniques": ["[+25]% Great Person generation [in this city]", "Must be next to [Fresh water]","Unsellable","Only available <in cities with a [District-Cultural Center]>"],
 		"maintenance": 1,
 		"requiredTech": "神学",
-		"requiredBuilding": "District—Cultural Center",
+		"requiredBuilding": "District-Cultural Center",
 	},
 	{
 		"name": "Opera House",
 		"culture": 4,
 		"specialistSlots": {"Artist": 1},
-		"uniques": ["Unsellable","Only available <in cities with a [District—Cultural Center]>"],
-		"requiredBuilding": "District—Cultural Center",
+		"uniques": ["Unsellable","Only available <in cities with a [District-Cultural Center]>"],
+		"requiredBuilding": "District-Cultural Center",
 		"maintenance": 2,
 		"requiredTech": "声学",
 	},
@@ -1253,8 +1253,8 @@ Leader Mission 模组中的胜利方式有：
 		"name": "Theatre",
 		"happiness": 3,
 		"maintenance": 2,
-		"requiredBuilding": "District—Cultural Center",
-		"uniques": ["Unsellable","Only available <in cities with a [District—Cultural Center]>"],
+		"requiredBuilding": "District-Cultural Center",
+		"uniques": ["Unsellable","Only available <in cities with a [District-Cultural Center]>"],
 		"requiredTech": "印刷术"
 	},
 	{
@@ -1262,25 +1262,25 @@ Leader Mission 模组中的胜利方式有：
 		"culture": 3,
 		"maintenance": 2,
 		"specialistSlots": {"Artist": 1},
-		"requiredBuilding": "District—Cultural Center",
+		"requiredBuilding": "District-Cultural Center",
 		"requiredTech": "印刷术"
-		"uniques": ["[+30]% Natural religion spread [in this city]","Provides [2] [CO2]","Unsellable","Only available <in cities with a [District—Cultural Center]>"]
+		"uniques": ["[+30]% Natural religion spread [in this city]","Provides [2] [CO2]","Unsellable","Only available <in cities with a [District-Cultural Center]>"]
 	},
 	{
 		"name": "Museum",
 		"culture": 5,
 		"specialistSlots": {"Artist": 2},
-		"requiredBuilding": "District—Cultural Center",
-		"uniques": ["Unsellable","Only available <in cities with a [District—Cultural Center]>"],
+		"requiredBuilding": "District-Cultural Center",
+		"uniques": ["Unsellable","Only available <in cities with a [District-Cultural Center]>"],
 		"maintenance": 3,
 		"requiredTech": "考古学"
 	},
 	{
 		"name": "Stadium",
 		"happiness": 4,
-		"requiredBuilding": "District—Cultural Center",
+		"requiredBuilding": "District-Cultural Center",
 		"maintenance": 3,
-		"uniques":["Consumes [2] [Electricity]","Consumes [1] [Steel]","Unsellable","Only available <in cities with a [District—Cultural Center]>"]
+		"uniques":["Consumes [2] [Electricity]","Consumes [1] [Steel]","Unsellable","Only available <in cities with a [District-Cultural Center]>"]
 		"requiredTech": "制冷"
 	},
 	{
@@ -1288,18 +1288,18 @@ Leader Mission 模组中的胜利方式有：
 		"cost": 250,
 		"happiness": 6,
 		"isNationalWonder": true,
-		"uniques": ["Requires a [Colosseum] in all cities", "Cost increases by [30] per owned city","Only available <in cities with a [District—Cultural Center]>"],
+		"uniques": ["Requires a [Colosseum] in all cities", "Cost increases by [30] per owned city","Only available <in cities with a [District-Cultural Center]>"],
 		"requiredTech": "戏剧与诗歌"
-		"requiredBuilding": "District—Cultural Center",
+		"requiredBuilding": "District-Cultural Center",
     },
 	{
 		"name": "Petra",
 		"culture": 2,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Artist": 1},
-		"uniques": ["Must be next to [Desert]", "[+1 Food, +1 Production, +1 Gold] from [Desert] tiles without [Flood plains] [in this city]", "Gain a free [Amphitheater] [in this city]","Cannot be hurried","Only available <in cities with a [District—Cultural Center]>"],
+		"uniques": ["Must be next to [Desert]", "[+1 Food, +1 Production, +1 Gold] from [Desert] tiles without [Flood plains] [in this city]", "Gain a free [Amphitheater] [in this city]","Cannot be hurried","Only available <in cities with a [District-Cultural Center]>"],
 		"requiredTech": "戏剧与诗歌",
-		"requiredBuilding": "District—Cultural Center",
+		"requiredBuilding": "District-Cultural Center",
 		"quote": "'...who drinks the water I shall give him, says the Lord, will have a spring inside him welling up for eternal life. Let them bring me to your holy mountain in the place where you dwell. Across the desert and through the mountain to the Canyon of the Crescent Moon...' - Indiana Jones"
 	},
 	{
@@ -1308,9 +1308,9 @@ Leader Mission 模组中的胜利方式有：
 		"happiness": 4,
 		"greatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,
-		"uniques": ["[+50]% Golden Age length","Only available <in cities with a [District—Cultural Center]>"],
+		"uniques": ["[+50]% Golden Age length","Only available <in cities with a [District-Cultural Center]>"],
 		"requiredTech": "神学",
-		"requiredBuilding": "District—Cultural Center",
+		"requiredBuilding": "District-Cultural Center",
 		"quote": "'The katun is established at Chichen Itza. The settlement of the Itza shall take place there. The quetzal shall come, the green bird shall come. Ah Kantenal shall come. It is the word of God. The Itza shall come.' - The Books of Chilam Balam"
 	},
 	{
@@ -1318,9 +1318,9 @@ Leader Mission 模组中的胜利方式有：
 		"culture": 1,
 		"greatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,
-		"uniques": ["[-25]% Culture cost of natural border growth [in all cities]","[-25]% Gold cost of acquiring tiles [in all cities]","Only available <in cities with a [District—Cultural Center]>"],
+		"uniques": ["[-25]% Culture cost of natural border growth [in all cities]","[-25]% Gold cost of acquiring tiles [in all cities]","Only available <in cities with a [District-Cultural Center]>"],
 		"requiredTech": "声学",
-		"requiredBuilding": "District—Cultural Center",
+		"requiredBuilding": "District-Cultural Center",
 	    "quote": "'The temple is like no other building in the world. It has towers and decoration and all the refinements which the human genius can conceive of.' - Antonio da Magdalena"
     },
 	{
@@ -1328,8 +1328,8 @@ Leader Mission 模组中的胜利方式有：
 		"culture": 1,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Artist": 1},
-		"uniques": ["[+25]% Great Person generation [in all cities]", "Free Great Person","Cannot be hurried","Only available <in cities with a [District—Cultural Center]>"],
-		"requiredBuilding": "District—Cultural Center",
+		"uniques": ["[+25]% Great Person generation [in all cities]", "Free Great Person","Cannot be hurried","Only available <in cities with a [District-Cultural Center]>"],
+		"requiredBuilding": "District-Cultural Center",
 		"requiredTech": "印刷术",
 		"quote": "'Don't clap too hard - it's a very old building.' - John Osbourne"
 	},
@@ -1338,8 +1338,8 @@ Leader Mission 模组中的胜利方式有：
 		"culture": 1,
 		"happiness": 4,
 		"isWonder": true,
-		"uniques": ["[2] free [Great Artist] units appear","Cannot be hurried","Only available <in cities with a [District—Cultural Center]>"],
-		"requiredBuilding": "District—Cultural Center",
+		"uniques": ["[2] free [Great Artist] units appear","Cannot be hurried","Only available <in cities with a [District-Cultural Center]>"],
+		"requiredBuilding": "District-Cultural Center",
 		"requiredTech": "考古学",
 	    "quote": "'Every genuine work of art has as much reason for being as the earth and the sun' - Ralph Waldo Emerson"
 	},
@@ -1351,8 +1351,8 @@ Leader Mission 模组中的胜利方式有：
 		"greatPersonPoints": {"Great Merchant": 1},
 		"isWonder": true,
 		"uniques": ["[+1 Happiness, +2 Culture, +3 Gold] from every [Castle]",
-			"Must have an owned [Mountain] within [2] tiles","Only available <in cities with a [District—Cultural Center]>"],
-		"requiredBuilding": "District—Cultural Center",	
+			"Must have an owned [Mountain] within [2] tiles","Only available <in cities with a [District-Cultural Center]>"],
+		"requiredBuilding": "District-Cultural Center",	
 		"requiredTech": "铁路",
 		"quote": "'...the location is one of the most beautiful to be found, holy and unapproachable, a worthy temple for the divine friend who has brought salvation and true blessing to the world.' - King Ludwig II of Bavaria"
 	},
@@ -1362,8 +1362,8 @@ Leader Mission 模组中的胜利方式有：
 		"happiness": 5,
 		"greatPersonPoints": {"Great Merchant": 2},
 		"isWonder": true,
-		"uniques": ["[+1 Happiness] per [3] social policies adopted","Only available <in cities with a [District—Cultural Center]>"],
-		"requiredBuilding": "District—Cultural Center",	
+		"uniques": ["[+1 Happiness] per [3] social policies adopted","Only available <in cities with a [District-Cultural Center]>"],
+		"requiredBuilding": "District-Cultural Center",	
 		"requiredTech": "无线电",
 		"quote": "'We live only to discover beauty, all else is a form of waiting' - Kahlil Gibran"
     },
@@ -1372,29 +1372,29 @@ Leader Mission 模组中的胜利方式有：
 		"isWonder": true,
 		"greatPersonPoints": {"Great Artist": 2},
 		"percentStatBonus": {"culture": 50},
-		"uniques": ["Free Social Policy","Must be next to [Coast]","Cannot be hurried","Only available <in cities with a [District—Cultural Center]>"],
+		"uniques": ["Free Social Policy","Must be next to [Coast]","Cannot be hurried","Only available <in cities with a [District-Cultural Center]>"],
 		"requiredTech": "生态学",
-		"requiredBuilding": "District—Cultural Center",	
+		"requiredBuilding": "District-Cultural Center",	
 	    "quote": "'Those who lose dreaming are lost.' - Australian Aboriginal saying"
 	},
 	{
 		"name": "Cristo Redentor",
 		"culture": 5,
 		"isWonder": true,
-		"requiredBuilding": "District—Cultural Center",	
+		"requiredBuilding": "District-Cultural Center",	
 		"greatPersonPoints": {"Great Artist": 2},
-		"uniques": ["[-10]% Culture cost of adopting new Policies","Only available <in cities with a [District—Cultural Center]>"],
+		"uniques": ["[-10]% Culture cost of adopting new Policies","Only available <in cities with a [District-Cultural Center]>"],
 		"requiredTech": "塑料",
 		"quote": "'Come to me, all who labor and are heavy burdened, and I will give you rest.' - New Testament, Matthew 11:28"
 	},
 	{
 	//区域建筑：基建
-		"name": "District—Infrastructure Center",
+		"name": "District-Infrastructure Center",
 	    "maintenance": 3,
 		"requiredTech": "工程学",
 		"uniques":["Cannot be purchased","Unsellable","[+15]% Production when constructing [All] buildings [in this city]"],
 		"civilopediaText": [
-		{"text":"Can be built in District—Infrastructure Center：", "link":"Building/District—Infrastructure Center"},
+		{"text":"Can be built in District-Infrastructure Center：", "link":"Building/District-Infrastructure Center"},
 		   {"text":"Aqueduct", "link":"Building/Aqueduct"},
 		   {"text":"Canal", "link":"Building/Canal"},
 		   {"text":"Hospital", "link":"Building/Hospital"},
@@ -1413,8 +1413,8 @@ Leader Mission 模组中的胜利方式有：
 	{
 		"name": "Aqueduct",
 		"maintenance": 1,
-		"uniques": ["[35]% Food is carried over after population increases [in this city]","Unsellable","Only available <in cities with a [District—Infrastructure Center]>"],
-		"requiredBuilding": "District—Infrastructure Center",
+		"uniques": ["[35]% Food is carried over after population increases [in this city]","Unsellable","Only available <in cities with a [District-Infrastructure Center]>"],
+		"requiredBuilding": "District-Infrastructure Center",
 		"requiredTech": "工程学"
 	},
 	{
@@ -1422,24 +1422,24 @@ Leader Mission 模组中的胜利方式有：
 		"gold": 1,
 		"production": 1, 
 		"cost": 200,
-		"uniques": ["Unsellable","Only available <in cities with a [District—Infrastructure Center]>"],
-		"requiredBuilding": "District—Infrastructure Center",
+		"uniques": ["Unsellable","Only available <in cities with a [District-Infrastructure Center]>"],
+		"requiredBuilding": "District-Infrastructure Center",
 		"requiredTech": "Waterage"
     },
 	{
 		"name": "Broadcast Tower",
 		"culture": 3,
 		"percentStatBonus": {"culture": 33},
-		"requiredBuilding": "District—Infrastructure Center",
-		"uniques":["Consumes [1] [Electricity]","Consumes [1] [Steel]","Unsellable","Only available <in cities with a [District—Infrastructure Center]>"]
+		"requiredBuilding": "District-Infrastructure Center",
+		"uniques":["Consumes [1] [Electricity]","Consumes [1] [Steel]","Unsellable","Only available <in cities with a [District-Infrastructure Center]>"]
 		"maintenance": 3,
 		"requiredTech": "无线电",
 	},
 	{
 		"name": "Hospital",
 		"uniques":["[-10]% Unhappiness from [Population] [in this city]","[Wounded] Units adjacent to this city heal [+15] HP per turn when healing",
-		"Consumes [3] [Electricity]","Unsellable","Only available <in cities with a [District—Infrastructure Center]>"]
-		"requiredBuilding": "District—Infrastructure Center",
+		"Consumes [3] [Electricity]","Unsellable","Only available <in cities with a [District-Infrastructure Center]>"]
+		"requiredBuilding": "District-Infrastructure Center",
 		"maintenance": 3,
 		"requiredTech": "生物学"
 	},
@@ -1448,24 +1448,24 @@ Leader Mission 模组中的胜利方式有：
 		"cost": 750,
 		"maintenance": 3,
 		"requiredTech": "远程通信",
-		"requiredBuilding": "District—Infrastructure Center",
-		"uniques": ["Population loss from nuclear attacks [-70]% [in this city]","Unsellable","Only available <in cities with a [District—Infrastructure Center]>"]
+		"requiredBuilding": "District-Infrastructure Center",
+		"uniques": ["Population loss from nuclear attacks [-70]% [in this city]","Unsellable","Only available <in cities with a [District-Infrastructure Center]>"]
 	},
 	{
 		"name": "Recycling Center",
 		"cost": 700,
 		"maintenance": 3,
 		"requiredTech": "生态学",
-		"requiredBuilding": "District—Infrastructure Center",
-		"uniques": ["Provides [3] [Aluminum]","Consumes [3] [Electricity]","Unsellable","Only available <in cities with a [District—Infrastructure Center]>"]	
+		"requiredBuilding": "District-Infrastructure Center",
+		"uniques": ["Provides [3] [Aluminum]","Consumes [3] [Electricity]","Unsellable","Only available <in cities with a [District-Infrastructure Center]>"]	
 	},
 	{
 		"name": "Hanging Gardens",
 		"food": 4,
 		"isWonder": true,
 		"requiredTech": "神学",
-		"requiredBuilding": "District—Infrastructure Center",
-		"uniques": ["Gain a free [Garden] [in this city]","[+2] population [in this city]","Cannot be hurried","Only available <in cities with a [District—Infrastructure Center]>"],
+		"requiredBuilding": "District-Infrastructure Center",
+		"uniques": ["Gain a free [Garden] [in this city]","[+2] population [in this city]","Cannot be hurried","Only available <in cities with a [District-Infrastructure Center]>"],
 		"quote": "'I think that if ever a mortal heard the word of God it would be in a garden at the cool of the day.' - F. Frankfort Moore"
 	},
 	{
@@ -1474,9 +1474,9 @@ Leader Mission 模组中的胜利方式有：
 		"gold": 2,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Artist": 1},
-		"uniques": ["[-10]% Unhappiness from [Population] [in all cities]","Only available <in cities with a [District—Infrastructure Center]>"],
+		"uniques": ["[-10]% Unhappiness from [Population] [in all cities]","Only available <in cities with a [District-Infrastructure Center]>"],
 		"requiredTech": "银行业",
-		"requiredBuilding": "District—Infrastructure Center",
+		"requiredBuilding": "District-Infrastructure Center",
 		"quote": "'Most of us can, as we choose, make of this world either a palace or a prison' - John Lubbock"
 	},
 	{
@@ -1485,35 +1485,35 @@ Leader Mission 模组中的胜利方式有：
 		"happiness": 4,
 		"greatPersonPoints": {"Great Artist": 2},
 		"isWonder": true,
-		"uniques": ["Empire enters golden age","Only available <in cities with a [District—Infrastructure Center]>"],
+		"uniques": ["Empire enters golden age","Only available <in cities with a [District-Infrastructure Center]>"],
 		"requiredTech": "建筑学",
-		"requiredBuilding": "District—Infrastructure Center",
+		"requiredBuilding": "District-Infrastructure Center",
 		"quote": "'The Taj Mahal rises above the banks of the river like a solitary tear suspended on the cheek of time.' - Rabindranath Tagore"
 	},
 	{
 		"name": "National Canal",
 		"cost": 400,
 		"isNationalWonder": true,
-		"uniques": ["Cost increases by [50] per owned city","Requires a [Canal] in all cities","[+4 Gold, +4 Production] [in all cities]","Only available <in cities with a [District—Infrastructure Center]>"],
+		"uniques": ["Cost increases by [50] per owned city","Requires a [Canal] in all cities","[+4 Gold, +4 Production] [in all cities]","Only available <in cities with a [District-Infrastructure Center]>"],
 		"requiredTech": "Waterage"
-		"requiredBuilding": "District—Infrastructure Center",
+		"requiredBuilding": "District-Infrastructure Center",
 	},
 	{
 		"name": "Tunnel",
 		"cost": 800,
 		"isNationalWonder": true,
-	    "uniques":["All newly-trained [Land] units [in this city] receive the [Crossing the Mountain] promotion","Only available <in cities with a [District—Infrastructure Center]>"]
+	    "uniques":["All newly-trained [Land] units [in this city] receive the [Crossing the Mountain] promotion","Only available <in cities with a [District-Infrastructure Center]>"]
 		"requiredTech": "炸药"
-		"requiredBuilding": "District—Infrastructure Center",
+		"requiredBuilding": "District-Infrastructure Center",
 	},
 	{
 		"name": "Statue of Liberty",
 		"culture": 1,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Engineer": 2},
-		"uniques": ["[+1 Production] from every specialist [in all cities]","Only available <in cities with a [District—Infrastructure Center]>"],
+		"uniques": ["[+1 Production] from every specialist [in all cities]","Only available <in cities with a [District-Infrastructure Center]>"],
 		"requiredTech": "精密零件",
-		"requiredBuilding": "District—Infrastructure Center",
+		"requiredBuilding": "District-Infrastructure Center",
 		"quote": "'Give me your tired, your poor, your huddled masses yearning to breathe free, the wretched refuse of your teeming shore. Send these, the homeless, tempest-tossed to me, I lift my lamp beside the golden door!' - Emma Lazarus"
 	},
 	{
@@ -1521,14 +1521,14 @@ Leader Mission 模组中的胜利方式有：
 		"isWonder": true,
 		"culture": 1,
 		"greatPersonPoints": {"Great Merchant": 1},
-		"uniques": ["[+1] population [in all cities]", "[+1 Happiness] [in all cities]", "Gain a free [Broadcast Tower] [in all cities]","Cannot be hurried","Only available <in cities with a [District—Infrastructure Center]>"],
+		"uniques": ["[+1] population [in all cities]", "[+1 Happiness] [in all cities]", "Gain a free [Broadcast Tower] [in all cities]","Cannot be hurried","Only available <in cities with a [District-Infrastructure Center]>"],
 		"requiredTech": "远程通信",
-		"requiredBuilding": "District—Infrastructure Center",	
+		"requiredBuilding": "District-Infrastructure Center",	
 		"quote": "'Nothing travels faster than light with the possible exception of bad news, which obeys its own special rules.' - Douglas Adams"
 	},
 	{
 	//区域建筑：产能
-		"name": "District—Industrial Centre",
+		"name": "District-Industrial Centre",
 	    "maintenance": 3,
 	    "production": 4,
 	    "greatPersonPoints": {"Great Engineer": 1},
@@ -1536,7 +1536,7 @@ Leader Mission 模组中的胜利方式有：
 		"uniques":["Cannot be purchased","Unsellable","Provides [5] [CO2]"
 		],
 		"civilopediaText": [
-		{"text":"Can be built in District—Industrial Centre：", "link":"Building/District—Industrial Centre"},
+		{"text":"Can be built in District-Industrial Centre：", "link":"Building/District-Industrial Centre"},
 		   {"text":"Workshop","link":"Building/Workshop"},
 		   {"text":"Forge","link":"Building/Forge"},
 		   {"text":"Ironworks","link":"Building/Ironworks"},
@@ -1557,9 +1557,9 @@ Leader Mission 模组中的胜利方式有：
 		"maintenance": 2,
 		"production": 1,
 		"specialistSlots": {"Engineer": 1},
-		"uniques":["Provides [3] [CO2]","Unsellable","Only available <in cities with a [District—Industrial Centre]>"]
+		"uniques":["Provides [3] [CO2]","Unsellable","Only available <in cities with a [District-Industrial Centre]>"]
 		"percentStatBonus": {"production": 10},
-		"requiredBuilding": "District—Industrial Centre",
+		"requiredBuilding": "District-Industrial Centre",
 		"requiredTech": "工业伊始"
 	},
 	{
@@ -1567,29 +1567,29 @@ Leader Mission 模组中的胜利方式有：
 		"maintenance": 2,
 	"requiredNearbyImprovedResources": ["Iron"],
 		"requiredTech": "工业伊始",
-		"requiredBuilding": "District—Industrial Centre",
+		"requiredBuilding": "District-Industrial Centre",
 		"uniques": [
 			"[+15]% Production when constructing [Land] units [in this city]",
-			"[+1 Production] from [Iron] tiles [in this city]","Provides [3] [CO2]","Unsellable","Only available <in cities with a [District—Industrial Centre]>"]
+			"[+1 Production] from [Iron] tiles [in this city]","Provides [3] [CO2]","Unsellable","Only available <in cities with a [District-Industrial Centre]>"]
 	},
 	{
 		"name": "Ironworks",
 		"production": 2,
 		"maintenance": 3,
 		"requiredResource": "Coal",
-		"requiredBuilding": "District—Industrial Centre",
+		"requiredBuilding": "District-Industrial Centre",
 		"requiredTech": "Steelmaking",
 	    "uniques":[
 	    "Consumes [3] [Iron]",
 	    "Provides [15] [Steel]",
 	    "Provides [5] [CO2]",
-	    "Unsellable","Only available <in cities with a [District—Industrial Centre]>"]
+	    "Unsellable","Only available <in cities with a [District-Industrial Centre]>"]
 	},
 	{
 		"name": "Fertilizer Plant",
 		"production": 1,
 		"maintenance": 3,
-		"requiredBuilding": "District—Industrial Centre",
+		"requiredBuilding": "District-Industrial Centre",
 		"requiredTech": "化肥",
 	    "uniques": [
 			"[+1 Food] from [Farm] tiles [in this city]",
@@ -1597,7 +1597,7 @@ Leader Mission 模组中的胜利方式有：
 			"Consumes [2] [Steel]",
 			"Consumes [1] [Saltpeter]",
 			"Consumes [1] [Coal]",
-			"Provides [3] [CO2]","Unsellable","Only available <in cities with a [District—Industrial Centre]>"],
+			"Provides [3] [CO2]","Unsellable","Only available <in cities with a [District-Industrial Centre]>"],
 	},
 	{
 		"name": "Factory",
@@ -1608,8 +1608,8 @@ Leader Mission 模组中的胜利方式有：
 		"uniques":[
 		"Consumes [2] [Steel]",
 		"Consumes [2] [Coal]",
-		"Provides [5] [CO2]","Unsellable","Only available <in cities with a [District—Industrial Centre]>"]
-		"requiredBuilding": "District—Industrial Centre",
+		"Provides [5] [CO2]","Unsellable","Only available <in cities with a [District-Industrial Centre]>"]
+		"requiredBuilding": "District-Industrial Centre",
 		"maintenance": 3,
 		"requiredTech": "工业化"
 	},
@@ -1619,69 +1619,69 @@ Leader Mission 模组中的胜利方式有：
 		"production": 1,
 		"percentStatBonus": {"production": 15},
 		"uniques": ["Consumes [1] [Aluminum]",
-		"Must be on [River]","[+1 Production] from [River] tiles [in this city]","Provides [4] [Electricity]","Unsellable","Only available <in cities with a [District—Industrial Centre]>"],
-		"requiredBuilding": "District—Industrial Centre",
+		"Must be on [River]","[+1 Production] from [River] tiles [in this city]","Provides [4] [Electricity]","Unsellable","Only available <in cities with a [District-Industrial Centre]>"],
+		"requiredBuilding": "District-Industrial Centre",
 		"requiredTech": "电学"
 	},
 	{
 		"name": "Coal-Fired Power Plant",
 	    "percentStatBonus": {"production": 10},
 		"maintenance": 3,
-		"requiredBuilding": "District—Industrial Centre",
+		"requiredBuilding": "District-Industrial Centre",
 		"requiredTech": "电学",
-	    "uniques":["Consumes [2] [Coal]","Consumes [1] [Steel]","Provides [8] [Electricity]","Provides [7] [CO2]","Unsellable","Only available <in cities with a [District—Industrial Centre]>"]
+	    "uniques":["Consumes [2] [Coal]","Consumes [1] [Steel]","Provides [8] [Electricity]","Provides [7] [CO2]","Unsellable","Only available <in cities with a [District-Industrial Centre]>"]
 	},
 	{
 		"name": "Oil-Fired Power Plant",
 	    "percentStatBonus": {"production": 10},
 		"maintenance": 3,
-		"requiredBuilding": "District—Industrial Centre",
+		"requiredBuilding": "District-Industrial Centre",
 		"requiredTech": "制冷",
-	    "uniques":["Consumes [2] [Oil]","Consumes [1] [Steel]","Provides [12] [Electricity]","Provides [7] [CO2]","Unsellable","Only available <in cities with a [District—Industrial Centre]>"] 
+	    "uniques":["Consumes [2] [Oil]","Consumes [1] [Steel]","Provides [12] [Electricity]","Provides [7] [CO2]","Unsellable","Only available <in cities with a [District-Industrial Centre]>"] 
 	},
 	{
 		"name": "Gas-Fired Power Plant",
         "percentStatBonus": {"production": 10},
 		"maintenance": 3,
-		"requiredBuilding": "District—Industrial Centre",
+		"requiredBuilding": "District-Industrial Centre",
 		"requiredTech": "制冷",
-	    "uniques":["Consumes [3] [Gas]","Consumes [1] [Steel]","Provides [10] [Electricity]","Provides [3] [CO2]","Unsellable","Only available <in cities with a [District—Industrial Centre]>"]           
+	    "uniques":["Consumes [3] [Gas]","Consumes [1] [Steel]","Provides [10] [Electricity]","Provides [3] [CO2]","Unsellable","Only available <in cities with a [District-Industrial Centre]>"]           
 	},
 	{
 		"name": "Nuclear Plant",
 		"percentStatBonus": {"production": 20},
-		"requiredBuilding": "District—Industrial Centre",
+		"requiredBuilding": "District-Industrial Centre",
 		"maintenance": 7,
 		"requiredTech": "核裂变",
-		"uniques": ["Consumes [1] [Uranium]","Consumes [1] [Aluminum]","Provides [12] [Electricity]","Unsellable","Only available <in cities with a [District—Industrial Centre]>"]
+		"uniques": ["Consumes [1] [Uranium]","Consumes [1] [Aluminum]","Provides [12] [Electricity]","Unsellable","Only available <in cities with a [District-Industrial Centre]>"]
 	},
 	{
 		"name": "Chemical Plant",
 		"maintenance": 3,
-		"requiredBuilding": "District—Industrial Centre",
+		"requiredBuilding": "District-Industrial Centre",
 		"requiredTech": "塑料",
-	    "uniques":["Consumes [2] [Gas]","Consumes [1] [Steel]","Consumes [10] [Electricity]","[+15]% [Gold] [in this city]","[+15]% [Production] [in this city]","Provides [5] [CO2]","Unsellable","Only available <in cities with a [District—Industrial Centre]>"]	
+	    "uniques":["Consumes [2] [Gas]","Consumes [1] [Steel]","Consumes [10] [Electricity]","[+15]% [Gold] [in this city]","[+15]% [Production] [in this city]","Provides [5] [CO2]","Unsellable","Only available <in cities with a [District-Industrial Centre]>"]	
 	},
 	{
 		"name": "Fuel Fabrication Plant",
 		"production": 2,
 		"maintenance": 3,
 		"requiredResource": "Aluminum",
-		"requiredBuilding": "District—Industrial Centre",
+		"requiredBuilding": "District-Industrial Centre",
 		"requiredTech": "火箭",
-	    "uniques":["Consumes [10] [Electricity]","Consumes [2] [Steel]","Consumes [4] [Saltpeter]","Consumes [4] [Gas]","Consumes [2] [Oil]","Consumes [2] [Coal]","Provides [4] [Mixed fuel]","Provides [3] [CO2]","Unsellable","Only available <in cities with a [District—Industrial Centre]>"]
+	    "uniques":["Consumes [10] [Electricity]","Consumes [2] [Steel]","Consumes [4] [Saltpeter]","Consumes [4] [Gas]","Consumes [2] [Oil]","Consumes [2] [Coal]","Provides [4] [Mixed fuel]","Provides [3] [CO2]","Unsellable","Only available <in cities with a [District-Industrial Centre]>"]
 	},
 	{
 		"name": "Spaceship Factory",
 		"production": 3,
 		"requiredResource": "Aluminum",
-		"requiredBuilding": "District—Industrial Centre",
-		"uniques": ["[+50]% Production when constructing [Spaceship part] units [in this city]","Consumes [10] [Electricity]","Unsellable","Only available <in cities with a [District—Industrial Centre]>"],
+		"requiredBuilding": "District-Industrial Centre",
+		"uniques": ["[+50]% Production when constructing [Spaceship part] units [in this city]","Consumes [10] [Electricity]","Unsellable","Only available <in cities with a [District-Industrial Centre]>"],
 		"requiredTech": "机器人学"
 	},
 	{
 	//区域建筑：科研
-		"name": "District—Scientific Research Center",
+		"name": "District-Scientific Research Center",
 	    "maintenance": 3,
 	    "science": 4,
 	    "greatPersonPoints": {"Great Scientist": 1},
@@ -1689,7 +1689,7 @@ Leader Mission 模组中的胜利方式有：
 		"uniques":["Cannot be purchased","Unsellable",
 		],
 		"civilopediaText": [
-		{"text":"Can be built in District—Scientific Research Center：", "link":"Building/District—Scientific Research Center"},
+		{"text":"Can be built in District-Scientific Research Center：", "link":"Building/District-Scientific Research Center"},
 		{"text":"University","link":"Building/University"},
 		{"text":"Observatory","link":"Building/Observatory"},
 		{"text":"Public School","link":"Building/Public School"},
@@ -1704,25 +1704,25 @@ Leader Mission 模组中的胜利方式有：
 		"maintenance": 2,
 		"percentStatBonus": {"science": 33},
 		"specialistSlots": {"Scientist": 2},
-		"requiredBuilding": "District—Scientific Research Center",
-		"uniques": ["[+2 Science] from [Jungle] tiles [in this city]","Unsellable","Only available <in cities with a [District—Scientific Research Center]>"],
+		"requiredBuilding": "District-Scientific Research Center",
+		"uniques": ["[+2 Science] from [Jungle] tiles [in this city]","Unsellable","Only available <in cities with a [District-Scientific Research Center]>"],
 		"requiredTech": "教育学"
 	},
 	{
 		"name": "Observatory",
 		"maintenance": 2,
 		"percentStatBonus": {"science": 50},
-		"uniques": ["Must be next to [Mountain]","Unsellable","Only available <in cities with a [District—Scientific Research Center]>"],
-		"requiredBuilding": "District—Scientific Research Center",
+		"uniques": ["Must be next to [Mountain]","Unsellable","Only available <in cities with a [District-Scientific Research Center]>"],
+		"requiredBuilding": "District-Scientific Research Center",
 		"requiredTech": "天文学"
 	},
 	{
 		"name": "Public School",
 		"science": 3,
 		"specialistSlots": {"Scientist": 1},
-		"requiredBuilding": "District—Scientific Research Center",
+		"requiredBuilding": "District-Scientific Research Center",
 		"maintenance": 3,
-		"uniques": ["[+1 Science] per [2] population [in this city]","Unsellable","Only available <in cities with a [District—Scientific Research Center]>"],
+		"uniques": ["[+1 Science] per [2] population [in this city]","Unsellable","Only available <in cities with a [District-Scientific Research Center]>"],
 		"requiredTech": "科学理论"
 	},
 	{
@@ -1730,27 +1730,27 @@ Leader Mission 模组中的胜利方式有：
 		"science": 5,
 		"percentStatBonus": {"science": 50},
 		"specialistSlots": {"Scientist": 1},
-		"requiredBuilding": "District—Scientific Research Center",
+		"requiredBuilding": "District-Scientific Research Center",
 		"maintenance": 3,
-		"uniques":["Consumes [5] [Electricity]","Unsellable","Only available <in cities with a [District—Scientific Research Center]>"]
+		"uniques":["Consumes [5] [Electricity]","Unsellable","Only available <in cities with a [District-Scientific Research Center]>"]
 		"requiredTech": "塑料"
     },
 	{
 		"name": "Medical Lab",
-		"requiredBuilding": "District—Scientific Research Center",
+		"requiredBuilding": "District-Scientific Research Center",
 		"science": 5,
 		"maintenance": 5,
 		"requiredTech": "制药学",
-		"uniques": ["[25]% Food is carried over after population increases [in this city]","Consumes [5] [Electricity]","Unsellable","Only available <in cities with a [District—Scientific Research Center]>"]		
+		"uniques": ["[25]% Food is carried over after population increases [in this city]","Consumes [5] [Electricity]","Unsellable","Only available <in cities with a [District-Scientific Research Center]>"]		
 	},
 	{
 		"name": "Porcelain Tower",
 		"culture": 1,
 		"greatPersonPoints": {"Great Scientist": 2},
 		"isWonder": true,
-		"uniques": ["Free [Great Scientist] appears","Science gained from research agreements [+50]%","Cannot be hurried","Only available <in cities with a [District—Scientific Research Center]>"],
+		"uniques": ["Free [Great Scientist] appears","Science gained from research agreements [+50]%","Cannot be hurried","Only available <in cities with a [District-Scientific Research Center]>"],
 		"requiredTech": "建筑学",
-		"requiredBuilding": "District—Scientific Research Center",
+		"requiredBuilding": "District-Scientific Research Center",
 	    "quote": "'Things always seem fairer when we look back at them, and it is out of that inaccessible tower of the past that Longing leans and beckons.' - James Russell Lowell"
 	},
 	{
@@ -1759,52 +1759,52 @@ Leader Mission 模组中的胜利方式有：
 		"greatPersonPoints": {"Great Scientist": 1},
 		"uniques": ["[2] free [Great Scientist] units appear",
 			"[+25]% Production when constructing [Spaceship part] units [in this city]",
-			"Gain a free [Spaceship Factory] [in this city]","Cannot be hurried","Only available <in cities with a [District—Scientific Research Center]>"],
+			"Gain a free [Spaceship Factory] [in this city]","Cannot be hurried","Only available <in cities with a [District-Scientific Research Center]>"],
 		"requiredTech": "人造卫星",	
-		"requiredBuilding": "District—Scientific Research Center",
+		"requiredBuilding": "District-Scientific Research Center",
 		"quote": "'The wonder is, not that the field of stars is so vast, but that man has measured it.' - Anatole France"
 	},
 	{
 	//国家领袖+特色建筑
 	//中华
-	    "name": "Civilized Leader—Emperor Wu of Han",
+	    "name": "Civilized Leader-Emperor Wu of Han",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "China",
-		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader—First Emperor of Qin]>", "Only available <in cities without a [Civilized Leader—Chairman Mao]>", 
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-First Emperor of Qin]>", "Only available <in cities without a [Civilized Leader-Chairman Mao]>", 
 		"Great General provides double combat bonus",
 		"[+1 Culture] from each Trade Route", "[+1 Science] from each Trade Route"]
 		},
 		{
-        "name": "Civilized Leader—First Emperor of Qin",
+        "name": "Civilized Leader-First Emperor of Qin",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "China",
-		"uniques": ["Can only be built [in capital]","Only available <in cities without a [Civilized Leader—Emperor Wu of Han]>","Only available <in cities without a [Civilized Leader—Chairman Mao]>",
+		"uniques": ["Can only be built [in capital]","Only available <in cities without a [Civilized Leader-Emperor Wu of Han]>","Only available <in cities without a [Civilized Leader-Chairman Mao]>",
 	    "[+20]% Strength <for [Military] units> <before discovering [Nation]>"
 	    "Free Great Person <upon discovering [Nation]>"
 	    "[+33]% Production when constructing [National Wonder] wonders [in all cities]"
 		]
 		},
 		{
-        "name": "Civilized Leader—Chairman Mao",
+        "name": "Civilized Leader-Chairman Mao",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "China",
-		"uniques": ["Can only be built [in capital]","Only available <in cities without a [Civilized Leader—Emperor Wu of Han]>","Only available <in cities without a [Civilized Leader—First Emperor of Qin]>",
+		"uniques": ["Can only be built [in capital]","Only available <in cities without a [Civilized Leader-Emperor Wu of Han]>","Only available <in cities without a [Civilized Leader-First Emperor of Qin]>",
 	    "[+1] Movement <for [Foot Soldier] units>",
 	    "[+10]% Production when constructing [Foot Soldier] units [in all cities]",
-	    "[+2 Production, +1 Happiness] from every [District—Industrial Centre]",   
+	    "[+2 Production, +1 Happiness] from every [District-Industrial Centre]",   
 	]
 	},
 	{
-		"name": "District—Chinese Civilization",
+		"name": "District-Chinese Civilization",
 		"gold": 5,
 		"happiness": 5,
 	    "maintenance": 0,
 	    "cost":160,
 	    "uniqueTo": "China",
-		"replaces": "District—Country",
+		"replaces": "District-Country",
 		"requiredTech": "Nation"
 		"isNationalWonder": true,
 		"uniques":["Cannot be purchased","Unsellable","Can only be built [in capital]","[+1 Production] [in all cities]","[+2 Culture] [in all cities]","Triggers a global alert upon completion"]
@@ -1813,59 +1813,59 @@ Leader Mission 模组中的胜利方式有：
 		"name": "Rockery Garden",
 		"culture": 1,
 		"happiness": 1,
-		"uniques": ["[+25]% Great Person generation [in this city]","Unsellable","Only available <in cities with a [District—Cultural Center]>"],
+		"uniques": ["[+25]% Great Person generation [in this city]","Unsellable","Only available <in cities with a [District-Cultural Center]>"],
 		"maintenance": 1,
 		"uniqueTo": "China",
 		"replaces": "Garden",
 		"requiredTech": "神学",
-		"requiredBuilding": "District—Cultural Center",
+		"requiredBuilding": "District-Cultural Center",
 	//希腊
 	},
 	{	
-        "name": "Civilized Leader—Leonidas",
+        "name": "Civilized Leader-Leonidas",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Greece",
-		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader—Pericles]>",
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Pericles]>",
 		"Damage is ignored when determining unit Strength <for [Melee] units>",
 		"[+50]% XP gained from combat <for [Melee] units>"
 	]
     },
 	{	
-        "name": "Civilized Leader—Pericles",
+        "name": "Civilized Leader-Pericles",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Greece",
-		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader—Leonidas]>",
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Leonidas]>",
 	"[+1 Culture, +1 Science] from all [Happiness] buildings","[1] Free Social Policies"]
 	},
 	{
-		"name": "District—Acropolis",
+		"name": "District-Acropolis",
 		"faith": 3,
 		"culture": 1,
 		"science": 1,
 	    "maintenance": 1,
 	    "uniqueTo": "Greece",
-		"replaces": "District—Religious Cente",
+		"replaces": "District-Religious Cente",
 		"requiredTech": "Religious Culture"
 		"uniques":["Cannot be purchased","Unsellable","Destroyed when the city is captured"]
 	//罗马
 	},
 	{	
-        "name": "Civilized Leader—Cesar",
+        "name": "Civilized Leader-Cesar",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Rome",
-		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader—Octavius]>",
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Octavius]>",
 		"[+15]% Strength <for [Military] units> <when adjacent to a [Military] unit>",
 		"[Great General] is earned [66]% faster"]
 	},
 	{	
-        "name": "Civilized Leader—Octavius",
+        "name": "Civilized Leader-Octavius",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Rome",
-		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader—Cesar]>",
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Cesar]>",
 		"[+10]% Production when constructing [All] buildings [in capital]",
 		"[+10]% Production when constructing [Military] units [in all cities]"]
 	},
@@ -1880,53 +1880,53 @@ Leader Mission 模组中的胜利方式有：
 	//俄罗斯
 	},
 	{	
-        "name": "Civilized Leader—Catherine",
+        "name": "Civilized Leader-Catherine",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Russia",
-		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader—Peter]>",
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Peter]>",
 		"[+15]% Strength <for [Land] units> <when fighting in [Open terrain] tiles>",	
 		"[+1 Production] from all [Faith] buildings <while the empire is happy>",
 		]
 	},
 	{	
-        "name": "Civilized Leader—Peter",
+        "name": "Civilized Leader-Peter",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Russia",
-		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader—Catherine]>",
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Catherine]>",
 		"[+2 Science] from each Trade Route",
 		"[+15]% [Science] from Trade Routes",
 		"[+15]% [Gold] from Trade Routes"
 		]
 	},
 	{
-		"name": "District—Lavra Monastery",
+		"name": "District-Lavra Monastery",
 		"faith": 4,
 		"production": 1,
 	    "maintenance": 3,
 	    "uniqueTo": "Russia",
-		"replaces": "District—Religious Cente",
+		"replaces": "District-Religious Cente",
 		"requiredTech": "Religious Culture"
 		"uniques":["Cannot be purchased","Unsellable","Destroyed when the city is captured","[+15]% Natural religion spread [in this city]"]
 	//苏联
 	},
 	{	
-        "name": "Civilized leader—Lenin",
+        "name": "Civilized leader-Lenin",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Soviet Union",
-		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized leader—Stalin]>", "Only available <in cities without a [Civilized leader—Trotsky]>",
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized leader-Stalin]>", "Only available <in cities without a [Civilized leader-Trotsky]>",
 	    "[+1 Culture, +1 Gold] from all [Production] buildings",
 	    "Each city founded increases culture cost of policies [-15]% less than normal"
 		]
 	},
 	{	
-        "name": "Civilized leader—Stalin",
+        "name": "Civilized leader-Stalin",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Soviet Union",
-		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized leader—Lenin]>", "Only available <in cities without a [Civilized leader—Trotsky]>",
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized leader-Lenin]>", "Only available <in cities without a [Civilized leader-Trotsky]>",
 	    "[+10]% Production when constructing [All] units [in all cities]",
 	    "[+5]% Production when constructing [All] units [in all cities] <when at war>",
 	    "[+10]% Production when constructing [All] buildings [in all cities]",
@@ -1934,11 +1934,11 @@ Leader Mission 模组中的胜利方式有：
 		]
 	},
 	{	
-        "name": "Civilized leader—Trotsky",
+        "name": "Civilized leader-Trotsky",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Soviet Union",
-		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized leader—Lenin]>", "Only available <in cities without a [Civilized leader—Stalin]>",
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized leader-Lenin]>", "Only available <in cities without a [Civilized leader-Stalin]>",
 	    "[+15]% Production when constructing [Military] units [in all cities]",
 	    "[+10]% Strength <for [Military] units>"
 		"Gain a free [Trotsky ability] [in annexed cities]"
@@ -1954,12 +1954,12 @@ Leader Mission 模组中的胜利方式有：
 		]	
 	},
 	{
-		"name": "District—Red Square",
+		"name": "District-Red Square",
 	    "maintenance": 3,
 	    "cityStrength": 5,
 		"cityHealth": 30,
 	    "uniqueTo": "Soviet Union",
-		"replaces": "District—Military Center",
+		"replaces": "District-Military Center",
 		"requiredTech": "Army Formation"
 		"uniques":["Cannot be purchased","Unsellable",
 		"New [Military] units start with [10] Experience [in this city]","[+10]% Production when constructing [Military] units [in this city]",
@@ -1968,7 +1968,7 @@ Leader Mission 模组中的胜利方式有：
 		//布基纳法索
 	},
 	{	
-        "name": "Civilized Leader—Sankara",
+        "name": "Civilized Leader-Sankara",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Burkina Faso",
@@ -1987,7 +1987,7 @@ Leader Mission 模组中的胜利方式有：
     //巴拿马
 	},
 	{	
-        "name": "Civilized Leader—Omar Torrijos",
+        "name": "Civilized Leader-Omar Torrijos",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Panama",
@@ -2001,35 +2001,35 @@ Leader Mission 模组中的胜利方式有：
 		"uniqueTo": "Panama",
 		"replaces": "National Canal",
 		"isNationalWonder": true,
-		"uniques": ["Cost increases by [50] per owned city","Requires a [Canal] in all cities","[+4 Gold, +4 Production] [in all cities]","Only available <in cities with a [District—Infrastructure Center]>"]
+		"uniques": ["Cost increases by [50] per owned city","Requires a [Canal] in all cities","[+4 Gold, +4 Production] [in all cities]","Only available <in cities with a [District-Infrastructure Center]>"]
 		"requiredTech": "Waterage"
-		"requiredBuilding": "District—Infrastructure Center",
+		"requiredBuilding": "District-Infrastructure Center",
 		//拜占庭
 	},
 	{	
-        "name": "Civilized Leader—Constantine I",
+        "name": "Civilized Leader-Constantine I",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Byzantium",
-		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader—Justinian I]>",
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Justinian I]>",
 		"[-10]% Faith cost of generating Great Prophet equivalents",
 		"[+33]% Strength <for [Military] units> <within [1] tiles of a [Holy site]>",]
 	},
 	{	
-        "name": "Civilized Leader—Justinian I",
+        "name": "Civilized Leader-Justinian I",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Byzantium",
-		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader—Constantine I]>",
-		"[+2 Culture] from every [District—Religious Cente]","When conquering an encampment, earn [10] Gold and recruit a Barbarian unit <with [90]% chance>"]
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Constantine I]>",
+		"[+2 Culture] from every [District-Religious Cente]","When conquering an encampment, earn [10] Gold and recruit a Barbarian unit <with [90]% chance>"]
 	},
 	{
-		"name": "District—Racetrack",
+		"name": "District-Racetrack",
 	    "maintenance": 3,
 	    "happiness": 3,
 	    "culture": 1,
 	    "uniqueTo": "Byzantium",
-		"replaces": "District—Cultural Center",
+		"replaces": "District-Cultural Center",
 		"requiredTech": "戏剧与诗歌",
 		"uniques":["Cannot be purchased","Unsellable",
 		"Provides [1] [Horses]",
@@ -2040,47 +2040,47 @@ Leader Mission 模组中的胜利方式有：
 	//阿拉伯
 	},
 	{	
-        "name": "Civilized Leader—Saladin",
+        "name": "Civilized Leader-Saladin",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Arabia",
 		"replacementTextForUniques": "
 		能被建造在首都；
-		在未建造文明领袖—欧麦尔一世的城市中可以存在；
+		在未建造文明领袖-欧麦尔一世的城市中可以存在；
 		在圣城+5信仰，+5科研；每座城市新组建的军事单位获得正义信仰晋升。正义信仰：当与宗教单位叠放时+20%战斗力。
 		"
-		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader—Omar I]>",
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Omar I]>",
 	    "[+5 Faith, +5 Science] [in holy cities]",
 	     "All newly-trained [Military] units [in all cities] receive the [正义信仰] promotion",]
 	},
 	{	
-        "name": "Civilized Leader—Omar I",
+        "name": "Civilized Leader-Omar I",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Arabia",
 		"replacementTextForUniques": "
 		能被建造在首都；
-		在未建造文明领袖—萨拉丁的城市中可以存在；
+		在未建造文明领袖-萨拉丁的城市中可以存在；
 		每条贸易路线+2科研，+2信仰；每座城市新组建的军事单位获得真主荣耀晋升。真主荣耀：当与大先知单位相邻时+10%战斗力。
 		"
-		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader—Saladin]>",
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Saladin]>",
 		"[+2 Science, +2 Faith] from each Trade Route","All newly-trained [Military] units [in all cities] receive the [真主荣耀] promotion"]
 	},
 	{
 		"name": "Bazaar",
 		"replaces": "Market",
-		"requiredBuilding": "District—Commercial Centre",
+		"requiredBuilding": "District-Commercial Centre",
 		"uniqueTo": "Arabia",
 		"gold": 3,
 		"specialistSlots": {"Merchant": 1},
 		"percentStatBonus": {"gold": 25},
 		"uniques": ["Provides 1 extra copy of each improved luxury resource near this City",
-			"[+2 Gold, +2 Faith] from [Oasis] tiles [in this city]","Unsellable","Only available <in cities with a [District—Commercial Centre]>"],
+			"[+2 Gold, +2 Faith] from [Oasis] tiles [in this city]","Unsellable","Only available <in cities with a [District-Commercial Centre]>"],
 		"requiredTech": "经济学"	
 	//大哥伦比亚
 	},
 	{	
-        "name": "Civilized Leader—Bolivar",
+        "name": "Civilized Leader-Bolivar",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Columbia",
@@ -2099,22 +2099,22 @@ Leader Mission 模组中的胜利方式有：
    	//阿富汗
 	},
 	{	
-        "name": "Civilized leader—Hafizullah Amin",
+        "name": "Civilized leader-Hafizullah Amin",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Afghanistan",
-		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized leader—Daoud Khan]>"
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized leader-Daoud Khan]>"
 		"[+20]% [Science] [in all cities] <when at war>",
 		"[+20]% [Culture] [in all cities] <when at war>",
 		"[+25]% growth [in all cities] <when at war>"
         ]
     },
 	{	
-        "name": "Civilized leader—Daoud Khan",
+        "name": "Civilized leader-Daoud Khan",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Afghanistan",
-		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized leader—Hafizullah Amin]>"
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized leader-Hafizullah Amin]>"
 		"[+1 Production] [in all cities]",
 		"[+3 Gold] from all [Production] buildings",
         ]
@@ -2131,7 +2131,7 @@ Leader Mission 模组中的胜利方式有：
 	//匈人
 	},
 	{	
-        "name": "Civilized Leader—Attila",
+        "name": "Civilized Leader-Attila",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "The Huns",
@@ -2157,21 +2157,21 @@ Leader Mission 模组中的胜利方式有：
     //波斯
 	},
 	{	
-        "name": "Civilized Leader—Cyrus",
+        "name": "Civilized Leader-Cyrus",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Persia",
-		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader—Darius I]>",
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Darius I]>",
 		"Empire enters golden age <upon conquering a city>"
 		"[+10]% [Production] [in all cities] <during a Golden Age>"
 		]
 	},
 	{	
-        "name": "Civilized Leader—Darius I",
+        "name": "Civilized Leader-Darius I",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Persia",
-		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader—Cyrus]>",
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Cyrus]>",
 		"[+20]% Golden Age length",
 		"[+2] Sight <for [All] units> <during a Golden Age>"
 		"[+3 Happiness, +3 Gold] [in capital] <during a Golden Age>"
@@ -2185,39 +2185,39 @@ Leader Mission 模组中的胜利方式有：
 		"happiness": 1,
 		"specialistSlots": {"Merchant": 1},
 		"percentStatBonus": {"gold": 25},
-		"requiredBuilding": "District—Commercial Centre",
+		"requiredBuilding": "District-Commercial Centre",
 		"requiredTech": "经济学"
 		"uniques": [
 			"[+1 Happiness, +1 Gold] from [Gold Ore] tiles [in this city]",
-			"[+1 Happiness, +1 Gold] from [Silver] tiles [in this city]","Unsellable","Only available <in cities with a [District—Commercial Centre]>"],		
+			"[+1 Happiness, +1 Gold] from [Silver] tiles [in this city]","Unsellable","Only available <in cities with a [District-Commercial Centre]>"],		
 	//埃及
 	},
 	{	
-        "name": "Civilized leader—Ramesses II",
+        "name": "Civilized leader-Ramesses II",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Egypt",
-		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized leader—Nasser]>", "Only available <in cities without a [Civilized leader—Sadat]>",
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized leader-Nasser]>", "Only available <in cities without a [Civilized leader-Sadat]>",
 		"[+33]% Production when constructing [Faith] buildings [in all cities]",
 		"[+15]% Strength <for [Military] units> <when fighting in [Open terrain] tiles>"
 		]	
 	},
 	{	
-        "name": "Civilized leader—Nasser",
+        "name": "Civilized leader-Nasser",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Egypt",
-		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized leader—Ramesses II]>", "Only available <in cities without a [Civilized leader—Sadat]>",
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized leader-Ramesses II]>", "Only available <in cities without a [Civilized leader-Sadat]>",
 	    "Militaristic City-States grant units [2] times as fast when you are at war with a common nation",
 	    "Resting point for Influence with City-States is increased by [25]"
 		]
 	},
 	{	
-        "name": "Civilized leader—Sadat",
+        "name": "Civilized leader-Sadat",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Egypt",
-		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized leader—Ramesses II]>", "Only available <in cities without a [Civilized leader—Nasser]>",
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized leader-Ramesses II]>", "Only available <in cities without a [Civilized leader-Nasser]>",
 	    "All newly-trained [Military] units [in all cities] receive the [Amphibious] promotion"
 	    "Gain [50]-[75] [Gold] <upon declaring friendship>"
 	    "Gain [50]-[75] [Gold] <upon declaring war with a major Civilization>"
@@ -2236,7 +2236,7 @@ Leader Mission 模组中的胜利方式有：
     //马其顿
     },
 	{	
-        "name": "Civilized Leader—Alexander",
+        "name": "Civilized Leader-Alexander",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Macedonia",
@@ -2252,15 +2252,15 @@ Leader Mission 模组中的胜利方式有：
 		"Provides [1] [Horses]",
 		"Provides [1] [Iron]",
 		"Provides [3] [CO2]",
-		"Only available <in cities with a [District—Military Center]>","Unsellable"],
+		"Only available <in cities with a [District-Military Center]>","Unsellable"],
 		"requiredTech": "Army Formation",
-		"requiredBuilding": "District—Military Center",
+		"requiredBuilding": "District-Military Center",
 		"replaces": "Barracks",
 		"uniqueTo": "Macedonia",
 	//越南
 	},
 	{	
-        "name": "Civilized Leader—Ho Chi Minh",
+        "name": "Civilized Leader-Ho Chi Minh",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Vietnam",
@@ -2271,29 +2271,29 @@ Leader Mission 模组中的胜利方式有：
 	//迦太基
 	},
 	{	
-        "name": "Civilized Leader—Dido",
+        "name": "Civilized Leader-Dido",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Carthage",
-		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader—Hannibal]>",
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Hannibal]>",
 		"[+33]% Production when constructing [Settler] units [in capital]",
 	    "[+3 Gold] [in all cities connected to capital]"
-	    "Gain a free [District—Shipping Center] [in this city]"
+	    "Gain a free [District-Shipping Center] [in this city]"
 		]	
 	},
 	{	
-        "name": "Civilized Leader—Hannibal",
+        "name": "Civilized Leader-Hannibal",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Carthage",
-		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader—Dido]>",
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Dido]>",
 	    "All newly-trained [Land] units [in all cities] receive the [Crossing the Mountain] promotion"
 	    "[+75]% to Flank Attack bonuses <for [Military] units>"
 		]
     },
 	{
-		"name": "District—Cothon",
-		"replaces": "District—Shipping Center",
+		"name": "District-Cothon",
+		"replaces": "District-Shipping Center",
 		"uniqueTo": "Carthage",
 		"greatPersonPoints": {"海军统帅": 1},
 		"production": 1,
@@ -2307,31 +2307,31 @@ Leader Mission 模组中的胜利方式有：
     //法兰西
 	},
 	{	
-        "name": "Civilized Leader—Napoleon",
+        "name": "Civilized Leader-Napoleon",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "France",
-		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader—De Gaulle]>", "Only available <in cities without a [Civilized Leader—Louis XIV]>",
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-De Gaulle]>", "Only available <in cities without a [Civilized Leader-Louis XIV]>",
 	    "[+33]% Strength <for [Siege] units> <vs [Military] units> <when attacking>",
 	    "[+2] Sight <for [Mobile] units>",
 		]	
 	},
 	{	
-        "name": "Civilized Leader—De Gaulle",
+        "name": "Civilized Leader-De Gaulle",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "France",
-		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader—Napoleon]>", "Only available <in cities without a [Civilized Leader—Louis XIV]>",
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Napoleon]>", "Only available <in cities without a [Civilized Leader-Louis XIV]>",
 	   "[Gold] cost of purchasing items in cities [-33]%"
 	   "[+1 Happiness, +3 Gold] per [1] social policies adopted"
 		]
 	},
 	{	
-        "name": "Civilized Leader—Louis XIV",
+        "name": "Civilized Leader-Louis XIV",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "France",
-		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader—Napoleon]>", "Only available <in cities without a [Civilized Leader—De Gaulle]>",
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Napoleon]>", "Only available <in cities without a [Civilized Leader-De Gaulle]>",
 	    "[+2 Culture, +2 Gold, -1 Production] from every [Luxury resource]",
 	    "[+1 Culture, +1 Gold] from all [Faith] buildings"
 		]	
@@ -2344,27 +2344,27 @@ Leader Mission 模组中的胜利方式有：
 		"culture": 3,
 		"maintenance": 2,
 		"cityHealth": 50,
-		"requiredBuilding": "District—Military Center",
+		"requiredBuilding": "District-Military Center",
 		"requiredTech": "骑士制度",
-		"uniques": ["Destroyed when the city is captured","[+10]% [Culture] [in this city]","Unsellable","Only available <in cities with a [District—Military Center]>",],
+		"uniques": ["Destroyed when the city is captured","[+10]% [Culture] [in this city]","Unsellable","Only available <in cities with a [District-Military Center]>",],
 	//朝鲜
 	},
 	{	
-        "name": "Civilized Leader—Yi Song-gye",
+        "name": "Civilized Leader-Yi Song-gye",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Korea",
-		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader—Kim Il-sung]>",
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Kim Il-sung]>",
 	    "Earn [75]% of killed [Military] unit's [Strength] as [Culture]",
 	    "[+1 Science] per [3] population [in all cities]"
 		]	
 	},
 	{	
-        "name": "Civilized Leader—Kim Il-sung",
+        "name": "Civilized Leader-Kim Il-sung",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Korea",
-		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader—Yi Song-gye]>",
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Yi Song-gye]>",
 		"[+15]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>",
 		"[+1 Science, +1 Gold] from all [Production] buildings",
 		]
@@ -2377,27 +2377,27 @@ Leader Mission 模组中的胜利方式有：
 		"maintenance": 2,
 		"percentStatBonus": {"science": 33},
 		"specialistSlots": {"Scientist": 2},
-		"requiredBuilding": "District—Scientific Research Center",
-		"uniques": ["[+2 Science] from [Jungle] tiles [in this city]","Unsellable","Only available <in cities with a [District—Scientific Research Center]>"],
+		"requiredBuilding": "District-Scientific Research Center",
+		"uniques": ["[+2 Science] from [Jungle] tiles [in this city]","Unsellable","Only available <in cities with a [District-Scientific Research Center]>"],
 		"requiredTech": "教育学"
 	//蒙古
 	},
 	{	
-        "name": "Civilized Leader—Genghis Khan",
+        "name": "Civilized Leader-Genghis Khan",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Mongolia",
-		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader—Kublai]>",
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Kublai]>",
 		"[+1] population [in capital] <upon conquering a city>",
 		"[1] free [Worker] units appear <upon conquering a city>"
 		]	
 	},
 	{	
-        "name": "Civilized Leader—Kublai",
+        "name": "Civilized Leader-Kublai",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Mongolia",
-		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader—Genghis Khan]>",
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Genghis Khan]>",
 		"[+1 Happiness] from every [Posthouse]",
 		"Gain a free [Posthouse] [in annexed cities]"
 		"[+1 Culture] [in all cities connected to capital]"
@@ -2420,23 +2420,23 @@ Leader Mission 模组中的胜利方式有：
     //古巴
 	},
 	{	
-        "name": "Civilized Leader—Che Guevara",
+        "name": "Civilized Leader-Che Guevara",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Cuba",
-		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader—Fidel Castro]>",
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Fidel Castro]>",
 		"[+2 Culture] <when below [0] Happiness>",
 		"[+15]% [Culture] [in all cities] <while the empire is happy>"
 		"[+15]% Strength <when fighting units from a Civilization with more Cities than you>"
 		]	
 	},
 	{	
-        "name": "Civilized Leader—Fidel Castro",
+        "name": "Civilized Leader-Fidel Castro",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Cuba",
-		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader—Che Guevara]>",
-		"[+6 Gold] from every [District—Industrial Centre]",
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Che Guevara]>",
+		"[+6 Gold] from every [District-Industrial Centre]",
 		"[+15]% Strength <for [Military] units> <when defending>"
 		]
 	},
@@ -2445,7 +2445,7 @@ Leader Mission 模组中的胜利方式有：
 		"cost":200,
 	    "maintenance": 3,
 		"requiredTech": "Politics"
-		"replaces": "District—Government",
+		"replaces": "District-Government",
 		"uniqueTo": "Cuba",
 		"isNationalWonder": true,
 		"uniques":["Cannot be purchased","Unsellable","[-15]% Culture cost of adopting new Policies",
@@ -2454,21 +2454,21 @@ Leader Mission 模组中的胜利方式有：
 	//巴比伦
 	},
 	{	
-        "name": "Civilized Leader—Hammurabi",
+        "name": "Civilized Leader-Hammurabi",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Babylon",
-		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader—Nebuchadnezzar II]>",
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Nebuchadnezzar II]>",
 		"[-35]% Culture cost of natural border growth [in all cities]"
 		"[+1 Culture, +1 Science] from every [Courthouse]",
 		]	
 	},
 	{	
-        "name": "Civilized Leader—Nebuchadnezzar II",
+        "name": "Civilized Leader-Nebuchadnezzar II",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Babylon",
-		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader—Hammurabi]>",
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Hammurabi]>",
 		"[+20]% [Science] [in all cities with a world wonder]",
 		"[+10]% Strength <for [Military] units> <when attacking>"
 		]
@@ -2484,31 +2484,31 @@ Leader Mission 模组中的胜利方式有：
 	//奥斯曼
 	},
 	{	
-        "name": "Civilized leader—Osman I",
+        "name": "Civilized leader-Osman I",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Ottoman Türkiye",
-		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized leader—Suleiman]>", "Only available <in cities without a [Civilized leader—Kemal]>",
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized leader-Suleiman]>", "Only available <in cities without a [Civilized leader-Kemal]>",
 		"[Faith] cost of purchasing items in cities [-15]%"
 	    "May buy [Military] units with [Faith] for [3] times their normal Production cost"
 		]	
 	},
 	{	
-        "name": "Civilized leader—Suleiman",
+        "name": "Civilized leader-Suleiman",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Ottoman Türkiye",
-		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized leader—Osman I]>", "Only available <in cities without a [Civilized leader—Kemal]>",
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized leader-Osman I]>", "Only available <in cities without a [Civilized leader-Kemal]>",
 		"Provides [1] [Governor Point] <after discovering [Politics]>",
 		"[+3] XP gained from combat <for [Military] units>"
 		]
 	},
 	{	
-        "name": "Civilized leader—Kemal",
+        "name": "Civilized leader-Kemal",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Ottoman Türkiye",
-		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized leader—Osman I]>", "Only available <in cities without a [Civilized leader—Suleiman]>",
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized leader-Osman I]>", "Only available <in cities without a [Civilized leader-Suleiman]>",
 		"Nullifies [Faith] [in all cities]"
 	    "[+1 Production, +1 Science] from all [Faith] buildings"
 	    "[+15]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>",
@@ -2520,15 +2520,15 @@ Leader Mission 模组中的胜利方式有：
 		"faith": 1,
 		"cityStrength": 6,
 		"cityHealth": 50,
-		"uniques": ["Destroyed when the city is captured","Unsellable","Only available <in cities with a [District—Military Center]>",],
+		"uniques": ["Destroyed when the city is captured","Unsellable","Only available <in cities with a [District-Military Center]>",],
 		"requiredTech": "Defensive Fortification",
-		"requiredBuilding": "District—Military Center",
+		"requiredBuilding": "District-Military Center",
 		"replaces": "Blockhouse",
 		"uniqueTo": "Ottoman Türkiye",
 	//苏格兰
 	},
 	{	
-        "name": "Civilized Leader—Wallace",
+        "name": "Civilized Leader-Wallace",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Scotland",
@@ -2542,46 +2542,46 @@ Leader Mission 模组中的胜利方式有：
 		"happiness": 2,
 		"cityStrength": 5,
 		"cityHealth": 50,
-		"requiredBuilding": "District—Military Center",
+		"requiredBuilding": "District-Military Center",
 		"requiredTech": "骑士制度",
-		"uniques": ["Destroyed when the city is captured","Unsellable","Only available <in cities with a [District—Military Center]>"]
+		"uniques": ["Destroyed when the city is captured","Unsellable","Only available <in cities with a [District-Military Center]>"]
 		"replaces": "Castle",
 		"uniqueTo": "Scotland",
     //塞尔维亚
 	},
 	{	
-        "name": "Civilized Leader—Tito",
+        "name": "Civilized Leader-Tito",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Serbia",
-		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader—Milosevic]>",
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Milosevic]>",
 		"Influence of all other civilizations with all city-states degrades [33]% faster"
 		"[+15]% Strength <when fighting units from a Civilization with more Cities than you>"
 		]	
 	},
 	{	
-        "name": "Civilized Leader—Milosevic",
+        "name": "Civilized Leader-Milosevic",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Serbia",
-		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader—Tito]>",
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Tito]>",
 		"[-66]% Gold cost of upgrading"
 		"[+25]% City Strength from defensive buildings",
 		]
 	},
 	{
-		"name": "District—Studenica Monastery",
+		"name": "District-Studenica Monastery",
 		"faith": 4,
 		"gold": 4,
 	    "maintenance": 0,
 	    "uniqueTo": "Serbia",
-		"replaces": "District—Religious Cente",
+		"replaces": "District-Religious Cente",
 		"requiredTech": "Religious Culture"
 		"uniques":["Cannot be purchased","Unsellable","Destroyed when the city is captured"]
 	//德国
 	},
 	{	
-        "name": "Civilized Leader—Bismarck",
+        "name": "Civilized Leader-Bismarck",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Germany",
@@ -2603,7 +2603,7 @@ Leader Mission 模组中的胜利方式有：
 	//美利坚
 	},
 	{	
-        "name": "Civilized Leader—Franklin D. Roosevelt",
+        "name": "Civilized Leader-Franklin D. Roosevelt",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "America",
@@ -2614,7 +2614,7 @@ Leader Mission 模组中的胜利方式有：
 	//吕底亚
 	},
 	{	
-        "name": "Civilized Leader—Croesus",
+        "name": "Civilized Leader-Croesus",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Lydia",
@@ -2629,13 +2629,13 @@ Leader Mission 模组中的胜利方式有：
 		"replaces": "Mint",
         "uniqueTo": "Lydia",
 		"maintenance": 0,
-		"uniques": ["[+1 Gold] per [1] population [in this city]","Provides [2] [CO2]","Unsellable","Only available <in cities with a [District—Commercial Centre]>",],
+		"uniques": ["[+1 Gold] per [1] population [in this city]","Provides [2] [CO2]","Unsellable","Only available <in cities with a [District-Commercial Centre]>",],
 		"requiredTech": "经济学",
-		"requiredBuilding": "District—Commercial Centre",	
+		"requiredBuilding": "District-Commercial Centre",	
 	//斯基泰
 	},
 	{	
-        "name": "Civilized Leader—Tomyris",
+        "name": "Civilized Leader-Tomyris",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Scythian",
@@ -2644,7 +2644,7 @@ Leader Mission 模组中的胜利方式有：
 	//梵蒂冈
 	},
 	{	
-        "name": "Pope—Francis",
+        "name": "Pope-Francis",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Vatican",
@@ -2654,7 +2654,7 @@ Leader Mission 模组中的胜利方式有：
 	//印加	
 	},
 	{	
-        "name": "Civilized Leader—Pachacútec",
+        "name": "Civilized Leader-Pachacútec",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Inca",
