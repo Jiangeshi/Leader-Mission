@@ -2487,7 +2487,7 @@ Leader Mission 模组中的胜利方式有：
         "name": "Civilized leader-Osman I",
 		"isNationalWonder": true,
 		"cost":1,
-		"uniqueTo": "Ottoman Türkiye",
+		"uniqueTo": "Türkiye",
 		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized leader-Suleiman]>", "Only available <in cities without a [Civilized leader-Kemal]>",
 		"[Faith] cost of purchasing items in cities [-15]%"
 	    "May buy [Military] units with [Faith] for [3] times their normal Production cost"
@@ -2497,7 +2497,7 @@ Leader Mission 模组中的胜利方式有：
         "name": "Civilized leader-Suleiman",
 		"isNationalWonder": true,
 		"cost":1,
-		"uniqueTo": "Ottoman Türkiye",
+		"uniqueTo": "Türkiye",
 		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized leader-Osman I]>", "Only available <in cities without a [Civilized leader-Kemal]>",
 		"Provides [1] [Governor Point] <after discovering [Politics]>",
 		"[+3] XP gained from combat <for [Military] units>"
@@ -2507,7 +2507,7 @@ Leader Mission 模组中的胜利方式有：
         "name": "Civilized leader-Kemal",
 		"isNationalWonder": true,
 		"cost":1,
-		"uniqueTo": "Ottoman Türkiye",
+		"uniqueTo": "Türkiye",
 		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized leader-Osman I]>", "Only available <in cities without a [Civilized leader-Suleiman]>",
 		"Nullifies [Faith] [in all cities]"
 	    "[+1 Production, +1 Science] from all [Faith] buildings"
@@ -2524,7 +2524,7 @@ Leader Mission 模组中的胜利方式有：
 		"requiredTech": "Defensive Fortification",
 		"requiredBuilding": "District-Military Center",
 		"replaces": "Blockhouse",
-		"uniqueTo": "Ottoman Türkiye",
+		"uniqueTo": "Türkiye",
 	//苏格兰
 	},
 	{	

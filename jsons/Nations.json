@@ -826,9 +826,9 @@
         "spyNames": ["Rim-Sin II", "Smerdis", "Ilum-ma-ili", "Peshgaldaramesh", "Ur-zigurumaš", "Semiramis", "Em", "Ishtar", "Bilit Taauth", "Aruru"]
     },
 	{
-		"name": "Ottoman Türkiye",
+		"name": "Türkiye",
 		"leaderName": "Leader",
-		"adjective": ["Ottoman"],
+		"adjective": ["Turks"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Domination",
 
