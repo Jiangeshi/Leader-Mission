@@ -1144,7 +1144,7 @@ Leader Mission 模组中的胜利方式有：
 		"greatPersonPoints": {"Great Artist": 1},
 		"isWonder": true,
 		"percentStatBonus": {"culture": 20},
-		"uniques": ["All newly-trained [relevant] units [in this city] receive the [Barrage I] promotion",
+		"uniques": ["All newly-trained [relevant] units [in this city] receive the [Drill I] promotion",
 			"Gain a free [Castle] [in this city]","Cannot be hurried","Only available <in cities with a [District-Military Center]>"],
 		"requiredTech": "骑士制度",
 		"requiredBuilding": "District-Military Center",

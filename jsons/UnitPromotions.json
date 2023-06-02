@@ -16,7 +16,7 @@
     },	
     {
 		"name": "Drill II",
-		"prerequisites": ["Barrage I"],
+		"prerequisites": ["Drill I"],
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
 		"unitTypes": ["Foot Soldier"]
 		"row": 1,
@@ -24,7 +24,7 @@
     },	
     {
 		"name": "Shock II",
-		"prerequisites": ["Accuracy I"],
+		"prerequisites": ["Shock I"],
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
 		"unitTypes": ["Foot Soldier"]
 		"row": 1,
@@ -32,7 +32,7 @@
     },	
     {
 		"name": "Drill III",
-		"prerequisites": ["Barrage II"],
+		"prerequisites": ["Drill II"],
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
 		"unitTypes": ["Foot Soldier"]
 		"row": 1,
@@ -40,7 +40,7 @@
     },	
     {
 		"name": "Shock III",
-		"prerequisites": ["Accuracy II"],
+		"prerequisites": ["Shock II"],
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
 		"unitTypes": ["Foot Soldier"]
 		"row": 1,
@@ -48,7 +48,7 @@
     },
     {
     	"name": "Street Battle I",
-    	"prerequisites": ["Barrage II","Accuracy II"],
+    	"prerequisites": ["Drill II","Shock II"],
 		"uniques": ["[+20]% Strength <within [2] tiles of a [City center]>"],
 		"unitTypes": ["Foot Soldier"]
 		"row": 2,
@@ -56,7 +56,7 @@
     },
     {
     	"name": "Hold Ground I",
-    	"prerequisites": ["Barrage II","Accuracy II"],
+    	"prerequisites": ["Drill II","Shock II"],
 		"uniques": ["[+15]% Strength <when defending>"],
 		"unitTypes": ["Foot Soldier"]
 		"row": 2,
@@ -64,7 +64,7 @@
     },
     {
     	"name": "Attack City I",
-    	"prerequisites": ["Barrage II","Accuracy II"],
+    	"prerequisites": ["Drill II","Shock II"],
 		"uniques": ["[+50]% Strength <vs cities>"],
 		"unitTypes": ["Foot Soldier"]
 		"row": 2,
@@ -1039,7 +1039,7 @@
     },
 	{
 		"name": "Quick Offensive",
-		"prerequisites": ["Barrage III","Accuracy III","Street Battle I","Hold Ground I","Attack City I",
+		"prerequisites": ["Drill III","Shock III","Street Battle I","Hold Ground I","Attack City I",
 		"Trample III","Charge III","Wear Armor I","Storm Fortification I","Rout I",
 		"Detection III","Survivalism III",
 		"Formation III","Raid III","Expose Armor I","Break City I","Pass I",
@@ -1054,7 +1054,7 @@
     },
 	{
 		"name": "Off-road",
-		"prerequisites": ["Barrage III","Accuracy III","Street Battle I","Hold Ground I","Attack City I",
+		"prerequisites": ["Drill III","Shock III","Street Battle I","Hold Ground I","Attack City I",
 		"Formation III","Raid III","Expose Armor I","Break City I","Pass I",
 		"Hard III","Bombard III","Strategic Deployment I","Shrapnel I","Detonate I"],
 		"uniques": ["Ignores terrain cost"],
@@ -1066,7 +1066,7 @@
     },
 	{
 		"name": "Hide",
-		"prerequisites": ["Barrage III","Accuracy III","Street Battle I","Hold Ground I","Attack City I","Formation III","Raid III","Expose Armor I","Break City I","Pass I","Salvo III","Shooting Support III","Cover I","Apply Poison I","Bayonet Charge I"],
+		"prerequisites": ["Drill III","Shock III","Street Battle I","Hold Ground I","Attack City I","Formation III","Raid III","Expose Armor I","Break City I","Pass I","Salvo III","Shooting Support III","Cover I","Apply Poison I","Bayonet Charge I"],
 		"uniques": ["[+30]% Strength <when attacking> <when fighting in [Forest] tiles>","[+30]% Strength <when attacking> <when fighting in [Jungle] tiles>"],
 		"unitTypes": ["Foot Soldier",
 		"Anti-Mobile","Helicopter","Anti-Air",
@@ -1076,7 +1076,7 @@
     },
 	{
 		"name": "Amphibious",
-		"prerequisites": ["Barrage III","Accuracy III","Street Battle I","Hold Ground I","Attack City I","Trample III","Charge III","Wear Armor I","Storm Fortification I","Rout I","Detection III","Survivalism III","Formation III","Raid III","Expose Armor I","Break City I","Pass I"],
+		"prerequisites": ["Drill III","Shock III","Street Battle I","Hold Ground I","Attack City I","Trample III","Charge III","Wear Armor I","Storm Fortification I","Rout I","Detection III","Survivalism III","Formation III","Raid III","Expose Armor I","Break City I","Pass I"],
 		"uniques": ["Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking across a coast"],
 		"unitTypes": ["Foot Soldier",
 		"Mobile",
@@ -1087,7 +1087,7 @@
     },
 	{
 		"name": "Rescue",
-		"prerequisites": ["Barrage III","Accuracy III","Street Battle I","Hold Ground I","Attack City I",
+		"prerequisites": ["Drill III","Shock III","Street Battle I","Hold Ground I","Attack City I",
 		"Detection III","Survivalism III",
 		"Hard III","Bombard III","Strategic Deployment I","Shrapnel I","Detonate I"],
 		"uniques": ["All adjacent units heal [+5] HP when healing"],
@@ -1099,7 +1099,7 @@
     },
 	{
 		"name": "March",
-		"prerequisites": ["Barrage III","Accuracy III","Street Battle I","Hold Ground I","Attack City I",
+		"prerequisites": ["Drill III","Shock III","Street Battle I","Hold Ground I","Attack City I",
 		"Trample III","Charge III","Wear Armor I","Storm Fortification I","Rout I",
 		"Detection III","Survivalism III",
 		"Formation III","Raid III","Expose Armor I","Break City I","Pass I",
