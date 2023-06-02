@@ -681,14 +681,14 @@
         },
         "uniques": [
         "[1] Free Social Policies"
-        "Only available <after [20] turns>"
+        "Only available <after [30] turns>"
         ],
         "policies": [
             {
                 "name": "Partial War Mobilization",
                 "uniques": [
-        "[+30]% Production when constructing [Military] units [in all cities] <for [15] turns>",
-        "[-33]% growth [in all cities] <for [15] turns>"
+        "[+25]% Production when constructing [Military] units [in all cities] <for [10] turns>",
+        "[-33]% growth [in all cities] <for [10] turns>"
         "Triggers the following global alert: []"
                 ],
                 "row": 1,
@@ -697,8 +697,8 @@
             {
                 "name": "Total War Mobilization",
                 "uniques": [
-        "[+50]% Production when constructing [Military] units [in all cities] <for [15] turns>",
-        "[-75]% growth [in all cities] <for [15] turns>"
+        "[+40]% Production when constructing [Military] units [in all cities] <for [10] turns>",
+        "[-75]% growth [in all cities] <for [10] turns>"
         "Triggers the following global alert: []"
                 ],
                 "row": 2,
@@ -707,8 +707,8 @@
             {
                 "name": "Primary Combat Readiness",
                 "uniques": [
-        "Only available <when not at war>","Only available <after discovering [Army Formation]>",             
-        "[+15]% Production when constructing [Military] units [in all cities] <for [20] turns>",
+        "Only available <when not at war>","Only available <after discovering [Army Formation]>","Only available after discovering Army Formation and not at war"             
+        "[+10]% Production when constructing [Military] units [in all cities] <for [15] turns>",
         "[+10]% Strength <for [Military] units> <for [20] turns>"
         "[+33]% maintenance costs <for [Military] units> <for [20] turns>",
         "Triggers the following global alert: []"
@@ -719,8 +719,8 @@
             {
                 "name": "Advanced Combat Readiness",
                 "uniques": [
-        "Only available <when not at war>","Only available <after discovering [Army Formation]>",                  
-        "[+30]% Production when constructing [Military] units [in all cities] <for [20] turns>",
+        "Only available <when not at war>","Only available <after discovering [Army Formation]>","Only available after discovering Army Formation and not at war",
+        "[+20]% Production when constructing [Military] units [in all cities] <for [15] turns>",
         "[+15]% Strength <for [Military] units> <for [20] turns>"
         "[+66]% maintenance costs <for [Military] units> <for [20] turns>",
         "Triggers the following global alert: []"
@@ -731,7 +731,7 @@
             {
                 "name": "State of War",
                 "uniques": [
-        "Only available <when at war>","Only available <if [District-Country] is constructed>",             
+        "Only available <when at war>","Only available <if [District-Country] is constructed>","Only available if District-Country is constructed and at war"
         "[+20]% [Production] [in all cities] <for [15] turns>",
         "[-20]% [Gold] [in all cities] <for [15] turns>",
         "Triggers the following global alert: []"

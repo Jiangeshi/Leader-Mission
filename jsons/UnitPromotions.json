@@ -1,21 +1,21 @@
 [
     //步兵晋升
 	{
-		"name": "Barrage I",
+		"name": "Drill I",
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
 		"unitTypes": ["Foot Soldier"]
 		"row": 1,
         "column": 1,
     },
     {
-    	"name": "Accuracy I",
+    	"name": "Shock I",
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
 		"unitTypes": ["Foot Soldier"]
 		"row": 1,
         "column": 2,
     },	
     {
-		"name": "Barrage II",
+		"name": "Drill II",
 		"prerequisites": ["Barrage I"],
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
 		"unitTypes": ["Foot Soldier"]
@@ -23,7 +23,7 @@
         "column": 3,
     },	
     {
-		"name": "Accuracy II",
+		"name": "Shock II",
 		"prerequisites": ["Accuracy I"],
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
 		"unitTypes": ["Foot Soldier"]
@@ -31,7 +31,7 @@
         "column": 4,
     },	
     {
-		"name": "Barrage III",
+		"name": "Drill III",
 		"prerequisites": ["Barrage II"],
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
 		"unitTypes": ["Foot Soldier"]
@@ -39,7 +39,7 @@
         "column": 5,       
     },	
     {
-		"name": "Accuracy III",
+		"name": "Shock III",
 		"prerequisites": ["Accuracy II"],
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
 		"unitTypes": ["Foot Soldier"]
@@ -1266,7 +1266,7 @@
     },
 	{
 		"name": "[Cossack] ability",
-		"uniques": ["[+33]% Strength <vs [Wounded] units>"]
+		"uniques": ["[+33]% Strength <vs [Wounded] units> <when attacking>"]
 	},
 	{
 		"name": "[Cataphract] ability",
