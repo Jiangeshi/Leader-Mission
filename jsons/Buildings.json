@@ -2390,6 +2390,7 @@ Leader Mission 模组中的胜利方式有：
 		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Kublai]>",
 		"[+1] population [in capital] <upon conquering a city>",
 		"[1] free [Worker] units appear <upon conquering a city>"
+		"Free Technology <upon conquering a city>"
 		]	
 	},
 	{	
@@ -2400,7 +2401,7 @@ Leader Mission 模组中的胜利方式有：
 		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Genghis Khan]>",
 		"[+1 Happiness] from every [Posthouse]",
 		"Gain a free [Posthouse] [in annexed cities]"
-		"[+1 Culture] [in all cities connected to capital]"
+		"[+2 Culture] [in all cities connected to capital]"
 		]
     },
 	{
@@ -2534,7 +2535,7 @@ Leader Mission 模组中的胜利方式有：
 		"uniqueTo": "Scotland",
 		"uniques": ["Can only be built [in capital]",
 		"[10] units cost no maintenance"
-		"When defeating a [Barbarian] unit, earn [-20] Gold and recruit it"
+		"When defeating a [Barbarian] unit, earn [-10] Gold and recruit it"
 	]
 	},
 	{
@@ -2595,7 +2596,8 @@ Leader Mission 模组中的胜利方式有：
         "name": "Hanse",
      	"replaces": "Bank",
         "uniqueTo": "Germany",
-	    "gold": 3,
+        "production": 2,
+	    "gold": 2,
 		"specialistSlots": {"Merchant": 3},
 		"percentStatBonus": {"gold": 25},
 		"requiredTech": "银行业"

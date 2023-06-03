@@ -935,7 +935,7 @@
 		"name": "Catapult",
 		"unitType": "Siege",
 		"movement": 2,
-		"strength": 10,
+		"strength": 9,
 		"rangedStrength": 10,
 		"cost": 67,
 		"requiredTech": "The Wheel",

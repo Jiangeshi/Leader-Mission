@@ -705,8 +705,8 @@
 		"favoredReligion": "Confucianism",
 		"uniqueName": "Scholars of the Jade Hall",
         "uniques": [
-        "[+1 Science] from every specialist [in all cities]",
-	    "[Great Scientist] is earned [25]% faster",
+        "[+2 Science] from every specialist [in all cities]",
+	    "[Great Scientist] is earned [35]% faster",
         "Receive a tech boost when scientific buildings/wonders are built in capital"
         ],
 		"cities": ["Seoul","Busan","Jeonju","Daegu","Pyongyang","Kaesong","Suwon","Gwangju","Gangneung","Hamhung","Wonju","Ulsan",
@@ -1042,8 +1042,8 @@
         "favoredReligion": "Christianity",
 		"uniqueName": "Land of Plenty",
 		"uniques": [
-		"[+5 Gold] in cities on [River] tiles"
-		"[+50]% [Gold] from Trade Routes"
+		"[+4 Gold] in cities on [River] tiles"
+		"[+30]% [Gold] from Trade Routes"
 		"[2] free [Great Merchant] units appear <upon discovering [经济学]>"
 		"May buy [Great Merchant] units for [200] [Faith] [in all cities] at an increasing price ([100])"
 		"[+2 Production] from [Customs house] tiles [in all cities]",

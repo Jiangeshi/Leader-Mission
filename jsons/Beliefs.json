@@ -69,7 +69,7 @@
     {
         "name": "God of River",
         "type": "Pantheon",
-        "uniques": ["[+1 Production, +1 Gold, +1 Faith] in cities on [River] tiles"]
+        "uniques": ["[+1 Production, +1 Food, +1 Faith] in cities on [River] tiles"]
     },
     {
         "name": "God of Flood",
