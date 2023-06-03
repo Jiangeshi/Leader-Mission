@@ -1781,7 +1781,7 @@ Leader Mission 模组中的胜利方式有：
 		"cost":1,
 		"uniqueTo": "China",
 		"uniques": ["Can only be built [in capital]","Only available <in cities without a [Civilized Leader-Emperor Wu of Han]>","Only available <in cities without a [Civilized Leader-Chairman Mao]>",
-	    "[+20]% Strength <for [Military] units> <before discovering [Nation]>"
+	    "[+15]% Strength <for [Military] units> <before discovering [Nation]>"
 	    "Free Great Person <upon discovering [Nation]>"
 	    "[+33]% Production when constructing [National Wonder] wonders [in all cities]"
 		]
@@ -2388,6 +2388,7 @@ Leader Mission 模组中的胜利方式有：
 		"cost":1,
 		"uniqueTo": "Mongolia",
 		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Kublai]>",
+		"[+1 Happiness] [in capital]",
 		"[+1] population [in capital] <upon conquering a city>",
 		"[1] free [Worker] units appear <upon conquering a city>"
 		"Free Technology <upon conquering a city>"
