@@ -709,9 +709,7 @@
 	    "[Great Scientist] is earned [35]% faster",
         "Receive a tech boost when scientific buildings/wonders are built in capital"
         ],
-		"cities": ["Seoul","Busan","Jeonju","Daegu","Pyongyang","Kaesong","Suwon","Gwangju","Gangneung","Hamhung","Wonju","Ulsan",
-			"Changwon","Andong","Gongju","Haeju","Cheongju","Mokpo","Dongducheon","Geoje","Suncheon","Jinju","Sangju",
-			"Rason","Gyeongju","Chungju","Sacheon","Gimje","Anju"],
+		"cities": ["Seoul","Pyongyang","Hamhung","Busan","Chongjin","Incheon","Sinuiju","Daegu","Pyongsong","Ulsan","Wonsan","Daejeon","Kaesong","Gwangju","Hyesan","Suwon","Raseon","Jeonju","Haeju","Chuncheon","Sariwon","Changwon"],
         "spyNames": ["Kim", "Park", "Han", "Na", "Kong", "Yu", "Ahn", "Na", "Da", "Eun"]
     },
 	{
@@ -857,7 +855,7 @@
 		"Enables conversion of city production to [Faith]",
 		"Production to [Faith] conversion in cities changed by [300]%"
 			],
-		"cities": ["Istanbul","Edirne","Ankara","Bursa","Konya","Samsun","Gaziantep","Diyarbakır","Izmir","Kayseri","Malatya",
+		"cities": ["Ankara","Istanbul","Edirne","Bursa","Konya","Samsun","Gaziantep","Diyarbakır","Izmir","Kayseri","Malatya",
 			"Mersin","Antalya","Zonguldak","Denizli","Ordu","Muğla","Eskişehir","Inebolu","Sinop","Adana","Artvin",
 			"Bodrum","Eregli","Silifke","Sivas","Amasya","Marmaris","Trabzon","Erzurum","Urfa","Izmit","Afyonkarahisar",
 			"Bitlis","Yalova"],

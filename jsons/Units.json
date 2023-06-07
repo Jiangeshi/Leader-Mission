@@ -322,7 +322,7 @@
 		"cost": 40,
 		"obsoleteTech": "铁器",
 		"upgradesTo": "Composite Bowman",
-		"uniques":["[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"]
+		"uniques":["[+20]% Strength <vs [Barbarian] units> <when attacking>"]
 		"attackSound": "arrow"	
 	},
 	{

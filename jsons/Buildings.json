@@ -1587,9 +1587,10 @@ Leader Mission 模组中的胜利方式有：
 	},
 	{
 		"name": "Fertilizer Plant",
-		"production": 1,
 		"maintenance": 3,
 		"requiredBuilding": "District-Industrial Centre",
+		"specialistSlots": {"Engineer": 1},
+		"percentStatBonus": {"production": 10},
 		"requiredTech": "化肥",
 	    "uniques": [
 			"[+1 Food] from [Farm] tiles [in this city]",
@@ -1603,7 +1604,7 @@ Leader Mission 模组中的胜利方式有：
 		"name": "Factory",
 		"cost": 500,
 		"production": 5,
-		"percentStatBonus": {"production": 10},
+		"percentStatBonus": {"production": 15},
 		"specialistSlots": {"Engineer": 2},
 		"uniques":[
 		"Consumes [2] [Steel]",
@@ -1827,8 +1828,8 @@ Leader Mission 模组中的胜利方式有：
 		"cost":1,
 		"uniqueTo": "Greece",
 		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Pericles]>",
-		"Damage is ignored when determining unit Strength <for [Melee] units>",
-		"[+50]% XP gained from combat <for [Melee] units>"
+		"Damage is ignored when determining unit Strength <for [Military] units>",
+		"[+50]% XP gained from combat <for [Military] units>"
 	]
     },
 	{	
@@ -1837,7 +1838,7 @@ Leader Mission 模组中的胜利方式有：
 		"cost":1,
 		"uniqueTo": "Greece",
 		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Leonidas]>",
-	"[+1 Culture, +1 Science] from all [Happiness] buildings","[1] Free Social Policies"]
+	"[+1 Science, +2 Gold] from all [Happiness] buildings","[1] Free Social Policies"]
 	},
 	{
 		"name": "District-Acropolis",
@@ -2491,7 +2492,7 @@ Leader Mission 模组中的胜利方式有：
 		"cost":1,
 		"uniqueTo": "Turkey",
 		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized leader-Suleiman]>", "Only available <in cities without a [Civilized leader-Kemal]>",
-		"[Faith] cost of purchasing items in cities [-15]%"
+		"[Faith] cost of purchasing items in cities [-20]%"
 	    "May buy [Military] units with [Faith] for [3] times their normal Production cost"
 		]	
 	},
@@ -2512,7 +2513,7 @@ Leader Mission 模组中的胜利方式有：
 		"uniqueTo": "Turkey",
 		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized leader-Osman I]>", "Only available <in cities without a [Civilized leader-Suleiman]>",
 		"Nullifies [Faith] [in all cities]"
-	    "[+1 Production, +1 Science] from all [Faith] buildings"
+	    "[+1 Production, +1 Science, +1 Gold] from all [Faith] buildings"
 	    "[+15]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>",
 		]	
 	},
@@ -2644,6 +2645,15 @@ Leader Mission 模组中的胜利方式有：
 		"uniqueTo": "Scythian",
 		"replacementTextForUniques": "Whenever a horseman is produced in capital, you will gain a free horseman, and one of them -15% Strength; Double quantity of Horses produced."
 		"uniques": ["Can only be built [in capital]","All newly-trained [Horseman] units [in capital] receive the [TomyrisAbility] promotion","Double quantity of [Horses] produced"]
+	},
+	{
+		"name": "Tomb Mound",
+		"replaces": "Grave",
+        "uniqueTo": "Scythian",
+		"faith": 2,
+		"production": 1,
+		"requiredTech": "Burial Custom"
+		"uniques": ["Destroyed when the city is captured","Unsellable"]	
 	//梵蒂冈
 	},
 	{	

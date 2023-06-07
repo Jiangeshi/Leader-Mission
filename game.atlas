@@ -1295,6 +1295,15 @@ BuildingIcons/Posthouse
   offset: 0, 0
   index: -1
   
+TombMound.png
+BuildingIcons/Tomb Mound
+  rotate: false
+  xy: 0,0
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1  
+  
 Governor.png
 BuildingIcons/Governor-Magnus I
   rotate: false
