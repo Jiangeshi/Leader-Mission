@@ -360,7 +360,7 @@
 		"uniques": [
 		"[+1 Faith, +1 Culture, +1 Food] [in all cities] <with [1] to [3] neighboring [Tundra] tiles>",
 		"[+2 Faith, +2 Culture, +2 Food] [in all cities] <with [4] to [6] neighboring [Tundra] tiles>",
-	    "[+1 Production] from every [Strategic resource]",
+	    "[+1 Production, +1 Gold] from every [Strategic resource]",
 	"Double quantity of [Horses] produced","Double quantity of [Oil] produced","Double quantity of [Gas] produced"
 		],
 		"cities": ["Moscow","St. Petersburg","Novgorod","Rostov","Yaroslavl","Yekaterinburg","Yakutsk","Vladivostok","Smolensk","Orenburg",

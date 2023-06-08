@@ -634,7 +634,7 @@
 			"[+150]% Strength <vs [Helicopter] units>",
 			"Consumes [1] [Aluminum]","Can carry [1] [Flybomb] units"],
 		"attackSound": "missile"
-    //骑兵
+    //机动部队
 	},
 	{
 		"name": "Horseman",
@@ -648,7 +648,6 @@
 		"obsoleteTech": "骑士制度",
 		"uniques": ["Can move after attacking","No defensive terrain bonus",
 		"[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", 
-        "[+10]% Strength <vs [Ranged] units> <when defending>", 
         "[-33]% Strength <vs cities> <when attacking>"],
 		"attackSound": "horse"
 	},
@@ -667,7 +666,6 @@
 		"promotions": ["[Companion Cavalry] ability"],
 		"uniques": ["Can move after attacking","No defensive terrain bonus",
 		"[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", 
-        "[+10]% Strength <vs [Ranged] units> <when defending>", 
         "[-33]% Strength <vs cities> <when attacking>"],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"	
@@ -683,7 +681,7 @@
 		"requiredTech": "骑术",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "骑士制度",
-		"uniques": ["Can move after attacking", "No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[+10]% Strength <vs [Ranged] units> <when defending>",
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>",
 			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles"],
 		"attackSound": "elephant"	
 	},
@@ -701,7 +699,6 @@
 		"obsoleteTech": "骑士制度",
 		"uniques": ["Can move after attacking","No defensive terrain bonus",
 		"[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", 
-        "[+10]% Strength <vs [Ranged] units> <when defending>", 
         "[-33]% Strength <vs cities> <when attacking>"],
         "promotions": ["[Heavy Spear Cavalry] ability"],
 		"attackSound": "horse"	
@@ -718,7 +715,6 @@
 		"requiredResource": "Horses",
 		"uniques": ["Can move after attacking","No defensive terrain bonus",
 		        "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", 
-        "[+10]% Strength <vs [Ranged] units> <when defending>", 
         "[-33]% Strength <vs cities> <when attacking>"],
 		"attackSound": "horse"
 	},
@@ -729,7 +725,7 @@
 		"uniqueTo": "Arabia",
 		"movement": 4,
 		"strength": 17,
-		"rangedStrength": 18,
+		"rangedStrength": 17,
 		"cost": 162,
 		"requiredTech": "骑士制度",
 		"requiredResource": "Horses",
@@ -743,7 +739,7 @@
 		"unitType": "Mobile",
 		"replaces": "Knight",
 		"uniqueTo": "Vietnam",
-		"movement": 3,
+		"movement": 4,
 		"strength": 24,
 		"cost": 162,
 		"requiredTech": "骑士制度",
@@ -752,7 +748,6 @@
 		"obsoleteTech": "军事科学",
 		"uniques": ["Can move after attacking","No defensive terrain bonus",
 		"[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", 
-        "[+10]% Strength <vs [Ranged] units> <when defending>", 
         "[+1] Sight"
         ],
 		"attackSound": "arrow"		
@@ -770,8 +765,7 @@
 		"requiredResource": "Horses",
 		"upgradesTo": "Cavalry",
 		"uniques": ["Can move after attacking","No defensive terrain bonus",
-		        "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", 
-        "[+10]% Strength <vs [Ranged] units> <when defending>", 
+		"[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", 
         "[-33]% Strength <vs cities> <when attacking>"],
 		"promotions": ["[Cossack] ability"],
 		"attackSound": "horse"
@@ -789,8 +783,7 @@
 		"obsoleteTech": "军事科学",
 		"requiredResource": "Horses",
 		"uniques": ["Can move after attacking",
-		        "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", 
-        "[+10]% Strength <vs [Ranged] units> <when defending>"],
+		        "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
         "promotions": ["[Cataphract] ability"],
 		"attackSound": "horse"	
 	},
@@ -824,7 +817,6 @@
 		"upgradesTo": "Landship",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","Consumes [1] [Saltpeter]",
 		        "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", 
-        "[+10]% Strength <vs [Ranged] units> <when defending>", 
         "[-33]% Strength <vs cities> <when attacking>"],
 		"attackSound": "shot"
 	},
@@ -842,7 +834,6 @@
 		"upgradesTo": "Landship",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","Consumes [1] [Saltpeter]",
 		        "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", 
-        "[+10]% Strength <vs [Ranged] units> <when defending>", 
         "[-33]% Strength <vs cities> <when attacking>"],
 		"attackSound": "shot"   
 	},
@@ -857,8 +848,8 @@
 		"upgradesTo": "Tank",
 		"obsoleteTech": "协同作战",
 		"uniques": ["Can move after attacking","No defensive terrain bonus",
-		"[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>",
-        "[+10]% Strength <vs [Range] units> <when defending>"],
+		"[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>"
+],
 		"attackSound": "tankshot"
    	},
 	{
@@ -871,8 +862,7 @@
 		"requiredResource": "Oil",
 		"upgradesTo": "Modern Armor",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","Consumes [1] [Steel]",
-		"[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>",
-        "[+10]% Strength <vs [Range] units> <when defending>"],
+		"[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
 		"attackSound": "tankshot"
 	},
 	{
@@ -887,8 +877,7 @@
 		"requiredResource": "Oil",
 		"upgradesTo": "Modern Armor",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","Consumes [1] [Steel]",
-		"[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>",
-        "[+10]% Strength <vs [Range] units> <when defending>"],
+		"[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
 		"attackSound": "tankshot"
 	},
 	{
@@ -903,8 +892,7 @@
 		"requiredResource": "Oil",
 		"upgradesTo": "Modern Armor",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","Consumes [1] [Steel]",
-		"[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>",
-        "[+10]% Strength <vs [Range] units> <when defending>"],
+		"[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
 		"attackSound": "tankshot"	
 	},
 	{
@@ -916,8 +904,7 @@
 		"requiredTech": "激光",
 		"requiredResource": "Oil",
 		"uniques": ["Can move after attacking", "No defensive terrain bonus","Consumes [1] [Steel]","Consumes [1] [Aluminum]",
-		"[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>",
-        "[+10]% Strength <vs [Range] units> <when defending>"],
+		"[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
 		"attackSound": "tankshot"
 	},
 	{
