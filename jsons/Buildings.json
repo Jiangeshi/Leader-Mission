@@ -131,7 +131,7 @@ Leader Mission 模组中的全球效果有：
 快乐＜-15：人口停止增长，所有城市-50%产能，可能出现叛乱
         
 战争影响：
-当处于战争时，所有城市建造军事单位时+10%产能，-50%人口增长
+当处于战争时，所有城市建造军事单位时+10%产能，-25%人口增长
 军事单位在和平时期-20%维护费，在战争时期+20%维护费
 
 我们爱戴领袖日效果：
@@ -1903,13 +1903,13 @@ Leader Mission 模组中的胜利方式有：
 	},
 	{
 		"name": "District-Lavra Monastery",
-		"faith": 4,
+		"faith": 5,
 		"production": 1,
-	    "maintenance": 3,
+	    "maintenance": 1,
 	    "uniqueTo": "Russia",
 		"replaces": "District-Religious Cente",
 		"requiredTech": "Religious Culture"
-		"uniques":["Cannot be purchased","Unsellable","Destroyed when the city is captured","[+15]% Natural religion spread [in this city]"]
+		"uniques":["Cannot be purchased","Unsellable","Destroyed when the city is captured"]
 	//苏联
 	},
 	{	
@@ -2107,7 +2107,7 @@ Leader Mission 模组中的胜利方式有：
 		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized leader-Daoud Khan]>"
 		"[+20]% [Science] [in all cities] <when at war>",
 		"[+20]% [Culture] [in all cities] <when at war>",
-		"[+25]% growth [in all cities] <when at war>"
+		"[+13]% growth [in all cities] <when at war>"
         ]
     },
 	{	
@@ -2118,6 +2118,7 @@ Leader Mission 模组中的胜利方式有：
 		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized leader-Hafizullah Amin]>"
 		"[+1 Production] [in all cities]",
 		"[+3 Gold] from all [Production] buildings",
+		"[+13]% growth [in all cities] <when at war>"
         ]
     },
 	{
