@@ -140,7 +140,7 @@ Leader Mission 模组中的全球效果有：
 时代加成：
 远古时代：+2快乐+1科研+1文化
 古典时代：+15%文化
-中古时代：-3快乐，建造军事单位+10%产能，军事单位+10%战斗力
+中古时代：-3快乐，建造军事单位+10%产能，军事单位当进攻时+15%战斗力
 启蒙时代：+10%文化、科研
 工业时代：-6快乐，+5%产能+10%金钱
 电器时代：+10%金钱
@@ -2464,7 +2464,7 @@ Leader Mission 模组中的胜利方式有：
 		"uniqueTo": "Babylon",
 		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Nebuchadnezzar II]>",
 		"[-35]% Culture cost of natural border growth [in all cities]"
-		"[+1 Culture, +1 Science] from every [Courthouse]",
+		"[+1 Culture, +2 Science] from every [Courthouse]",
 		]	
 	},
 	{	
@@ -2591,8 +2591,8 @@ Leader Mission 模组中的胜利方式有：
 		"uniqueTo": "Germany",
 		"uniques": ["Can only be built [in capital]",
 		"Provides a [Barracks] in your first [2] cities for free",
-		"[+10]% [Production] [in all cities] <when not at war>",
-		"[+10]% [Culture] [in all cities] <when at war>",
+		"[+10]% [Production] [in all cities] <when at war>",
+		"[+15]% [Culture] [in all cities] <when not at war>",
 		]
 	},
 	{

@@ -25,7 +25,7 @@
         "[+2 Happiness, +1 Science, +1 Culture] <during the [Ancient era]>"
         "[+15]% [Culture] <during the [Classical era]>"
         "[-15]% Great Person generation [in all cities] <during the [Medieval era]>"
-        "[+10]% Strength <for [Military] units> <during the [Medieval era]>"
+        "[+15]% Strength <for [Military] units> <when attacking> <during the [Medieval era]>"
         "[-3 Happiness] <during the [Medieval era]>"
         "[+10]% Production when constructing [Military] units [in all cities] <during the [Medieval era]>"
         "[+10]% [Culture] <during the [Renaissance era]>"
