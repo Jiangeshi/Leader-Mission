@@ -729,7 +729,7 @@ Leader Mission 模组中的胜利方式有：
 		"cost": 3000,
 		"requiredTech": "Weather Manipulation",
 		"uniques": ["Triggers a global alert upon completion","Cannot be hurried","[+3] population [in all cities]",
-		"Consumes [15] [Electricity]","Consumes [3] [Aluminum]","Consumes [5] [Mixed fuel]","Consumes [1000] [CO2]"
+		"Consumes [15] [Electricity]","Consumes [3] [Aluminum]","Consumes [5] [Mixed fuel]","Consumes [700] [CO2]"
 		],
 	},
 	{
