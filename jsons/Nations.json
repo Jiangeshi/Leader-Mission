@@ -229,7 +229,7 @@
 		"innerColor": [255,255,255],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Enlightenment of Western Philosophy",
-		"uniques": ["[+30]% Great Person generation [in all cities]","[+150 Culture, +150 Science] whenever a Great Person is expended"],
+		"uniques": ["[+30]% Great Person generation [in all cities]","[+150 Culture, +150 Science] whenever a Great Person is expended","Science gained by expending a Great Person is influenced by Science Cost Modifier"],
 		"cities": ["Athens","Sparta","Corinth","Argos","Knossos","Mycenae","Pharsalos","Ephesus","Halicarnassus","Rhodes",
 			"Eretria","Pergamon","Miletos","Megara","Phocaea","Sicyon","Tiryns","Samos","Mytilene","Chios",
 			"Paros","Elis","Syracuse","Herakleia","Gortyn","Chalkis","Pylos","Pella","Naxos","Sicyon",
