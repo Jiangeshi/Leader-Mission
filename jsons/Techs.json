@@ -9,7 +9,7 @@
 				"name": "Drill Wood to Make Fire",
 				"row": 6,
 				"quote": "火焰不仅给人类带来了光明，也带来了希望",
-				"uniques": ["Starting tech"]
+				"uniques": ["Starting tech","Enables Open Borders agreements"]
 			}
 		]
     },
@@ -370,7 +370,7 @@
 				"row": 1,
 				"cost": 900
 				"prerequisites": ["National Defense","声学"],
-				"uniques":["Enables Research agreements","Enables Open Borders agreements"]
+				"uniques":["Enables Research agreements"]
 				"quote": "想要避免通过军队解决问题，优秀的外交是必不可少的前提"
 			},
 			{
