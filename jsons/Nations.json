@@ -925,8 +925,8 @@
 		"uniqueName": "Balkan Tiger",
 		"uniques": [
 		"Earn [50]% of the damage done to [Military] units as [Culture]",
-	    "[+25]% Strength <for [Military] units> <when below [66] HP>"
-	    "[+25]% Strength <for [Military] units> <when below [33] HP>"
+	    "[+20]% Strength <for [Military] units> <when below [66] HP>"
+	    "[+30]% Strength <for [Military] units> <when below [33] HP>"
 			],
 		"cities": ["Belgrade","Novisad","Nais","Kragujevac","Kosovo State","Podunavski","Toplički","Kolubarski","Mitrovica","Sremski","Rasinski",
 			"Pomoravski","Zaječar","Severnobanatski","Južnobanatski","Srednjebanatski","Pirotski","Jablanički","Zlatiborski","Severnobački","Južnobački","Zapadnobački",
