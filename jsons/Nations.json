@@ -803,19 +803,19 @@
 		"innerColor": [213,249,255],
 		"favoredReligion": "Islam",
 		"uniqueName": "Ingenuity",
-		"uniqueText": "When Babylon builds a building in capital, it will obtain 40% of the average scientific research demand of its era at quick speed.The era after the Modern era adopts the standards of the Modern era" 
+		"uniqueText": "When Babylon builds a building in capital, it will obtain 35% of the average scientific research demand of its era at quick speed.The era after the Modern era adopts the standards of the Modern era" 
 		"uniques": [
-		"Gain [13] [Science] <upon constructing [Buildings] [in capital]> <during the [Ancient era]>",
+		"Gain [12] [Science] <upon constructing [Buildings] [in capital]> <during the [Ancient era]>",
 		
-		"Gain [45] [Science] <upon constructing [Buildings] [in capital]> <during the [Classical era]>",
+		"Gain [40] [Science] <upon constructing [Buildings] [in capital]> <during the [Classical era]>",
 		
-		"Gain [121] [Science] <upon constructing [Buildings] [in capital]> <during the [Medieval era]>",
+		"Gain [107] [Science] <upon constructing [Buildings] [in capital]> <during the [Medieval era]>",
 		
-		"Gain [282] [Science] <upon constructing [Buildings] [in capital]> <during the [Renaissance era]>",
+		"Gain [249] [Science] <upon constructing [Buildings] [in capital]> <during the [Renaissance era]>",
 		
-		"Gain [576] [Science] <upon constructing [Buildings] [in capital]> <during the [Industrial era]>",
+		"Gain [451] [Science] <upon constructing [Buildings] [in capital]> <during the [Industrial era]>",
 		
-		"Gain [1045] [Science] <upon constructing [Buildings] [in capital]> <starting from the [Modern era]>",
+		"Gain [924] [Science] <upon constructing [Buildings] [in capital]> <starting from the [Modern era]>",
 		],
 		"cities": ["Babylon","Akkad","Dur-Kurigalzu","Nippur","Borsippa","Sippar","Opis","Mari","Shushan","Eshnunna",
 			"Ellasar","Erech","Kutha","Sirpurla","Neribtum","Ashur","Ninveh","Nimrud","Arbela","Nuzi",

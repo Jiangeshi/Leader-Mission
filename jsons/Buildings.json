@@ -1797,8 +1797,7 @@ Leader Mission 模组中的胜利方式有：
 		"uniqueTo": "China",
 		"uniques": ["Can only be built [in capital]","Only available <in cities without a [Civilized Leader-Emperor Wu of Han]>","Only available <in cities without a [Civilized Leader-First Emperor of Qin]>",
 	    "[+1] Movement <for [Foot Soldier] units>",
-	    "[+10]% Production when constructing [Foot Soldier] units [in all cities]",
-	    "[+2 Production, +1 Happiness] from every [District-Industrial Centre]",   
+	    "[+2 Production, +2 Happiness] from every [District-Industrial Centre]",   
 	]
 	},
 	{
@@ -2142,7 +2141,7 @@ Leader Mission 模组中的胜利方式有：
 		"uniqueTo": "The Huns",
 		"uniques": ["Can only be built [in capital]",
 	    "[+1 Production] from [Pasture] tiles [in all cities]",
-	    "[+33]% Strength <for [Military] units> <when fighting in [Foreign Land] tiles>"
+	    "[+25]% Strength <for [Military] units> <when fighting in [Foreign Land] tiles>"
 	    "Receive triple Gold from Barbarian encampments and pillaging Cities"
         ]
     },
@@ -2540,7 +2539,7 @@ Leader Mission 模组中的胜利方式有：
 		"cost":1,
 		"uniqueTo": "Scotland",
 		"uniques": ["Can only be built [in capital]",
-		"[5] units cost no maintenance"
+		"[10] units cost no maintenance"
 		"When defeating a [Barbarian] unit, earn [-30] Gold and recruit it"
 	]
 	},
