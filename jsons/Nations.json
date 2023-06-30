@@ -294,10 +294,8 @@
 		"innerColor": [255,222,0],
 		"favouredReligion": "Taoism",
 		"uniqueName": "Inheritance of Civilization",
-		"uniqueText": "+1 production in all cities; At the beginning of each new era, China will gain combat Strength, Production, Culture, and Science bonuses, and the bonus will continue to stack, up to +20% combat Strength,+20% Production,+30% Culture, and+30% Science" 
+		"uniqueText": "At the beginning of each new era, China will gain combat Strength, Production, Culture, and Science bonuses, and the bonus will continue to stack, up to +20% combat Strength,+20% Production,+30% Culture, and+30% Science" 
 		"uniques": [
-        "[+1 Production] [in all cities]"
-		
         "[+5]% Strength <for [Military] units> <during the [Classical era]>"
         "[+4]% [Production] <starting from the [Classical era]>"
         "[+5]% [Culture] <starting from the [Classical era]>"
@@ -924,7 +922,7 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "Balkan Tiger",
 		"uniques": [
-		"Earn [50]% of the damage done to [Military] units as [Culture]",
+		"Earn [33]% of the damage done to [Military] units as [Culture]",
 	    "[+20]% Strength <for [Military] units> <when below [66] HP>"
 	    "[+30]% Strength <for [Military] units> <when below [33] HP>"
 			],
