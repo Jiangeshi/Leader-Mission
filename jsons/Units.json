@@ -93,7 +93,7 @@
 		"uniqueTo": "Macedonia",
 		"replaces": "Swordsman",
 		"movement": 2,
-		"strength": 14,
+		"strength": 15,
 		"cost": 63,
 		"requiredTech": "铁器",
 		"upgradesTo": "Longswordsman",
