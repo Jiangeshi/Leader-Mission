@@ -11,7 +11,7 @@
         "Nullifies Growth [in all cities] <when below [-15] Happiness>",
         "[-50]% [Production] [in all cities] <when below [-15] Happiness>",
         "Rebel units may spawn <when below [-15] Happiness>",
-        "Cannot build [移民] units <when below [-10] Happiness>",
+        "Cannot build [Settler] units <when below [-10] Happiness>",
     //战争
         "[+10]% Production when constructing [Military] units [in all cities] <when at war>",
         "[-25]% growth [in all cities] <when at war>",
