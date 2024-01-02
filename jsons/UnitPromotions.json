@@ -1313,6 +1313,10 @@
 		"name": "Rejuvenation", 
 		"uniques": ["All healing effects doubled"]
 	},
+    {
+        "name": "Devout",
+        "uniques": ["Can Spread Religion <[1] additional time(s)>"]	
+	},
 	{
 		"name": "Morale Enhancement", // 英雄史诗
 		"uniques": ["[+15]% Strength"]

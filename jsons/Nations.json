@@ -421,7 +421,7 @@
 		"innerColor": [146,221,9],
 		"favoredReligion": "Islam",
 		"uniqueName": "Praise Allah",
-		"uniques": ["Receive free [Great Prophet] when you discover [Religious Culture]","Earn [80]% of killed [Military] unit's [Strength] as [Science]"],
+		"uniques": ["Free [Great Prophet] appears<upon discovering [Religious Culture]>", "Earn [80]% of killed [Military] unit's [Strength] as [Science]"],
 		"cities": ["Mecca","Medina","Damascus","Baghdad","Najran","Kufah","Basra","Khurasan","Anjar","Fustat",
 			"Aden","Yamama","Muscat","Mansura","Bukhara","Fez","Shiraz","Merw","Balkh","Mosul",
 			"Aydab","Bayt","Suhar","Taif","Hama","Tabuk","Sana'a","Shihr","Tripoli","Tunis","Kairouan","Algiers","Oran"],

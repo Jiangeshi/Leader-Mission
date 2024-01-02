@@ -389,7 +389,7 @@ Leader Mission 模组中的胜利方式有：
 		"culture": 2,
 		"greatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,
-		"uniques": ["[-20]% tile improvement construction time","[2] free [Worker] units appear","Cannot be hurried"],
+		"uniques": ["[-20]% construction time for [All] improvements","[2] free [Worker] units appear","Cannot be hurried"],
 		"requiredTech": "Burial Custom",
 		"quote": "'O, let not the pains of death which come upon thee enter into my body. I am the god Tem, and I am the foremost part of the sky, and the power which protecteth me is that which is with all the gods forever.' - The Book of the Dead, translated by Sir Ernest Alfred Wallis Budge"
 	},
@@ -824,8 +824,7 @@ Leader Mission 模组中的胜利方式有：
 		"faith": 3,
 		"greatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,
-		"uniques": ["[Missionary] units built [in this city] can [Spread Religion] [1] extra times", 
-		"[Great Prophet] units built [in this city] can [Spread Religion] [1] extra times","Only available <in cities with a [District-Religious Cente]>"],
+		"uniques": ["All newly-trained [Great Prophet] units [in this city] receive the [Devout] promotion", "All newly-trained [Missionary] units [in this city] receive the [Devout] promotion", "Only available <in cities with a [District-Religious Cente]>"],
 		"requiredTech": "神学",
 		"requiredBuilding": "District-Religious Cente",
 	    "quote": "'With the magnificence of eternity before us, let time, with all its fluctuations, dwindle into its own littleness.' - Thomas Chalmers"
@@ -2676,7 +2675,7 @@ Leader Mission 模组中的胜利方式有：
 		"uniqueTo": "Inca",
 		"uniques": ["Can only be built [in capital]",
 	    "[+1 Happiness, +1 Gold] from every [Wonder]",
-	    "[-15]% tile improvement construction time"]
+	    "[-15]% construction time for [All] improvements"]
 	},
 	{
 		"name": "Inca Pyramid",
