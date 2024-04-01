@@ -777,7 +777,7 @@
 		"replaces": "Knight",
 		"movement": 4,
 		"strength": 21,
-		"cost": 153,
+		"cost": 150,
 		"requiredTech": "骑士制度",
 		"upgradesTo": "Cavalry",
 		"obsoleteTech": "军事科学",
@@ -944,6 +944,20 @@
 		"upgradesTo": "Cannon",
 		"uniques": ["No defensive terrain bonus","Must set up to ranged attack","[-1] Sight",
 		"[+200]% Strength <vs cities> <when attacking>", "[+100]% Strength <vs cities> <when defending>"],
+		"attackSound": "throw" 
+	{
+		"name": "Constantine's hammer",
+		"unitType": "Siege",
+		"replaces": "Trebuchet",
+		"uniqueTo": "Byzantium",
+		"movement": 3,
+		"strength": 16,
+		"rangedStrength": 20,
+		"cost": 160,
+		"requiredTech": "骑士制度",
+		"obsoleteTech": "火药",
+		"upgradesTo": "Cannon",
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Must set up to ranged attack","Never appears as a Barbarian unit"],
 		"attackSound": "throw"
 	},
 	{
@@ -1467,7 +1481,7 @@
 		"unitType": "Civilian",
 		"replaces": "Great Prophet",
 		"uniques": ["Can instantly construct a [Holy site] improvement <by consuming this unit> <if it hasn't used other actions yet>", 
-		"Can [Spread Religion] [2] times",
+		"Can Spread Religion <for [1] movement> <[2] times> <after which this unit is consumed>",
 			"Removes other religions when spreading religion", "May found a religion", "May enhance a religion",
 			"May enter foreign tiles without open borders", "[-1] Sight", "Great Person - [Faith]",
 			"Unbuildable", "Religious Unit","Uncapturable"
@@ -1483,7 +1497,7 @@
 		"unitType": "Civilian",
 		"replaces": "Great Prophet",
 		"uniques": ["Can instantly construct a [Holy site] improvement <by consuming this unit>", 
-		"Can [Spread Religion] [3] times",
+		"Can Spread Religion <for [1] movement> <[4] times> <after which this unit is consumed>",
 			"Removes other religions when spreading religion", "May found a religion", "May enhance a religion",
 			"May enter foreign tiles without open borders", "[-1] Sight", "Great Person - [Faith]",
 			"Unbuildable", "Religious Unit","Uncapturable"
@@ -1499,7 +1513,7 @@
 		"replaces": "Great Prophet",
 		"uniques": ["Can instantly construct a [Holy site] improvement <by consuming this unit> <if it hasn't used other actions yet>", 
 		"[+15]% Strength bonus for [Land] units within [2] tiles", 
-		"Can [Spread Religion] [4] times",
+		        "Can Spread Religion <for [1] movement> <[4] times> <after which this unit is consumed>",
 			"Removes other religions when spreading religion", "May found a religion", "May enhance a religion",
 			"May enter foreign tiles without open borders", "Great Person - [Faith]",
 			"Unbuildable", "Religious Unit","Uncapturable"
@@ -1529,11 +1543,12 @@
 		"uniques": [
 		"Empire enters a [8]-turn Golden Age <by consuming this unit>", 
 		"[+15]% Strength bonus for [Land] units within [2] tiles", 
-		"Can instantly construct a [Citadel] improvement <by consuming this unit>",	"Can instantly construct a [Fort] improvement <[3] times>"
+		"Can instantly construct a [Citadel] improvement <by consuming this unit>",	
+		"Can instantly construct a [Fort] improvement <[3] times>",
 		"Great Person - [War]", 
 		"All adjacent units heal [+10] HP when healing",
 		"Unbuildable", 
-		"Uncapturable"
+		"Uncapturable",
 		"Limited to [1] per Civilization"
 		],
 		"movement": 2	
@@ -1544,12 +1559,12 @@
 		"unitType": "Civilian",
 		"uniques": [
 		"Empire enters a [8]-turn Golden Age <by consuming this unit>", 
-		"[+15]% Strength bonus for [Land] units within [2] tiles", "[-10]% Strength for enemy [Land] units in adjacent [Land] tiles"
+		"[+15]% Strength bonus for [Land] units within [2] tiles", "[-10]% Strength for enemy [Land] units in adjacent [Land] tiles",
 		"Can instantly construct a [Citadel] improvement <by consuming this unit>",
 		"Great Person - [War]", 
 		"All adjacent units heal [+10] HP when healing",
 		"Unbuildable", 
-		"Uncapturable"
+		"Uncapturable",
 		"Limited to [1] per Civilization"
 		],
 		"movement": 2		
@@ -1563,7 +1578,7 @@
 		"Great Person - [Great Admiral]", 
 		"Can undertake a trade mission with City-State, giving a large sum of gold and [60] Influence",
 		"[+1] Sight <when [Embarked]>",
-		"Double movement in [Coast]"
+		"Double movement in [Coast]",
 		"Unbuildable", 
 		"Uncapturable"],
 		"movement": 2
@@ -1578,9 +1593,9 @@
 		"Great Person - [Great Admiral]", 
 		"Can undertake a trade mission with City-State, giving a large sum of gold and [60] Influence",
 		"[+1] Sight <when [Embarked]>",
-		"Double movement in [Coast]"
-		"Unbuildable", 
-		"Uncapturable"
+		"Double movement in [Coast]",
+		"Unbuildable",
+		"Uncapturable",
 		"Limited to [1] per Civilization"
 		],
 		"movement": 2	
@@ -1589,7 +1604,7 @@
 	{
 		"name": "Missionary",
 		"unitType": "Civilian",
-		"uniques": ["Can [Spread Religion] [2] times", "May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
+		"uniques": [ "Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>",
 			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
 			"[-1] Sight", "Unbuildable", "Religious Unit"],
 		"movement": 4,
@@ -1598,8 +1613,10 @@
 	{
 		"name": "Inquisitor",
 		"unitType": "Civilian",
+                "cost":300
+
 		"uniques": ["Prevents spreading of religion to the city it is next to",
-			"Can [Remove Foreign religions from your own cities] [1] times",
+			"Can remove other religions from cities <in [Friendly] tiles> <once> <after which this unit is consumed>",
 			"Can be purchased with [Faith] [in all cities in which the majority religion is an enhanced religion]",
 			"[+1] Sight", "Unbuildable", "Religious Unit"
 		],
@@ -1608,19 +1625,19 @@
 	{
 		"name": "Father",
 		"unitType": "Foot Soldier",
-		"cost": 333,
+		"cost": 300,
 		"strength": 10,
 	    "replaces": "Inquisitor",
 	    "uniqueTo": "Vatican",
 		"uniques": ["Prevents spreading of religion to the city it is next to",
-		"Can [Remove Foreign religions from your own cities] [2] times",
-		"Unbuildable", "Religious Unit"
-		"[+50]% Strength <during the [Classical era]>"
-		"[+130]% Strength <during the [Medieval era]>"
-		"[+160]% Strength <during the [Renaissance era]>"
-		"[+270]% Strength <during the [Industrial era]>"
-		"[+450]% Strength <during the [Modern era]>"
-		"[+650]% Strength <starting from the [Atomic era]>"
+		"Can remove other religions from cities <in [Friendly] tiles> <2 times> <after which this unit is consumed>",
+		"Unbuildable", "Religious Unit",
+		"[+50]% Strength <during the [Classical era]>",
+		"[+130]% Strength <during the [Medieval era]>",
+		"[+160]% Strength <during the [Renaissance era]>",
+		"[+270]% Strength <during the [Industrial era]>",
+		"[+450]% Strength <during the [Modern era]>",
+		"[+650]% Strength <starting from the [Atomic era]>",
 		"[+1] Sight",
 		],
 		"movement": 2	
