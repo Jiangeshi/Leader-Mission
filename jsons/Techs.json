@@ -1,0 +1,762 @@
+[
+	{
+		"columnNumber": 0,
+		"era": "Ancient era",
+		"techCost": 20,
+		"buildingCost": 35,
+		"techs": [
+			{
+				"name": "Drill Wood to Make Fire",
+				"row": 6,
+				"quote": "火焰不仅给人类带来了光明，也带来了希望",
+				"uniques": ["Starting tech","Enables Open Borders agreements"]
+			}
+		]
+    },
+	{
+		"columnNumber": 1,
+		"era": "Ancient era",
+		"techCost": 30,
+		"buildingCost": 45,
+		"wonderCost": 190,
+		"techs": [
+			{
+				"name": "Belief Worship",
+				"row": 3,
+				"prerequisites": ["Drill Wood to Make Fire"],
+				"quote": "人们将先人供奉，以求得到已死之人的庇佑对，人们崇拜万物，是以万物皆有灵"
+			},
+			{
+				"name": "Pottery",
+				"row": 5,
+				"prerequisites": ["Drill Wood to Make Fire"],
+				"quote": "陶器使人们拥有了更多的工具去烹饪、存放食物，当然，陶器在除了吃的方面还有其他用途"
+			},
+			{
+				"name": "Agriculture",
+				"row": 6,
+				"prerequisites": ["Drill Wood to Make Fire"],
+				"quote": "农业的产生是人类得以人口几何式爆炸的关键，人类驯化了小麦，同时小麦也驯化了人类"		
+		    },
+			{
+				"name": "Mining",
+				"row": 7,
+				"prerequisites": ["Drill Wood to Make Fire"],
+				"quote": "继石头之后，各类矿石的开采让人们拥有了更加强力的武器、装备、工具"
+		    },
+		    {
+			"name": "Archery",
+				"row": 8,
+				"prerequisites": ["Drill Wood to Make Fire"],
+				"quote": "在畜牧业产生前，狩猎动物一直是肉类食物的主要来源"
+			}
+		]
+	},
+	{
+		"columnNumber": 2,
+		"era": "Ancient era",
+		"techCost": 55,
+		"buildingCost": 55,
+		"wonderCost": 190,
+		"techs": [
+			{
+				"name": "文字",
+				"row": 2,
+				"prerequisites": ["Belief Worship"],
+				"quote": "文字是人类历史上最伟大的发明，有了文字，才有了历史，知识得以传递，信仰得以传播，文明得以延续"	
+	        },
+			{
+				"name": "Burial Custom",
+				"row": 4,
+				"prerequisites": ["Belief Worship"],
+				"quote": "人们为死去之人建造其或宏伟或渺小的坟墓，期待他们能庇佑自己，或有朝一日能再次醒来"
+			},
+			{
+				"name": "历法",
+				"row": 5,
+				"prerequisites": ["Pottery"],
+				"quote": "每个文明都依靠不同的参照物建立了各自的历法，历法的诞生让农业的发展更为迅速，也有了时间的参照"
+			},
+			{
+				"name": "Animal Husbandry",
+				"row": 6,
+				"prerequisites": ["Agriculture"],
+				"quote": "畜牧业的诞生，让人们能够不需外出进行危险的狩猎便可获得大量的肉制品，以畜牧业而非农业为主的游牧民族也由此诞生"
+			},
+			{
+				"name": "Lumbering",
+				"row": 7,
+				"prerequisites": ["Mining"],
+				"quote": "发家致富先砍树，不过，过度的砍伐也并不是一件好事"
+		    }
+		]
+	},
+	{
+		"columnNumber": 3,
+		"era": "Ancient era",
+		"techCost": 70,
+		"buildingCost": 65,
+		"wonderCost": 190,
+		"techs": [
+			{
+			    "name": "哲学",
+				"row": 2,
+				"prerequisites": ["文字"],
+				"quote": "没有的正确的思想指导，是难以成事的"
+			},
+			{
+				"name": "Religious Culture",
+				"row": 3,
+				"prerequisites": ["文字","Burial Custom"],
+				"quote": "宗教的力量是无穷的，它可以让完全不相识的人因为信仰同一个宗教而共事"
+			},
+			{
+				"name": "帆船",
+				"row": 4,
+				"prerequisites": ["Burial Custom","历法"],
+				"quote": "'虽然在探索大海的路上，会牺牲不少人，但我们依然勇往直前"
+			},
+			{
+				"name": "The Wheel",
+				"row": 6,
+				"prerequisites": ["Animal Husbandry","历法"],
+				"quote": "轮子大大节省了人们的能量消耗，让人们可以以极低的代价运送物资"
+			},
+			{
+				"name": "石工术",
+				"row": 7,
+				"prerequisites": ["Lumbering"],
+				"quote": "石头建筑并不意味着破旧低俗，相反，很多伟大的建筑都是石头建成的"
+			},
+			{
+				"name": "青铜器",
+				"row": 8,
+				"prerequisites": ["Lumbering","Archery"],
+				"quote": "对青铜的运用是人类历史上十分重要的一步，从此人们对金属的运用愈发熟练"
+			}
+		]
+	},
+	{
+		"columnNumber": 4,
+		"era": "Classical era",
+		"techCost": 125,
+		"buildingCost": 80,
+		"wonderCost": 250,
+		"techs": [
+			{
+				"name": "Nation",
+				"row": 2,
+				"prerequisites": ["哲学","Religious Culture","帆船"],
+				"uniques":[
+				"从野蛮部落步入文明国家，走向正途",
+				"Free Social Policy <if no other Civilization has researched this>"]
+				"quote": "国家的成立意味着你的文明终于摆脱了野蛮，从此走向正途"
+			},
+			{
+				"name": "光学",
+				"row": 4,
+				"prerequisites": ["帆船"],
+				"uniques": ["Enables embarkation for land units"],
+				"quote": "灯塔在黑暗中为离家的游子照亮了归家的路"
+			},
+			{
+				"name": "骑术",
+				"row": 6,
+				"prerequisites": ["The Wheel"],
+				"quote": "骑兵绝对是冷兵器时代的大杀器，当然面对枪兵除外"
+			},
+			{
+				"name": "建筑设计学",
+				"row": 7,
+				"prerequisites": ["石工术","The Wheel"],
+				"quote": "更宏伟的建筑！这简直就是神迹"
+			},
+			{
+				"name": "铁器",
+				"row": 8,
+				"prerequisites": ["青铜器"],
+				"quote": "人类对铁的运用大大加快了人类社会的发展进程，在各方各面上都是如此"
+			}
+	    ]
+	},
+	{
+		"columnNumber": 5,
+		"era": "Classical era",
+		"techCost": 180,
+		"buildingCost": 100,
+		"wonderCost": 250,
+		"techs": [
+			{
+				"name": "Politics",
+				"row": 1,
+				"prerequisites": ["Nation"],
+				"quote": "一个强势的国家需要一个强势的政府，一个强盛的国家需要一个智慧的政府"
+			},
+			{
+				"name": "戏剧与诗歌",
+				"row": 3,
+				"prerequisites": ["Nation","光学"],
+				"quote": "美妙的言语荡漾在耳旁，他们演绎世事，他们歌颂美好"	
+			},
+			{
+				"name": "经济学",
+				"row": 6,
+				"prerequisites": ["骑术","光学"],
+				"quote": "货币是一个国家的金融主权最好的体现"	
+			},
+			{
+				"name": "工程学",
+				"row": 7,
+				"uniques": ["Improves movement speed on roads","Roads connect tiles across rivers"],
+				"prerequisites": ["骑术","建筑设计学"],
+				"quote": "基础建设永远是一个国家想要富强的重要途径"	
+			},
+			{
+				"name": "Army Formation",
+				"row": 8,
+				"prerequisites": ["铁器","建筑设计学"],
+				"uniques":["Free [Great General] appears <if no other Civilization has researched this>"]
+				"quote": "正规军队的诞生标志着战争来到了更高的阶段"
+			}
+		]
+	},
+	{
+		"columnNumber": 6,
+		"era": "Classical era",
+		"techCost": 200,
+		"buildingCost": 120,
+		"wonderCost": 280,
+		"techs": [
+			{
+			    "name": "Legislation",
+				"row": 1,
+				"cost": 180
+				"prerequisites": ["Politics"],
+				"quote": "法律是人类最基本的道德底线，法无明文规定不为罪，法无明文规定不处罚，因此法律的改良只有进行时没有完成时"
+			},
+			{
+				"name": "行会",
+				"row": 6,
+				"prerequisites": ["经济学"],
+				"uniques": ["Enables conversion of city production to [Gold]"],
+				"quote": "'商人组建了行会，贸易变得更加频繁"	
+			},
+			{
+				"name": "Defensive Fortification",
+				"row": 8,
+				"prerequisites": ["Army Formation","工程学"],
+				"quote": "坚固的堡垒拔地而起，构成最稳固的防线"	
+			}
+	    ]
+	},
+	{
+		"columnNumber": 7,
+		"era": "Medieval era",
+		"techCost": 350,
+		"buildingCost": 170,
+		"wonderCost": 400,
+		"techs": [
+			{
+				"name": "神学",
+				"row": 2,
+				"prerequisites": ["戏剧与诗歌"],
+				"quote": "人们建立起恢宏的宗教奇观，为表达自己对神的一片赤诚"
+			},
+			{
+				"name": "工业伊始",
+				"row": 5,
+				"prerequisites": ["行会"],
+				"quote": "生产力的发展是人类社会发展的基石，没有足够的生产力任何事物都是空谈"
+			},
+			{
+				"name": "罗盘",
+				"row": 7,
+				"prerequisites": ["行会"],
+				"quote": "天上的星星不一定能时刻提供方位，罗盘的发明让远洋航行更为安全"	
+			},
+			{
+				"name": "兵器储备",
+				"row": 9,
+				"prerequisites": ["Defensive Fortification"],
+				"quote": "兵可千日而不用，不可一日而不备"
+			}
+		]
+    },
+	{
+		"columnNumber": 8,
+		"era": "Medieval era",
+		"techCost": 550,
+		"buildingCost": 210,
+		"wonderCost": 500,
+		"techs": [
+		    {
+		        "name": "National Defense",
+				"row": 1,
+				"cost": 350
+				"prerequisites": ["Legislation"],
+				"uniques":["[1] free [Great General] units appear"]
+				"quote": "兵可千日而不用，不可一日而不备"
+			},
+			{
+				"name": "教育学",
+				"row": 3,
+				"prerequisites": ["戏剧与诗歌"],
+				"uniques": ["Enables conversion of city production to [Science]"],
+				"quote": "'教育是富国强兵的基石，人才永远是最珍贵的"
+			},
+			{
+				"name": "天文学",
+				"row": 6,
+				"uniques": ["[+1] Movement <for [Embarked] units>","Enables [Embarked] units to enter ocean tiles"],
+				"prerequisites": ["罗盘"],
+				"quote": "我们虽然渺小，但总得有人去仰望星空"	
+			},
+			{
+				"name": "骑士制度",
+				"row": 8,
+				"prerequisites": ["Defensive Fortification"],
+				"quote": "中世纪是城堡—骑士—宗教的时代"
+			}
+		]
+    },
+	{
+		"columnNumber": 9,
+		"era": "Renaissance era",
+		"techCost": 900,
+		"buildingCost": 260,
+		"wonderCost": 600,
+		"techs": [
+			{
+				"name": "声学",
+				"row": 2,
+				"prerequisites": ["神学","教育学"],
+				"quote": "美妙的声音能慰籍浮躁的心灵，陶冶情操，在歌声中放松自我"
+			},
+			{
+				"name": "印刷术",
+				"row": 3,
+				"prerequisites": ["教育学"],
+				"quote": "印刷术是人类近代文明的先导，为知识的广泛传播、交流创造了条件"	
+			},
+			{
+				"name": "Steelmaking",
+				"row": 5,
+				"prerequisites": ["工业伊始","教育学"],
+				"quote": "随着工业的发展，更多的更强的材料也随之出现"	
+			},
+			{
+				"name": "银行业",
+				"row": 7,
+				"prerequisites": ["罗盘"],
+				"quote": "'信用比黄金更珍贵，这句话不仅适用于形容一个人的品格，也适用于经济"
+		    },
+			{
+				"name": "化学",
+				"row": 9,
+				"prerequisites": ["兵器储备","骑士制度"],
+				"quote": "化学让人们认清了世界的构造，也通过化学发明了比以往任何武器都更危险的东西"
+			}
+		]
+	},
+	{
+		"columnNumber": 10,
+		"era": "Renaissance era",
+		"techCost": 1200,
+		"buildingCost": 300,
+		"wonderCost": 800,
+		"techs": [
+			{
+			    "name": "Diplomacy",
+				"row": 1,
+				"cost": 900
+				"prerequisites": ["National Defense","声学"],
+				"uniques":["Enables Research agreements"]
+				"quote": "想要避免通过军队解决问题，优秀的外交是必不可少的前提"
+			},
+			{
+				"name": "Waterage",
+				"row": 2,
+				"prerequisites": ["声学"],
+				"quote": "人工开凿的运河联通了城市与城市"	
+			},
+			{
+				"name": "建筑学",
+				"row": 3,
+				"prerequisites": ["声学","Steelmaking","印刷术"],
+				"quote": "万丈高楼平地起"	
+		    },
+			{
+				"name": "合金",
+				"row": 5,
+				"prerequisites": ["Steelmaking"],
+				"quote": "好刀离不开好钢"
+			},
+			{
+				"name": "航海术",
+				"row": 6,
+				"prerequisites": ["天文学","银行业"],
+				"quote": "大航海时代的到来让世界的联系更加紧密"
+		    },
+			{
+				"name": "金融业",
+				"row": 7,
+				"prerequisites": ["银行业"],
+				"quote": "为有钱人理财，为缺钱人融资"
+			},
+			{
+				"name": "火药",
+				"row": 8,
+				"prerequisites": ["化学"],
+				"quote": "火药是战争艺术的一个重要节点，冷兵器从此逐渐被更强悍的热兵器取代"
+			}
+		]
+	},
+	{
+		"columnNumber": 11,
+		"era": "Industrial era",
+		"techCost": 1800,
+		"buildingCost": 420,
+		"wonderCost": 950,
+		"techs": [
+			{
+				"name": "考古学",
+				"row": 2,
+				"prerequisites": ["Waterage","建筑学"],
+				"uniques":["Enables conversion of city production to [Culture]"]
+				"quote": "以史为鉴，可以知兴衰"
+			},
+			{
+				"name": "科学理论",
+				"row": 3,
+				"prerequisites": ["建筑学"],
+				"quote": "科学理论的每一次进本都带来了大量影响世界的发明"
+			},
+			{
+				"name": "工业化",
+				"row": 5,
+				"prerequisites": ["合金"],
+				"quote": "工业化基于机器的使用，而工业国所拥有的生产力是同时期的农业国无法比拟的"
+			},
+			{
+				"name": "军事科学",
+				"row": 7,
+				"prerequisites": ["金融业","火药"],
+				"quote": "战争的艺术也蕴藏着科学的道理"
+		    },
+			{
+				"name": "膛线",
+				"row": 8,
+				"prerequisites": ["火药"],
+				"quote": "这是一个可怕的开始"
+			},
+			{
+				"name": "化肥",
+				"row": 9,
+				"prerequisites": ["化学"],
+				"quote": "让贫瘠之地变为肥沃之土，化肥现代农业必不可少之物"
+			}
+		]
+	},
+	{
+		"columnNumber": 12,
+		"era": "Industrial era",
+		"techCost": 2500,
+		"buildingCost": 540,
+		"wonderCost": 1250, 
+		"techs": [
+			{
+		        "name": "Taxation Administration",
+				"row": 1,
+				"cost": 1800
+				"prerequisites": ["Diplomacy"],
+				"quote": "国家的财务来源中最重要的就是税收，税收来自于人们，最终也应用于人民"
+			},
+			{
+				"name": "生物学",
+				"row": 2,
+				"prerequisites": ["考古学","科学理论"],
+				"quote": "在了解世界之前，先要了解自己"
+			},
+			{
+				"name": "电学",
+				"row": 3,
+				"prerequisites": ["科学理论","工业化"],
+				"quote": "电的“发明”绝对是近代最伟大的“发明”，如今生活中的一切都离不开电"
+			},
+			{
+				"name": "蒸汽机",
+				"row": 6,
+				"uniques": ["[+1] Movement <for [Embarked] units>"],
+				"prerequisites": ["工业化","军事科学","航海术","膛线"],
+				"quote": "只需要一些燃料，蒸汽机就可以源源不断地提供动力"
+			},
+			{
+				"name": "炸药",
+				"row": 8,
+				"prerequisites": ["膛线","化肥"],
+				"quote": "炸药是一项功与过并存的事物，它牺牲自己炸开了阻碍为无数人开辟了道路，当然，也包括通往天堂的道理"
+			}
+		]
+	},
+	{
+		"columnNumber": 13,
+		"era": "Modern era",
+		"techCost": 3300,
+		"buildingCost": 620,
+		"wonderCost": 1450,
+		"techs": [
+			{
+				"name": "制冷",
+				"row": 2,
+				"prerequisites": ["生物学", "电学"], 
+				"quote": "'And homeless near a thousand homes I stood, and near a thousand tables pined and wanted food.' - William Wordsworth"
+			},
+			{
+				"name": "无线电",
+				"row": 3,
+				"prerequisites": ["电学"],
+				"quote": "'The whole country was tied together by radio. We all experienced the same heroes and comedians and singers. They were giants.' - Woody Allen"
+			},
+			{
+				"name": "精密零件",
+				"row": 4,
+				"prerequisites": ["电学","蒸汽机"],
+				"quote": "'Nothing is particularly hard if you divide it into small jobs.' - Henry Ford"
+			},
+			{
+				"name": "航空",
+				"row": 6,
+				"prerequisites": ["蒸汽机"],
+				"quote": "'Aeronautics was neither an industry nor a science. It was a miracle.' - Igor Sikorsky"
+			},
+			{
+				"name": "铁路",
+				"row": 7,
+				"prerequisites": ["蒸汽机","炸药"],
+				"quote": "'The introduction of so powerful an agent as steam to a carriage on wheels will make a great change in the situation of man.' - Thomas Jefferson"
+			}
+		]
+	},
+	{
+		"columnNumber": 14,
+		"era": "Modern era",
+		"techCost": 4500,
+		"buildingCost": 750,
+		"wonderCost": 1700,
+		"techs": [
+			{
+				"name": "联合国",
+				"row": 1,
+				"cost": 3300
+				"prerequisites": ["Taxation Administration","制冷"],
+				"quote": "世界的距离被缩短，人类的命运被联系在了一起"
+			},
+			{
+				"name": "塑料",
+				"row": 3,
+				"prerequisites": ["精密零件","无线电"],
+				"quote": "'Ben, I want to say one word to you, just one word: plastics.' - Buck Henry and Calder Willingham, The Graduate"
+			},
+			{
+				"name": "电子学",
+				"row": 4,
+				"prerequisites": ["精密零件", "航空"],
+				"quote": "'There's a basic principle about consumer electronics: it gets more powerful all the time and it gets cheaper all the time.' - Trip Hawkins"
+			},
+			{
+				"name": "弹道学",
+				"row": 6,
+				"prerequisites": ["航空"],
+				"quote": "'Men, like bullets, go farthest when they are smoothest.' - Jean Paul"
+			},
+			{
+				"name": "内燃机",
+				"row": 7,
+				"prerequisites": ["铁路"],
+				"quote": "'Any man who can drive safely while kissing a pretty girl is simply not giving the kiss the attention it deserves.' - Albert Einstein"
+			}
+		]
+	},
+	{
+		"columnNumber": 15,
+		"era": "Atomic era",
+		"techCost": 5300,
+		"buildingCost": 850,
+		"wonderCost": 2000,
+		"techs": [
+			{
+				"name": "生态学",
+				"row": 2,
+				"prerequisites": ["塑料","制冷"],
+				"quote": "'In nothing do men more nearly approach the gods than in giving health to men.' - Cicero"
+			},
+			{
+				"name": "原子理论",
+				"row": 4,
+				"prerequisites": ["塑料","电子学"],
+				"quote": "'The unleashed power of the atom has changed everything save our modes of thinking, and we thus drift toward unparalleled catastrophes.' - Albert Einstein"
+			},
+			{
+				"name": "雷达",
+				"row": 6,
+				"prerequisites": ["弹道学","电子学"],
+				"quote": "'Vision is the art of seeing things invisible.' - Jonathan Swift"
+			},
+			{
+				"name": "协同作战",
+				"row": 8,
+				"prerequisites": ["弹道学","内燃机"],
+				"quote": "'The root of the evil is not the construction of new, more dreadful weapons. It is the spirit of conquest.' - Ludwig von Mises"
+			}
+		]
+	},
+	{
+		"columnNumber": 16,
+		"era": "Atomic era",
+		"techCost": 6600,
+		"buildingCost": 1000,
+		"wonderCost": 2000,
+		"techs": [
+			{
+		        "name": "Utopia Project",
+				"row": 1,
+				"cost": 5300
+				"prerequisites": ["联合国"], 
+				"quote": "'And homeless near a thousand homes I stood, and near a thousand tables pined and wanted food.' - William Wordsworth"
+			},
+			{
+				"name": "制药学",
+				"row": 2,
+				"prerequisites": ["原子理论","生态学"],
+				"quote": "'Only within the moment of time represented by the present century has one species, man, acquired significant power to alter the nature of his world.' - Rachel Carson"
+			},
+			{
+				"name": "核裂变",
+				"row": 4,
+				"prerequisites": ["原子理论","雷达"],
+				"quote": "'I am become Death, the destroyer of worlds.' - J. Robert Oppenheimer"
+			},
+			{
+				"name": "火箭",
+				"row": 6,
+				"prerequisites": ["雷达"],
+				"quote": "'A good rule for rocket experimenters to follow is this: always assume that it will explode.' - Astronautics Magazine, 1937"
+			},
+			{
+				"name": "电子计算机",
+				"row": 8,
+				"prerequisites": ["协同作战","雷达"],
+				"quote": "'Computers are like Old Testament gods: lots of rules and no mercy.' - Joseph Campbell"
+			}
+		]
+	},
+	{
+		"columnNumber": 17,
+		"era": "Information era",
+		"techCost": 8000,
+		"buildingCost": 1200,
+		"wonderCost": 2000,
+		"techs": [
+			{
+				"name": "远程通信",
+				"row": 2,
+				"prerequisites": ["制药学"],
+				"quote": "'The more we elaborate our means of communication, the less we communicate.' - J.B. Priestly"
+			},
+			{
+				"name": "机动战术",
+				"row": 3,
+				"prerequisites": ["制药学","核裂变"],
+				"quote": "'All men can see these tactics whereby I conquer, but what none can see is the strategy out of which victory is evolved.' - Sun Tzu"
+			},
+			{
+				"name": "高等弹道学",
+				"row": 5,
+				"prerequisites": ["核裂变","火箭"],
+				"quote": "'Our scientific power has outrun our spiritual power, we have guided missiles and misguided men.' – Martin Luther King Jr."
+			},
+			{
+				"name": "人造卫星",
+				"row": 6,
+				"prerequisites": ["火箭"],
+				"uniques": ["Reveals the entire map"],
+				"quote": "'Now, somehow, in some new way, the sky seemed almost alien.' - Lyndon B. Johnson"
+			},
+			{
+				"name": "机器人学",
+				"row": 7,
+				"prerequisites": ["火箭","电子计算机"],
+				"quote": "'1. A robot may not injure a human being or, through inaction, allow a human being to come to harm. 2. A robot must obey any orders given to it by human beings, except when such orders would conflict with the First Law. 3. A robot must protect its own existence as long as such protection does not conflict with the First or Second Law.' - Isaac Asimov"
+			},
+			{
+				"name": "激光",
+				"row": 8,
+				"prerequisites": ["电子计算机"],
+				"quote": "'The night is far spent, the day is at hand: let us therefore cast off the works of darkness, and let us put on the armor of light.' - The Holy Bible: Romans, 13:12"
+			}
+		]
+	},
+
+	{
+		"columnNumber": 18,
+		"era": "Information era",
+		"techCost": 9000,
+		"buildingCost": 1500,
+		"wonderCost": 2000,
+		"techs": [
+			{
+				"name": "EXPO",
+				"row": 1,
+				"cost": 8000
+				"prerequisites": ["Utopia Project","远程通信"],
+				"quote": "全世界的目光集中于此，这里展示了世界各国的风貌，在这一个个小小的场馆里，你能看到整个世界"
+			},
+			{
+				"name": "粒子物理",
+				"row": 3,
+				"prerequisites": ["远程通信","机动战术","高等弹道学"],
+				"quote": "'Every particle of matter is attracted by or gravitates to every other particle of matter with a force inversely proportional to the squares of their distances.' - Isaac Newton"
+			},
+			{
+				"name": "Weather Manipulation",
+				"row": 5,
+				"prerequisites": ["高等弹道学","人造卫星"],
+				"quote": "当人类掌握了天气的开关，这既是人类的福音，也是人类的噩梦"
+			},
+			{
+				"name": "核聚变",
+				"row": 6,
+				"prerequisites": ["高等弹道学", "人造卫星", "机器人学"],
+				"quote": "'The release of atomic energy has not created a new problem. It has readily made more urgent the necessity of solving an existing one.' - Albert Einstein"
+			},
+			{
+				"name": "纳米技术",
+				"row": 7,
+				"prerequisites": ["机器人学"],
+				"quote": "'The impact of nanotechnology is expected to exceed the impact that the electronics revolution has had on our lives.' - Richard Schwartz"
+			},
+			{
+				"name": "Stealth",
+				"row": 8,
+				"prerequisites": ["激光"],
+				"quote": "'Be extremely subtle, even to the point of formlessness, be extremely mysterious, even to the point of soundlessness. Thereby you can be the director of the opponent's fate.' - Sun Tzu"
+			}
+		]
+	},
+	{
+		"columnNumber": 19,
+		"era": "Future era",
+		"techCost": 10000,
+		"buildingCost": 2000,
+		"wonderCost": 2000,
+		"techs": [
+			{
+				"name": "未来科技",
+				"row": 5,
+				"prerequisites": ["EXPO","粒子物理","Weather Manipulation","核聚变", "纳米技术", "Stealth"],
+				"uniques": ["Who knows what the future holds?", "Can be continually researched"],
+				"quote": "'I think we agree, the past is over.' - George W. Bush"
+			}
+		]
+	}
+]

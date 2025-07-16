@@ -1,0 +1,220 @@
+[
+    {
+        "name": "Ancient era",
+        "researchAgreementCost": 150,
+        "startingSettlerCount": 1, 
+        "startingWorkerCount": 0,
+        "startingMilitaryUnitCount": 1,
+        "startingMilitaryUnit": "Warrior",
+        "settlerPopulation": 1,
+        "baseUnitBuyCost": 200,
+        "embarkDefense": 3,
+        "startPercent": 0,
+        "citySound": "cityAncient",
+        "iconRGB": [255, 87, 35]
+    },
+    {
+        "name": "Classical era",
+        "researchAgreementCost": 150,
+        "startingSettlerCount": 1,
+        "startingWorkerCount": 1,
+        "startingMilitaryUnitCount": 2,
+        "startingMilitaryUnit": "Spearman",
+        "startingGold": 10,
+        "startingCulture": 100,
+        "settlerPopulation": 1,
+        "baseUnitBuyCost": 200,
+        "embarkDefense": 4,
+        "startPercent": 10,
+        "citySound": "cityClassical",
+        "iconRGB": [233, 31, 99]
+        "uniques": [
+            "May buy [Confucius] units for [300] [Faith] [in all cities] at an increasing price ([150])", 
+            "May buy [Gautama Siddhartha] units for [300] [Faith] [in all cities] at an increasing price ([150])", 
+            "May buy [Jesus] units for [300] [Faith] [in all cities] at an increasing price ([150])", 
+            ]  
+    },
+    {
+        "name": "Medieval era",
+        "researchAgreementCost": 250,
+        "startingSettlerCount": 2,
+        "startingWorkerCount": 1,
+        "startingMilitaryUnitCount": 3,
+        "startingMilitaryUnit": "Pikeman",
+        "startingGold": 25,
+        "startingCulture": 200,
+        "settlerPopulation": 1,
+        "settlerBuildings": ["Bonfire","Monument","Kiln","Grave"],
+        "startingObsoleteWonders": ["Temple of Artemis", "Stonehenge", "The Great Library", "Mausoleum of Halicarnassus", "The Pyramids", "Statue of Zeus"],
+        "uniques": [
+            "May buy [Muhammad] units for [500] [Faith] [in all cities] at an increasing price ([250])",   
+            "May buy [Lee Sunshin] units for [500] [Faith] [in all cities] at an increasing price ([250])",  
+            "May buy [Belisarius] units for [500] [Faith] [in all cities] at an increasing price ([250])",            
+        ]
+        "baseUnitBuyCost": 200,
+        "embarkDefense": 6,
+        "startPercent": 25,
+        "citySound": "cityMedieval",
+        "iconRGB": [157, 39, 176]
+    },
+    {
+        "name": "Renaissance era",
+        "researchAgreementCost": 250,
+        "startingSettlerCount": 2,
+        "startingWorkerCount": 1,
+        "startingMilitaryUnitCount": 3,
+        "startingMilitaryUnit": "Pikeman",
+        "startingGold": 50,
+        "startingCulture": 300,
+        "settlerPopulation": 2,
+        "settlerBuildings": ["Bonfire","Shrine","Monument","Granary","Grave","Kiln"],
+        "startingObsoleteWonders": ["Temple of Artemis", "Stonehenge", "The Great Library", "Mausoleum of Halicarnassus", "The Pyramids", "Statue of Zeus",
+            "The Great Lighthouse", "Hanging Gardens", "Terracotta Army", "The Oracle", "Colossus"],
+        "baseUnitBuyCost": 300,
+        "embarkDefense": 8,
+        "startPercent": 37,
+        "citySound": "cityRenaissance",
+        "uniques": ["Every major Civilization gains a spy once a civilization enters this era"],
+        "iconRGB": [104, 58, 183]
+    },
+    {
+        "name": "Industrial era",
+        "researchAgreementCost": 300,
+        "startingSettlerCount": 3,
+        "startingWorkerCount": 2,
+        "startingMilitaryUnitCount": 3,
+        "startingMilitaryUnit": "Musketman",
+        "startingGold": 100,
+        "startingCulture": 400,
+        "settlerPopulation": 3,
+        "settlerBuildings": ["Bonfire","Fair","Monument","Granary","Sundial","Grave","Kiln","Library","Shrine"],
+        "startingObsoleteWonders": ["Temple of Artemis", "Stonehenge", "The Great Library", "Mausoleum of Halicarnassus", "The Pyramids", "Statue of Zeus",
+            "The Great Lighthouse", "Hanging Gardens", "Terracotta Army", "The Oracle", "Great Wall", "Colossus"
+            "Hagia Sophia", "Chichen Itza", "Machu Picchu", "Angkor Wat", "Alhambra", "Notre Dame"],
+        "baseUnitBuyCost": 400,
+        "embarkDefense": 10,
+        "startPercent": 50,
+        "citySound": "cityIndustrial",
+        "iconRGB": [63, 81, 182],
+        "uniques": ["Every major Civilization gains a spy once a civilization enters this era",
+        "May not generate great prophet equivalents naturally",
+            "May buy [Great Prophet] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500])",
+        ]
+    },
+    {
+        "name": "Modern era",
+        "researchAgreementCost": 350,
+        "startingSettlerCount": 3,
+        "startingWorkerCount": 2,
+        "startingMilitaryUnitCount": 5,
+        "startingMilitaryUnit": "Rifleman",
+        "startingGold": 200,
+        "startingCulture": 500,
+        "settlerPopulation": 3,
+        "settlerBuildings": ["Bonfire","Fair","Monument","Granary","Sundial","Grave","Kiln","Library","Shrine","School of Philosophy"],
+        "startingObsoleteWonders": ["Temple of Artemis", "Stonehenge", "The Great Library", "Mausoleum of Halicarnassus", "The Pyramids", "Statue of Zeus",
+            "The Great Lighthouse", "Hanging Gardens", "Terracotta Army", "The Oracle", "Great Wall", "Colossus"
+            "Hagia Sophia", "Chichen Itza", "Machu Picchu", "Angkor Wat", "Alhambra", "Notre Dame"
+           "Sistine Chapel", "Forbidden Palace", "Leaning Tower of Pisa", "Himeji Castle", "Taj Mahal", "Porcelain Tower", "Kremlin"
+           ],
+        "baseUnitBuyCost": 600,
+        "embarkDefense": 13,
+        "startPercent": 65,
+        "citySound": "cityModern",
+        "iconRGB": [33, 150, 243],
+        "uniques": ["Every major Civilization gains a spy once a civilization enters this era",
+        "May not generate great prophet equivalents naturally",
+            "May buy [Great Prophet] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500])",
+            "May buy [Lev Tolstoy] units for [1000] [Faith] [in all cities] at an increasing price ([500])", 
+            "May buy [Henri Philippe Pétain] units for [1000] [Faith] [in all cities] at an increasing price ([500])",     
+        ]
+    },
+    {
+        "name": "Atomic era",
+        "researchAgreementCost": 400,
+        "startingSettlerCount": 3,
+        "startingWorkerCount": 2,
+        "startingMilitaryUnitCount": 5,
+        "startingMilitaryUnit": "Infantry",
+        "startingGold": 200,
+        "startingCulture": 500,
+        "settlerPopulation": 4,
+        "settlerBuildings": ["Bonfire","Fair","Monument","Granary","Sundial","Grave","Kiln","Library","Shrine","School of Philosophy"],
+        "startingObsoleteWonders": ["Temple of Artemis", "Stonehenge", "The Great Library", "Mausoleum of Halicarnassus", "The Pyramids", "Statue of Zeus",
+            "The Great Lighthouse", "Hanging Gardens", "Terracotta Army", "The Oracle", "Great Wall", "Colossus"
+            "Hagia Sophia", "Chichen Itza", "Machu Picchu", "Angkor Wat", "Alhambra", "Notre Dame"
+           "Sistine Chapel", "Forbidden Palace", "Leaning Tower of Pisa", "Himeji Castle", "Taj Mahal", "Porcelain Tower", "Kremlin"
+            "The Louvre", "Big Ben", "Brandenburg Gate"],
+        "baseUnitBuyCost": 800,
+        "embarkDefense": 16,
+        "startPercent": 65,
+        "citySound": "cityAtomic",
+        "iconRGB": [0, 150, 136],
+        "uniques": [
+            "Every major Civilization gains a spy once a civilization enters this era",
+        "May not generate great prophet equivalents naturally",
+            "May buy [Great Prophet] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500])",
+        ]
+    },
+    {
+        "name": "Information era",
+        "researchAgreementCost": 400,
+        "startingSettlerCount": 3,
+        "startingWorkerCount": 3,
+        "startingMilitaryUnitCount": 5,
+        "startingMilitaryUnit": "Mechanized Infantry",
+        "startingGold": 400,
+        "startingCulture": 600,
+        "settlerPopulation": 5,
+        "settlerBuildings": ["Bonfire","Fair","Monument","Granary","Sundial","Grave","Kiln","Library","Shrine","School of Philosophy"],
+        "startingObsoleteWonders": ["Monument","Granary","Sundial","Grave","Kiln","Library","Shrine","School of Philosophy"],
+        "startingObsoleteWonders": ["Temple of Artemis", "Stonehenge", "The Great Library", "Mausoleum of Halicarnassus", "The Pyramids", "Statue of Zeus",
+            "The Great Lighthouse", "Hanging Gardens", "Terracotta Army", "The Oracle", "Great Wall", "Colossus"
+            "Hagia Sophia", "Chichen Itza", "Machu Picchu", "Angkor Wat", "Alhambra", "Notre Dame"
+           "Sistine Chapel", "Forbidden Palace", "Leaning Tower of Pisa", "Himeji Castle", "Taj Mahal", "Porcelain Tower", "Kremlin"
+            "The Louvre", "Big Ben", "Brandenburg Gate"
+            "Eiffel Tower", "Statue of Liberty", "Neuschwanstein", "Cristo Redentor"
+            ],
+        "baseUnitBuyCost": 1000,
+        "embarkDefense": 20,
+        "startPercent": 80,
+
+        "citySound": "cityInformation",
+        "iconRGB": [76, 176, 81],
+        "uniques": [
+            "Every major Civilization gains a spy once a civilization enters this era",
+            "May not generate great prophet equivalents naturally",
+            "May buy [Great Prophet] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500])",
+            "May buy [Khaled Hosseini] units for [1000] [Faith] [in all cities] at an increasing price ([500])",
+        ]
+    },
+    {
+        "name": "Future era",
+        "researchAgreementCost": 400,
+        "startingSettlerCount": 3,
+        "startingWorkerCount": 3,
+        "startingMilitaryUnitCount": 5,
+        "startingMilitaryUnit": "Mechanized Infantry",
+        "startingGold": 400,
+        "startingCulture": 600,
+        "settlerPopulation": 5,
+        "settlerBuildings": ["Bonfire","Fair","Monument","Granary","Sundial","Grave","Kiln","Library","Shrine","School of Philosophy"],
+        "startingObsoleteWonders": ["Temple of Artemis", "Stonehenge", "The Great Library", "Mausoleum of Halicarnassus", "The Pyramids", "Statue of Zeus",
+            "The Great Lighthouse", "Hanging Gardens", "Terracotta Army", "The Oracle", "Great Wall", "Colossus"
+            "Hagia Sophia", "Chichen Itza", "Machu Picchu", "Angkor Wat", "Alhambra", "Notre Dame"
+           "Sistine Chapel", "Forbidden Palace", "Leaning Tower of Pisa", "Himeji Castle", "Taj Mahal", "Porcelain Tower", "Kremlin"
+            "The Louvre", "Big Ben", "Brandenburg Gate"
+            "Eiffel Tower", "Statue of Liberty", "Neuschwanstein", "Cristo Redentor"
+            ],
+        "baseUnitBuyCost": 1000,
+        "embarkDefense": 25,
+        "startPercent": 80,
+        "citySound": "cityFuture",
+        "iconRGB": [76, 176, 81],
+        "uniques": [
+            "Every major Civilization gains a spy once a civilization enters this era",
+            "May not generate great prophet equivalents naturally",
+            "May buy [Great Prophet] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500])",
+        ]
+    }
+]

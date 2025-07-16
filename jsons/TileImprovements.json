@@ -1,0 +1,330 @@
+[
+	{
+		"name": "Farm",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains","Volcanic Soil"],
+		"food": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Agriculture",
+		"uniques": ["Can also be built on tiles adjacent to fresh water","Infrastructure"
+	    "Pillaging this improvement yields approximately [+20 Gold]",
+		"[+2 Food] <in [Volcanic Soil] tiles>",
+		"[+1 Food] <after discovering [化肥]>"]
+	},
+	{
+		"name": "Terrace farm",
+		"uniqueTo": "Inca",
+		"terrainsCanBeBuiltOn": ["Hill"],
+		"food": 1,
+		"turnsToBuild": 10,
+		"uniques": ["Cannot be built on [Bonus resource] tiles",
+			"[+1 Food] for each adjacent [Mountain]","Infrastructure",
+			"[+1 Food] <after discovering [化肥]>"
+            "Pillaging this improvement yields approximately [+20 Gold]"],
+		"techRequired": "The Wheel",	
+    },
+	{
+		"name": "Pasture",
+		"turnsToBuild": 7,
+		"techRequired": "Animal Husbandry",
+		"uniques": ["Can only be built to improve a resource", "Pillaging this improvement yields approximately [+20 Gold]","[+1 Food] <after discovering [生物学]>","Infrastructure"],
+	},
+	{
+		"name": "Plantation",
+		"turnsToBuild": 7,
+		"gold": 1,
+		"techRequired": "Agriculture",
+		"uniques": ["Can only be built to improve a resource", "Pillaging this improvement yields approximately [+20 Gold]","[+1 Food] <after discovering [化肥]>","Infrastructure"],
+	},
+	{
+		"name": "Mine",
+		"terrainsCanBeBuiltOn": ["Hill"],
+		"production": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Mining",
+		"uniques": ["Pillaging this improvement yields approximately [+30 Gold]","[+1 Production] <after discovering [化学]>","Provides [1] [CO2]","Infrastructure"]
+	},
+	{
+		"name": "Lumber mill",
+		"terrainsCanBeBuiltOn": ["Forest","Jungle"],
+		"production": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Lumbering",
+		"uniques": ["Pillaging this improvement yields approximately [+30 Gold]","Provides [1] [Coal] <after discovering [化学]>","[+1 Production] <after discovering [科学理论]>","Provides [1] [CO2]","Infrastructure"],
+	},
+	{
+		"name": "Camp",
+		"turnsToBuild": 7,
+		"techRequired": "Animal Husbandry",
+		"uniques": ["Does not need removal of [Forest]","Does not need removal of [Jungle]","Can only be built to improve a resource", "Pillaging this improvement yields approximately [+20 Gold]",
+		"[+1 Gold] <after discovering [金融业]>","Infrastructure"],
+	},
+	{
+		"name": "Quarry",
+		"turnsToBuild": 7,
+		"techRequired": "Mining",
+		"uniques": ["Can only be built to improve a resource", "Pillaging this improvement yields approximately [+30 Gold]","[+1 Production] <after discovering [化学]>","Provides [1] [CO2]","Infrastructure"],
+	},
+	{
+		"name": "Spa",
+		"terrainsCanBeBuiltOn": ["Geothermal Crevice"],
+		"gold": 2,
+		"science": 1,
+		"turnsToBuild": 7,
+		"techRequired": "建筑设计学",
+		"uniques": ["Does not need removal of [Geothermal Crevice]", "Pillaging this improvement yields approximately [+30 Gold]","[+1 Gold] <after discovering [建筑学]>","[+1 Gold] <after discovering [考古学]>","Infrastructure"]
+	},
+	{
+		"name": "Fishing Boats",
+		"terrainsCanBeBuiltOn": ["Coast"],
+		"food": 1,
+		"techRequired": "帆船",
+		"uniques": ["[+1 Gold] <after discovering [罗盘]>","Can only be built to improve a resource", "Pillaging this improvement yields approximately [+20 Gold]"],
+	},
+	{
+		"name": "Trading post",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains"],
+		"gold": 1,
+		"turnsToBuild": 7,
+		"techRequired": "行会",
+		"uniques": ["[+1 Gold] <after discovering [银行业]>", 
+		"[+1 Gold] <after discovering [金融业]>",
+		"Pillaging this improvement yields approximately [+30 Gold]","Infrastructure"],
+	},
+	{
+		"name": "Oil well",
+		"turnsToBuild": 9,
+		"techRequired": "生物学",
+		"uniques": ["Can only be built to improve a resource", "Cannot be built on [Water] tiles", "Pillaging this improvement yields approximately [+30 Gold]","Infrastructure"],
+	},
+	{
+		"name": "Offshore Platform",
+		"techRequired": "制冷",
+		"uniques": ["Can only be built to improve a resource", "Can only be built on [Water] tiles", "Pillaging this improvement yields approximately [+30 Gold]"],
+	},
+	{
+		"name": "Gas field",
+		"turnsToBuild": 9,
+		"techRequired": "生物学",
+		"uniques": ["Can only be built to improve a resource", "Cannot be built on [Water] tiles", "Pillaging this improvement yields approximately [+30 Gold]","Infrastructure"],		
+	},
+	{
+		"name": "Geothermal power plant",
+		"science":2,
+		"production":3,
+		"food": -2,
+		"turnsToBuild": 12,
+		"techRequired": "电学",
+		"terrainsCanBeBuiltOn": ["Geothermal Crevice","Volcanic Soil"],
+		"uniques": ["Pillaging this improvement yields approximately [+30 Gold]",
+		"Provides [2] [Electricity]",
+		"[+1 Production] <after discovering [生态学]>"
+		"[+1 Production] <in [Volcanic Soil] tiles>","Infrastructure"]
+	},
+	{
+		"name": "Solar farm",
+		"science":1,	
+		"turnsToBuild": 9,
+		"techRequired": "生态学",
+		"terrainsCanBeBuiltOn": ["Desert"],
+		"uniques": ["Pillaging this improvement yields approximately [+30 Gold]",
+		"Cannot be built on [Bonus resource] tiles",
+		"Cannot be built on [Strategic resource] tiles",	
+		"Provides [1] [Electricity]",
+		"Cannot be built on [Hill] tiles",
+		"Cannot be built on [Volcanic Soil] tiles",
+	    "[+1 Science, +1 Production] for each adjacent [Solar farm]","Infrastructure"
+		]	
+	//道路
+	},
+	{
+		"name": "Road",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 4,
+		"techRequired": "The Wheel",
+		"uniques": ["Can be built outside your borders", "Costs [1] [Gold] per turn when in your territory","Infrastructure"]
+	},
+	{
+		"name": "Railroad",
+		"turnsToBuild": 6,
+		"terrainsCanBeBuiltOn": ["Land"],
+		"techRequired": "铁路",
+		"uniques": ["Can be built outside your borders", "Costs [2] [Gold] per turn when in your territory","Infrastructure"],
+    //移除
+    },
+	{
+		"name": "Remove Road",
+		"turnsToBuild": 2,
+		"uniques": ["Can be built outside your borders","Remove"]
+	},
+	{
+		"name": "Remove Railroad",
+		"turnsToBuild": 2,
+		"uniques": ["Can be built outside your borders","Remove"]	
+    },	
+    {
+		"name": "Remove Forest",
+		"turnsToBuild": 5,
+		"techRequired": "Lumbering",
+		"uniques": ["Can be built outside your borders","Remove"]
+	},
+	{
+		"name": "Remove Jungle",
+		"turnsToBuild": 6,
+		"techRequired": "Lumbering",
+		"uniques": ["Can be built outside your borders","Remove"],
+	},
+	{
+		"name": "Remove Marsh",
+		"turnsToBuild": 6,
+		"techRequired": "Lumbering",
+		"uniques": ["Can be built outside your borders","Remove"],
+	//军事设施
+	},
+	{
+		"name": "Fort",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Jungle"],
+		"turnsToBuild": 10,
+		"techRequired": "Defensive Fortification",
+		"uniques": ["Can be built outside your borders", "Gives a defensive bonus of [45]%","Provides [1] [CO2]","Infrastructure"],
+	},
+	{
+		"name": "Vietnamese City",
+		"uniqueTo": "Vietnam",
+		"terrainsCanBeBuiltOn": ["Forest","Jungle","Marsh"],
+		"culture": 1,
+		"production": 1,
+		"turnsToBuild": 10,
+		"techRequired": "工程学",
+		"uniques": ["Gives a defensive bonus of [25]%","Does not need removal of [Forest]","Does not need removal of [Jungle]","Does not need removal of [Marsh]","Pillaging this improvement yields approximately [+30 Gold]","Infrastructure",
+		"[+1 Culture] <after discovering [考古学]>"
+		],
+	},
+	{
+	//伟人建筑
+		"name": "Academy",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"science": 5,
+		"uniques": ["Great Improvement","Removes removable features when built", "Pillaging this improvement yields approximately [+50 Gold]","[+2 Science] <after discovering [科学理论]>","[+2 Science] <after discovering [原子理论]>"]
+	},
+	{
+		"name": "Landmark",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"culture": 5,
+		"uniques": ["Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+50 Gold]"]
+	},
+	{
+		"name": "Manufactory",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"production": 4,
+		"uniques": ["Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+50 Gold]",
+		"Provides [2] [Iron] <after discovering [铁器]>",
+		"Provides [2] [Steel] <after discovering [Steelmaking]>",
+		"Provides [2] [Coal] <after discovering [Steelmaking]>",
+		"Provides [2] [Saltpeter] <after discovering [化学]>",
+		"Provides [1] [Aluminum] <after discovering [电学]>",
+		"Provides [1] [Aluminum] <after discovering [生态学]>",
+		"Provides [3] [CO2]"
+		]
+	},
+	{
+		"name": "Customs house",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"gold": 6,
+		"uniques": ["Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+50 Gold]",
+		"[+1 Gold] <after discovering [金融业]>"]
+	},
+	{
+		"name": "Holy site",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"faith": 3,
+		"uniques": ["Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+50 Gold]"]
+	},
+	{
+		"name": "Citadel",
+		"production": 1,
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			"Great Improvement",
+			"Gives a defensive bonus of [100]%",
+			"Adjacent enemy units ending their turn take [30] damage",
+			"Can be built just outside your borders",
+        	"Gain control over [all] tiles in a [1]-tile radius",
+        	"Costs [1] [Gold] per turn"
+			"Removes removable features when built","Provides [1] [CO2]"]
+    //不可建造建筑
+    },
+    {
+		"name": "Ancient ruins",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Unpillagable", "Provides a random bonus when entered", "Unbuildable"]
+	},
+	{
+		"name": "City ruins",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Unpillagable", "Unbuildable", "Will be replaced by automated workers"],
+        "civilopediaText": [{"text":"A bleak reminder of the destruction wreaked by War"}]
+	},
+	{
+		"name": "City center",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Unpillagable", "Irremovable", "Unbuildable",
+		"[+1 Food] <in [Fresh Water] tiles> <in tiles without [Hill]>",
+		],
+        "civilopediaText": [
+			{"text":"Marks the center of a city"},
+			{"text":"Appearance changes with the technological era of the owning civilization"}
+		]
+	},
+	{
+		"name": "Barbarian encampment",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Unpillagable", "Unbuildable"],
+        "civilopediaText": [{"text":"Home to uncivilized barbarians, will spawn a hostile unit from time to time"}]
+    },
+    {
+        "name": "Repair",
+        "terrainsCanBeBuiltOn": ["Land"],
+        "turnsToBuild": 2,
+        "uniques": ["Unbuildable","Infrastructure"],
+        "civilopediaText": [{"text":"Repairs a pillaged Improvement or Route"}]
+    //巨作
+    },
+	{
+		"name": "The Kite Runner",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"culture": 4,
+		"happiness": 3,
+		"uniques": [
+		"Unpillagable", "Irremovable",
+		"Removes removable features when built","Tile provides yield without assigned population","Provides [-1] [Solt-The Kite Runner]"]
+    },
+	{
+		"name": "A Thousand Splendid Suns",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"culture": 5,
+		"uniques": [
+		"Unpillagable", "Irremovable",
+		"Removes removable features when built","Tile provides yield without assigned population","Provides [-1] [Solt-A Thousand Splendid Suns]"
+		"[+5 Happiness] <when not at war>",
+		]	
+	},
+	{
+		"name": "War and Peace",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"culture": 4,
+		"food": 3,
+		"uniques": [
+		"Unpillagable", "Irremovable",
+		"Removes removable features when built","Tile provides yield without assigned population","Provides [-1] [Solt-War and Peace]"]
+    },
+	{
+		"name": "Resurrection",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"culture": 4,
+		"faith": 3,
+		"uniques": [
+		"Unpillagable", "Irremovable",
+		"Removes removable features when built","Tile provides yield without assigned population","Provides [-1] [Solt-Resurrection]"
+		]		
+    }
+]

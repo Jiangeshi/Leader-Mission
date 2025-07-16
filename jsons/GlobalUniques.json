@@ -1,0 +1,52 @@
+{
+    "name": "Global uniques", 
+    "uniques": [
+    //快乐
+        "[+10]% Strength <for [All] units> <when between [20] and [1000] [Happiness]>",
+        "[+10]% [Production] [in all cities] <when between [20] and [1000] [Happiness]>",
+        "[+30]% growth [in all cities] <when between [20] and [1000] [Happiness]>",
+        "[+10]% growth [in all cities] <when between [10] and [20] [Happiness]>",
+        "[-25]% growth [in all cities] <when between [-10] and [0] [Happiness]>",
+        "[-75]% growth [in all cities] <when between [-15] and [-10] [Happiness]>",
+        "Nullifies Growth [in all cities] <when below [-15] [Happiness]>",
+        "[-50]% [Production] [in all cities] <when below [-15] [Happiness]>",
+        "Rebel units may spawn <when below [-15] [Happiness]>",
+        "Cannot build [Settler] units <when below [-10] [Happiness]>",
+    //战争
+        "[+10]% Production when constructing [Military] units [in all cities] <when at war>",
+        "[-25]% growth [in all cities] <when at war>",
+        "[+20]% maintenance costs <for [Military] units> <when at war>",
+        "[-20]% maintenance costs <for [Military] units> <when not at war>",
+    //我们爱戴领袖日
+        "[+5]% [Production] [in all cities] <during We Love The King Day>",
+        "[+5]% [Science] [in all cities] <during We Love The King Day>",
+        "[+5]% [Culture] [in all cities] <during We Love The King Day>",
+    //时代特性
+        "[+2 Happiness, +1 Science, +1 Culture] <during the [Ancient era]>"
+        "[+15]% [Culture] <during the [Classical era]>"
+        "[-15]% Great Person generation [in all cities] <during the [Medieval era]>"
+        "[+15]% Strength <for [Military] units> <when attacking> <during the [Medieval era]>"
+        "[-3 Happiness] <during the [Medieval era]>"
+        "[+10]% Production when constructing [Military] units [in all cities] <during the [Medieval era]>"
+        "[+10]% [Culture] <during the [Renaissance era]>"
+        "[+10]% [Science] <during the [Renaissance era]>"
+        "[+5]% [Production] <during the [Industrial era]>"
+        "[+10]% [Gold] <during the [Industrial era]>"
+        "[-6 Happiness] <during the [Industrial era]>"
+        "[+10]% [Gold] <during the [Modern era]>"
+        "[+10]% [Science] <during the [Atomic era]>"
+        "[+10]% [Gold] <during the [Information era]>"
+        "[+10]% [Culture] <during the [Information era]>"
+    //外交
+    "Gain [50]-[100] [Gold] <upon declaring friendship>"
+    //爆铺惩罚
+    "[-1 Happiness] [in all cities]",
+    "[-15]% Unhappiness from [Population] [in all cities]"
+    //海军统帅相关
+    "Enables [Great Admiral] units to enter ocean tiles",
+    "Enables [Lee Sunshin] units to enter ocean tiles"
+    //宗教相关
+    "Free [Scout] appears <upon adopting [Religious Scout]>"
+    //伟人相关
+    ]
+}
